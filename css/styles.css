@@ -17,6 +17,10 @@ body{
 
 
 /* Nav/Header */
+#nav-header{
+    background: #4fa3a8;
+    color: #f7f7f7;
+}
 /* END Nav/Header */
 
 
@@ -25,7 +29,12 @@ body{
 #splash-page{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+#tpm-logo-large{
+    height: 250px;
+    width: 250px;
+    margin-right: 25px;
 }
 /* END Splash page */
 
@@ -34,10 +43,16 @@ body{
 /* TPM Indicator Icons */
 #indicator-icons-wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .indicator-icons-figure{
     margin: 0;
+    text-align: center;
+}
+.indicator-icons-imgs{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
 }
 /* END TPM Indicator Icons */
 
