@@ -31,14 +31,14 @@
         <script async src="//www.google-analytics.com/ga.js"></script> -->
     </head>
     <body>
-        <header>
+        <header id="nav-header" class="padding-wrapper">
             <nav>
                 <img src="" alt="DVRPC logo" />
                 |
                 <img src="" alt="TPM logo" />
             </nav>
         </header>
-        <section id="splash-page">
+        <section id="splash-page" class="padding-wrapper">
             <img src="" alt="TPM logo large" />
             <div>
                 <h1>TPM Indicators</h1>
@@ -47,33 +47,33 @@
         </section>
         <main>
             <!-- TPM icons - visible by default -->
-            <div id="indicator-icons-wrapper">
-                <figure>
+            <div id="indicator-icons-wrapper" class="padding-wrapper">
+                <figure class="indicator-icons-figure">
                     <img src="" alt="TPM indicator icon" />
                     <figcaption>safety</figcaption>
                 </figure>
-                <figure>
+                <figure class="indicator-icons-figure">
                     <img src="" alt="TPM indicator icon" />
                     <figcaption>infrastructure</figcaption>
                 </figure>
-                <figure>
+                <figure class="indicator-icons-figure">
                     <img src="" alt="TPM indicator icon" />
                     <figcaption>reliability</figcaption>
                 </figure>
-                <figure>
+                <figure class="indicator-icons-figure">
                     <img src="" alt="TPM indicator icon" />
                     <figcaption>assets</figcaption>
                 </figure>
-                <figure>
+                <figure class="indicator-icons-figure">
                     <img src="" alt="TPM indicator icon" />
                     <figcaption>safety 2: safer</figcaption>
                 </figure>
             </div>
             
             <!-- TPM content (hidden by default) - two columns: tabs and content -->
-            <section id="tpm-content-section">
+            <section id="tpm-content-section" class="padding-wrapper">
                 <!-- four tabs for indicator content -->
-                <aside>
+                <aside id="tpm-content-headers">
                     <h3 id="measure-tab">What do we measure?</h3>
                     <h3 id="targets-tab">What are the targets?</h3>
                     <h3 id="how-tab">How are we doing?</h3>
@@ -81,8 +81,8 @@
                 </aside>
 
                 <!-- main content container for TPM indicator -->
-                <article>
-                    <h2>What do we Measure?</h2>
+                <article id="tpm-content">
+                    <h2 class="content-header">What do we Measure?</h2>
                     <p>Content goes here. Text, tables, etc</p>
                 </article>
             </section>

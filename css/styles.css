@@ -2,29 +2,61 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
+body{
+    margin: 0;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.padding-wrapper{
+    padding: 15px;
+}
 /* END General */
 
 
 
 /* Nav/Header */
-
 /* END Nav/Header */
 
 
 
 /* Splash Page */
-
+#splash-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* END Splash page */
 
 
 
 /* TPM Indicator Icons */
-
+#indicator-icons-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.indicator-icons-figure{
+    margin: 0;
+}
 /* END TPM Indicator Icons */
 
 
 
 /* TPM Indicator Content */
-
+#tpm-content-section{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#tpm-content-headers{
+    margin-right: 15px;
+    max-width: 25%;
+}
+#tpm-content{
+    width: 70%;
+}
+.content-header{
+    text-align: center;
+}
 /* END TPM Indicator Content */
