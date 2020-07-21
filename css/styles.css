@@ -17,11 +17,17 @@ a{
     padding: 15px;
 }
 /* accents */
-.infrastructure strong, h2, .tpm-content-subheaders{
+.infrastructure strong, h2, .tpm-content-subheaders, .tpm-content-headers-btn{
     color: #de6e1d;
 }
 .infrastructure tbody tr{
     border-bottom: 1px solid #de6e1d;
+}
+.highway-safety strong, h2, .tpm-content-subheaders, .tpm-content-headers-btn{
+    color: #006ba6;
+}
+.highway-safety tbody tr{
+    border-bottom: 1px solid #006ba6;
 }
 /* END General */
 /***************/
@@ -102,8 +108,16 @@ h1{
 
 /**************************/
 /* TPM Indicator Content */
-#tpm-content-section{
-    display: none;
+.content-section-default{
+    visibility: collapse;
+    height: 0px;
+}
+.content-section-active{
+    visibility: visible;
+    height: initial;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 #tpm-content-headers{
     display: flex;
@@ -118,6 +132,7 @@ h1{
 .active-header{
     border: none;
     font-weight: 700 !important;
+    color: initial;
 }
 .tpm-content-headers-btn{
     background: transparent;
@@ -175,3 +190,11 @@ footer{
 }
 /* END Footer */
 /**************/
+
+
+
+/***************/
+/* Transitions */
+
+/* End Transitions */
+/*******************/

@@ -92,9 +92,160 @@ const ref = {
             <small>source: DVRPC 2020</small>
         `,
         'how': `
-        
+            <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a State has met or made significant progress toward its safety performance targets. A State is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
+            <h3 class="tpm-content-subheaders">Meeting a Target:</h3>
+            <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
+            <h3 class="tpm-content-subheaders">Better than Baseline</h3>
+            <span>If a State has not met a target, FHWA will determine if the actual outcome for the target is better than the baseline performance for that target. The baseline performance is the 5-year rolling average for the target ending the year prior to the establishment of the State's target.</span>
+            <p>If a State has not met or made significant progress toward meeting its targets, the State must comply with the provisions set forth in 23 USC 148(i) for the subsequent fiscal year. The State shall:</p>
+            <ol>
+                <li>Use obligation authority equal to the Highway Safety Improvement Program (HSIP) apportionment for the year prior to the target year, only for HSIP projects.</li>
+                <li>Submit an HSIP Implementation Plan that describes actions the State will take to meet or make significant progress toward meeting its targets. The HSIP Implementation Plan should guide the State's project decisions so that the combined 148(i) provisions lead to the State meeting or making significant progress toward meeting its safety performance targets in subsequent years.                        </li>
+            </ol>
+            <h3 class="tpm-content-subheaders">New Jersey</h3>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th>Target<br />(2014 - 2018)</th>
+                        <th>Actual<br />(2014 - 2018)</th>
+                        <th>Baseline<br />(2012 - 2016)</th>
+                        <th>Target Achieved?</th>
+                        <th>Better Than Baseline?</th>
+                        <th class="table-cell-last">Met or Made Significant Progress?*</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">Number of Fatalities</td>
+                            <td>586</td>
+                            <td>581.6</td>
+                            <td>571</td>
+                            <td>Yes</td>
+                            <td>No</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Fatalities<br />(per 100 million VMT)</td>
+                            <td>0.778</td>
+                            <td>0.759</td>
+                            <td>0.762</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Number of Serious Injuries</td>
+                            <td>1,105</td>
+                            <td>1,110.8</td>
+                            <td>1,135.6</td>
+                            <td>No</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Serious Injuries<br />(per 100 million VMT)</td>
+                            <td>1.467</td>
+                            <td>1.449</td>
+                            <td>1.516</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
+                            <td>386.5</td>
+                            <td>392.7</td>
+                            <td>390.3</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small><br />
+            <small>* 4 out of 5 targets must be met, or have better performance than the baseline</small>
+            <p>New Jersey has demonstrated that it has met or made significant progress towards meeting annual safety goals for calendar year (CY) 2018.</p>
+            <h3 class="tpm-content-subheaders">Pennsylvania</h3>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th>Target<br />(2014 - 2018)</th>
+                        <th>Actual<br />(2014 - 2018)</th>
+                        <th>Baseline<br />(2012 - 2016)</th>
+                        <th>Target Achieved?</th>
+                        <th>Better Than Baseline?</th>
+                        <th class="table-cell-last">Met or Made Significant Progress?*</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">Number of Fatalities</td>
+                            <td>1,177.6</td>
+                            <td>1,182</td>
+                            <td>1,220.2</td>
+                            <td>No</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Fatalities<br />(per 100 million VMT)</td>
+                            <td>1.161</td>
+                            <td>1.169</td>
+                            <td>1.220</td>
+                            <td>No</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Number of Serious Injuries</td>
+                            <td>3,799.8</td>
+                            <td>3,839.6</td>
+                            <td>3,434</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Serious Injuries<br />(per 100 million VMT)</td>
+                            <td>3.746</td>
+                            <td>3.797</td>
+                            <td>3.433</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
+                            <td>654.4</td>
+                            <td>679</td>
+                            <td>602.4</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small><br />
+            <small>* 4 out of 5 targets must be met, or have better performance than the baseline</small>
+            <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2018. PennDOT is now required to submit and HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2020 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2018, which is $97,585,000, for safety projects in the upcoming fiscal year.</p>
         `,
-        'dates': ``
+        'dates': `
+            <p><strong>April 2016</strong> - Final rule effective date.</p>
+            <p><strong>April 2016</strong> - State DOTs report CY 2018 Targets on HSIP Annual Report to FHWA (Annually thereafter).</p>
+            <p><strong>April 2016</strong> - DVRPC establishes targets for the Safety Performance Measures for the first time (Annually thereafter).</p>
+            <p><strong>April 2016</strong> - DVRPC reports on progress toward CY 2018 targets (Annually thereafter).</p>
+            <p><strong>June 30, 2020</strong> - If a State has not met or made significant progress toward meeting its targets, the State must submit an HSIP Implementation Plan that describes actions the State will take to meet or make significant progress toward meeting its targets.</p>
+            <h3 class="tpm-content-subheaders">Resources</h3>
+            <ul>
+                <li><a href="https://www.fhwa.dot.gov/tpm" target="blank" rel="noopener">FHWA TPM website</a></li>
+                <li><a href="https://safety.fhwa.dot.gov/hsip/spm/" target="blank" rel="noopener">FHWA Safety Performance Management webpage</a></li>
+                <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener">State Performance Dashboard and Reports</a></li>
+                <li><a href="https://www.penndot.gov/TravelInPA/Safety/Pages/Strategic-Highway-Safety-Plan.aspx" target="blank" rel="noopener">Pennsylvania Strategic Highway Safety Plan</a></li>
+                <li><a href="https://www.federalregister.gov/documents/2016/03/15/2016-05202/national-performance-management-measures-highway-safety-improvement-program" target="blank" rel="noopener">Safety Performance Measure Final Rule</a></li>
+            </ul>
+        `
     },
     'infrastructure': {
         'measure': ``,

@@ -49,88 +49,39 @@
         <main>
             <!-- TPM icons - visible by default -->
             <div id="indicator-icons-wrapper" class="padding-wrapper">
-                <figure class="indicator-icons-figure">
-                    <figcaption class="indicator-icons-figcaption">safety</figcaption>
+                <figure class="indicator-icons-figure" data-indicator="highway safety">
+                    <figcaption class="indicator-icons-figcaption">highway safety</figcaption>
                     <img src="https://www.pinclipart.com/picdir/middle/48-481677_cone-clipart-safety-cone-traffic-cone-icon-png.png" class="indicator-icons-imgs" alt="TPM indicator icon" />
                 </figure>
-                <figure class="indicator-icons-figure indicator-icons-active">
+                <figure class="indicator-icons-figure" data-indicator="infrastructure">
                     <figcaption class="indicator-icons-figcaption">infrastructure</figcaption>
                     <img src="https://www.pinclipart.com/picdir/middle/48-481677_cone-clipart-safety-cone-traffic-cone-icon-png.png" class="indicator-icons-imgs" alt="TPM indicator icon" />
                 </figure>
-                <figure class="indicator-icons-figure">
+                <figure class="indicator-icons-figure" data-indicator="reliability">
                     <figcaption class="indicator-icons-figcaption">reliability</figcaption>
                     <img src="https://www.pinclipart.com/picdir/middle/48-481677_cone-clipart-safety-cone-traffic-cone-icon-png.png" class="indicator-icons-imgs" alt="TPM indicator icon" />
                 </figure>
-                <figure class="indicator-icons-figure">
+                <figure class="indicator-icons-figure" data-indicator="assets">
                     <figcaption class="indicator-icons-figcaption">assets</figcaption>
                     <img src="https://www.pinclipart.com/picdir/middle/48-481677_cone-clipart-safety-cone-traffic-cone-icon-png.png" class="indicator-icons-imgs" alt="TPM indicator icon" />
                 </figure>
-                <figure class="indicator-icons-figure">
+                <figure class="indicator-icons-figure" data-indicator="safety 2">
                     <figcaption class="indicator-icons-figcaption">safety 2</figcaption>
                     <img src="https://www.pinclipart.com/picdir/middle/48-481677_cone-clipart-safety-cone-traffic-cone-icon-png.png" class="indicator-icons-imgs" alt="TPM indicator icon" />
                 </figure>
             </div>
             
             <!-- TPM content (hidden by default) - two columns: tabs and content -->
-            <section id="tpm-content-section" class="padding-wrapper">
-                <!-- four tabs for indicator content -->
+            <section id="tpm-content-section" class="padding-wrapper content-section-default">
                 <aside id="tpm-content-headers">
                     <button class="tpm-content-headers-btn active-header"><h3 class="tpm-content-headers-text" id="measure-tab">What do we measure?</h3></button>
                     <button class="tpm-content-headers-btn"><h3 class="tpm-content-headers-text" id="targets-tab">What are the targets?</h3></button>
                     <button class="tpm-content-headers-btn"><h3 class="tpm-content-headers-text" id="how-tab">How are we doing?</h3></button>
-                    <button class="tpm-content-headers-btn"><h3 class="tpm-content-headers-text" id="dates-tab">Key dates</h3></button>
+                    <button class="tpm-content-headers-btn"><h3 class="tpm-content-headers-text" id="dates-tab">Key dates & Resources</h3></button>
                 </aside>
 
                 <!-- main content container for TPM indicator -->
-                <article id="tpm-content">
-                    <h2 class="content-header">What do we Measure?</h2>
-                    <p>State Departments of Transportation (DOTs) and Metropolitan Planning Organizations (MPOs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of nonmotorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets.</p>
-                    <p>FHWA requires the DOTs and MPOs to establish safety targets on an annual basis for:</p>
-                    <ul>
-                        <li><strong>Number of Fatalities:</strong> The total number of persons suffering fatal injuries in a motor vehicle crash during a calendar year.</li>
-                        <li><strong>Rate of Fatalities:</strong> The ratio of total number of fatalities to the number of vehicle miles traveled (VMT, in 100 Million VMT) in a calendar year.</li>
-                        <li><strong>Number of Serious Injuries:</strong> The total number of persons suffering at least one serious injury in a motor vehicle crash during a calendar year.</li>
-                        <li><strong>Rate of Serious Injuries:</strong> The ratio of total number of serious injuries to the number of VMT (in 100 Million VMT) in a calendar year.</li>
-                        <li><strong>Number of Non-motorized Fatalities and Non-motorized Serious Injuries:</strong> The combined total number of non-motorized fatalities and non-motorized serious injuries involving a motor vehicle during a calendar year.</li>
-                    </ul>
-                    <p>Measures are for all public roads regardless of functional classification or ownership and each target is based on a five-year rolling average, which is the average of five individual, consecutive points of data.</p>
-                    <div class="table-overflow-wrapper">
-                        <table>
-                            <thead>
-                                <th class="table-text-cell">Measure</th>
-                                <th class="table-num-cell">NJ Target <br /> (2016 - 2020)</th>
-                                <th class="table-num-cell">NJ Baseline <br /> (2014 - 2018)</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="table-text-cell">Number of Fatalities</td>
-                                    <td class="table-num-cell">582.2</td>
-                                    <td class="table-num-cell">581.6</td>
-                                </tr>
-                                <tr>
-                                    <td class="table-text-cell">Rise in Fatalities (per 100 million VMT)</td>
-                                    <td class="table-num-cell">0.744</td>
-                                    <td class="table-num-cell">0.759</td>
-                                </tr>
-                                <tr>
-                                    <td class="table-text-cell">Number of Serious Injuries</td>
-                                    <td class="table-num-cell">1,167.9</td>
-                                    <td class="table-num-cell">1,110.8</td>
-                                </tr>
-                                <tr>
-                                    <td>Rate of Serious Injuries (per 100 million VMT)</td>
-                                    <td class="table-num-cell">1.489</td>
-                                    <td class="table-num-cell">1.449</td>
-                                </tr>
-                                <tr>
-                                    <td class="table-text-cell">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                                    <td class="table-num-cell">407.9</td>
-                                    <td class="table-num-cell">392.7</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </article>
+                <article id="tpm-content"></article>
             </section>
         </main>
         <footer></footer>
