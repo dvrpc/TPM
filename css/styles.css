@@ -113,6 +113,27 @@ h1{
     text-align: center;
     background: white;
 }
+.table-overflow-wrapper{
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+tbody tr{
+    border-bottom: 1px solid black;
+}
+td{
+    padding: 8px 0;
+}
+.table-text-cell{
+    text-align: left;
+}
+.table-num-cell{
+    text-align: right;
+}
 /* END TPM Indicator Content */
 
 
