@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 .padding-wrapper{
     padding: 15px;
@@ -20,6 +20,8 @@ body{
 #nav-header{
     background: #4fa3a8;
     color: #f7f7f7;
+    position: sticky;
+    top: 0;
 }
 /* END Nav/Header */
 
@@ -30,11 +32,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: start;
+    margin: 1% 0;
+}
+h1{
+    font-size: 1.5rem;
 }
 #tpm-logo-large{
     height: 250px;
     width: 250px;
     margin-right: 25px;
+}
+.splash-text{
+    font-size: 1.2rem;
+    max-width: 70ch;
 }
 /* END Splash page */
 
@@ -44,14 +54,27 @@ body{
 #indicator-icons-wrapper{
     display: flex;
     justify-content: space-around;
+    background: white;
 }
 .indicator-icons-figure{
     margin: 0;
     text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.indicator-icons-active{
+    color: #f7f7f7;
+    filter: invert(100%);
+    font-weight: 700;
+}
+.indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover{
+    transform: rotate(25deg);
+    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3));
 }
 .indicator-icons-imgs{
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
 }
 /* END TPM Indicator Icons */
@@ -65,13 +88,38 @@ body{
     align-items: baseline;
 }
 #tpm-content-headers{
-    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
     max-width: 25%;
+}
+.tpm-content-headers-text{
+    margin: 0;
+}
+.active-header{
+    border: none;
+}
+.tpm-content-headers-btn{
+    cursor: pointer;
+    background: transparent;
+    margin-bottom: 3%;
+    padding: 10px;
 }
 #tpm-content{
     width: 70%;
+    max-width: 750px;
 }
 .content-header{
     text-align: center;
+    background: white;
 }
 /* END TPM Indicator Content */
+
+
+/* Footer */
+footer{
+    height: 25vh;
+    background: grey;
+    margin-top: 5%;
+}
+/* END Footer */
