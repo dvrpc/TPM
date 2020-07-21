@@ -53,7 +53,8 @@ const clickIndicator = e => {
     const accentClass = selectedIndicator.split(' ').join('-')
     contentSection.classList.remove('content-section-default')
     contentSection.classList.add('content-section-active')
-    contentSection.classList.add(accentClass)
+    //contentSection.classList.toggle(accentClass)
+    contentSection.dataset.theme = accentClass
 
     // set header sticky
     makeSticky()

@@ -17,17 +17,35 @@ a{
     padding: 15px;
 }
 /* accents */
-.infrastructure strong, h2, .tpm-content-subheaders, .tpm-content-headers-btn{
+[data-theme='infrastructure'] strong, [data-theme='infrastructure'] h2, [data-theme='infrastructure'] .tpm-content-subheaders, [data-theme='infrastructure'] .tpm-content-headers-btn:not(.active-header){
     color: #de6e1d;
 }
-.infrastructure tbody tr{
+[data-theme='infrastructure'] tbody tr{
     border-bottom: 1px solid #de6e1d;
 }
-.highway-safety strong, h2, .tpm-content-subheaders, .tpm-content-headers-btn{
+[data-theme='highway-safety'] strong, [data-theme='highway-safety'] h2, [data-theme='highway-safety'] .tpm-content-subheaders, [data-theme='highway-safety'] .tpm-content-headers-btn:not(.active-header){
     color: #006ba6;
 }
-.highway-safety tbody tr{
+[data-theme='highway-safety'] tbody tr{
     border-bottom: 1px solid #006ba6;
+}
+[data-theme='reliability'] strong, [data-theme='reliability'] h2, [data-theme='reliability'] .tpm-content-subheaders, [data-theme='reliability'] .tpm-content-headers-btn:not(.active-header){
+    color: #bd2556;
+}
+[data-theme='reliability'] tbody tr{
+    border-bottom: 1px solid #bd2556;
+}
+[data-theme='assets'] strong, [data-theme='assets'] h2, [data-theme='assets'] .tpm-content-subheaders, [data-theme='assets'] .tpm-content-headers-btn:not(.active-header){
+    color: #582267;
+}
+[data-theme='assets'] tbody tr{
+    border-bottom: 1px solid #582267;
+}
+[data-theme='safety-2'] strong, [data-theme='safety-2'] h2, [data-theme='safety-2'] .tpm-content-subheaders, [data-theme='safety-2'] .tpm-content-headers-btn:not(.active-header){
+    color: #7b9d3e;
+}
+[data-theme='safety-2'] tbody tr{
+    border-bottom: 1px solid #7b9d3e;
 }
 /* END General */
 /***************/
