@@ -59,6 +59,8 @@ a{
     color: #f7f7f7;
     position: sticky;
     top: 0;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.3);
+    z-index: 10;
 }
 /* END Nav/Header */
 /******************/
@@ -71,14 +73,17 @@ a{
     display: flex;
     justify-content: center;
     align-items: start;
-    margin: 1% 0;
+    margin: 5% 0;
 }
 h1{
-    font-size: 1.5rem;
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    margin: 0;
 }
 #tpm-logo-large{
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
     margin-right: 25px;
 }
 .splash-text{
@@ -96,6 +101,7 @@ h1{
     display: flex;
     justify-content: space-around;
     background: white;
+    padding: 25px 0;
 }
 .indicator-icons-figure{
     margin: 0;
@@ -109,9 +115,12 @@ h1{
     filter: invert(100%);
     font-weight: 700;
 }
+.indicator-icons-active img{
+    transform: rotate(25deg);
+}
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover{
     transform: rotate(25deg);
-    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3));
+    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(115%);
 }
 .indicator-icons-imgs{
     width: 75px;
@@ -202,9 +211,10 @@ td{
 /***********/
 /* Footer */
 footer{
-    height: 25vh;
-    background: grey;
+    height: 30vh;
+    width: 100%;
     margin-top: 5%;
+    background: #333;
 }
 /* END Footer */
 /**************/

@@ -6,6 +6,9 @@ const nav = document.getElementById('nav-header')
 const iconsWrapper = document.getElementById('indicator-icons-wrapper')
 const tabs = document.getElementById('tpm-content-headers')
 let mainSticky = false
+let beenScrolled = false
+let scrollTo;
+
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
@@ -50,14 +53,23 @@ const clickIndicator = e => {
     contentWrapper.insertAdjacentHTML('afterbegin', defaultText)
     
     // reveal & style content section
-    const accentClass = selectedIndicator.split(' ').join('-')
+    const theme = selectedIndicator.split(' ').join('-')
     contentSection.classList.remove('content-section-default')
     contentSection.classList.add('content-section-active')
-    //contentSection.classList.toggle(accentClass)
-    contentSection.dataset.theme = accentClass
+    contentSection.dataset.theme = theme
 
     // set header sticky
     makeSticky()
+
+    // scroll to
+    if(!beenScrolled) {
+        scrollTo = parent.getBoundingClientRect().top - 50
+        beenScrolled = true
+    }
+    window.scrollTo({
+        top: scrollTo,
+        behavior: 'smooth'
+    })
 }
 
 export default clickIndicator
