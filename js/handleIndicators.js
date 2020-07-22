@@ -9,13 +9,11 @@ let mainSticky = false
 let beenScrolled = false
 let scrollTo;
 
-
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
-    
     const navHeight = nav.clientHeight
     const iconsHeight = iconsWrapper.clientHeight
-    const comboHeight = navHeight + iconsHeight - 1
+    const comboHeight = navHeight + iconsHeight
 
     if(!mainSticky){
         iconsWrapper.style.position = 'sticky'
@@ -39,6 +37,8 @@ const clickIndicator = e => {
     const selectedIndicator = parent.dataset.indicator
     const indicators = parent.parentElement.children
     const length = indicators.length
+    const defaultText = ref[selectedIndicator].measure // @TODO: decide if it's better to set each one to default state or just the most recent state of the tabs
+    const theme = selectedIndicator.split(' ').join('-')
     
     // toggle indicator state
     for(var i = 0; i < length; i++) {
@@ -49,11 +49,9 @@ const clickIndicator = e => {
 
     // update content
     while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
-    const defaultText = ref[selectedIndicator].measure
     contentWrapper.insertAdjacentHTML('afterbegin', defaultText)
     
     // reveal & style content section
-    const theme = selectedIndicator.split(' ').join('-')
     contentSection.classList.remove('content-section-default')
     contentSection.classList.add('content-section-active')
     contentSection.dataset.theme = theme
@@ -66,6 +64,7 @@ const clickIndicator = e => {
         scrollTo = parent.getBoundingClientRect().top - 50
         beenScrolled = true
     }
+
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
@@ -75,6 +74,7 @@ const clickIndicator = e => {
     const baseURI = location.href
     const encodedIndicator = encodeURI(selectedIndicator)
     const indicatorURI = `${baseURI}?indicator=${encodedIndicator}`
+
     history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
 }
 
@@ -84,25 +84,28 @@ const handleTabs = e => {
     if(!query) return
 
     // get context from btn element
-    let target = e.target
-    if(e.target.nodeName === 'H3') target = target.parentElement
+    let target = e.target.nodeName === 'H3' ? e.target.parentElement : e.target
+    
     const tabID = target.id
     const tab = tabID.split('-')[0]
-
-    // update active tab
     const allTabs = target.parentElement.children
     const length = allTabs.length
 
+    // update active tab
     for(var i=0; i<length; i++) {
         if(tabID === allTabs[i].id) allTabs[i].classList.add('active-header')
         else allTabs[i].classList.remove('active-header')
     }
     
     // update content
-    const indicator = decodeURI(query[1])
     while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
+    
+    const indicator = decodeURI(query[1])
     const newText = ref[indicator][tab]
+
     contentWrapper.insertAdjacentHTML('afterbegin', newText)
+
+    makeSticky()
 }
 
 export { clickIndicator, handleTabs }
