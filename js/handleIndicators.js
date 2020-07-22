@@ -70,6 +70,39 @@ const clickIndicator = e => {
         top: scrollTo,
         behavior: 'smooth'
     })
+
+    // update url
+    const baseURI = location.href
+    const encodedIndicator = encodeURI(selectedIndicator)
+    const indicatorURI = `${baseURI}?indicator=${encodedIndicator}`
+    history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
 }
 
-export default clickIndicator
+const handleTabs = e => {
+    // check if indicator function fired
+    const query = location.href.split('?indicator=')
+    if(!query) return
+
+    // get context from btn element
+    let target = e.target
+    if(e.target.nodeName === 'H3') target = target.parentElement
+    const tabID = target.id
+    const tab = tabID.split('-')[0]
+
+    // update active tab
+    const allTabs = target.parentElement.children
+    const length = allTabs.length
+
+    for(var i=0; i<length; i++) {
+        if(tabID === allTabs[i].id) allTabs[i].classList.add('active-header')
+        else allTabs[i].classList.remove('active-header')
+    }
+    
+    // update content
+    const indicator = decodeURI(query[1])
+    while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
+    const newText = ref[indicator][tab]
+    contentWrapper.insertAdjacentHTML('afterbegin', newText)
+}
+
+export { clickIndicator, handleTabs }

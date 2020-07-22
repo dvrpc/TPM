@@ -14,39 +14,40 @@ const ref = {
             <p>Measures are for all public roads regardless of functional classification or ownership and each target is based on a five-year rolling average, which is the average of five individual, consecutive points of data.</p>
         `,
         'targets': `
+            <h2 class="content-header">What are the Targets?</h2>
             <h3 class="tpm-content-subheaders">New Jersey</h3>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-text-cell">Measure</th>
-                        <th class="table-num-cell">NJ Target <br /> (2016 - 2020)</th>
-                        <th class="table-num-cell">NJ Baseline <br /> (2014 - 2018)</th>
+                        <th class="table-cell-first">Measure</th>
+                        <th>NJ Target <br /> (2016 - 2020)</th>
+                        <th class="table-cell-last">NJ Baseline <br /> (2014 - 2018)</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-text-cell">Number of Fatalities</td>
-                            <td class="table-num-cell">582.2</td>
-                            <td class="table-num-cell">581.6</td>
+                            <td class="table-cell-first">Number of Fatalities</td>
+                            <td>582.2</td>
+                            <td class="table-cell-last">581.6</td>
                         </tr>
                         <tr>
-                            <td class="table-text-cell">Rise in Fatalities (per 100 million VMT)</td>
-                            <td class="table-num-cell">0.744</td>
-                            <td class="table-num-cell">0.759</td>
+                            <td class="table-cell-first">Rise in Fatalities (per 100 million VMT)</td>
+                            <td>0.744</td>
+                            <td class="table-cell-last">0.759</td>
                         </tr>
                         <tr>
-                            <td class="table-text-cell">Number of Serious Injuries</td>
-                            <td class="table-num-cell">1,167.9</td>
-                            <td class="table-num-cell">1,110.8</td>
+                            <td class="table-cell-first">Number of Serious Injuries</td>
+                            <td>1,167.9</td>
+                            <td class="table-cell-last">1,110.8</td>
                         </tr>
                         <tr>
-                            <td>Rate of Serious Injuries (per 100 million VMT)</td>
-                            <td class="table-num-cell">1.489</td>
-                            <td class="table-num-cell">1.449</td>
+                            <td class="table-cell-first">Rate of Serious Injuries (per 100 million VMT)</td>
+                            <td>1.489</td>
+                            <td class="table-cell-last">1.449</td>
                         </tr>
                         <tr>
-                            <td class="table-text-cell">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td class="table-num-cell">407.9</td>
-                            <td class="table-num-cell">392.7</td>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
+                            <td>407.9</td>
+                            <td class="table-cell-last">392.7</td>
                         </tr>
                     </tbody>
                 </table>
@@ -56,35 +57,35 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-text-cell">Measure</th>
-                        <th class="table-num-cell">PA Target <br /> (2016 - 2020)</th>
-                        <th class="table-num-cell">PA Baseline <br /> (2014 - 2018)</th>
+                        <th class="table-cell-first">Measure</th>
+                        <th>PA Target <br /> (2016 - 2020)</th>
+                        <th class="table-cell-last">PA Baseline <br /> (2014 - 2018)</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-text-cell">Number of Fatalities</td>
-                            <td class="table-num-cell">1,171.9</td>
-                            <td class="table-num-cell">1,182</td>
+                            <td class="table-cell-first">Number of Fatalities</td>
+                            <td>1,171.9</td>
+                            <td class="table-cell-last">1,182</td>
                         </tr>
                         <tr>
-                            <td class="table-text-cell">Rise in Fatalities (per 100 million VMT)</td>
-                            <td class="table-num-cell">1.148</td>
-                            <td class="table-num-cell">1.169</td>
+                            <td class="table-cell-first">Rise in Fatalities (per 100 million VMT)</td>
+                            <td>1.148</td>
+                            <td class="table-cell-last">1.169</td>
                         </tr>
                         <tr>
-                            <td class="table-text-cell">Number of Serious Injuries</td>
-                            <td class="table-num-cell">4,400.3</td>
-                            <td class="table-num-cell">3,839.6</td>
+                            <td class="table-cell-first">Number of Serious Injuries</td>
+                            <td>4,400.3</td>
+                            <td class="table-cell-last">3,839.6</td>
                         </tr>
                         <tr>
-                            <td>Rate of Serious Injuries (per 100 million VMT)</td>
-                            <td class="table-num-cell">4.309</td>
-                            <td class="table-num-cell">3.797</td>
+                            <td class="table-cell-first">Rate of Serious Injuries (per 100 million VMT)</td>
+                            <td>4.309</td>
+                            <td class="table-cell-last">3.797</td>
                         </tr>
                         <tr>
-                            <td class="table-text-cell">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td class="table-num-cell">781.7</td>
-                            <td class="table-num-cell">679</td>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
+                            <td>781.7</td>
+                            <td class="table-cell-last">679</td>
                         </tr>
                     </tbody>
                 </table>
@@ -92,6 +93,7 @@ const ref = {
             <small>source: DVRPC 2020</small>
         `,
         'how': `
+            <h2 class="content-header">How are We Doing?</h2>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a State has met or made significant progress toward its safety performance targets. A State is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
             <h3 class="tpm-content-subheaders">Meeting a Target:</h3>
             <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
@@ -232,6 +234,7 @@ const ref = {
             <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2018. PennDOT is now required to submit and HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2020 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2018, which is $97,585,000, for safety projects in the upcoming fiscal year.</p>
         `,
         'dates': `
+            <h2 class="content-header">Key Dates and Resources</h2>
             <p><strong>April 2016</strong> - Final rule effective date.</p>
             <p><strong>April 2016</strong> - State DOTs report CY 2018 Targets on HSIP Annual Report to FHWA (Annually thereafter).</p>
             <p><strong>April 2016</strong> - DVRPC establishes targets for the Safety Performance Measures for the first time (Annually thereafter).</p>

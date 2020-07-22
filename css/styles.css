@@ -76,9 +76,8 @@ a{
     margin: 5% 0;
 }
 h1{
-    /* font-family: 'Righteous', cursive; */
-    font-family: 'Caveat', cursive;
-    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+    font-size: 2.5rem;
     margin: 0;
 }
 #tpm-logo-large{
