@@ -142,6 +142,9 @@ h1{
 
 /**************************/
 /* TPM Indicator Content */
+#main-content{
+    margin-bottom: 1%;
+}
 .content-section-default{
     visibility: collapse;
     height: 0px;
@@ -152,6 +155,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: baseline;
+}
+#tpm-content{
+    width: 70%;
+    max-width: 750px;
+    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
+    border-radius: 3px;
+    padding: 0 1.5rem;
 }
 #tpm-content-headers{
     display: flex;
@@ -179,10 +189,6 @@ h1{
 }
 .tpm-content-headers-btn:not(.active-header):hover{
     box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
-}
-#tpm-content{
-    width: 70%;
-    max-width: 750px;
 }
 .content-header{
     text-align: center;
@@ -222,7 +228,6 @@ td{
 footer{
     height: 30vh;
     width: 100%;
-    margin-top: 5%;
     background: #333;
 }
 /* END Footer */

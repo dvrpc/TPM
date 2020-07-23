@@ -37,7 +37,8 @@ const clickIndicator = e => {
     const selectedIndicator = parent.dataset.indicator
     const indicators = parent.parentElement.children
     const length = indicators.length
-    const defaultText = ref[selectedIndicator].measure // @TODO: decide if it's better to set each one to default state or just the most recent state of the tabs
+    // @todo: get active-header
+    const updatedText = ref[selectedIndicator].measure
     const theme = selectedIndicator.split(' ').join('-')
     
     // toggle indicator state
@@ -49,7 +50,7 @@ const clickIndicator = e => {
 
     // update content
     while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
-    contentWrapper.insertAdjacentHTML('afterbegin', defaultText)
+    contentWrapper.insertAdjacentHTML('afterbegin', updatedText)
     
     // reveal & style content section
     contentSection.classList.remove('content-section-default')
@@ -106,6 +107,11 @@ const handleTabs = e => {
     contentWrapper.insertAdjacentHTML('afterbegin', newText)
 
     makeSticky()
+
+    window.scrollTo({
+        top: scrollTo,
+        behavior: 'smooth'
+    })
 }
 
 export { clickIndicator, handleTabs }
