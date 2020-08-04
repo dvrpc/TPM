@@ -235,11 +235,29 @@ const ref = {
         `,
         'dates': `
             <h2 class="content-header">Key Dates and Resources</h2>
-            <p><strong>April 2016</strong> - Final rule effective date.</p>
-            <p><strong>April 2016</strong> - State DOTs report CY 2018 Targets on HSIP Annual Report to FHWA (Annually thereafter).</p>
-            <p><strong>April 2016</strong> - DVRPC establishes targets for the Safety Performance Measures for the first time (Annually thereafter).</p>
-            <p><strong>April 2016</strong> - DVRPC reports on progress toward CY 2018 targets (Annually thereafter).</p>
-            <p><strong>June 30, 2020</strong> - If a State has not met or made significant progress toward meeting its targets, the State must submit an HSIP Implementation Plan that describes actions the State will take to meet or make significant progress toward meeting its targets.</p>
+            <article id="dates-wrapper">
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>April 2016</strong><br />Final rule effective date.</p>
+                </div>
+                <div class="dates-entry dates-entry-right">
+                    <span class="dates-circle dates-circle-right"></span>
+                    <p class="dates-entry-text"><strong>April 2016</strong><br />State DOTs report CY 2018 Targets on HSIP Annual Report to FHWA (Annually thereafter).</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>April 2016</strong><br />DVRPC establishes targets for the Safety Performance Measures for the first time (Annually thereafter).</p>
+                </div>
+                <div class="dates-entry dates-entry-right">
+                    <span class="dates-circle dates-circle-right"></span>
+                    <p class="dates-entry-text"><strong>April 2016</strong><br />DVRPC reports on progress toward CY 2018 targets (Annually thereafter).</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>June 30, 2020</strong><br />If a State has not met or made significant progress toward meeting its targets, the State must submit an HSIP Implementation Plan that describes actions the State will take to meet or make significant progress toward meeting its targets.</p>
+                </div>
+            </article>
+            
             <h3 class="tpm-content-subheaders">Resources</h3>
             <ul>
                 <li><a href="https://www.fhwa.dot.gov/tpm" target="blank" rel="noopener">FHWA TPM website</a></li>

@@ -16,6 +16,9 @@ a{
 .padding-wrapper{
     padding: 15px;
 }
+h1, #performance, .content-header{
+    font-family: 'Righteous', cursive;
+}
 /* accents */
 [data-theme='infrastructure'] strong, [data-theme='infrastructure'] h2, [data-theme='infrastructure'] .tpm-content-subheaders, [data-theme='infrastructure'] .tpm-content-headers-btn:not(.active-header){
     color: #de6e1d;
@@ -77,9 +80,6 @@ a{
     margin-bottom: 2%;
     background: #282B28;
     color: #FFEFD3;
-}
-h1, #performance{
-    font-family: 'Righteous', cursive;
 }
 h1{
     font-size: 2.5rem;
@@ -160,8 +160,9 @@ h1{
     width: 70%;
     max-width: 750px;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 0 1.5rem;
+    margin-top: 20px;
 }
 #tpm-content-headers{
     display: flex;
@@ -218,6 +219,40 @@ td{
 .table-cell-last{
     text-align: right;
 }
+#dates-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.dates-entry{
+    width: calc(50% - 15px);
+}
+.dates-circle{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+}
+.dates-entry-text{
+    margin-top: -15px;
+}
+.dates-circle-left{
+    margin-left: calc(100% + 10px);
+}
+.dates-circle-right{
+    margin-left: -20px;
+}
+.dates-entry-left{
+    text-align: right;
+    padding-right: 15px;
+    border-right: 1px solid black;
+}
+.dates-entry-right{
+    align-self: end;
+    padding-left: 15px;
+    border-left: 1px solid black;
+}
 /* END TPM Indicator Content */
 /*****************************/
 
@@ -226,7 +261,7 @@ td{
 /***********/
 /* Footer */
 footer{
-    height: 30vh;
+    height: 300px;
     width: 100%;
     background: #333;
 }
