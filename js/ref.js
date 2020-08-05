@@ -1,7 +1,7 @@
 const ref = {
     'highway safety': {
         'measure': `
-            <h2 class="content-header">What do we Measure?</h2>
+            <h2 class="content-header">What do We Measure?</h2>
             <p>State Departments of Transportation (DOTs) and Metropolitan Planning Organizations (MPOs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of nonmotorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets.</p>
             <p>FHWA requires the DOTs and MPOs to establish safety targets on an annual basis for:</p>
             <ul>

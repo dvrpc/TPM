@@ -19,13 +19,13 @@ const makeSticky = () => {
         iconsWrapper.style.position = 'sticky'
         iconsWrapper.style.top = navHeight + 'px'
         tabs.style.position = 'sticky'
-        tabs.style.top = (comboHeight + 30) + 'px'
+        tabs.style.top = (comboHeight + 55) + 'px'
         mainSticky = true
     }
 
     if(headerActive){
         headerActive.style.position = 'sticky'
-        headerActive.style.top = (comboHeight - 15) + 'px'
+        headerActive.style.top = (comboHeight - 10) + 'px'
     }
 }
 
@@ -62,7 +62,7 @@ const clickIndicator = e => {
 
     // scroll to
     if(!beenScrolled) {
-        scrollTo = parent.getBoundingClientRect().top - 33 // - 65 to scrollTo w/o activating sticky || -33 to scrollTo w/activating sticky  
+        scrollTo = parent.getBoundingClientRect().top - 23
         beenScrolled = true
     }
 
@@ -82,7 +82,8 @@ const clickIndicator = e => {
 const handleTabs = e => {
     // check if indicator function fired
     const query = location.href.split('?indicator=')
-    if(!query) return
+    const parent = e.target.nodeName === 'ASIDE' ? true : false
+    if(!query || parent) return
 
     // get context from btn element
     let target = e.target.nodeName === 'H3' ? e.target.parentElement : e.target

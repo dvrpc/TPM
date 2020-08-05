@@ -16,7 +16,7 @@ a{
 .padding-wrapper{
     padding: 15px;
 }
-h1, #performance, .content-header{
+h1, #performance-main, #performance-nav, .content-header, #nav-header-title{
     font-family: 'Righteous', cursive;
 }
 /* accents */
@@ -72,13 +72,27 @@ h1, #performance, .content-header{
 
 /***************/
 /* Nav/Header */
-#nav-header{
-    background: #4fa3a8;
-    color: #f7f7f7;
-    position: sticky;
-    top: 0;
+#nav-header {
+	color: #4fa3a8;
+	position: sticky;
+	top: 0;
+    /* original
     box-shadow: 1px 3px 3px rgba(0,0,0,0.3);
-    z-index: 10;
+     */
+    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
+	z-index: 10;
+	border-bottom: 2px solid #4fa3a8;
+	background: #282B28;
+}
+#nav-header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-header-title{
+    text-align: center;
+}
+#performance-nav{
+    font-weight: 700;
 }
 /* END Nav/Header */
 /******************/
@@ -100,7 +114,7 @@ h1{
     font-size: 2.5rem;
     margin: 0;
 }
-#performance{
+#performance-main{
     color: #4fa3a8;
 }
 #tpm-logo-large{
@@ -123,7 +137,8 @@ h1{
     display: flex;
     justify-content: space-around;
     background: white;
-    padding: 2% 15px;
+    padding: 1% 15px;
+    z-index: 2;
 }
 .indicator-icons-figure{
     margin: 0;
@@ -157,9 +172,6 @@ h1{
 
 /**************************/
 /* TPM Indicator Content */
-#main-content{
-    margin-bottom: 1%;
-}
 .content-section-default{
     visibility: collapse;
     height: 0px;
@@ -170,16 +182,17 @@ h1{
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background: #e3e3e3;
+    background: #e9e9e9;
+    padding-bottom: 3%;
 }
 #tpm-content{
     width: 70%;
     max-width: 750px;
-    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
     border-radius: 5px;
     padding: 0 1.5rem;
-    margin-top: 20px;
+    margin-top: 15px;
     background: #fff;
+    font-size: 1rem;
 }
 #tpm-content-headers{
     display: flex;
@@ -199,7 +212,7 @@ h1{
 .tpm-content-headers-btn{
     background: #fff;
     margin-bottom: 9%;
-    padding: 10px;
+    padding: 1rem 0.8rem;
     border-radius: 5px;
 }
 .tpm-content-headers-btn:not(.active-header){
@@ -207,6 +220,10 @@ h1{
 }
 .tpm-content-headers-btn:not(.active-header):hover{
     box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    filter: brightness(115%);
+}
+.tpm-content-headers-btn:last-child{
+    margin-bottom: 0;
 }
 .content-header {
 	text-align: center;
@@ -214,14 +231,17 @@ h1{
 	margin: 0;
 	font-size: 2rem;
 	width: calc(100% + 3rem);
-	margin-left: -1.5rem;
+    margin-left: -1.5rem;
+    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	padding: 4px 0;
-	color: #f7f7f7;
+    color: #f7f7f7;
+    z-index: 3;
 }
 .tpm-content-subheaders{
     margin-bottom: 0;
+    font-size: 1.3rem;
 }
 .table-overflow-wrapper{
     overflow-x: auto;
@@ -252,16 +272,16 @@ td{
 }
 .dates-circle{
     display: block;
-    width: 10px;
-    height: 10px;
-    background: black;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #282B28;
     border-radius: 50%;
 }
 .dates-entry-text{
     margin-top: -15px;
 }
 .dates-circle-left{
-    margin-left: calc(100% + 10px);
+    margin-left: calc(100% + 11px);
 }
 .dates-circle-right{
     margin-left: -20px;
@@ -269,12 +289,12 @@ td{
 .dates-entry-left{
     text-align: right;
     padding-right: 15px;
-    border-right: 1px solid black;
+    border-right: 1px solid #282B28;
 }
 .dates-entry-right{
     align-self: end;
     padding-left: 15px;
-    border-left: 1px solid black;
+    border-left: 1px solid #282B28;
 }
 /* END TPM Indicator Content */
 /*****************************/
@@ -287,6 +307,7 @@ footer{
     height: 300px;
     width: 100%;
     background: #333;
+    color: #f7f7f7;
 }
 /* END Footer */
 /**************/
