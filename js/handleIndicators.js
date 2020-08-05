@@ -72,10 +72,8 @@ const clickIndicator = e => {
     })
 
     // update url
-    const baseURI = location.href
     const encodedIndicator = encodeURI(selectedIndicator)
-    const indicatorURI = `${baseURI}?indicator=${encodedIndicator}`
-
+    const indicatorURI = `?indicator=${encodedIndicator}`
     history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
 }
 
