@@ -1,0 +1,64 @@
+/************/
+/* General */
+html{
+    font-size: 12px;
+}
+.padding-wrapper{
+    padding: 10px;
+}
+/* END General */
+/***************/
+
+
+
+/****************/
+/* Splash Page */
+#splash-page{
+    flex-direction: column;
+    align-items: center;
+}
+#tpm-logo-large{
+    margin-right: 0;
+    height: 200px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+    font-size: 1.6rem;
+}
+/* END Splash page */
+/*******************/
+
+
+
+/************************/
+/* TPM Indicator Icons */
+#indicator-icons-wrapper{
+    justify-content: space-between;
+}
+.indicator-icons-figure{
+    width: 20%;
+}
+.indicator-icons-imgs{
+    width: 55px;
+    height: 55px;
+}
+/* END TPM Indicator Icons */
+/***************************/
+
+
+
+/**************************/
+/* TPM Indicator Content */
+.content-header{
+    font-size: 1.4rem;
+}
+#tpm-content-headers{
+    margin-right: 10px;
+}
+.tpm-content-headers-btn{
+    font-size: 0.9em;
+}
+#dates-wrapper{
+    margin-top: 6%;
+}
