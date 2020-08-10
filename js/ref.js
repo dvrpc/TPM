@@ -20,8 +20,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>NJ Target <br /> (2016 - 2020)</th>
-                        <th class="table-cell-last">NJ Baseline <br /> (2014 - 2018)</th>
+                        <th>NJ Target <br /> <small>(2016 - 2020)</small></th>
+                        <th class="table-cell-last">NJ Baseline <br /> <small>(2014 - 2018)</small></th>
                     </thead>
                     <tbody>
                         <tr>
@@ -30,7 +30,7 @@ const ref = {
                             <td class="table-cell-last">581.6</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rise in Fatalities (per 100 million VMT)</td>
+                            <td class="table-cell-first">Rise in Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>0.744</td>
                             <td class="table-cell-last">0.759</td>
                         </tr>
@@ -40,7 +40,7 @@ const ref = {
                             <td class="table-cell-last">1,110.8</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries (per 100 million VMT)</td>
+                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
                             <td>1.489</td>
                             <td class="table-cell-last">1.449</td>
                         </tr>
@@ -58,8 +58,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>PA Target <br /> (2016 - 2020)</th>
-                        <th class="table-cell-last">PA Baseline <br /> (2014 - 2018)</th>
+                        <th>PA Target <br /><small>(2016 - 2020)</small></th>
+                        <th class="table-cell-last">PA Baseline <br /><small>(2014 - 2018)</small></th>
                     </thead>
                     <tbody>
                         <tr>
@@ -68,7 +68,7 @@ const ref = {
                             <td class="table-cell-last">1,182</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rise in Fatalities (per 100 million VMT)</td>
+                            <td class="table-cell-first">Rise in Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>1.148</td>
                             <td class="table-cell-last">1.169</td>
                         </tr>
@@ -78,7 +78,7 @@ const ref = {
                             <td class="table-cell-last">3,839.6</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries (per 100 million VMT)</td>
+                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
                             <td>4.309</td>
                             <td class="table-cell-last">3.797</td>
                         </tr>
@@ -109,9 +109,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Target<br />(2014 - 2018)</th>
-                        <th>Actual<br />(2014 - 2018)</th>
-                        <th>Baseline<br />(2012 - 2016)</th>
+                        <th>Target<br /><small>(2014 - 2018)</small></th>
+                        <th>Actual<br /><small>(2014 - 2018)</small></th>
+                        <th>Baseline<br /><small>(2012 - 2016)</small></th>
                         <th>Target Achieved?</th>
                         <th>Better Than Baseline?</th>
                         <th class="table-cell-last">Met or Made Significant Progress?*</th>
@@ -127,7 +127,7 @@ const ref = {
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br />(per 100 million VMT)</td>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>0.778</td>
                             <td>0.759</td>
                             <td>0.762</td>
@@ -145,7 +145,7 @@ const ref = {
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries<br />(per 100 million VMT)</td>
+                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
                             <td>1.467</td>
                             <td>1.449</td>
                             <td>1.516</td>
@@ -173,9 +173,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Target<br />(2014 - 2018)</th>
-                        <th>Actual<br />(2014 - 2018)</th>
-                        <th>Baseline<br />(2012 - 2016)</th>
+                        <th>Target<br /><small>(2014 - 2018)</small></th>
+                        <th>Actual<br /><small>(2014 - 2018)</small></th>
+                        <th>Baseline<br /><small>(2012 - 2016)</small></th>
                         <th>Target Achieved?</th>
                         <th>Better Than Baseline?</th>
                         <th class="table-cell-last">Met or Made Significant Progress?*</th>
@@ -191,7 +191,7 @@ const ref = {
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br />(per 100 million VMT)</td>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>1.161</td>
                             <td>1.169</td>
                             <td>1.220</td>
@@ -209,7 +209,7 @@ const ref = {
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries<br />(per 100 million VMT)</td>
+                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
                             <td>3.746</td>
                             <td>3.797</td>
                             <td>3.433</td>

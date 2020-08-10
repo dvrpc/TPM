@@ -22,10 +22,16 @@ html{
     height: 180px;
     width: 180px;
 }
-h1{
+/* h1{
     font-size: 1.6rem;
     height: 135px;
     margin-top: 45px;
+} */
+h1 {
+	font-size: 1.6rem;
+	height: 145px;
+	margin-top: 35px;
+	line-height: 2;
 }
 /* END Splash page */
 /*******************/
