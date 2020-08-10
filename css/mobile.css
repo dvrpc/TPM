@@ -68,3 +68,36 @@ h1 {
 }
 /* END TPM Indicator Content */
 /*****************************/
+
+
+
+/***********/
+/* Footer */
+footer{
+    padding: 10% 0;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    height: 300px;
+}
+#footer-logo{
+    display: block;
+    margin: 0 auto;
+    width: 65px;
+}
+#footer-contact-wrapper{
+    width: 60%;
+    text-align: center;
+}
+.footer-social{
+    width: 15px;
+    height: 15px;
+}
+#email-icon{
+    height: 14px;
+}
+#email-icon, #youtube-icon{
+    width: 20px;
+}
+/* END Footer */
+/**************/

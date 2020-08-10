@@ -303,7 +303,7 @@ td{
 /* Footer */
 footer {
 	background: #282B28;
-	color: #FFEFD3;
+	color: #f7f7f7;
 	display: flex;
 	align-content: center;
 	justify-content: space-evenly;
@@ -336,6 +336,7 @@ address{
     display: block;
     border-right: 1px solid #f7f7f7;
     margin: 0 3%;
+    height: 20px;
 }
 .footer-social{
     height: 19px;
