@@ -81,23 +81,20 @@ footer{
     height: 300px;
 }
 #footer-logo{
-    display: block;
-    margin: 0 auto;
     width: 65px;
+}
+#footer-words{
+    margin-bottom: 6%;
 }
 #footer-contact-wrapper{
     width: 60%;
     text-align: center;
 }
-.footer-social{
-    width: 15px;
+.vr, .footer-social{
     height: 15px;
 }
 #email-icon{
     height: 14px;
-}
-#email-icon, #youtube-icon{
-    width: 20px;
 }
 /* END Footer */
 /**************/
