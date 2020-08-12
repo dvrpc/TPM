@@ -81,13 +81,17 @@ footer{
     height: 300px;
 }
 #footer-logo{
+    display: block;
     width: 65px;
+    margin: 0 auto;
+}
+#footer-words, #footer-contact-wrapper{
+    width: 72%;
 }
 #footer-words{
     margin-bottom: 6%;
 }
 #footer-contact-wrapper{
-    width: 60%;
     text-align: center;
 }
 .vr, .footer-social{

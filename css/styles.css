@@ -297,12 +297,13 @@ td{
 /***********/
 /* Footer */
 footer{
-    background: #282B28;
+    height: 350px;
     padding: 4% 15.5%;
+    background: #282B28;
     color: #f7f7f7;
     display: flex;
-    align-content: center;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     font-size: 0.9rem;
 }
 footer a{
