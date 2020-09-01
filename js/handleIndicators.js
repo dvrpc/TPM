@@ -19,13 +19,13 @@ const makeSticky = () => {
         iconsWrapper.style.position = 'sticky'
         iconsWrapper.style.top = navHeight + 'px'
         tabs.style.position = 'sticky'
-        tabs.style.top = (comboHeight + 55) + 'px'
+        tabs.style.top = (comboHeight + 40) + 'px'
         mainSticky = true
     }
 
     if(headerActive){
         headerActive.style.position = 'sticky'
-        headerActive.style.top = (comboHeight - 10) + 'px'
+        headerActive.style.top = `calc(${comboHeight}px - 5%)`
     }
 }
 
@@ -62,7 +62,7 @@ const clickIndicator = e => {
 
     // scroll to
     if(!beenScrolled) {
-        scrollTo = parent.getBoundingClientRect().top - 23
+        scrollTo = parent.getBoundingClientRect().top + 5
         beenScrolled = true
     }
 
