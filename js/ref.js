@@ -564,9 +564,34 @@ const ref = {
             </ul>
         `
     },
-    'reliability': {
+    'systemperf': {
         'measure': `
             <h2 class="content-header">What do We Measure?</h2>
+            <h3 class="tpm-content-subheaders">National Highway System (NHS) Travel Time Reliability</h3>
+            <p>State Departments of Transportation (DOTs) must establish statewide targets for the performance of the Interstate and non-Interstate National Highway System (NHS) during four peak travel time periods which include peak daytime periods and weekend periods. Each state sets its performance targets for the Level of Travel Time Reliability (LOTTR) Index which indicates the reliability of travel on the Interstate and non-Interstate NHS. A road segment is considered reliable if the ratio of the 80th percentile peak hour travel time to the normal peak hour travel time (50th percentile) is less than 1.5. The measure also incorporates vehicle occupancy to identify the person miles traveled on the system. LOTTR targets are established for the entire state that reflect the person miles traveled on road segments that are considered reliable. Two- and four-year targets are set for:</p>
+            <ul>
+                <li>Percentage of person miles traveled on the Interstate System that are considered reliable.</li>
+                <li>Percentage of person miles traveled on the non-Interstate NHS that are considered reliable.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Freight Reliability</h3>
+            <p>State DOTs must establish a single index for the Interstate system in the state for five peak hour travel time periods which include peak daytime periods, an overnight period, and weekend periods. The Truck Travel Time Reliability (TTTR) Index is measured by the ratio of the congested peak period travel time (95th percentile) to the normal peak period travel time (50th percentile), on each road segment on the Interstate system for the time periods. The highest TTTR value is used to determine the reliability of the Interstate system for truck traffic or freight reliability. The DOT establishes two- and four-year targets for:</p>
+            <ul>
+                <li><p>The ratio of the congested period travel time to the normal period travel time, weighted by the length of the Interstate segment, for the entire Interstate system in the state.</p></li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Performance of the CMAQ Program</h3>
+            <p>There are three performance measures established to measure the performance of the federal Congestion Mitigation and Air Quality (CMAQ) program. Two of the measures assess the program’s influence on traffic congestion and the third measures the program’s performance in reducing on-road mobile source emissions.</p>
+            <h3 class="tpm-content-subheaders">Congestion Measures</h3>
+            <p>State DOTs, in collaboration with the appropriate MPOs, must establish single, unified targets for the Peak Hour Excessive Delay (PHED) and Percent Non-Single Occupant Vehicle (non-SOV) Travel on the NHS in urbanized areas (UZAs) that intersect with Clean Air Act Nonattainment or Maintenance Areas. Single targets are established for an entire UZA across state and MPO boundaries through a collaborative planning process. Peak Hour Excessive delay (PHED) per capita on the NHS is the threshold for excessive delay and is based on the travel time at 20 miles per hour or 60 percent of the posted speed limit travel time, whichever is greater, and is measured in 15-minute intervals. Peak travel hours are defined as 6–10 a.m. on weekday mornings and the weekday afternoon period is 3–7 p.m. The total excessive delay metric is weighted by vehicle volumes and occupancy.</p>
+            <p>The performance-based planning regulation requires that state DOTs set two- and four-year targets for PHED and percent non-SOV Travel for urbanized areas (UZAs) with populations greater than 1 million people in the first performance period (beginning in 2018) and two- and four-year targets for UZAs with populations greater than 200,000 people in the second and subsequent performance periods (beginning in 2022). Targets are set for:</p>
+            <ul>
+                <li>Annual hours of peak hour excessive delay per person for the entire UZA.</li>
+                <li>Percentage of travel in an UZA conducted by means other than a SOV.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Emissions Reduction Measures</h3>
+            <p>State DOTs whose geographic boundaries include any part of a nonattainment or maintenance area for ozone, carbon monoxide, or particulate matter are required to establish two- and four-year targets for the quantifiable pollutants that are reduced through transportation projects funded through the CMAQ program. State DOTs establish targets for the entire state and MPOs can support state targets or develop MPO targets. Targets for the performance period represent the cumulative pollutant reductions from CMAQ funded projects. Targets are set for:</p>
+            <ul>
+                <li>On-road mobile source emissions reduced through the CMAQ program for the Ozone precursors Nitrogen Oxides (NO<sub>x</sub>) and Volatile Organic Compounds (VOC<sub>s</sub>), Fine Particulate Matter (PM<sub>2.5</sub>), and Carbon Monoxide (CO). CO is required in Pennsylvania only.</li>
+            </ul>
         `,
         'targets': `
             <h2 class="content-header">What are the Targets?</h2>
@@ -591,15 +616,48 @@ const ref = {
             <h3 class="tpm-content-subheaders">Resources</h3>
         `
     },
-    'assets': {
+    'ptasp': {
         'measure': `
             <h2 class="content-header">What do We Measure?</h2>
+            <p>Through the Public Transportation Agency Safety Plan (PTASP) rule, FTA requires transit agencies to implement a Safety Management System to manage safety risk, which can help agencies maintain or improve their safety performance.</p>
+            <p>Transit agencies are required to develop Transit Agency Safety Plans (TASP) that establish performance targets based on the four measures included in FTA’s National Transit Public Safety Plan (NTPSP). The four measures are Fatalities, Injuries, Safety Events, and System Reliability. Transit agencies are required to report their targets and performance to the state DOT and the agency’s MPO in order to prioritize funding to improve transit safety performance.</p>
+            <h3 class="tpm-content-subheaders">Fatalities</h3>
+            <p>The transit safety performance measure requires that transit providers set annual targets for the number of fatalities that occur on each mode of transit that the agency operates, excluding deaths that result from trespassing, suicide, or natural causes. The NTPSP defines the modes as rail, fixed guideway bus service, and non-fixed route bus service. Fatalities are required to be calculated for both the total number of fatalities and the fatality rate per vehicle revenue mile.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>Total fatalities, by mode, across the transit agency’s system.</li>
+                <li>The rate of fatalities, by mode, per vehicle revenue mile operated by the transit agency. </li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Injuries</h3>
+            <p>The PTASP requires that transit agencies set annual targets for the number of injuries that occur on each mode of transit that the agency operates. Injuries are defined as “harm to person that requires immediate medical attention away from the scene.” Injuries are required to be calculated for both the total number of injuries and the injury rate per vehicle revenue mile for each of the modes that the agency operates.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>Total injuries, by mode, across the transit agency’s system.</li>
+                <li>The rate of injuries, by mode, per vehicle revenue mile operated by the transit agency.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Safety Events</h3>
+            <p>Transit providers are required to set annual targets for the number and rate of safety events, by mode, that occur across the transit agency’s system. A safety event is defined by FTA as a “collision, derailment, fire, hazardous material spill, or evacuation.” Safety events are required to be calculated for both the total number of events and the event rate per vehicle revenue mile for each of the modes that the agency operates.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>Total safety events, by mode, across the transit agency’s system.</li>
+                <li>The rate of safety events, by mode, per vehicle revenue mile operated by the transit agency.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">System Reliability</h3>
+            <p>Transit providers are required to set annual targets for the agency’s system reliability for each mode of transit that the agency operates. The system reliability performance measure accounts for major mechanical failings of a vehicle that prevent the vehicle from starting or completing a scheduled trip. Mechanical failings and interrupted trips can create hazardous conditions for the transit operators and passengers depending on the location of the service interruption and if passengers are required to de-board in unsafe locations.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>The miles traveled between major mechanical failures calculated for each mode that the transit agency operates.</li>
+            </ul>
         `,
         'targets': `
             <h2 class="content-header">What are the Targets?</h2>
+            <p>The PTASP Rule became effective on July 19, 2019. The first transit agency safety plans were originally due in July 2020; however, due to the COVID-19 Pandemic, FTA is extending the report deadline to December 31, 2020.</p>
+            <p>The safety targets for the transit agencies that operate in the DVRPC region (SEPTA, NJ Transit, and DRPA/PATCO) will be reported in this section when those plans are available.</p>
+            <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
         `,
         'how': `
             <h2 class="content-header">How are We Doing?</h2>
+            <p>Under the FTA PTASP Rule, transit agency safety plans are not due until December 31, 2020. Results will be published here when they become available.</p>
         `,
         'dates': `
             <h2 class="content-header">Key Dates and Resources</h2>
@@ -607,15 +665,21 @@ const ref = {
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong></strong><br /></p>
+                    <p class="dates-entry-text"><strong>July 19, 2019</strong><br />Final Rule effective date.</p>
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong></strong><br /></p>
+                    <p class="dates-entry-text"><strong>December 31, 2020</strong><br />1st TASP report due. TASP must be updated and certified by the transit agency each year after.</p>
                 </div>
             </article>
 
             <h3 class="tpm-content-subheaders">Resources</h3>
+            <ul>
+                <li><a href="https://www.transit.dot.gov/PTASP" target="blank" rel="noopener noreferrer">FTA PTASP webpage</a></li>
+                <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/docs/regulations-and-guidance/safety/public-transportation-agency-safety-program/117281/ptasp-fact-sheet-02-06-2019.pdf" target="blank" rel="noopener noreferrer">FTA PTASP Fact Sheet</a></li>
+                <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/2020-04/SPT_Webinar_202002.pdf" target="blank" rel="noopener noreferrer">FTA Safety Performance Target Webinar</a></li>
+                <li><a href="https://www.govinfo.gov/content/pkg/FR-2018-07-19/pdf/2018-15167.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
+            </ul>
         `
     },
     'safety 2': {

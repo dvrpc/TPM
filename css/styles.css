@@ -40,22 +40,22 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title{
 [data-theme='highway-safety'] tbody tr{
     border-bottom: 2px solid #006ba6;
 }
-[data-theme='reliability'] strong, [data-theme='reliability'] .tpm-content-subheaders, [data-theme='reliability'] .tpm-content-headers-btn:not(.active-header){
+[data-theme='systemperf'] strong, [data-theme='systemperf'] .tpm-content-subheaders, [data-theme='systemperf'] .tpm-content-headers-btn:not(.active-header){
     color: #bd2556;
 }
-[data-theme='reliability'] .content-header{
+[data-theme='systemperf'] .content-header{
     background: #bd2556;
 }
-[data-theme='reliability'] tbody tr{
+[data-theme='systemperf'] tbody tr{
     border-bottom: 2px solid #bd2556;
 }
-[data-theme='assets'] strong, [data-theme='assets'] .tpm-content-subheaders, [data-theme='assets'] .tpm-content-headers-btn:not(.active-header){
+[data-theme='ptasp'] strong, [data-theme='ptasp'] .tpm-content-subheaders, [data-theme='ptasp'] .tpm-content-headers-btn:not(.active-header){
     color: #582267;
 }
-[data-theme='assets'] .content-header{
+[data-theme='ptasp'] .content-header{
     background: #582267;
 }
-[data-theme='assets'] tbody tr{
+[data-theme='ptasp'] tbody tr{
     border-bottom: 2px solid #582267;
 }
 [data-theme='safety-2'] strong, [data-theme='safety-2'] .tpm-content-subheaders, [data-theme='safety-2'] .tpm-content-headers-btn:not(.active-header){
