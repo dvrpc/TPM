@@ -33,7 +33,7 @@
 */
 
 const ref = {
-    'highway safety': {
+    'highway': {
         'measure': `
             <h2 class="content-header">What do We Measure?</h2>
             <p>State Departments of Transportation (DOTs) and Metropolitan Planning Organizations (MPOs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of non-motorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. </p>
@@ -128,7 +128,7 @@ const ref = {
         `,
         'how': `
             <h2 class="content-header">How are We Doing?</h2>
-            <p>state DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
+            <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
             <h3 class="tpm-content-subheaders">Meeting a Target:</h3>
             <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
             <h3 class="tpm-content-subheaders">Better than Baseline</h3>
@@ -682,9 +682,33 @@ const ref = {
             </ul>
         `
     },
-    'safety 2': {
+    'transitasset': {
         'measure': `
             <h2 class="content-header">What do We Measure?</h2>
+            <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
+            <h3 class="tpm-content-subheaders">Rolling Stock</h3>
+            <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider’s rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
+            <ul>
+                <li>Percentage of the transit provider’s rolling stock that have met or exceeded their ULB.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Equipment</h3>
+            <p>Transit providers are required to set annual targets for the average age of their nonrevenue generating vehicles (equipment) for three vehicle types: automobiles, rubber-tired vehicles, and steel wheeled vehicles. Targets are only set for vehicles that are road-worthy, self-propelled maintenance or construction vehicles. The targets are set for the percentage of equipment, by vehicle category type, that exceed the nonrevenue generating fleet’s ULB. Specific targets are set for:</p>
+            <ul>
+                <li>Percentage of the transit provider’s support (nonrevenue) equipment that have met or exceeded their ULB.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Infrastructure</h3>
+            <p>Transit providers are required to set annual targets for the percentage of fixed guideway track segments that have performance restrictions. A performance restriction is defined as a segment of guideway track miles where the maximum permissible speed of transit vehicles is below the guideway’s full-service speed. Restrictions can be caused by issues with rail fixed guideway, track, power, or signal systems. Performance restrictions should be measured at 9:00 AM local time on the first Wednesday of each month.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>Percentage of the transit provider’s fixed guideway track miles that have performance restrictions. The annual performance measure for Infrastructure is an average of each month’s performance restriction measure.</li>
+            </ul>
+            <h3 class="tpm-content-subheaders">Facilities</h3>
+            <p>Transit providers are required to set annual targets for the percentage of facilities (by group) that are rated less than 3.0 on the Transit Economic Requirements Model (TERM) Scale. The two groups of facility types are Passenger and Administration Facilities. FTA requires that facility condition data be fully updated every four years, at a minimum. Agencies may choose to assess a quarter of their facilities every year, or more frequently. Each annual report must include updated facility condition data based on any assessments completed since the last report. Only facilities with direct capital responsibility require condition assessments.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>ercentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
+                <li>ercentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
+            </ul>
         `,
         'targets': `
             <h2 class="content-header">What are the Targets?</h2>

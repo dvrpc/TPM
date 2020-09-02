@@ -31,13 +31,13 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title{
 [data-theme='bridgepavement'] tbody tr{
     border-bottom: 2px solid #de6e1d;
 }
-[data-theme='highway-safety'] strong, [data-theme='highway-safety'] .tpm-content-subheaders, [data-theme='highway-safety'] .tpm-content-headers-btn:not(.active-header){
+[data-theme='highway'] strong, [data-theme='highway'] .tpm-content-subheaders, [data-theme='highway'] .tpm-content-headers-btn:not(.active-header){
     color: #006ba6;
 }
-[data-theme='highway-safety'] .content-header{
+[data-theme='highway'] .content-header{
     background: #006ba6;
 }
-[data-theme='highway-safety'] tbody tr{
+[data-theme='highway'] tbody tr{
     border-bottom: 2px solid #006ba6;
 }
 [data-theme='systemperf'] strong, [data-theme='systemperf'] .tpm-content-subheaders, [data-theme='systemperf'] .tpm-content-headers-btn:not(.active-header){
@@ -58,13 +58,13 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title{
 [data-theme='ptasp'] tbody tr{
     border-bottom: 2px solid #582267;
 }
-[data-theme='safety-2'] strong, [data-theme='safety-2'] .tpm-content-subheaders, [data-theme='safety-2'] .tpm-content-headers-btn:not(.active-header){
+[data-theme='transitasset'] strong, [data-theme='transitasset'] .tpm-content-subheaders, [data-theme='transitasset'] .tpm-content-headers-btn:not(.active-header){
     color: #7b9d3e;
 }
-[data-theme='safety-2'] .content-header{
+[data-theme='transitasset'] .content-header{
     background: #7b9d3e;
 }
-[data-theme='safety-2'] tbody tr{
+[data-theme='transitasset'] tbody tr{
     border-bottom: 2px solid #7b9d3e;
 }
 /* END General */
