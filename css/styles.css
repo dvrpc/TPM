@@ -22,13 +22,13 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title{
     font-family: 'Righteous', cursive;
 }
 /* accents */
-[data-theme='infrastructure'] strong,  [data-theme='infrastructure'] .tpm-content-subheaders, [data-theme='infrastructure'] .tpm-content-headers-btn:not(.active-header){
+[data-theme='bridgepavement'] strong,  [data-theme='bridgepavement'] .tpm-content-subheaders, [data-theme='bridgepavement'] .tpm-content-headers-btn:not(.active-header){
     color: #de6e1d;
 }
-[data-theme='infrastructure'] .content-header{
+[data-theme='bridgepavement'] .content-header{
     background: #de6e1d;
 }
-[data-theme='infrastructure'] tbody tr{
+[data-theme='bridgepavement'] tbody tr{
     border-bottom: 2px solid #de6e1d;
 }
 [data-theme='highway-safety'] strong, [data-theme='highway-safety'] .tpm-content-subheaders, [data-theme='highway-safety'] .tpm-content-headers-btn:not(.active-header){
@@ -192,7 +192,7 @@ h1{
     padding: 0 2rem 0.5rem 2rem;
     margin-top: 15px;
     background: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 #tpm-content-headers{
     display: flex;
