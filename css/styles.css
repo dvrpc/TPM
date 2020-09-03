@@ -267,7 +267,7 @@ td {
 .table-nested-cell-first {
     text-align: left;
 }
-.table-nested-last-row {
+.table-cell-no-border {
     border-bottom: none !important;
 }
 #dates-wrapper {
