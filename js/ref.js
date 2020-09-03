@@ -22,7 +22,7 @@
         </tbody>
     </table>
 </div>
-// adjust colspan value to specific table requirements
+// NESTEd tables - adjust colspan value to specific table requirements
 <td colspan=""> 
     <table>
         <tr>
@@ -753,7 +753,117 @@ const ref = {
             </div>
             <small>Source: DVRPC 2018</small><br />
             <small><sup>1</sup>Two-year targets are not required for PHED for this first reporting period.</small>
-            
+    
+            <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2">DVRPC 4-County<br />New Jersey Subregion</th>
+                            <th colspan="2">New Jersey Statewide</th>
+                        </tr>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th>2020 Two-Year Target</th>
+                            <th>2022 Four-Year Target</th>
+                            <th>2020 Two-Year Target</th>
+                            <th class="table-cell-last">2022 Four-Year Target</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">VOC <small>(Kg/day)</small></td>
+                            <td>1.45</td>
+                            <td>2.864</td>
+                            <td>17.682</td>
+                            <td class="table-cell-last">33.0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">NO<sub>x</sub> <small>(Kg/day)</small></td>
+                            <td>7.453</td>
+                            <td>14.861</td>
+                            <td>4.0%</td>
+                            <td class="table-cell-last">5.0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">PM<sub>2.5</sub> <small>(Kg/day)</small></td>
+                            <td>2.627</td>
+                            <td>5.253</td>
+                            <td>4.29</td>
+                            <td class="table-cell-last">8.52</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">CO <small>(Kg/day)<sup>1</sup></small></td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2018</small><br />
+            <small><sup>1</sup>CO is not a required measure in New Jersey because all CO Maintenance Areas are beyond the Maintenance Plan horizons.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2">DVRPC 4-County<br />New Jersey Subregion</th>
+                            <th colspan="2">New Jersey Statewide</th>
+                        </tr>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th>2020 Two-Year Target</th>
+                            <th>2022 Four-Year Target</th>
+                            <th>2020 Two-Year Target</th>
+                            <th class="table-cell-last">2022 Four-Year Target</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">VOC <small>(Kg/day)</small></td>
+                            <td>37.61</td>
+                            <td>69.39</td>
+                            <td>109.46</td>
+                            <td class="table-cell-last">201.73</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">NO<sub>x</sub> <small>(Kg/day)</small></td>
+                            <td>23.42</td>
+                            <td>42.50</td>
+                            <td>337.70</td>
+                            <td class="table-cell-last">612.82</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">PM<sub>2.5</sub> <small>(Kg/day)</small></td>
+                            <td>1.08</td>
+                            <td>2.06</td>
+                            <td>10.76</td>
+                            <td class="table-cell-last">20.49</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">PM<sub>10</sub> <small>(Kg/day)<sup>1</sup></small></td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>9.54</td>
+                            <td class="table-cell-last">17.47</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">CO <small>(Kg/day)</small></td>
+                            <td>282.74</td>
+                            <td>565.47</td>
+                            <td>567.70</td>
+                            <td class="table-cell-last">1,135.40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2018</small><br />
+            <small><sup>1</sup>PM<sub>10</sub> is not a required measure in the DVRPC region because this region has never been in non-attainment of the PM<sub>10</sub> standards.</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
