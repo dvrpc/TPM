@@ -34,9 +34,7 @@ const clickIndicator = e => {
     const parent = e.target.parentElement
     if(!parent.classList.contains('indicator-icons-figure')) return
     const f = e.target
-    console.log('f ', f)
-    const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousSibling.textContent
-    console.log('headertexzt ', headerText)
+    const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousElementSibling.textContent
     const selectedIndicator = parent.dataset.indicator
     const indicators = parent.parentElement.children
     const length = indicators.length
@@ -113,12 +111,15 @@ const handleTabs = e => {
     }
     
     // update content
+    const headerText = contentWrapper.firstChild.textContent || ' '
     while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
     
     const indicator = decodeURI(query[1])
     const newText = ref[indicator][tab]
+    const header = makeHeader(headerText)
 
     contentWrapper.insertAdjacentHTML('afterbegin', newText)
+    contentWrapper.insertAdjacentElement('afterbegin', header)
 
     makeSticky()
 

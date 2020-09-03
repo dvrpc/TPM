@@ -201,6 +201,7 @@ h1 {
     max-width: 25%;
 }
 .tpm-content-section-header {
+    font-size: 1.5rem;
     font-weight: 400;
     margin: 5% 0;
 }
@@ -211,7 +212,7 @@ h1 {
 .tpm-content-headers-btn {
     background: #fff;
     margin-bottom: 9%;
-    padding: 1rem 0.8rem;
+    padding: 1.6rem 0.8rem;
     border-radius: 5px;
     font-size: 1rem;
 }
@@ -235,12 +236,13 @@ h1 {
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	padding: 4px 0;
+	padding: 6px 0;
     color: #f7f7f7;
     z-index: 3;
 }
 .tpm-content-subheaders {
     margin-bottom: 0;
+    margin-top: 0;
     font-size: 1.3rem;
 }
 .table-overflow-wrapper {
