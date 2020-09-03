@@ -1,8 +1,11 @@
 /* Style Reference:
-<h2 class="content-hesection-ader"></</h2>
 
+// HEADERS
+<h2 class="content-hesection-ader"></</h2>
+<h3 class="tpm-content-section-header theme-font-color"></h3>
 <h4 class="tpm-content-subheaders theme-font-color"></h4>
 
+// TABLES
 <div class="table-overflow-wrapper">
     <table>
         <thead>
@@ -19,7 +22,25 @@
         </tbody>
     </table>
 </div>
+// adjust colspan value to specific table requirements
+<td colspan=""> 
+    <table>
+        <tr>
+            <td class="table-nested-cell-first"></td>
+            <td></td>
+            <td></td>
+            <td class="table-cell-last"></td>
+        </tr>
+        <tr class="table-nested-last-row">
+            <td class="table-nested-cell-first"></td>
+            <td></td>
+            <td></td>
+            <td class="table-cell-last"></td>
+        </tr>
+    </table>
+</td>
 
+// TIMELINES
 <article id="dates-wrapper">
     <div class="dates-entry dates-entry-left">
         <span class="dates-circle dates-circle-left"></span>
@@ -595,6 +616,144 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What are the Targets?</h3>
+            <h4 class="tpm-content-subheaders theme-font-color">New Jersey NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th>2017 Baseline</th>
+                        <th>2019 Two-Year Target</th>
+                        <th class="table-cell-last">2021 Four-Year Target</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">Person Miles Traveled on Interstates with Reliable Travel Times (%)</td>
+                            <td>82.0%</td>
+                            <td>82.0%</td>
+                            <td class="table-cell-last">82.0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Person Miles Traveled on Non-Interstate NHS with Reliable Travel Times (%)</td>
+                            <td>84.1%</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">84.1%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2018</small><br />
+            <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th>2017 Baseline</th>
+                        <th>2019 Two-Year Target</th>
+                        <th class="table-cell-last">2021 Four-Year Target</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">Person Miles Traveled on Interstates with Reliable Travel Times (%)</td>
+                            <td>89.8%</td>
+                            <td>89.8%</td>
+                            <td class="table-cell-last">89.8%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Person Miles Traveled on Non-Interstate NHS with Reliable Travel Times (%)</td>
+                            <td>87.4%</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">87.4%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2018</small><br />
+            <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">New Jersey & Pennsylvania Freight Truck Travel Time Reliability (TTTR) Targets</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th>2017 Baseline</th>
+                        <th>2019 Two-Year Target</th>
+                        <th class="table-cell-last">2021 Four-Year Target</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">New Jersey TTTR</td>
+                            <td>1.82</td>
+                            <td>1.90</td>
+                            <td class="table-cell-last">1.95</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Pennsylvania TTTR</td>
+                            <td>1.34</td>
+                            <td>1.34</td>
+                            <td class="table-cell-last">1.34</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2018</small>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">DVRPC CMAQ Congestion Measures Targets for Relevant Urbanized Areas (UZA)</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Urbanized Area</th>
+                        <th>Measure</th>
+                        <th>2017 Baseline</th>
+                        <th>2019 Two-Year Target<sup>1</sup></th>
+                        <th class="table-cell-last">2021 Four-Year Target</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">Philadelphia PA-NJ-DE-MD UZA</td>
+                            <td colspan="4">
+                                <table>
+                                    <tr>
+                                        <td class="table-nested-cell-first">Non-SOV Travel</td>
+                                        <td>27.9%</td>
+                                        <td>28.0%</td>
+                                        <td class="table-cell-last">28.1%</td>
+                                    </tr>
+                                    <tr class="table-nested-last-row">
+                                        <td class="table-nested-cell-first">PHED (hours per capita)</td>
+                                        <td>16.8</td>
+                                        <td>n/a</td>
+                                        <td class="table-cell-last">17.2</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">New York NY-NJ-CT UZA</td>
+                            <td colspan="4">
+                                <table>
+                                    <tr>
+                                        <td class="table-nested-cell-first">Non-SOV Travel</td>
+                                        <td>51.6%</td>
+                                        <td>51.6%</td>
+                                        <td class="table-cell-last">51.7%</td>
+                                    </tr>
+                                    <tr class="table-nested-last-row">
+                                        <td class="table-nested-cell-first">PHED (hours per capita)</td>
+                                        <td>20.0</td>
+                                        <td>n/a</td>
+                                        <td class="table-cell-last">22.0</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2018</small><br />
+            <small><sup>1</sup>Two-year targets are not required for PHED for this first reporting period.</small>
+            
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
@@ -706,8 +865,8 @@ const ref = {
             <p>Transit providers are required to set annual targets for the percentage of facilities (by group) that are rated less than 3.0 on the Transit Economic Requirements Model (TERM) Scale. The two groups of facility types are Passenger and Administration Facilities. FTA requires that facility condition data be fully updated every four years, at a minimum. Agencies may choose to assess a quarter of their facilities every year, or more frequently. Each annual report must include updated facility condition data based on any assessments completed since the last report. Only facilities with direct capital responsibility require condition assessments.</p>
             <span>Specific targets are set for:</span>
             <ul>
-                <li>ercentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
-                <li>ercentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
+                <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
+                <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
             </ul>
         `,
         'targets': `

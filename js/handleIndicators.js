@@ -81,7 +81,6 @@ const clickIndicator = e => {
     history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
 }
 const makeHeader = name => {
-    console.log('name ', name)
     const header = document.createElement('h2')
 
     header.classList.add('content-header')

@@ -242,7 +242,6 @@ h1 {
 }
 .tpm-content-subheaders {
     margin-bottom: 0;
-    margin-top: 0;
     font-size: 1.3rem;
 }
 .table-overflow-wrapper {
@@ -264,6 +263,12 @@ td {
 }
 .table-cell-last {
     text-align: right;
+}
+.table-nested-cell-first {
+    text-align: left;
+}
+.table-nested-last-row {
+    border-bottom: none !important;
 }
 #dates-wrapper {
     display: flex;
