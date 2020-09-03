@@ -550,7 +550,7 @@ const ref = {
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong>January 1, 2018</strong><br />1st four-year performance period begins.</p>
+                    <p class="dates-entry-text"><strong>January 1, 2018</strong><br />1<sup>st</sup> four-year performance period begins.</p>
                 </div>
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
@@ -558,19 +558,19 @@ const ref = {
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong>October 1, 2018</strong><br />Baseline Performance Period Report for the 1st Performance Period due. State DOTs report two-year and four-year targets; etc. Within 180 days of relevant state DOT(s) target establishment MPOs must commit to support state target or establish separate quantifiable target.</p>
+                    <p class="dates-entry-text"><strong>October 1, 2018</strong><br />Baseline Performance Period Report for the 1<sup>st</sup> Performance Period due. State DOTs report two-year and four-year targets; etc. Within 180 days of relevant state DOT(s) target establishment MPOs must commit to support state target or establish separate quantifiable target.</p>
                 </div>
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>October 1, 2020</strong><br />Mid Performance Period Progress Report for the 1st Performance Period due. State DOTs report two-year condition/performance; progress toward achieving two-year targets; etc.</p>
+                    <p class="dates-entry-text"><strong>October 1, 2020</strong><br />Mid Performance Period Progress Report for the 1<sup>st</sup> Performance Period due. State DOTs report two-year condition/performance; progress toward achieving two-year targets; etc.</p>
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong>December 31, 2021</strong><br />1st four-year performance period ends.</p>
+                    <p class="dates-entry-text"><strong>December 31, 2021</strong><br />1<sup>st</sup> four-year performance period ends.</p>
                 </div>
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>October 1, 2022</strong><br />Full Performance Period Progress Report for 1st performance period due. State DOTs report four-year condition/performance; progress toward achieving four-year targets; etc. Baseline report due for 2nd performance period due. State DOTs report two- and 4four-year targets; baseline condition, etc.</p>
+                    <p class="dates-entry-text"><strong>October 1, 2022</strong><br />Full Performance Period Progress Report for 1<sup>st</sup> performance period due. State DOTs report four-year condition/performance; progress toward achieving four-year targets; etc. Baseline report due for 2<sup>nd</sup> performance period due. State DOTs report two- and 4four-year targets; baseline condition, etc.</p>
                 </div>
             </article>
 
@@ -886,15 +886,47 @@ const ref = {
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong></strong><br /></p>
+                    <p class="dates-entry-text"><strong>May 20, 2017</strong><br />Final rule effective date.</p>
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong></strong><br /></p>
+                    <p class="dates-entry-text"><strong>January 1, 2018</strong><br />1<sup>st</sup> four-year performance period begins.</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>May 20, 2018</strong><br />Initial two- and four-year targets established.</p>
+                </div>
+                <div class="dates-entry dates-entry-right">
+                    <span class="dates-circle dates-circle-right"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2018</strong><br />Baseline Performance Period Report for the 1<sup>st</sup> Performance Period due. State DOTs report two-year and four-year targets. Within 180 days of relevant state DOT(s) target establishment MPOs must commit to support state target or establish separate quantifiable target.</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>September 1, 2020</strong><br />Interim Progress Report for the 1<sup>st</sup> Performance Period due. State DOTs report two-year condition/performance and progress toward achieving two-year targets.</p>
+                </div>
+                <div class="dates-entry dates-entry-right">
+                    <span class="dates-circle dates-circle-right"></span>
+                    <p class="dates-entry-text"><strong>September 30, 2021</strong><br />1<sup>st</sup> four-year performance period ends for CMAQ emissions measures.</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>December 31, 2021</strong><br />1<sup>st</sup> four-year performance period ends for the remainder of the PM-3 measures.</p>
+                </div>
+                <div class="dates-entry dates-entry-right">
+                    <span class="dates-circle dates-circle-right"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2022</strong><br />Full Performance Period Progress Report for 1<sup>st</sup> performance period due. State DOTs report four-year condition/performance and progress toward achieving four-year targets. Baseline report due for 2<sup>nd</sup> performance period. State DOTs report two- and four-year targets and baseline condition.</p>
                 </div>
             </article>
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
+            <ul>
+                <li><a href="">DVRPC CMAQ Performance Plan</a></li>
+                <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
+                <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
+                <li><a href="https://www.fhwa.dot.gov/tpm/rule/170601pm3.pdf" target="blank" rel="noopener noreferrer">National Performance Management Measures to Assess System Performance, Freight Movement, and CMAQ Improvement Program Presentation</a></li>
+                <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00681/national-performance-management-measures-assessing-performance-of-the-national-highway-system" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
+                <li><a href="https://dvrpcgis.maps.arcgis.com/apps/MapSeries/index.html?appid=732efbf95f76489598277df671b5d6b2" target="blank" rel="noopener noreferrer">DVRPC Congestion Management Process Webpage</a></li>
+            </ul>
         `
     },
     'ptasp': {
@@ -950,7 +982,7 @@ const ref = {
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong>December 31, 2020</strong><br />1st TASP report due. TASP must be updated and certified by the transit agency each year after.</p>
+                    <p class="dates-entry-text"><strong>December 31, 2020</strong><br />1<sup>st</sup> TASP report due. TASP must be updated and certified by the transit agency each year after.</p>
                 </div>
             </article>
 
