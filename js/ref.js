@@ -1708,15 +1708,24 @@ const ref = {
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong></strong><br /></p>
+                    <p class="dates-entry-text"><strong>October 1, 2016</strong><br />Final Rule effective date.</p>
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong></strong><br /></p>
+                    <p class="dates-entry-text"><strong>October 1, 2018</strong><br />1<sup>st</sup> TAM report due. Asset data reported in the National Transit Database annually.</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2022</strong><br />TAM required to be updated in its entirety every four years.</p>
                 </div>
             </article>
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
+            <ul>
+                <li><a href="https://www.transit.dot.gov/PerformanceManagement" target="blank" rel="noopener noreferrer">FTA Performance Management webpage</a></li>
+                <li><a href="https://www.transit.dot.gov/TAM/FTAOutreachMaterials/perfmsrFS" target="blank" rel="noopener noreferrer">TAM Fact Sheet</a></li>
+                <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
+            </ul>
         `
     },
 }
