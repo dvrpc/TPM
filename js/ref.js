@@ -1201,7 +1201,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
                             <td>14</td>
-                            <td class="table-cell-last">25%</td>
+                            <td class="table-cell-last">47%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
@@ -1320,6 +1320,387 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
+            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrates how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
+            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
+            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>Useful Life Benchmark (years)</th>
+                        <th>FY 2019 Targets</th>
+                        <th>FY 2019 Measure</th>
+                        <th class="table-cell-last">Meeting the Target?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell-first">Articulated Bus</td>
+                            <td>14</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>14</td>
+                            <td>10%</td>
+                            <td>12.4%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail Passenger Car</td>
+                            <td>35(MFL/NHSL)<br />40(BSS)</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail Vehicle</td>
+                            <td>30</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td>30</td>
+                            <td>50%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
+                            <td>30</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
+                            <td>30</td>
+                            <td>66%</td>
+                            <td>66%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Cutaway Car</td>
+                            <td>7</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>18</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Vintage Trolley/Streetcar</td>
+                            <td>15</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Articulated Bus</td>
+                            <td>12</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobile</td>
+                            <td>8</td>
+                            <td>28.89%</td>
+                            <td>28.89%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Over-the-Road Bus</td>
+                            <td>14</td>
+                            <td>45%</td>
+                            <td>52.02%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>12</td>
+                            <td>0%</td>
+                            <td>0.16%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Cutaway Car</td>
+                            <td>12</td>
+                            <td>13.19%</td>
+                            <td>11.67%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail Vehicle</td>
+                            <td>31</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Minivan</td>
+                            <td>8</td>
+                            <td>4.35%</td>
+                            <td>2.13%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td>30</td>
+                            <td>6.41%</td>
+                            <td>7.55%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
+                            <td>30</td>
+                            <td>18.26%</td>
+                            <td>17.94%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
+                            <td>30</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Van</td>
+                            <td>8</td>
+                            <td>1.53%</td>
+                            <td>2.74%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
+                            <td>39</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>Useful Life Benchmark (years)</th>
+                        <th>FY 2019 Targets</th>
+                        <th>FY 2019 Measure</th>
+                        <th class="table-cell-last">Meeting the Target?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobile</td>
+                            <td>8</td>
+                            <td>75%</td>
+                            <td>43%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
+                            <td>14</td>
+                            <td>40%</td>
+                            <td>20%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Steel Wheel Vehicles</td>
+                            <td>25</td>
+                            <td>60%</td>
+                            <td>51%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobile</td>
+                            <td>8 *FTA Default?</td>
+                            <td>39%</td>
+                            <td>50.16%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
+                            <td>14</td>
+                            <td>47%</td>
+                            <td>50.4%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Steel Wheel Vehicles</td>
+                            <td>25</td>
+                            <td>25%</td>
+                            <td>23.6%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Support Equipment</td>
+                            <td>Fleet composition not available</td>
+                            <td>24%</td>
+                            <td>22%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>FY 2019 Targets</th>
+                        <th>FY 2019 Measure</th>
+                        <th class="table-cell-last">Meeting the Target?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>10%</td>
+                            <td>TBD</td>
+                            <td class="table-cell-last">TBD</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>10%</td>
+                            <td>TBD</td>
+                            <td class="table-cell-last">TBD</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Streetcar Rail</td>
+                            <td>5%</td>
+                            <td>TBD</td>
+                            <td class="table-cell-last">TBD</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>1.00%</td>
+                            <td>Did Not Report</td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>0.42%</td>
+                            <td>Did Not Report</td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>1.44%</td>
+                            <td>0.23%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>FY 2019 Targets</th>
+                        <th>FY 2019 Measure</th>
+                        <th class="table-cell-last">Meeting the Target?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td>5%</td>
+                            <td>2%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administration Facilities</td>
+                            <td>5%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administration Facilities</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td>0%</td>
+                            <td>7%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administration Facilities</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
