@@ -1213,10 +1213,106 @@ const ref = {
                             <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                        <td class="table-cell-first">Support Equipment</td>
-                        <td>Fleet composition not available</td>
-                        <td class="table-cell-last">24%</td>
-                    </tr>
+                            <td class="table-cell-first">Support Equipment</td>
+                            <td>Fleet composition not available</td>
+                            <td class="table-cell-last">24%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th class="table-cell-last">FY 2019 Targets</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td class="table-cell-last">10%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td class="table-cell-last">10%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Streetcar Rail</td>
+                            <td class="table-cell-last">5%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td class="table-cell-last">1.00%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td class="table-cell-last">0.42%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td class="table-cell-last">1.44%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2020</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th class="table-cell-last">FY 2019 Targets</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-last">5%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administration Facilities</td>
+                            <td class="table-cell-last">5%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administration Facilities</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administration Facilities</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
