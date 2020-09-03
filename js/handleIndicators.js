@@ -33,13 +33,18 @@ const makeSticky = () => {
 const clickIndicator = e => {
     const parent = e.target.parentElement
     if(!parent.classList.contains('indicator-icons-figure')) return
-    
+    const f = e.target
+    console.log('f ', f)
+    const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousSibling.textContent
+    console.log('headertexzt ', headerText)
     const selectedIndicator = parent.dataset.indicator
     const indicators = parent.parentElement.children
     const length = indicators.length
-    // @todo: get active-header
     const updatedText = ref[selectedIndicator].measure
     const theme = selectedIndicator.split(' ').join('-')
+    // get header
+
+    const header = makeHeader(headerText)
     
     // toggle indicator state
     for(var i = 0; i < length; i++) {
@@ -51,6 +56,7 @@ const clickIndicator = e => {
     // update content
     while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
     contentWrapper.insertAdjacentHTML('afterbegin', updatedText)
+    contentWrapper.insertAdjacentElement('afterbegin', header)
     
     // reveal & style content section
     contentSection.classList.remove('content-section-default')
@@ -75,6 +81,15 @@ const clickIndicator = e => {
     const encodedIndicator = encodeURI(selectedIndicator)
     const indicatorURI = `?indicator=${encodedIndicator}`
     history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
+}
+const makeHeader = name => {
+    console.log('name ', name)
+    const header = document.createElement('h2')
+
+    header.classList.add('content-header')
+    header.textContent = name
+
+    return header
 }
 
 const handleTabs = e => {
