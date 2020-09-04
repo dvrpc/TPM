@@ -1,7 +1,7 @@
 /* Style Reference:
 
 // HEADERS
-<h2 class="content-hesection-ader"></</h2>
+<h2 class="content-section-header"></</h2>
 <h3 class="tpm-content-section-header theme-font-color"></h3>
 <h4 class="tpm-content-subheaders theme-font-color"></h4>
 
@@ -1727,7 +1727,7 @@ const ref = {
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
         `
-    },
+    }
 }
 
 export default ref
