@@ -15,6 +15,9 @@ body {
 a {
     color: #4A4A48;
 }
+small{
+    font-size: 0.7rem;
+}
 .padding-wrapper {
     padding: 15px;
 }
@@ -23,7 +26,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 /* accents */
 [data-theme="bridgepavement"]#tpm-content-section {
-    background-color: #fcf2ea;
+    background-color: #fef9f2;
 }
 [data-theme='bridgepavement'] strong, [data-theme='bridgepavement'] .theme-font-color {
     color: #de6e1d;
@@ -47,7 +50,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     border-bottom: 2px dotted #006ba6;
 }
 [data-theme="systemperf"]#tpm-content-section {
-    background-color: #fae7ed;
+    background-color: #fdf7f9;
 }
 [data-theme="systemperf"] strong, [data-theme="systemperf"] .theme-font-color {
     color: #bd2556;
@@ -59,7 +62,8 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     border-bottom: 2px dotted #bd2556;
 }
 [data-theme="ptasp"]#tpm-content-section {
-    background-color: #f8f0fa;
+    background-color: #fdf9ff;
+    
 }
 [data-theme='ptasp'] strong, [data-theme='ptasp'] .theme-font-color {
     color: #582267;
@@ -71,7 +75,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     border-bottom: 2px dotted #582267;
 }
 [data-theme="transitasset"]#tpm-content-section {
-    background-color: #eff5e5;
+    background-color: #f8faf3;
 }
 [data-theme='transitasset'] strong, [data-theme='transitasset'] .theme-font-color {
     color: #7b9d3e;
@@ -208,6 +212,8 @@ h1 {
     margin-top: 15px;
     background: #fff;
     font-size: 1rem;
+    border-left: 2px inset #e4e4e4;
+    border-right: 2px inset #e4e4e4;
 }
 #tpm-content-headers {
     display: flex;
@@ -244,14 +250,14 @@ h1 {
 .content-header {
 	text-align: center;
 	background: white;
+    width: 100%;
 	margin: 0;
 	font-size: 2rem;
-	width: calc(100% + 4rem);
-    margin-left: -2rem;
+	padding: 8px 2.1rem;
+    margin-left: -2.15rem;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-	padding: 6px 0;
     color: #f7f7f7;
     z-index: 3;
 }
@@ -273,9 +279,28 @@ td {
     padding: 8px 0;
     text-align: center;
 }
+td:not(.table-cell-first) {
+    font-size: 1.1rem;
+}
 .table-cell-first {
     text-align: left;
-    font-weight: 700;
+    width: 32ch;
+}
+.table-cell-first:not(th) {
+    font-style: italic;
+}
+/* @TODO width isn't applying for narrow*/
+.table-cell-first-narrow {
+    width: 20ch;
+}
+.table-nested-header-first {
+    text-align: left;
+}
+.table-cell-wide {
+    width: 6.5vw;
+}
+.table-cell-wide-extra {
+    width: 10vw;
 }
 .table-cell-last {
     text-align: right;

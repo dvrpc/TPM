@@ -169,12 +169,12 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Target<br /><small>(2014 - 2018)</small></th>
-                        <th>Actual<br /><small>(2014 - 2018)</small></th>
-                        <th>Baseline<br /><small>(2012 - 2016)</small></th>
-                        <th>Target Achieved?</th>
-                        <th>Better Than Baseline?</th>
-                        <th class="table-cell-last">Met or Made Significant Progress?*</th>
+                        <th class="table-cell-wide">Target<br /><small>(2014 - 2018)</small></th>
+                        <th class="table-cell-wide">Actual<br /><small>(2014 - 2018)</small></th>
+                        <th class="table-cell-wide">Baseline<br /><small>(2012 - 2016)</small></th>
+                        <th class="table-cell-wide">Target Achieved?</th>
+                        <th class="table-cell-wide">Better Than Baseline?</th>
+                        <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -233,12 +233,12 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Target<br /><small>(2014 - 2018)</small></th>
-                        <th>Actual<br /><small>(2014 - 2018)</small></th>
-                        <th>Baseline<br /><small>(2012 - 2016)</small></th>
-                        <th>Target Achieved?</th>
-                        <th>Better Than Baseline?</th>
-                        <th class="table-cell-last">Met or Made Significant Progress?*</th>
+                        <th class="table-cell-wide">Target<br /><small>(2014 - 2018)</small></th>
+                        <th class="table-cell-wide">Actual<br /><small>(2014 - 2018)</small></th>
+                        <th class="table-cell-wide">Baseline<br /><small>(2012 - 2016)</small></th>
+                        <th class="table-cell-wide">Target Achieved?</th>
+                        <th class="table-cell-wide">Better Than Baseline?</th>
+                        <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -709,14 +709,14 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Urbanized Area</th>
-                        <th>Measure</th>
+                        <th class="table-nested-header-first">Measure</th>
                         <th>2017 Baseline</th>
                         <th>2019 Two-Year Target<sup>1</sup></th>
                         <th class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">Philadelphia PA-NJ-DE-MD UZA</td>
+                            <td class="table-cell-first table-cell-first-narrow">Philadelphia<br />PA-NJ-DE-MD UZA</td>
                             <td colspan="4">
                                 <table>
                                     <tr>
@@ -735,7 +735,7 @@ const ref = {
                             </td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">New York NY-NJ-CT UZA</td>
+                            <td class="table-cell-first table-cell-first-narrow">New York<br />NY-NJ-CT UZA</td>
                             <td colspan="4">
                                 <table>
                                     <tr>
@@ -1035,9 +1035,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>Useful Life Benchmark (years)</th>
-                        <th class="table-cell-last">FY 2019 Targets</th>
-                    </thead>
+                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
+                        <th class="table-cell-wide" class="table-cell-last">FY 2019 Targets</th>
+                    </thead class="table-cell-wide">
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
@@ -1091,7 +1091,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
@@ -1150,7 +1150,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
@@ -1167,12 +1167,12 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>Useful Life Benchmark (years)</th>
-                        <th class="table-cell-last">FY 2019 Targets</th>
-                    </thead>
+                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
+                        <th class="table-cell-wide" class="table-cell-last">FY 2019 Targets</th>
+                    </thead class="table-cell-wide">
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
@@ -1191,7 +1191,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
@@ -1210,7 +1210,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
@@ -1231,7 +1231,7 @@ const ref = {
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1247,7 +1247,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1259,7 +1259,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
@@ -1279,7 +1279,7 @@ const ref = {
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1291,7 +1291,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1303,7 +1303,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1329,10 +1329,10 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>Useful Life Benchmark (years)</th>
-                        <th>FY 2019 Targets</th>
-                        <th>FY 2019 Measure</th>
-                        <th class="table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
+                        <th class="table-cell-wide">FY 2019 Targets</th>
+                        <th class="table-cell-wide">FY 2019 Measure</th>
+                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -1407,7 +1407,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
@@ -1488,7 +1488,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
@@ -1507,14 +1507,14 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>Useful Life Benchmark (years)</th>
-                        <th>FY 2019 Targets</th>
-                        <th>FY 2019 Measure</th>
-                        <th class="table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
+                        <th class="table-cell-wide">FY 2019 Targets</th>
+                        <th class="table-cell-wide">FY 2019 Measure</th>
+                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
@@ -1539,7 +1539,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
@@ -1564,7 +1564,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
@@ -1585,11 +1585,11 @@ const ref = {
                         <th class="table-cell-first">National Transit Database Category</th>
                         <th>FY 2019 Targets</th>
                         <th>FY 2019 Measure</th>
-                        <th class="table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1611,7 +1611,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1627,7 +1627,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
@@ -1647,11 +1647,11 @@ const ref = {
                         <th class="table-cell-first">National Transit Database Category</th>
                         <th>FY 2019 Targets</th>
                         <th>FY 2019 Measure</th>
-                        <th class="table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1667,7 +1667,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1683,7 +1683,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-cell-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
