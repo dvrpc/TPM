@@ -33,12 +33,14 @@ const makeSticky = () => {
 const clickIndicator = e => {
     const parent = e.target.parentElement
     if(!parent.classList.contains('indicator-icons-figure')) return
+
+    const activeHeader = document.querySelector('.active-header').id.split('-')[0]
     const f = e.target
     const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousElementSibling.textContent
     const selectedIndicator = parent.dataset.indicator
     const indicators = parent.parentElement.children
     const length = indicators.length
-    const updatedText = ref[selectedIndicator].measure
+    const updatedText = ref[selectedIndicator][activeHeader]
     const theme = selectedIndicator.split(' ').join('-')
     // get header
 
