@@ -55,7 +55,6 @@ h1 {
 /* TPM Indicator Content */
 .content-header{
     font-size: 1.4rem;
-    padding: 6px 0;
 }
 #tpm-content-headers{
     margin-right: 10px;

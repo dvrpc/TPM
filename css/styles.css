@@ -27,6 +27,8 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 /* accents */
 [data-theme="bridgepavement"]#tpm-content-section {
     background-color: #fef9f2;
+    /* darker */
+    background-color: #f9d8ab;
 }
 [data-theme='bridgepavement'] strong, [data-theme='bridgepavement'] .theme-font-color {
     color: #de6e1d;
@@ -39,6 +41,8 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 [data-theme="highway"]#tpm-content-section {
     background-color: #f4fbff;
+    /* darker */
+    background-color: #a8dfff;
 }
 [data-theme="highway"] strong, [data-theme="highway"] .theme-font-color {
     color: #006ba6;
@@ -51,6 +55,9 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 [data-theme="systemperf"]#tpm-content-section {
     background-color: #fdf7f9;
+    /* darker */
+    background-color: #eebacb;
+    background-color: #f3ceda;
 }
 [data-theme="systemperf"] strong, [data-theme="systemperf"] .theme-font-color {
     color: #bd2556;
@@ -63,6 +70,9 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 [data-theme="ptasp"]#tpm-content-section {
     background-color: #fdf9ff;
+    /* darker */
+    background-color: #e4adff;
+    background-color: #ecc6ff;
     
 }
 [data-theme='ptasp'] strong, [data-theme='ptasp'] .theme-font-color {
@@ -76,6 +86,8 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 [data-theme="transitasset"]#tpm-content-section {
     background-color: #f8faf3;
+    /* darker */
+    background-color: #d9e4bd;
 }
 [data-theme='transitasset'] strong, [data-theme='transitasset'] .theme-font-color {
     color: #7b9d3e;
@@ -207,7 +219,7 @@ h1 {
 #tpm-content {
     width: 70%;
     max-width: 70ch;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 0 2rem 0.5rem 2rem;
     margin-top: 15px;
     background: #fff;
@@ -228,13 +240,13 @@ h1 {
 }
 .active-header {
     border: none;
-    font-weight: 700;
+    color: initial !important;
 }
 .tpm-content-headers-btn {
     background: #fff;
     margin-bottom: 9%;
     padding: 1.6rem 0.8rem;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 1rem;
 }
 .tpm-content-headers-btn:not(.active-header) {
@@ -253,11 +265,11 @@ h1 {
     width: 100%;
 	margin: 0;
 	font-size: 2rem;
-	padding: 6px 2.1rem;
+	padding: 0.5rem 2.1rem;
     margin-left: -2.15rem;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
     color: #f7f7f7;
     z-index: 3;
 }
