@@ -73,8 +73,13 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 	position: sticky;
 	top: 0;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
-	z-index: 10;
-	border-bottom: 2px solid #ffec51;
+    z-index: 10;
+    
+    /* theme yellow */
+    border-bottom: 2px solid #ffec51;
+     /* light monochrome bg shade */ 
+    border-bottom: 2px solid #4d534d;
+    
     background: #282B28;
     font-size: 0.85rem;
 }
@@ -109,8 +114,7 @@ h1 {
 #performance-main {
     color: #ffec51;
 }
-#tpm-logo-large {
-    width: 285px;
+#tpm-logo-main {
     margin-right: 25px;
 }
 .splash-text {
@@ -143,21 +147,19 @@ h1 {
     flex-direction: column-reverse;
 }
 .indicator-icons-active {
-    color: #f7f7f7;
-    filter: invert(100%);
     font-weight: 700;
 }
 .indicator-icons-active img {
-    transform: rotate(25deg);
+    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(115%);
 }
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover {
-    transform: rotate(25deg);
+    transform: rotate(10deg);
     filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(115%);
 }
 .indicator-icons-imgs {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
+    /* width: 115px; */
+    height: 125px;
+    /* border-radius: 50%; */
     margin: 0 auto;
 }
 /* END TPM Indicator Icons */
