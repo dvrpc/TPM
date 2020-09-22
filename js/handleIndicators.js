@@ -68,7 +68,7 @@ const clickIndicator = e => {
 
     // scroll to
     if(!beenScrolled) {
-        scrollTo = parent.getBoundingClientRect().top + 5
+        scrollTo = parent.getBoundingClientRect().top - 7
         beenScrolled = true
     }
 
