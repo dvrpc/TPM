@@ -25,78 +25,41 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     font-family: 'Righteous', cursive;
 }
 /* accents */
-[data-theme="bridgepavement"]#tpm-content-section {
-    background-color: #fef9f2;
-    /* darker */
-    background-color: #f9d8ab;
+/* [data-theme="assets"]#tpm-content-section {
+    background-color: #2baab1;
+} */
+[data-theme='assets'] strong, [data-theme='assets'] .theme-font-color {
+    color: #1c6f73;
 }
-[data-theme='bridgepavement'] strong, [data-theme='bridgepavement'] .theme-font-color {
-    color: #de6e1d;
+[data-theme='assets'] .content-header, [data-theme='assets'] .active-header {
+    background: #1c6f73;
 }
-[data-theme='bridgepavement'] .content-header {
-    background: #de6e1d;
+[data-theme='assets'] tbody tr {
+    border-bottom: 2px dotted #1c6f73;
 }
-[data-theme='bridgepavement'] tbody tr {
-    border-bottom: 2px dotted #de6e1d;
+/* [data-theme="safety"]#tpm-content-section {
+    background-color: #ffc886;
+} */
+[data-theme="safety"] strong, [data-theme="safety"] .theme-font-color {
+    color: #ffa639;
 }
-[data-theme="highway"]#tpm-content-section {
-    background-color: #f4fbff;
-    /* darker */
-    background-color: #a8dfff;
+[data-theme='safety'] .content-header,  [data-theme='safety'] .active-header {
+    background: #ffa639;
 }
-[data-theme="highway"] strong, [data-theme="highway"] .theme-font-color {
-    color: #006ba6;
+[data-theme='safety'] tbody tr {
+    border-bottom: 2px dotted #ffa639;
 }
-[data-theme='highway'] .content-header {
-    background: #006ba6;
+/* [data-theme="performance"]#tpm-content-section {
+    background-color: #0087f8;
+} */
+[data-theme="performance"] strong, [data-theme="performance"] .theme-font-color {
+    color: #005dab;
 }
-[data-theme='highway'] tbody tr {
-    border-bottom: 2px dotted #006ba6;
+[data-theme='performance'] .content-header, [data-theme='performance'] .active-header {
+    background: #005dab;
 }
-[data-theme="systemperf"]#tpm-content-section {
-    background-color: #fdf7f9;
-    /* darker */
-    background-color: #eebacb;
-    background-color: #f3ceda;
-}
-[data-theme="systemperf"] strong, [data-theme="systemperf"] .theme-font-color {
-    color: #bd2556;
-}
-[data-theme='systemperf'] .content-header {
-    background: #bd2556;
-}
-[data-theme='systemperf'] tbody tr {
-    border-bottom: 2px dotted #bd2556;
-}
-[data-theme="ptasp"]#tpm-content-section {
-    background-color: #fdf9ff;
-    /* darker */
-    background-color: #e4adff;
-    background-color: #ecc6ff;
-    
-}
-[data-theme='ptasp'] strong, [data-theme='ptasp'] .theme-font-color {
-    color: #582267;
-}
-[data-theme='ptasp'] .content-header {
-    background: #582267;
-}
-[data-theme='ptasp'] tbody tr {
-    border-bottom: 2px dotted #582267;
-}
-[data-theme="transitasset"]#tpm-content-section {
-    background-color: #f8faf3;
-    /* darker */
-    background-color: #d9e4bd;
-}
-[data-theme='transitasset'] strong, [data-theme='transitasset'] .theme-font-color {
-    color: #7b9d3e;
-}
-[data-theme='transitasset'] .content-header {
-    background: #7b9d3e;
-}
-[data-theme='transitasset'] tbody tr {
-    border-bottom: 2px dotted #7b9d3e;
+[data-theme='performance'] tbody tr {
+    border-bottom: 2px dotted #005dab;
 }
 /* END General */
 /***************/
@@ -106,12 +69,12 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 /***************/
 /* Nav/Header */
 #nav-header {
-	color: #4fa3a8;
+    color: #FFEFD3;
 	position: sticky;
 	top: 0;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	z-index: 10;
-	border-bottom: 2px solid #4fa3a8;
+	border-bottom: 2px solid #ffec51;
     background: #282B28;
     font-size: 0.85rem;
 }
@@ -121,6 +84,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 #performance-nav {
     font-weight: 700;
+    color: #ffec51;
 }
 /* END Nav/Header */
 /******************/
@@ -143,7 +107,7 @@ h1 {
     margin: 0;
 }
 #performance-main {
-    color: #4fa3a8;
+    color: #ffec51;
 }
 #tpm-logo-large {
     width: 285px;
@@ -213,7 +177,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background: #e9e9e9;
+    /* background: #e9e9e9; */
+    background: #414541;
     padding-bottom: 3%;
 }
 #tpm-content {
@@ -240,7 +205,8 @@ h1 {
 }
 .active-header {
     border: none;
-    color: initial !important;
+    color: #f7f7f7 !important;
+    font-weight: 700;
 }
 .tpm-content-headers-btn {
     background: #fff;
@@ -269,7 +235,7 @@ h1 {
     margin-left: -2.15rem;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
     color: #f7f7f7;
     z-index: 3;
 }
@@ -375,7 +341,7 @@ footer {
     font-size: 0.9rem;
 }
 footer a {
-    color: #4fa3a8;
+    color: #FFEFD3;
 }
 address {
     font-style: normal;

@@ -38,10 +38,10 @@ const clickIndicator = e => {
     const f = e.target
     const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousElementSibling.textContent
     const selectedIndicator = parent.dataset.indicator
+    const theme = parent.dataset.theme
     const indicators = parent.parentElement.children
     const length = indicators.length
     const updatedText = ref[selectedIndicator][activeHeader]
-    const theme = selectedIndicator.split(' ').join('-')
     // get header
 
     const header = makeHeader(headerText)
