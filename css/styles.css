@@ -14,6 +14,7 @@ body {
 }
 a {
     color: #4A4A48;
+    color: #FFEFD3;
 }
 small{
     font-size: 0.7rem;
@@ -101,12 +102,12 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     display: flex;
     justify-content: center;
     align-items: start;
-    padding: 6% 15px;
+    padding: 5% 15px;
     background: #282B28;
     color: #FFEFD3;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     margin: 0;
 }
 #performance-main {
@@ -115,9 +116,13 @@ h1 {
 #tpm-logo-main {
     margin-right: 25px;
 }
+.splash-summary{
+    font-size: 1.2rem;
+}
 .splash-text {
     font-size: 1.2rem;
-    max-width: 70ch;
+    max-width: 79ch;
+    margin: 0.8rem auto;
 }
 #splash-text-action {
     font-weight: 700;
@@ -338,9 +343,6 @@ footer {
     align-items: center;
     justify-content: space-around;
     font-size: 0.9rem;
-}
-footer a {
-    color: #FFEFD3;
 }
 address {
     font-style: normal;
