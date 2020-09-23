@@ -7,6 +7,7 @@ const iconsWrapper = document.getElementById('indicator-icons-wrapper')
 const tabs = document.getElementById('tpm-content-headers')
 let mainSticky = false
 let beenScrolled = false
+let beenMuted = false
 let scrollTo;
 
 const makeSticky = () => {
@@ -29,6 +30,17 @@ const makeSticky = () => {
     }
 }
 
+const muteIndicators = () => {
+    const figs = iconsWrapper.children
+    const l = figs.length
+    let i = 0
+
+    for(i; i < l; i++) {
+        figs[i].classList.add('muted-40')
+    }
+
+    return true
+}
 // show the content section + generate the default content ("What do we measure?")
 const clickIndicator = e => {
     const parent = e.target.parentElement
@@ -42,7 +54,6 @@ const clickIndicator = e => {
     const indicators = parent.parentElement.children
     const length = indicators.length
     const updatedText = ref[selectedIndicator][activeHeader]
-    // get header
 
     const header = makeHeader(headerText)
     
@@ -63,8 +74,9 @@ const clickIndicator = e => {
     contentSection.classList.add('content-section-active')
     contentSection.dataset.theme = theme
 
-    // set header sticky
+    // set header sticky & mute inactive indicator icon imgs
     makeSticky()
+    if(!beenMuted) beenMuted = muteIndicators()
 
     // scroll to
     if(!beenScrolled) {

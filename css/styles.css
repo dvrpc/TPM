@@ -24,7 +24,7 @@ small{
 h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     font-family: 'Righteous', cursive;
 }
-/* accents */
+/* accents @TODO: make em CSS variables*/ 
 [data-theme='assets'] strong, [data-theme='assets'] .theme-font-color, [data-theme="assets"] figcaption {
     color: #1c6f73;
 }
@@ -36,6 +36,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 [data-theme="safety"] strong, [data-theme="safety"] .theme-font-color, [data-theme="safety"] figcaption {
     color: #ffa639;
+    color: #df881e; /* @NEW better contrast but still not AA. Talk to Becky about alternatives */
 }
 [data-theme='safety'] .content-header,  [data-theme='safety'] .active-header {
     background: #ffa639;
@@ -51,6 +52,9 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 [data-theme='performance'] tbody tr {
     border-bottom: 2px dotted #005dab;
+}
+.muted-40 {
+    filter: opacity(40%);
 }
 /* END General */
 /***************/
@@ -138,22 +142,20 @@ h1 {
     cursor: pointer;
     display: flex;
     flex-direction: column-reverse;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .indicator-icons-active {
     font-weight: 700;
-}
-.indicator-icons-active img {
-    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(125%);
+    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
 }
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover {
     transform: rotate(5deg);
-    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(125%);
+}
+.indicator-icons-figure:hover {
+    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
 }
 .indicator-icons-imgs {
-    /* width: 115px; */
-    height: 125px;
-    /* border-radius: 50%; */
+    height: 110px;
     margin: 0 auto;
 }
 /* END TPM Indicator Icons */
@@ -181,7 +183,7 @@ h1 {
     width: 70%;
     max-width: 70ch;
     border-radius: 6px;
-    padding: 0 2rem 0.5rem 2rem;
+    padding: 0 2.5rem 0.5rem 2.5rem;
     margin-top: 15px;
     background: #f7f7f7;
     font-size: 1rem;
@@ -221,19 +223,20 @@ h1 {
 .tpm-content-headers-btn:last-child {
     margin-bottom: 0;
 }
+
 .content-header {
 	text-align: center;
 	background: white;
-    width: 100%;
+	width: 100%;
 	margin: 0;
 	font-size: 2rem;
-	padding: 0.5rem 2.1rem;
-    margin-left: -2.1rem;
-    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
+	padding: 0.5rem 3rem;
+	margin-left: -3rem;
+	box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    color: #f7f7f7;
-    z-index: 3;
+	border-top-right-radius: 6px;
+	color: #f7f7f7;
+	z-index: 3;
 }
 .tpm-content-subheaders {
     margin-bottom: 0;
