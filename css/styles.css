@@ -13,8 +13,7 @@ body {
     line-height: 1.7;
 }
 a {
-    color: #4A4A48;
-    color: #FFEFD3;
+    color: inherit;
 }
 small{
     font-size: 0.7rem;
@@ -152,6 +151,9 @@ h1 {
 .indicator-icons-active {
     font-weight: 700;
     filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
+}
+.indicator-icons-figcaption {
+    font-family: 'Righteous', cursive;
 }
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover {
     transform: rotate(5deg);

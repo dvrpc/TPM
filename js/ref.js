@@ -1594,20 +1594,20 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>10%</td>
-                            <td>TBD</td>
-                            <td class="table-cell-last">TBD</td>
+                            <td>3.5%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
                             <td>10%</td>
-                            <td>TBD</td>
-                            <td class="table-cell-last">TBD</td>
+                            <td>1.8%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td>5%</td>
-                            <td>TBD</td>
-                            <td class="table-cell-last">TBD</td>
+                            <td>1.3%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
