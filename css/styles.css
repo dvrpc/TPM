@@ -15,43 +15,46 @@ body {
 a {
     color: inherit;
 }
-small{
+small {
     font-size: 0.7rem;
 }
 .padding-wrapper {
     padding: 15px;
 }
+:root {
+    --assets-color: #1c6f73;
+    --safety-color: #df881e;
+    --performance-color: #005dab
+}
 h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     font-family: 'Righteous', cursive;
 }
-/* accents @TODO: make em CSS variables*/ 
 [data-theme='assets'] strong, [data-theme='assets'] .theme-font-color, [data-theme="assets"] figcaption {
-    color: #1c6f73;
+    color: var(--assets-color);
 }
 [data-theme='assets'] .content-header, [data-theme='assets'] .active-header {
-    background: #1c6f73;
+    background: var(--assets-color);
 }
 [data-theme='assets'] tbody tr {
-    border-bottom: 2px dotted #1c6f73;
+    border-bottom: 2px dotted var(--assets-color);
 }
 [data-theme="safety"] strong, [data-theme="safety"] .theme-font-color, [data-theme="safety"] figcaption {
-    color: #ffa639;
-    color: #df881e; /* @NEW better contrast but still not AA. Talk to Becky about alternatives */
+    color: var(--safety-color);
 }
 [data-theme='safety'] .content-header,  [data-theme='safety'] .active-header {
-    background: #ffa639;
+    background: var(--safety-color);
 }
 [data-theme='safety'] tbody tr {
-    border-bottom: 2px dotted #ffa639;
+    border-bottom: 2px dotted var(--safety-color);
 }
 [data-theme="performance"] strong, [data-theme="performance"] .theme-font-color, [data-theme="performance"] figcaption {
-    color: #005dab;
+    color: var(--performance-color);
 }
 [data-theme='performance'] .content-header, [data-theme='performance'] .active-header {
-    background: #005dab;
+    background: var(--performance-color);
 }
 [data-theme='performance'] tbody tr {
-    border-bottom: 2px dotted #005dab;
+    border-bottom: 2px dotted var(--performance-color);
 }
 .muted-40 {
     filter: opacity(40%);
