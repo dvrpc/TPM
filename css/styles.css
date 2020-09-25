@@ -18,18 +18,23 @@ a {
 small {
     font-size: 0.7rem;
 }
-.padding-wrapper {
-    padding: 15px;
-}
 :root {
     --assets-color: #1c6f73;
     --safety-color: #df881e;
-    --performance-color: #005dab
+    --performance-color: #005dab;
+    --indicator-active-filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
+    --accent-gold: #ffec51;
+    --accent-gold-light: #FFEFD3;
+    --accent-black: #030303;
+    --accent-black-light: #282B28;
 }
-h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
+.padding-wrapper {
+    padding: 15px;
+}
+h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .indicator-icons-figcaption {
     font-family: 'Righteous', cursive;
 }
-[data-theme='assets'] strong, [data-theme='assets'] .theme-font-color, [data-theme="assets"] figcaption {
+[data-theme='assets'] strong, [data-theme='assets'] .theme-font-color, [data-theme="assets"] .indicator-icons-figcaption {
     color: var(--assets-color);
 }
 [data-theme='assets'] .content-header, [data-theme='assets'] .active-header {
@@ -38,7 +43,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 [data-theme='assets'] tbody tr {
     border-bottom: 2px dotted var(--assets-color);
 }
-[data-theme="safety"] strong, [data-theme="safety"] .theme-font-color, [data-theme="safety"] figcaption {
+[data-theme="safety"] strong, [data-theme="safety"] .theme-font-color, [data-theme="safety"] .indicator-icons-figcaption {
     color: var(--safety-color);
 }
 [data-theme='safety'] .content-header,  [data-theme='safety'] .active-header {
@@ -47,7 +52,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 [data-theme='safety'] tbody tr {
     border-bottom: 2px dotted var(--safety-color);
 }
-[data-theme="performance"] strong, [data-theme="performance"] .theme-font-color, [data-theme="performance"] figcaption {
+[data-theme="performance"] strong, [data-theme="performance"] .theme-font-color, [data-theme="performance"] .indicator-icons-figcaption {
     color: var(--performance-color);
 }
 [data-theme='performance'] .content-header, [data-theme='performance'] .active-header {
@@ -67,18 +72,18 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 /***************/
 /* Nav/Header */
 #nav-header {
-    color: #FFEFD3;
+    color: var(--accent-gold-light);
 	position: sticky;
 	top: 0;
     box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
     z-index: 10;
     
     /* theme yellow */
-    border-bottom: 2px solid #ffec51;
+    border-bottom: 2px solid var(--accent-gold);
      /* light monochrome bg shade */ 
     border-bottom: 2px solid #4d534d;
     
-    background: #030303;
+    background: var(--accent-black);
     font-size: 0.85rem;
 }
 #nav-header-nav {
@@ -91,7 +96,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
 }
 #performance-nav {
     font-weight: 700;
-    color: #ffec51;
+    color: var(--accent-gold);
 }
 /* END Nav/Header */
 /******************/
@@ -105,15 +110,15 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title {
     justify-content: center;
     align-items: start;
     padding: 5% 15px;
-    background: #282B28;
-    color: #FFEFD3;
+    background: var(--accent-black-light);
+    color: var(--accent-gold-light);
 }
 h1 {
     font-size: 2.6rem;
     margin: 0;
 }
 #performance-main {
-    color: #ffec51;
+    color: var(--accent-gold);
 }
 #tpm-logo-main {
     margin-right: 25px;
@@ -139,7 +144,7 @@ h1 {
 #indicator-icons-wrapper {
     display: flex;
     justify-content: space-around;
-    background: #030303;
+    background: var(--accent-black);
     padding: 2% 15px 3% 15px;
     z-index: 2;
 }
@@ -153,16 +158,13 @@ h1 {
 }
 .indicator-icons-active {
     font-weight: 700;
-    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
-}
-.indicator-icons-figcaption {
-    font-family: 'Righteous', cursive;
+    filter: var(--indicator-active-filter);
 }
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover {
     transform: rotate(5deg);
 }
 .indicator-icons-figure:hover {
-    filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
+    filter: var(--indicator-active-filter);
 }
 .indicator-icons-imgs {
     height: 110px;
@@ -186,7 +188,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background: #282B28;
+    background: var(--accent-black-light);
     padding-bottom: 3%;
 }
 #tpm-content {
@@ -310,7 +312,7 @@ td:not(.table-cell-first) {
     display: block;
     width: 0.7rem;
     height: 0.7rem;
-    background: #282B28;
+    background: var(--accent-black-light);
     border-radius: 50%;
 }
 .dates-entry-text {
@@ -325,12 +327,12 @@ td:not(.table-cell-first) {
 .dates-entry-left {
     text-align: right;
     padding-right: 15px;
-    border-right: 1px solid #282B28;
+    border-right: 1px solid var(--accent-black-light);
 }
 .dates-entry-right {
     align-self: end;
     padding-left: 15px;
-    border-left: 1px solid #282B28;
+    border-left: 1px solid var(--accent-black-light);
 }
 /* END TPM Indicator Content */
 /*****************************/
@@ -342,7 +344,7 @@ td:not(.table-cell-first) {
 footer {
     height: 250px;
     padding: 4% 15.5%;
-    background: #030303;
+    background: var(--accent-black);
     color: #f7f7f7;
     display: flex;
     align-items: center;
