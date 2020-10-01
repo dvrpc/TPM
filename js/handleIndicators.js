@@ -5,11 +5,19 @@ const contentWrapper = document.getElementById('tpm-content')
 const nav = document.getElementById('nav-header')
 const iconsWrapper = document.getElementById('indicator-icons-wrapper')
 const tabs = document.getElementById('tpm-content-headers')
-let mainSticky = false // @TODO this will become a param, not this variable bullshit
-let beenScrolled = false
-let beenMuted = false
-let scrollTo = window.pageYOffset + iconsWrapper.getBoundingClientRect().top
+const moreInfo = document.getElementById('more-info')
 
+let mainSticky = false // @TODO this will become a param, not this variable bullshit
+let beenMuted = false
+let beenScrolled = false
+let scrollTo;
+
+// using beenScrolled to set the value and then flipping the bool on resize works except for the accordion of text on the homepage
+// w/o beenscrolled, this works for all cases where the header/iconsWrapper isn't sticky yet and adds extra scroll when they are sticky...
+// naive solution: beenScrolled + event listner on accordion toggle state.
+const calculateScrollTo = header => window.pageYOffset + iconsWrapper.getBoundingClientRect().top + (header.getBoundingClientRect().height/2)
+
+// @TODO handle dynamic viewport width/height
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
     const navHeight = nav.clientHeight
@@ -75,27 +83,19 @@ const clickIndicator = e => {
     contentSection.dataset.theme = theme
 
 
-    // @TODO scroll update
     // set header sticky & mute inactive indicator icon imgs
-    const scrollTwo = makeSticky()
+    makeSticky()
     if(!beenMuted) beenMuted = muteIndicators()
-
-    // scroll to
     if(!beenScrolled) {
-        scrollTo += (header.getBoundingClientRect().height/2)
+        scrollTo = calculateScrollTo(header)
         beenScrolled = true
     }
+    // scrollTo = calculateScrollTo(header)
 
-    // @UPDATE 
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
     })
-    // header.scrollIntoView({
-    //     behavior: 'smooth',
-    //     block: 'nearest'
-    // })
-    // @TODO END scroll update
 
     // update url
     const encodedIndicator = encodeURI(selectedIndicator)
@@ -142,7 +142,12 @@ const handleTabs = e => {
     contentWrapper.insertAdjacentHTML('afterbegin', newText)
     contentWrapper.insertAdjacentElement('afterbegin', header)
 
+    // this is needed b/c the h2 element is dynamically created. Need a way to avoid this. 
     makeSticky()
+    if(!beenScrolled) {
+        scrollTo = calculateScrollTo(header)
+        beenScrolled = true
+    }
 
     window.scrollTo({
         top: scrollTo,
@@ -150,9 +155,10 @@ const handleTabs = e => {
     })
 }
 
-// recalculate scroll and sticky values
+// handle updates to scroll and sticky fncs
 window.onresize = () => {
-    scrollTo = window.pageYOffset + iconsWrapper.getBoundingClientRect().top
+    makeSticky()
+    beenScrolled = false
 }
-
+moreInfo.ontoggle = () => beenScrolled = false
 export { clickIndicator, handleTabs }
