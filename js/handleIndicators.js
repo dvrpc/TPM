@@ -5,16 +5,10 @@ const contentWrapper = document.getElementById('tpm-content')
 const nav = document.getElementById('nav-header')
 const iconsWrapper = document.getElementById('indicator-icons-wrapper')
 const tabs = document.getElementById('tpm-content-headers')
-let mainSticky = false
+let mainSticky = false // @TODO this will become a param, not this variable bullshit
 let beenScrolled = false
 let beenMuted = false
-let scrollTo = iconsWrapper.getBoundingClientRect().top
-console.log('scrollTo value default ', scrollTo)
-
-window.onresize = () => {
-    scrollTo = iconsWrapper.getBoundingClientRect().bottom
-    console.log('scrollTo on resize ', scrollTo)
-}
+let scrollTo = window.pageYOffset + iconsWrapper.getBoundingClientRect().top
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
@@ -150,11 +144,15 @@ const handleTabs = e => {
 
     makeSticky()
 
-    // @UPDATE here
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
     })
+}
+
+// recalculate scroll and sticky values
+window.onresize = () => {
+    scrollTo = window.pageYOffset + iconsWrapper.getBoundingClientRect().top
 }
 
 export { clickIndicator, handleTabs }
