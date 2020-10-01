@@ -8,7 +8,13 @@ const tabs = document.getElementById('tpm-content-headers')
 let mainSticky = false
 let beenScrolled = false
 let beenMuted = false
-let scrollTo;
+let scrollTo = iconsWrapper.getBoundingClientRect().top
+console.log('scrollTo value default ', scrollTo)
+
+window.onresize = () => {
+    scrollTo = iconsWrapper.getBoundingClientRect().bottom
+    console.log('scrollTo on resize ', scrollTo)
+}
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
@@ -74,20 +80,28 @@ const clickIndicator = e => {
     contentSection.classList.add('content-section-active')
     contentSection.dataset.theme = theme
 
+
+    // @TODO scroll update
     // set header sticky & mute inactive indicator icon imgs
-    makeSticky()
+    const scrollTwo = makeSticky()
     if(!beenMuted) beenMuted = muteIndicators()
 
     // scroll to
     if(!beenScrolled) {
-        scrollTo = parent.getBoundingClientRect().top
+        scrollTo += (header.getBoundingClientRect().height/2)
         beenScrolled = true
     }
 
+    // @UPDATE 
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
     })
+    // header.scrollIntoView({
+    //     behavior: 'smooth',
+    //     block: 'nearest'
+    // })
+    // @TODO END scroll update
 
     // update url
     const encodedIndicator = encodeURI(selectedIndicator)
@@ -136,6 +150,7 @@ const handleTabs = e => {
 
     makeSticky()
 
+    // @UPDATE here
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
