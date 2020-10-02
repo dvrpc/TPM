@@ -5,23 +5,29 @@ const contentWrapper = document.getElementById('tpm-content')
 const nav = document.getElementById('nav-header')
 const iconsWrapper = document.getElementById('indicator-icons-wrapper')
 const tabs = document.getElementById('tpm-content-headers')
-let mainSticky = false
-let beenScrolled = false
+const moreInfo = document.getElementById('more-info')
+const splash = document.getElementById('splash-page')
+
+let mainBeenSticky = false
 let beenMuted = false
+let beenScrolled = false
 let scrollTo;
+
+// @IMPROVEMENT: adding 15 makes sure it always scroll to the sticky point, but doesn't scale perfectly. Calculate percentages and use that
+const calculateScrollTo = header => splash.getBoundingClientRect().height + header.getBoundingClientRect().height + 15
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
     const navHeight = nav.clientHeight
     const iconsHeight = iconsWrapper.clientHeight
     const comboHeight = navHeight + iconsHeight
-
-    if(!mainSticky){
+    
+    if(!mainBeenSticky){
         iconsWrapper.style.position = 'sticky'
         iconsWrapper.style.top = `calc(${navHeight}px - 2%)`
         tabs.style.position = 'sticky'
         tabs.style.top = (comboHeight + 40) + 'px'
-        mainSticky = true
+        mainBeenSticky = true
     }
 
     if(headerActive){
@@ -74,15 +80,15 @@ const clickIndicator = e => {
     contentSection.classList.add('content-section-active')
     contentSection.dataset.theme = theme
 
+
     // set header sticky & mute inactive indicator icon imgs
     makeSticky()
     if(!beenMuted) beenMuted = muteIndicators()
-
-    // scroll to
     if(!beenScrolled) {
-        scrollTo = parent.getBoundingClientRect().top
+        scrollTo = calculateScrollTo(header)
         beenScrolled = true
     }
+    // scrollTo = calculateScrollTo(header)
 
     window.scrollTo({
         top: scrollTo,
@@ -134,12 +140,27 @@ const handleTabs = e => {
     contentWrapper.insertAdjacentHTML('afterbegin', newText)
     contentWrapper.insertAdjacentElement('afterbegin', header)
 
+    // this is needed b/c the h2 element is dynamically created. Need a way to avoid this. 
     makeSticky()
+    if(!beenScrolled) {
+        scrollTo = calculateScrollTo(header)
+        beenScrolled = true
+    }
 
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
     })
 }
+
+// handle updates to scroll and sticky fncs
+window.onresize = () => {
+    makeSticky()
+    beenScrolled = false
+}
+// @BUG: toggling read more w/an active indicator and then scrolling down far enough break the scrollTo calculation.
+    // means the scroll function fails if offsetY is large enough. Solving that could solve the beenScrolled dependency altogether.
+moreInfo.ontoggle = () => beenScrolled = false
+
 
 export { clickIndicator, handleTabs }
