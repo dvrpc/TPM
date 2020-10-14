@@ -164,6 +164,7 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     font-size: 1rem;
+    max-width: 20%;
 }
 .indicator-icons-active {
     font-weight: 700;
