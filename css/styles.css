@@ -22,7 +22,8 @@ small {
     --assets-color: #1c6f73;
     --safety-color: #df881e;
     --performance-color: #005dab;
-    --indicator-active-filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
+    --indicator-hover-filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3)) brightness(130%);
+    --indicator-active-filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3));
     --accent-gold: #ffec51;
     --accent-gold-light: #FFEFD3;
     --accent-black: #030303;
@@ -77,20 +78,16 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
     color: var(--accent-gold-light);
 	position: sticky;
 	top: 0;
-    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
     z-index: 10;
-    
-    /* theme yellow */
-    border-bottom: 2px solid var(--accent-gold);
-     /* light monochrome bg shade */ 
     border-bottom: 2px solid #4d534d;
-    
     background: var(--accent-black);
     font-size: 1rem;
+    padding: 12px 20px 2px 20px;
+    box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 }
 #nav-header-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
 }
 #nav-header-img {
@@ -115,12 +112,12 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
     display: flex;
     justify-content: center;
     align-items: start;
-    padding: 4% 15px;
+    padding: 5% 15px;
     background: var(--accent-black-light);
     color: var(--accent-gold-light);
 }
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.35rem;
     margin: 0;
 }
 #performance-main {
@@ -137,7 +134,7 @@ h1 {
 }
 .splash-text {
     font-size: var(--splash-text-font-size);
-    max-width: 75ch;
+    max-width: 70ch;
     /* @UPDATE */
     /* margin: 0.8rem auto; */
     margin-top: 0.8rem;
@@ -176,10 +173,10 @@ h1 {
     transform: rotate(5deg);
 }
 .indicator-icons-figure:hover {
-    filter: var(--indicator-active-filter);
+    filter: var(--indicator-hover-filter);
 }
 .indicator-icons-imgs {
-    height: 120px;
+    height: 130px;
     margin: 0 auto;
 }
 /* END TPM Indicator Icons */
@@ -357,7 +354,7 @@ footer {
     height: 250px;
     padding: 4% 15.5%;
     background: var(--accent-black);
-    color: #f7f7f7;
+    color: var(--accent-gold-light);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -382,7 +379,7 @@ address {
 }
 .vr {
     display: block;
-    border-right: 1px solid #f7f7f7;
+    border-right: 1px solid var(--accent-gold-light);
     margin: 0 3%;
 }
 .footer-social {
