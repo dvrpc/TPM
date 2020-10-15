@@ -14,25 +14,30 @@ let beenScrolled = false
 let scrollTo;
 
 // @IMPROVEMENT: adding 15 makes sure it always scroll to the sticky point, but doesn't scale perfectly. Calculate percentages and use that
-const calculateScrollTo = header => splash.getBoundingClientRect().height + header.getBoundingClientRect().height + 15
+const calculateScrollTo = header => {
+    const isMobile = window.innerWidth > 415 ? false : true
+    const buffer = (isMobile ? 0 : 15)
+    return splash.getBoundingClientRect().height + header.getBoundingClientRect().height + buffer
+}
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
     const navHeight = nav.clientHeight
     const iconsHeight = iconsWrapper.clientHeight
     const comboHeight = navHeight + iconsHeight
+    const isMobile = window.innerWidth > 415 ? false : true
     
     if(!mainBeenSticky){
         iconsWrapper.style.position = 'sticky'
-        iconsWrapper.style.top = `calc(${navHeight}px - 2%)`
+        iconsWrapper.style.top = isMobile ? '5%' : `calc(${navHeight}px - 2%)`
         tabs.style.position = 'sticky'
-        tabs.style.top = (comboHeight + 40) + 'px'
+        tabs.style.top = isMobile ? '35%' : (comboHeight + 40) + 'px'
         mainBeenSticky = true
     }
 
     if(headerActive){
         headerActive.style.position = 'sticky'
-        headerActive.style.top = `calc(${comboHeight}px - 7%)`
+        headerActive.style.top = isMobile ? `calc(${comboHeight}px - 1%)` : `calc(${comboHeight}px - 7%)`
     }
 }
 
@@ -47,6 +52,7 @@ const muteIndicators = () => {
 
     return true
 }
+
 // show the content section + generate the default content ("What do we measure?")
 const clickIndicator = e => {
     const parent = e.target.parentElement
@@ -100,6 +106,7 @@ const clickIndicator = e => {
     const indicatorURI = `?indicator=${encodedIndicator}`
     history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
 }
+
 const makeHeader = name => {
     const header = document.createElement('h2')
 
@@ -158,8 +165,6 @@ window.onresize = () => {
     makeSticky()
     beenScrolled = false
 }
-// @BUG: toggling read more w/an active indicator and then scrolling down far enough break the scrollTo calculation.
-    // means the scroll function fails if offsetY is large enough. Solving that could solve the beenScrolled dependency altogether.
 moreInfo.ontoggle = () => beenScrolled = false
 
 

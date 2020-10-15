@@ -1320,7 +1320,7 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
-            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrates how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
+            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
             <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
             <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets.</p>
 
