@@ -31,7 +31,7 @@ const makeSticky = () => {
         iconsWrapper.style.position = 'sticky'
         iconsWrapper.style.top = isNarrow ? '5%' : `calc(${navHeight}px - 2%)`
         tabs.style.position = 'sticky'
-        tabs.style.top = isNarrow ? '35%' : (comboHeight + 40) + 'px'
+        tabs.style.top = isNarrow ? '40%' : (comboHeight + 40) + 'px'
         mainBeenSticky = true
     }
 

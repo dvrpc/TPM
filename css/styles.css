@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     line-height: 1.7;
+    background: var(--accent-black);
 }
 a {
     color: inherit;
@@ -26,7 +27,7 @@ small {
     --indicator-active-filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3));
     --accent-gold: #ffec51;
     --accent-gold-light: #FFEFD3;
-    --accent-black: #030303;
+    --accent-black: #000;
     --accent-black-light: #282B28;
     --splash-text-font-size: 1.2rem;
 }
@@ -197,8 +198,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background: var(--accent-black-light);
     padding-bottom: 3%;
+    background: var(--accent-black-light);
 }
 #tpm-content {
     width: 70%;
@@ -353,8 +354,7 @@ td:not(.table-cell-first) {
 footer {
     height: 250px;
     padding: 4% 15.5%;
-    background: var(--accent-black);
-    color: var(--accent-gold-light);
+    color: var(--accent-gold);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -379,7 +379,7 @@ address {
 }
 .vr {
     display: block;
-    border-right: 1px solid var(--accent-gold-light);
+    border-right: 1px solid var(--accent-gold);
     margin: 0 3%;
 }
 .footer-social {
