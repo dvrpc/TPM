@@ -1036,7 +1036,7 @@ const ref = {
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
                         <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide" class="table-cell-last">FY 2019 Targets</th>
+                        <th class="table-cell-wide table-cell-last">FY 2019 Targets</th>
                     </thead class="table-cell-wide">
                     <tbody>
                         <tr>
@@ -1168,7 +1168,7 @@ const ref = {
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
                         <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide" class="table-cell-last">FY 2019 Targets</th>
+                        <th class="table-cell-wide table-cell-last">FY 2019 Targets</th>
                     </thead class="table-cell-wide">
                     <tbody>
                         <tr class="table-cell-no-border">

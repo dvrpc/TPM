@@ -340,7 +340,7 @@ td:not(.table-cell-first) {
     border-right: 1px solid var(--accent-black-light);
 }
 .dates-entry-right {
-    align-self: end;
+    align-self: flex-end;
     padding-left: 15px;
     border-left: 1px solid var(--accent-black-light);
 }

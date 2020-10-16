@@ -74,6 +74,18 @@ h1 {
 .content-header {
     font-size: 1.2rem;
 }
+.table-overflow-wrapper {
+    width: 100%;
+}
+table {
+    width: 150%;
+}
+td:not(.table-cell-first) {
+    font-size: inherit;
+}
+.table-cell-first, .table-cell-wide-extra, .table-cell-wide {
+    width: auto;
+}
 /* END TPM Indicator Content */
 /*****************************/
 
