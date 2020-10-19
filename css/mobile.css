@@ -4,7 +4,8 @@ html {
     font-size: 12px;
 }
 h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 /* END General */
 /***************/
@@ -31,7 +32,7 @@ h1 {
     padding: 5% 15px;
 }
 #tpm-logo-main {
-    width: 100px;
+    width: 120px;
 }
 
 /* END Splash page */
@@ -46,9 +47,12 @@ h1 {
 }
 .indicator-icons-imgs {
     height: 50px;
+    padding-bottom: 2px;
 }
 .indicator-icons-figure {
     font-size: 0.9rem;
+    line-height: initial;
+    align-self: flex-start;
 }
 /* END TPM Indicator Icons */
 /***************************/

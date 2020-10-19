@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     line-height: 1.7;
-    background: var(--accent-black);
+    background: var(--accent-black-light);
 }
 a {
     color: inherit;
@@ -99,7 +99,6 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
     text-decoration: none;
 }
 #performance-nav {
-    font-weight: 700;
     color: var(--accent-gold);
 }
 /* END Nav/Header */
@@ -114,7 +113,6 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
     justify-content: center;
     align-items: start;
     padding: 5% 15px;
-    background: var(--accent-black-light);
     color: var(--accent-gold-light);
 }
 h1 {
@@ -165,6 +163,7 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     font-size: 1.04rem;
+    -webkit-text-stroke: 1px var(--accent-gold-light);
 }
 .indicator-icons-active {
     font-weight: 700;
@@ -355,10 +354,14 @@ footer {
     height: 250px;
     padding: 4% 15.5%;
     color: var(--accent-gold);
+    background: var(--accent-black-light);
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 0.9rem;
+}
+#connect-with-us-h2 {
+    margin: 0
 }
 address {
     font-style: normal;
