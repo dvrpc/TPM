@@ -19,6 +19,9 @@ a {
 small {
     font-size: 0.7rem;
 }
+summary {
+    cursor: pointer;
+}
 :root {
     --assets-color: #1c6f73;
     --safety-color: #df881e;
@@ -163,7 +166,7 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     font-size: 1.04rem;
-    -webkit-text-stroke: 1px var(--accent-gold-light);
+    -webkit-text-stroke: 0.5px var(--accent-gold-light);
 }
 .indicator-icons-active {
     font-weight: 700;
@@ -360,8 +363,11 @@ footer {
     justify-content: space-around;
     font-size: 0.9rem;
 }
+footer a {
+    color: var(--accent-gold-light);
+}
 #connect-with-us-h2 {
-    margin: 0
+    margin: 0;
 }
 address {
     font-style: normal;
