@@ -607,7 +607,7 @@ const ref = {
             <h4 class="tpm-content-subheaders theme-font-color">Performance of the CMAQ Program</h4>
             <p>There are three performance measures established to measure the performance of the federal Congestion Mitigation and Air Quality (CMAQ) program. Two of the measures assess the program’s influence on traffic congestion and the third measures the program’s performance in reducing on-road mobile source emissions.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Congestion Measures</h4>
-            <p>State DOTs, in collaboration with the appropriate MPOs, must establish single, unified targets for the Peak Hour Excessive Delay (PHED) and Percent Non-Single Occupant Vehicle (non-SOV) Travel on the NHS in urbanized areas (UZAs) that intersect with Clean Air Act Nonattainment or Maintenance Areas. Single targets are established for an entire UZA across state and MPO boundaries through a collaborative planning process. Peak Hour Excessive delay (PHED) per capita on the NHS is the threshold for excessive delay and is based on the travel time at 20 miles per hour or 60 percent of the posted speed limit travel time, whichever is greater, and is measured in 15-minute intervals. Peak travel hours are defined as 6–10 a.m. on weekday mornings and the weekday afternoon period is 3–7 p.m. The total excessive delay metric is weighted by vehicle volumes and occupancy.</p>
+            <p>State DOTs, in collaboration with the appropriate MPOs, must establish single, unified targets for the Peak Hour Excessive Delay (PHED) and Percent Non-Single Occupant Vehicle (non-SOV) Travel on the NHS in urbanized areas (UZAs) that intersect with Clean Air Act Nonattainment or Maintenance Areas. Single targets are established for an entire UZA across state and MPO boundaries through a collaborative planning process. Peak Hour Excessive Delay (PHED) per capita on the NHS is the threshold for excessive delay and is based on the travel time at 20 miles per hour or 60 percent of the posted speed limit travel time, whichever is greater, and is measured in 15-minute intervals. Peak travel hours are defined as 6–10 a.m. on weekday mornings and the weekday afternoon period is 3–7 p.m. The total excessive delay metric is weighted by vehicle volumes and occupancy.</p>
             <p>The performance-based planning regulation requires that state DOTs set two- and four-year targets for PHED and percent non-SOV Travel for urbanized areas (UZAs) with populations greater than 1 million people in the first performance period (beginning in 2018) and two- and four-year targets for UZAs with populations greater than 200,000 people in the second and subsequent performance periods (beginning in 2022). Targets are set for:</p>
             <ul>
                 <li>Annual hours of peak hour excessive delay per person for the entire UZA.</li>
@@ -618,6 +618,7 @@ const ref = {
             <ul>
                 <li>On-road mobile source emissions reduced through the CMAQ program for the Ozone precursors Nitrogen Oxides (NO<sub>x</sub>) and Volatile Organic Compounds (VOC<sub>s</sub>), Fine Particulate Matter (PM<sub>2.5</sub>), and Carbon Monoxide (CO). CO is required in Pennsylvania only.</li>
             </ul>
+            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. DVRPC has adopted and supports the respective state DOT targets.</p>
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
@@ -716,7 +717,7 @@ const ref = {
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first table-cell-first-narrow">Philadelphia<br />PA-NJ-DE-MD UZA</td>
+                            <td class="table-cell-first-narrow">Philadelphia<br />PA-NJ-DE-MD UZA</td>
                             <td colspan="4">
                                 <table>
                                     <tr>
@@ -811,14 +812,14 @@ const ref = {
             <small>Source: DVRPC 2018</small><br />
             <small><sup>1</sup>CO is not a required measure in New Jersey because all CO Maintenance Areas are beyond the Maintenance Plan horizons.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania CMAQ Emissions Reduction Targets</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <tr>
                             <th></th>
-                            <th colspan="2" class="theme-font-color">DVRPC 4-County<br />New Jersey Subregion</th>
-                            <th colspan="2" class="theme-font-color">New Jersey Statewide</th>
+                            <th colspan="2" class="theme-font-color">DVRPC 4-County<br />Pennsylvania Subregion</th>
+                            <th colspan="2" class="theme-font-color">Pennsylvania Statewide</th>
                         </tr>
                         <tr>
                             <th class="table-cell-first">Measure</th>
@@ -872,7 +873,7 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-Year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report is due in October 2020. Progress towards meeting the system performance targets will be reported here when the interim progress reports are adopted by the DVRPC Board.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report is due in October 2020. Progress towards meeting the system performance targets will be reported here when the interim progress reports are adopted by the DVRPC Board.</p>
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
             <p>If the state does not meet the baseline condition or exceeds its target of travel time reliability on the Interstate system or non-Interstate system (measured separately), the state shall provide documentation identifying why the target wasn’t met and actions that will be taken to improve system reliability.</p>
@@ -907,7 +908,7 @@ const ref = {
                 </div>
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>September 1, 2020</strong><br />Interim Progress Report for the 1<sup>st</sup> Performance Period due. State DOTs report two-year condition/performance and progress toward achieving two-year targets.</p>
+                    <p class="dates-entry-text"><strong>October 1, 2020</strong><br />Interim Progress Report for the 1<sup>st</sup> Performance Period due. State DOTs report two-year condition/performance and progress toward achieving two-year targets.</p>
                 </div>
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
@@ -925,7 +926,7 @@ const ref = {
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
             <ul>
-                <li><a href="">DVRPC CMAQ Performance Plan</a></li>
+                <li><a href="https://dvrpc.org/Reports/TM21003.pdf">DVRPC CMAQ Performance Plan</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/rule/170601pm3.pdf" target="blank" rel="noopener noreferrer">National Performance Management Measures to Assess System Performance, Freight Movement, and CMAQ Improvement Program Presentation</a></li>

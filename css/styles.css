@@ -292,6 +292,7 @@ td:not(.table-cell-first) {
 }
 /* @TODO width isn't applying for narrow*/
 .table-cell-first-narrow {
+    text-align: left;
     width: 20ch;
 }
 .table-nested-header-first {
