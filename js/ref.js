@@ -61,8 +61,8 @@
 const ref = {
     'highway': {
         'measure': `
-            <h3 class="tpm-content-section-header theme-font-color">What do We Measure?</h3>
-            <p>State Departments of Transportation (DOTs) and Metropolitan Planning Organizations (MPOs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of non-motorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. </p>
+            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
+            <p>State Departments of Transportation (DOTs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of non-motorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. </p>
             <p>FHWA requires the DOTs and MPOs to establish safety targets on an annual basis for:</p>
             <ul>
                 <li><strong>Number of Fatalities:</strong> The total number of persons suffering fatal injuries in a motor vehicle crash during a calendar year.</li>
@@ -74,7 +74,8 @@ const ref = {
             <p>Measures are for all public roads regardless of functional classification or ownership and each target is based on a five-year rolling average, which is the average of five individual, consecutive points of data.</p>
         `,
         'targets': `
-            <h3 class="tpm-content-section-header theme-font-color">What are the Targets?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
+            <p>DVRPC has agreed to adopt and support the New Jersey DOT and Pennsylvania DOT targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey</h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -90,7 +91,7 @@ const ref = {
                             <td class="table-cell-last">581.6</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rise in Fatalities<br /><small>(per 100 million VMT)</small></td>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>0.744</td>
                             <td class="table-cell-last">0.759</td>
                         </tr>
@@ -128,7 +129,7 @@ const ref = {
                             <td class="table-cell-last">1,182</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rise in Fatalities<br /><small>(per 100 million VMT)</small></td>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>1.148</td>
                             <td class="table-cell-last">1.169</td>
                         </tr>
@@ -153,9 +154,9 @@ const ref = {
             <small>source: DVRPC 2020</small>
         `,
         'how': `
-            <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
-            <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target:</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target</h4>
             <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
             <h4 class="tpm-content-subheaders theme-font-color">Better than Baseline</h4>
             <span>If a state has not met a target, FHWA will determine if the actual outcome for the target is better than the baseline performance for that target. The baseline performance is the five-year rolling average for the target ending the year prior to the establishment of the state's target.</span>
@@ -332,7 +333,7 @@ const ref = {
     },
     'bridgepavement': {
         'measure': `
-            <h3 class="tpm-content-section-header theme-font-color">What do We Measure?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>State Departments of Transportation (DOTs) must establish targets, regardless of ownership, for the full extent of the Interstate and non-Interstate National Highway System (NHS).  FHWA has set numerical standards that categorize pavement conditions as good, fair, or poor.  Pavement in good condition suggests no major investment is needed. Pavement in poor condition suggests that major reconstruction investment is needed. Road pavements are classified as one of three types: concrete, bituminous (also known as asphalt), and jointed concrete—which is a series of contiguous concrete slabs joined together. Pavement condition is determined by specific measures, which include the International Roughness Index (IRI), cracking, rutting, and faulting:</p>
             <ul>
@@ -357,9 +358,10 @@ const ref = {
                 <li>Percentage of NHS bridge deck area that is in good condition for all mainline non-Interstate NHS bridges</li>
             </ul>
             <p>The states are also required to set goals for the percentage of NHS bridge deck area that is in good condition for all mainline Interstate Highway System and non-Interstate NHS bridges regardless of who owns or is responsible for maintaining the bridge. Bridges that are determined to be structurally deficient, in the NBI, are considered to be in poor condition.</p>
+            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. DVRPC has adopted and supports the respective state DOT targets.</p>
         `,
         'targets': `
-            <h3 class="tpm-content-section-header theme-font-color">What are the Targets?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey Interstate Pavement Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -525,25 +527,25 @@ const ref = {
             <small>Source: DVRPC 2018</small>
         `,
         'how': `
-            <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report is due in October 2020. Progress towards meeting the state infrastructure targets will be reported here when those reports are adopted by the DVRPC Board.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that less than 5 percent of Interstate miles be considered in poor condition in order to meet the federal threshold for pavement condition.</p>
             <span>If pavement conditions on the <strong>Interstate</strong> system fail to meet the federal minimum condition thresholds in the most recent year of the State biennial report, the state DOT must comply with the provisions set forth in 23 USC 119(f) for the subsequent fiscal year. The State shall:</span>
-            <ol>
+            <ul>
                 <li>Use obligation authority to transfer a portion of State Transportation Planning (STP) funds to the NHPP for maintenance projects to address interstate pavement conditions.</li>
                 <li>Submit a Transportation Asset Management Plan (TAMP) that describes actions the state will take to meet or make significant progress toward meeting its targets. The TAMP should guide the state's project decisions in order to meet or make significant progress toward meeting its infrastructure performance targets in subsequent years.</li>
-            </ol>
+            </ul>
             <span>If a state has not met or made significant progress toward meeting its targets on the <strong>non-Interstate NHS system</strong>, the state DOT shall:</span>
-            <ol>
+            <ul>
                 <li>Submit a TAMP that describes actions the state will take to meet or make significant progress toward meeting its targets. The TAMP should guide the state's project decisions in order to meet or make significant progress toward meeting its infrastructure performance targets in subsequent years.</li>
-            </ol>
+            </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Bridges</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that no more than 10 percent of the total deck area of bridges on the NHS be considered structurally deficient in order to meet the federal threshold for bridge condition.</li>
             <span>If a state has not met the federal threshold for bridge conditions for three consecutive years, the state DOT shall:</span>
-            <ol>
+            <ul>
                 <li>Obligate and set aside NHPP funds for eligible NHS bridge projects. The set-aside will remain in effect until the State meets the threshold of less than 10 percent of bridge deck area classified as structurally deficient.</li>
-            </ol>
+            </ul>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -585,14 +587,12 @@ const ref = {
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00550/national-performance-management-measures-assessing-pavement-condition-for-the-national-highway" target="blank" rel="noopener noreferrer">Federal Register rulemaking</a></li>
-                <li><a href="https://www.dvrpc.org/Reports/20016.pdf" target="blank" rel="noopener noreferrer">Connections 2045: Long-Range Plan for Greater Philadelphia Amendment</a></li>
-                <li><a href="https://uscode.house.gov/view.xhtml?req=(title:23%20section:119%20edition:prelim)" target="blank" rel="noopener noreferrer">23 U.S. Code Section 119</a></li>
             </ul>
         `
     },
     'systemperf': {
         'measure': `
-            <h3 class="tpm-content-section-header theme-font-color">What do We Measure?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">National Highway System (NHS) Travel Time Reliability</h4>
             <p>State Departments of Transportation (DOTs) must establish statewide targets for the performance of the Interstate and non-Interstate National Highway System (NHS) during four peak travel time periods which include peak daytime periods and weekend periods. Each state sets its performance targets for the Level of Travel Time Reliability (LOTTR) Index which indicates the reliability of travel on the Interstate and non-Interstate NHS. A road segment is considered reliable if the ratio of the 80th percentile peak hour travel time to the normal peak hour travel time (50th percentile) is less than 1.5. The measure also incorporates vehicle occupancy to identify the person miles traveled on the system. LOTTR targets are established for the entire state that reflect the person miles traveled on road segments that are considered reliable. Two- and four-year targets are set for:</p>
             <ul>
@@ -620,7 +620,7 @@ const ref = {
             </ul>
         `,
         'targets': `
-            <h3 class="tpm-content-section-header theme-font-color">What are the Targets?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -871,7 +871,7 @@ const ref = {
             <small><sup>1</sup>PM<sub>10</sub> is not a required measure in the DVRPC region because this region has never been in non-attainment of the PM<sub>10</sub> standards.</small>
         `,
         'how': `
-            <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>State DOTs must submit interim and full term (two- and four-Year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report is due in October 2020. Progress towards meeting the system performance targets will be reported here when the interim progress reports are adopted by the DVRPC Board.</p>
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
@@ -936,7 +936,7 @@ const ref = {
     },
     'ptasp': {
         'measure': `
-            <h3 class="tpm-content-section-header theme-font-color">What do We Measure?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Through the Public Transportation Agency Safety Plan (PTASP) rule, FTA requires transit agencies to implement a Safety Management System to manage safety risk, which can help agencies maintain or improve their safety performance.</p>
             <p>Transit agencies are required to develop Transit Agency Safety Plans (TASP) that establish performance targets based on the four measures included in FTA’s National Transit Public Safety Plan (NTPSP). The four measures are Fatalities, Injuries, Safety Events, and System Reliability. Transit agencies are required to report their targets and performance to the state DOT and the agency’s MPO in order to prioritize funding to improve transit safety performance.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Fatalities</h4>
@@ -968,13 +968,13 @@ const ref = {
             </ul>
         `,
         'targets': `
-            <h3 class="tpm-content-section-header theme-font-color">What are the Targets?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>The PTASP Rule became effective on July 19, 2019. The first transit agency safety plans were originally due in July 2020; however, due to the COVID-19 Pandemic, FTA is extending the report deadline to December 31, 2020.</p>
             <p>The safety targets for the transit agencies that operate in the DVRPC region (SEPTA, NJ Transit, and DRPA/PATCO) will be reported in this section when those plans are available.</p>
             <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
         `,
         'how': `
-            <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Under the FTA PTASP Rule, transit agency safety plans are not due until December 31, 2020. Results will be published here when they become available.</p>
         `,
         'dates': `
@@ -1002,7 +1002,7 @@ const ref = {
     },
     'transitasset': {
         'measure': `
-            <h3 class="tpm-content-section-header theme-font-color">What do We Measure?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Rolling Stock</h4>
             <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider’s rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
@@ -1029,7 +1029,7 @@ const ref = {
             </ul>
         `,
         'targets': `
-            <h3 class="tpm-content-section-header theme-font-color">What are the Targets?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -1319,7 +1319,7 @@ const ref = {
             <small>Source: DVRPC 2020</small>
         `,
         'how': `
-            <h3 class="tpm-content-section-header theme-font-color">How are We Doing?</h3>
+            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
             <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
             <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets.</p>
