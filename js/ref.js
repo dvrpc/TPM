@@ -1028,6 +1028,7 @@ const ref = {
                 <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
                 <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
             </ul>
+            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies’ targets. DVRPC has adopted and supports the respective transit agency targets.</p>
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
@@ -1037,11 +1038,11 @@ const ref = {
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
                         <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide table-cell-last">FY 2019 Targets</th>
+                        <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
                     </thead class="table-cell-wide">
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">Articulated Bus</td>
+                            <td class="table-cell-first">SEPTA Articulated Bus</td>
                             <td>14</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
@@ -1063,7 +1064,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
                             <td>30</td>
-                            <td class="table-cell-last">50%</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
@@ -1097,17 +1098,17 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
                             <td>12</td>
-                            <td class="table-cell-last">100%</td>
+                            <td class="table-cell-last">20%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
                             <td>8</td>
-                            <td class="table-cell-last">28.89%</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
                             <td>14</td>
-                            <td class="table-cell-last">45%</td>
+                            <td class="table-cell-last">45.4%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
@@ -1117,7 +1118,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
                             <td>12</td>
-                            <td class="table-cell-last">13.19%</td>
+                            <td class="table-cell-last">1.5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
@@ -1132,12 +1133,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
                             <td>30</td>
-                            <td class="table-cell-last">6.41%</td>
+                            <td class="table-cell-last">6.37%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
                             <td>30</td>
-                            <td class="table-cell-last">18.26%</td>
+                            <td class="table-cell-last">17.94%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
@@ -1169,7 +1170,7 @@ const ref = {
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
                         <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide table-cell-last">FY 2019 Targets</th>
+                        <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
                     </thead class="table-cell-wide">
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1178,17 +1179,17 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Automobile</td>
                             <td>8</td>
-                            <td class="table-cell-last">75%</td>
+                            <td class="table-cell-last">50%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
                             <td>14</td>
-                            <td class="table-cell-last">40%</td>
+                            <td class="table-cell-last">25%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
                             <td>25</td>
-                            <td class="table-cell-last">60%</td>
+                            <td class="table-cell-last">55%</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1196,18 +1197,18 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8 *FTA Default?</td>
-                            <td class="table-cell-last">39%</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">52.76%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
                             <td>14</td>
-                            <td class="table-cell-last">47%</td>
+                            <td class="table-cell-last">50.63%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
                             <td>25</td>
-                            <td class="table-cell-last">25%</td>
+                            <td class="table-cell-last">24.1%</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1215,8 +1216,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>Fleet composition not available</td>
-                            <td class="table-cell-last">24%</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">28%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1228,7 +1229,7 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">FY 2019 Targets</th>
+                        <th class="table-cell-last">FY 2020 Targets</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1252,11 +1253,15 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">1.00%</td>
+                            <td class="table-cell-last">1%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">0.42%</td>
+                            <td class="table-cell-last">4.1%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Hybrid Rail</td>
+                            <td class="table-cell-last">0.43%</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1264,7 +1269,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td class="table-cell-last">1.44%</td>
+                            <td class="table-cell-last">0.76%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1276,7 +1281,7 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">FY 2019 Targets</th>
+                        <th class="table-cell-last">FY 2020 Targets</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1337,7 +1342,7 @@ const ref = {
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">Articulated Bus</td>
+                            <td class="table-cell-first">SEPTA Articulated Bus</td>
                             <td>14</td>
                             <td>0%</td>
                             <td>0%</td>
@@ -1544,9 +1549,9 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8 *FTA Default?</td>
+                            <td>Not Reported</td>
                             <td>39%</td>
-                            <td>50.16%</td>
+                            <td>58.16%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
@@ -1569,7 +1574,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>Fleet composition not available</td>
+                            <td>Not Reported</td>
                             <td>24%</td>
                             <td>22%</td>
                             <td class="table-cell-last">Yes</td>
@@ -1622,7 +1627,13 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>0.42%</td>
+                            <td>4.1%</td>
+                            <td>Did Not Report</td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Hybrid Rail</td>
+                            <td>0.43%</td>
                             <td>Did Not Report</td>
                             <td class="table-cell-last"></td>
                         </tr>
@@ -1689,7 +1700,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
                             <td>0%</td>
-                            <td>7%</td>
+                            <td>7.7%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
