@@ -58,14 +58,15 @@ const clickIndicator = e => {
     const parent = e.target.parentElement
     if(!parent.classList.contains('indicator-icons-figure')) return
 
-    const activeHeader = document.querySelector('.active-header').id.split('-')[0]
     const f = e.target
     const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousElementSibling.textContent
     const selectedIndicator = parent.dataset.indicator
     const theme = parent.dataset.theme
     const indicators = parent.parentElement.children
-    const length = indicators.length
-    const updatedText = ref[selectedIndicator][activeHeader]
+    const length = indicators.length    
+    const updatedText = ref[selectedIndicator]['measure']
+    const allTabs = tabs.children
+    const tabsLength = allTabs.length
 
     const header = makeHeader(headerText)
     
@@ -74,6 +75,12 @@ const clickIndicator = e => {
         const loopedIndicator = indicators[i]
         if(loopedIndicator.dataset.indicator === selectedIndicator) parent.classList.add('indicator-icons-active')
         else loopedIndicator.classList.remove('indicator-icons-active')
+    }
+
+    // update active tab to default
+    for(var i=0; i<tabsLength; i++) {
+        if(allTabs[i].id === 'measure-tab') allTabs[i].classList.add('active-header')
+        else allTabs[i].classList.remove('active-header')
     }
 
     // update content
