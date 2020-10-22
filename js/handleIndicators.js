@@ -55,10 +55,10 @@ const muteIndicators = () => {
 
 // show the content section + generate the default content ("What do we measure?")
 const clickIndicator = e => {
-    const parent = e.target.parentElement
-    if(!parent.classList.contains('indicator-icons-figure')) return
+    if(e.target.id === 'indicator-icons-wrapper') return
 
-    const f = e.target
+    const f = e.target.classList.contains('indicator-icons-figure') ? e.target.children[0] : e.target
+    const parent = f.parentElement
     const headerText = f.nodeName === 'FIGCAPTION' ? f.textContent : f.previousElementSibling.textContent
     const selectedIndicator = parent.dataset.indicator
     const theme = parent.dataset.theme
@@ -73,8 +73,14 @@ const clickIndicator = e => {
     // toggle indicator state
     for(var i = 0; i < length; i++) {
         const loopedIndicator = indicators[i]
-        if(loopedIndicator.dataset.indicator === selectedIndicator) parent.classList.add('indicator-icons-active')
-        else loopedIndicator.classList.remove('indicator-icons-active')
+
+        if(loopedIndicator.dataset.indicator === selectedIndicator) {
+            loopedIndicator.classList.add('indicator-icons-active')
+            loopedIndicator.setAttribute('aria-pressed', true)
+        } else {
+            loopedIndicator.classList.remove('indicator-icons-active')
+            loopedIndicator.setAttribute('aria-pressed', false)
+        }
     }
 
     // update active tab to default
@@ -112,6 +118,12 @@ const clickIndicator = e => {
     const encodedIndicator = encodeURI(selectedIndicator)
     const indicatorURI = `?indicator=${encodedIndicator}`
     history.pushState({indicator: selectedIndicator}, selectedIndicator, indicatorURI)
+}
+const pressIndicator = e => {
+    if (e.key === " " || e.key === "Enter" || e.key === "Spacebar") {
+        e.preventDefault()
+        clickIndicator(e)
+    }
 }
 
 const makeHeader = name => {
@@ -175,4 +187,4 @@ window.onresize = () => {
 moreInfo.ontoggle = () => beenScrolled = false
 
 
-export { clickIndicator, handleTabs }
+export { clickIndicator, pressIndicator, handleTabs }

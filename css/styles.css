@@ -162,7 +162,6 @@ h1 {
 .indicator-icons-figure {
     margin: 0;
     text-align: center;
-    cursor: pointer;
     display: flex;
     flex-direction: column-reverse;
     font-size: 1.04rem;
@@ -172,10 +171,11 @@ h1 {
     font-weight: 700;
     filter: var(--indicator-active-filter);
 }
+.indicator-icons-imgs, .indicator-icons-figcaption {
+    cursor: pointer;
+}
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover {
     transform: rotate(5deg);
-}
-.indicator-icons-figure:hover {
     filter: var(--indicator-hover-filter);
 }
 .indicator-icons-imgs {
