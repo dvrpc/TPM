@@ -280,9 +280,6 @@ td {
     padding: 8px 0;
     text-align: center;
 }
-td:not(.table-cell-first) {
-    font-size: 1.1rem;
-}
 .table-cell-first {
     text-align: left;
     width: 32ch;
@@ -292,7 +289,6 @@ td:not(.table-cell-first) {
 }
 /* @TODO width isn't applying for narrow*/
 .table-cell-first-narrow {
-    text-align: left;
     width: 20ch;
 }
 .table-nested-header-first {

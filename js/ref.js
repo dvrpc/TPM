@@ -818,7 +818,7 @@ const ref = {
                     <thead>
                         <tr>
                             <th></th>
-                            <th colspan="2" class="theme-font-color">DVRPC 4-County<br />Pennsylvania Subregion</th>
+                            <th colspan="2" class="theme-font-color">DVRPC 5-County<br />Pennsylvania Subregion</th>
                             <th colspan="2" class="theme-font-color">Pennsylvania Statewide</th>
                         </tr>
                         <tr>
@@ -1041,8 +1041,12 @@ const ref = {
                         <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
                     </thead class="table-cell-wide">
                     <tbody>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
                         <tr>
-                            <td class="table-cell-first">SEPTA Articulated Bus</td>
+                            <td class="table-cell-first">Articulated Bus</td>
                             <td>14</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
@@ -1341,8 +1345,12 @@ const ref = {
                         <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
                     </thead>
                     <tbody>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
                         <tr>
-                            <td class="table-cell-first">SEPTA Articulated Bus</td>
+                            <td class="table-cell-first">Articulated Bus</td>
                             <td>14</td>
                             <td>0%</td>
                             <td>0%</td>
