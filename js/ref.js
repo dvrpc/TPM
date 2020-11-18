@@ -113,7 +113,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: NJ DOT</small>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -151,7 +151,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>source: DVRPC 2020</small>
+            <small>source: PennDOT</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -226,7 +226,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small><br />
+            <small>Source: NJ DOT</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
             <p>New Jersey has demonstrated that it has met or made significant progress towards meeting annual safety goals for calendar year (CY) 2018.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
@@ -290,7 +290,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small><br />
+            <small>Source: PennDOT</small><br />
             <small>*Four out of Five targets must be met, or have better performance than the baseline.</small>
             <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2018. PennDOT is now required to submit an HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2020 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2018, which is $97,585,000, for safety projects in the upcoming fiscal year.</p>
         `,
@@ -323,7 +323,7 @@ const ref = {
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
             <ul>
                 <li><a href="https://www.fhwa.dot.gov/tpm" target="blank" rel="noopener noreferrer">FHWA TPM website</a></li>
-                <li><a href="https://safety.fhwa.dot.gov/hsip/spm/" target="blank" rel="noopener noreferrer">FHWA Safety Performance Management webpage</a></li>
+                <li><a href="https://safety.fhwa.dot.gov/hsip/spm/" target="blank" rel="noopener noreferrer">FHWA Safety Performance Management Webpage</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.penndot.gov/TravelInPA/Safety/Pages/Strategic-Highway-Safety-Plan.aspx" target="blank" rel="noopener noreferrer">Pennsylvania Strategic Highway Safety Plan</a></li>
                 <li><a href="https://www.saferoadsforallnj.com" target="blank" rel="noopener noreferrer">New Jersey Strategic Highway Safety Plan</a>
@@ -387,7 +387,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: NJ DOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey Non-Interstate NHS Pavement Infrastructure Targets</h4>
@@ -415,7 +415,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small>
+            <small>Source: NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Interstate Pavement Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
@@ -442,7 +442,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Non-Interstate NHS Pavement Infrastructure Targets</h4>
@@ -470,7 +470,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small>
+            <small>Source: PennDOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey Bridge Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
@@ -497,7 +497,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small>
+            <small>Source: NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Bridge Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
@@ -524,7 +524,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small>
+            <small>Source: PennDOT</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -586,7 +586,7 @@ const ref = {
                 <li><a href="https://www.fhwa.dot.gov/asset/plans.cfm" target="blank" rel="noopener noreferrer">State Asset Management Plans</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
-                <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00550/national-performance-management-measures-assessing-pavement-condition-for-the-national-highway" target="blank" rel="noopener noreferrer">Federal Register rulemaking</a></li>
+                <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00550/national-performance-management-measures-assessing-pavement-condition-for-the-national-highway" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
         `
     },
@@ -717,7 +717,7 @@ const ref = {
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first-narrow">Philadelphia<br />PA-NJ-DE-MD UZA</td>
+                            <td class="table-cell-first table-cell-first-narrow">Philadelphia<br />PA-NJ-DE-MD UZA</td>
                             <td colspan="4">
                                 <table>
                                     <tr>
@@ -809,7 +809,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: NJ DOT</small><br />
             <small><sup>1</sup>CO is not a required measure in New Jersey because all CO Maintenance Areas are beyond the Maintenance Plan horizons.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania CMAQ Emissions Reduction Targets</h4>
@@ -868,7 +868,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: PennDOT</small><br />
             <small><sup>1</sup>PM<sub>10</sub> is not a required measure in the DVRPC region because this region has never been in non-attainment of the PM<sub>10</sub> standards.</small>
         `,
         'how': `
@@ -994,7 +994,7 @@ const ref = {
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
             <ul>
-                <li><a href="https://www.transit.dot.gov/PTASP" target="blank" rel="noopener noreferrer">FTA PTASP webpage</a></li>
+                <li><a href="https://www.transit.dot.gov/PTASP" target="blank" rel="noopener noreferrer">FTA PTASP Webpage</a></li>
                 <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/docs/regulations-and-guidance/safety/public-transportation-agency-safety-program/117281/ptasp-fact-sheet-02-06-2019.pdf" target="blank" rel="noopener noreferrer">FTA PTASP Fact Sheet</a></li>
                 <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/2020-04/SPT_Webinar_202002.pdf" target="blank" rel="noopener noreferrer">FTA Safety Performance Target Webinar</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2018-07-19/pdf/2018-15167.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
@@ -1742,7 +1742,7 @@ const ref = {
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
             <ul>
-                <li><a href="https://www.transit.dot.gov/PerformanceManagement" target="blank" rel="noopener noreferrer">FTA Performance Management webpage</a></li>
+                <li><a href="https://www.transit.dot.gov/PerformanceManagement" target="blank" rel="noopener noreferrer">FTA Performance Management Webpage</a></li>
                 <li><a href="https://www.transit.dot.gov/TAM/FTAOutreachMaterials/perfmsrFS" target="blank" rel="noopener noreferrer">TAM Fact Sheet</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
