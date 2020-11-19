@@ -326,7 +326,7 @@ const ref = {
                 <li><a href="https://safety.fhwa.dot.gov/hsip/spm/" target="blank" rel="noopener noreferrer">FHWA Safety Performance Management Webpage</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.penndot.gov/TravelInPA/Safety/Pages/Strategic-Highway-Safety-Plan.aspx" target="blank" rel="noopener noreferrer">Pennsylvania Strategic Highway Safety Plan</a></li>
-                <li><a href="https://www.saferoadsforallnj.com" target="blank" rel="noopener noreferrer">New Jersey Strategic Highway Safety Plan</a>
+                <li><a href="https://www.saferoadsforallnj.com" target="blank" rel="noopener noreferrer">New Jersey Strategic Highway Safety Plan</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2016/03/15/2016-05202/national-performance-management-measures-highway-safety-improvement-program" target="blank" rel="noopener noreferrer">Safety Performance Measure Final Rule</a></li>
             </ul>
         `
@@ -337,8 +337,8 @@ const ref = {
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>State Departments of Transportation (DOTs) must establish targets, regardless of ownership, for the full extent of the Interstate and non-Interstate National Highway System (NHS).  FHWA has set numerical standards that categorize pavement conditions as good, fair, or poor.  Pavement in good condition suggests no major investment is needed. Pavement in poor condition suggests that major reconstruction investment is needed. Road pavements are classified as one of three types: concrete, bituminous (also known as asphalt), and jointed concrete—which is a series of contiguous concrete slabs joined together. Pavement condition is determined by specific measures, which include the International Roughness Index (IRI), cracking, rutting, and faulting:</p>
             <ul>
-                <li>IRI quantifies how rough the pavement is by measuring the longitudinal profile of a traveled wheel track and generating a standardized roughness value in inches per mile. </li>
-                <li>Cracking measures the percentage of bituminous and concrete pavement surface that is cracked. </li>
+                <li>IRI quantifies how rough the pavement is by measuring the longitudinal profile of a traveled wheel track and generating a standardized roughness value in inches per mile.</li>
+                <li>Cracking measures the percentage of bituminous and concrete pavement surface that is cracked.</li>
                 <li>Rutting measures the depth of ruts (surface depression) in bituminous pavement in inches.</li>
                 <li>Faulting quantifies the misalignment between concrete slabs as the difference in elevation across transverse concrete pavement joints in inches.</li>
             </ul>
@@ -354,8 +354,8 @@ const ref = {
             <p>State DOTs must establish targets for all bridges carrying the NHS, which includes on- and off-ramps connected to the NHS within a state, and bridges carrying the NHS that cross a state border, regardless of ownership. Each bridge is given ratings for its deck, superstructure, and substructure components during regular inspections using National Bridge Inventory (NBI) standards. Each component is given a rating that ranges between 9 and 0 on the FHWA condition scale. A structure’s overall condition rating is determined by the lowest value for its deck, superstructure, substructure, or culvert rating. If any of the components of a structure qualify as poor, the structure is deemed poor; while all the components must have a good rating for the structure to be deemed in good repair. Poor condition does not mean the bridge is unsafe to use. Both PennDOT and NJDOT will take necessary action to restrict heavy-weight vehicles or close a bridge in order to ensure safety. Bridge condition performance measures are calculated by summing the deck area of bridges in “good” and “poor” condition and dividing by the total deck area of all NHS bridges.</p>
             <span>Bridge deck conditions are based on deck area and targets are set for:</span>
             <ul>
-                <li>Percentage of NHS bridge deck area that is in good condition for all mainline Interstate Highway System bridges</li>
-                <li>Percentage of NHS bridge deck area that is in good condition for all mainline non-Interstate NHS bridges</li>
+                <li>Percentage of NHS bridge deck area that is in good condition for all mainline Interstate Highway System bridges.</li>
+                <li>Percentage of NHS bridge deck area that is in good condition for all mainline non-Interstate NHS bridges.</li>
             </ul>
             <p>The states are also required to set goals for the percentage of NHS bridge deck area that is in good condition for all mainline Interstate Highway System and non-Interstate NHS bridges regardless of who owns or is responsible for maintaining the bridge. Bridges that are determined to be structurally deficient, in the NBI, are considered to be in poor condition.</p>
             <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. DVRPC has adopted and supports the respective state DOT targets.</p>
@@ -945,7 +945,7 @@ const ref = {
             <span>Specific targets are set for:</span>
             <ul>
                 <li>Total fatalities, by mode, across the transit agency’s system.</li>
-                <li>The rate of fatalities, by mode, per vehicle revenue mile operated by the transit agency. </li>
+                <li>The rate of fatalities, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
             <p>The PTASP requires that transit agencies set annual targets for the number of injuries that occur on each mode of transit that the agency operates. Injuries are defined as “harm to person that requires immediate medical attention away from the scene.” Injuries are required to be calculated for both the total number of injuries and the injury rate per vehicle revenue mile for each of the modes that the agency operates.</p>

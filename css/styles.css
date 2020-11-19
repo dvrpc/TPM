@@ -276,11 +276,6 @@ table {
     table-layout: fixed;
     border-collapse: collapse;
 }
-/* @TODO sticky headers but make it work */
-table th {
-    position: sticky;
-    top: 0;
-}
 td {
     padding: 8px 0;
     text-align: center;
