@@ -81,34 +81,34 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>NJ Target <br /> <small>(2016 - 2020)</small></th>
-                        <th class="table-cell-last">NJ Baseline <br /> <small>(2014 - 2018)</small></th>
+                        <th>NJ Baseline <br /> <small>(2014 - 2018)</small></th>
+                        <th class="table-cell-last">NJ Target <br /> <small>(2016 - 2020)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>582.8</td>
-                            <td class="table-cell-last">581.6</td>
+                            <td>581.6</td>
+                            <td class="table-cell-last">582.8</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>0.744</td>
-                            <td class="table-cell-last">0.759</td>
+                            <td>0.759</td>
+                            <td class="table-cell-last">0.744</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>1,167.9</td>
-                            <td class="table-cell-last">1,110.8</td>
+                            <td>1,110.8</td>
+                            <td class="table-cell-last">1,167.9</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.489</td>
-                            <td class="table-cell-last">1.449</td>
+                            <td>1.449</td>
+                            <td class="table-cell-last">1.489</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>407.9</td>
-                            <td class="table-cell-last">392.7</td>
+                            <td>392.7</td>
+                            <td class="table-cell-last">407.9</td>
                         </tr>
                     </tbody>
                 </table>
@@ -119,34 +119,34 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>PA Target <br /><small>(2016 - 2020)</small></th>
-                        <th class="table-cell-last">PA Baseline <br /><small>(2014 - 2018)</small></th>
+                        <th>PA Baseline <br /><small>(2014 - 2018)</small></th>
+                        <th class="table-cell-last">PA Target <br /><small>(2016 - 2020)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>1,171.9</td>
-                            <td class="table-cell-last">1,182</td>
+                            <td>1,182</td>
+                            <td class="table-cell-last">1,171.9</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.148</td>
-                            <td class="table-cell-last">1.169</td>
+                            <td>1.169</td>
+                            <td class="table-cell-last">1.148</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>4,400.3</td>
-                            <td class="table-cell-last">3,839.6</td>
+                            <td>3,839.6</td>
+                            <td class="table-cell-last">4,400.3</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>4.309</td>
-                            <td class="table-cell-last">3.797</td>
+                            <td>3.797</td>
+                            <td class="table-cell-last">4.309</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>781.7</td>
-                            <td class="table-cell-last">679</td>
+                            <td>679</td>
+                            <td class="table-cell-last">781.7</td>
                         </tr>
                     </tbody>
                 </table>
@@ -291,7 +291,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: PennDOT</small><br />
-            <small>*Four out of Five targets must be met, or have better performance than the baseline.</small>
+            <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
             <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2018. PennDOT is now required to submit an HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2020 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2018, which is $97,585,000, for safety projects in the upcoming fiscal year.</p>
         `,
         'dates': `
@@ -647,7 +647,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: University of Maryland CATT Lab, FHWA, NJ DOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
@@ -675,7 +675,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: University of Maryland CATT Lab, FHWA, PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey & Pennsylvania Freight Truck Travel Time Reliability (TTTR) Targets</h4>
@@ -703,7 +703,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small>
+            <small>Source: University of Maryland CATT Lab, FHWA, NJ DOT, PennDOT</small>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC CMAQ Congestion Measures Targets for Relevant Urbanized Areas (UZA)</h4>
             <div class="table-overflow-wrapper">
@@ -757,7 +757,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2018</small><br />
+            <small>Source: US Census Bureau ACS Five Year Estimates, University of Maryland CATT Lab, FHWA, PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for PHED for this first reporting period.</small>
     
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
