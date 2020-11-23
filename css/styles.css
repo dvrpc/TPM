@@ -363,9 +363,6 @@ footer {
     justify-content: space-around;
     font-size: 0.9rem;
 }
-footer a {
-    color: var(--accent-gold-light);
-}
 #connect-with-us-h2 {
     margin: 0;
 }
