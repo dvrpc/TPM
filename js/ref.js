@@ -1166,7 +1166,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1226,7 +1226,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -1278,7 +1278,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1326,7 +1326,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -1514,7 +1514,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1590,7 +1590,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -1658,7 +1658,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1720,7 +1720,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2020</small>
+            <small>Source: PennDOT, NJ DOT</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
