@@ -185,7 +185,7 @@ h1 {
     filter: var(--indicator-hover-filter);
 }
 .indicator-icons-imgs {
-    height: 130px;
+    height: 125px;
     margin: 0 auto;
 }
 /* END TPM Indicator Icons */
