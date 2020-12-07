@@ -167,7 +167,7 @@ const ref = {
             </ol>
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey</h4>
             <div class="table-overflow-wrapper">
-                <table>
+                <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Measure</th>
                         <th class="table-cell-wide">Target<br /><small>(2014 - 2018)</small></th>
@@ -231,7 +231,7 @@ const ref = {
             <p>New Jersey has demonstrated that it has met or made significant progress towards meeting annual safety goals for calendar year (CY) 2018.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
             <div class="table-overflow-wrapper">
-                <table>
+                <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Measure</th>
                         <th class="table-cell-wide">Target<br /><small>(2014 - 2018)</small></th>
@@ -707,7 +707,7 @@ const ref = {
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC CMAQ Congestion Measures Targets for Relevant Urbanized Areas (UZA)</h4>
             <div class="table-overflow-wrapper">
-                <table>
+                <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Urbanized Area</th>
                         <th class="table-nested-header-first">Measure</th>
@@ -762,7 +762,7 @@ const ref = {
     
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
             <div class="table-overflow-wrapper">
-                <table>
+                <table class="table-wide-half">
                     <thead>
                         <tr>
                             <th></th>
@@ -814,7 +814,7 @@ const ref = {
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania CMAQ Emissions Reduction Targets</h4>
             <div class="table-overflow-wrapper">
-                <table>
+                <table class="table-wide-half">
                     <thead>
                         <tr>
                             <th></th>

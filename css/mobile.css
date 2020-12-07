@@ -84,21 +84,17 @@ h1 {
     border-bottom: none;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
 }
-#tpm-content {
-    width: calc(100% - 2rem);
-    padding: 0 1rem;
-}
 .tpm-content-section-header {
     margin-top: 25%;
 }
-.content-header {
-    font-size: 1.2rem;
+.table-wide {
+    width: 150%;
+}
+.table-wide-half {
+    width: 125%;
 }
 .table-overflow-wrapper {
     width: 100%;
-}
-table {
-    width: 150%;
 }
 td:not(.table-cell-first) {
     font-size: inherit;

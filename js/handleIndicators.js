@@ -16,24 +16,24 @@ let scrollTo;
 // @IMPROVEMENT: adding 15 makes sure it always scroll to the sticky point, but doesn't scale perfectly. Calculate percentages and use that
 const calculateScrollTo = header => {
     const isNarrow = window.innerWidth > 920 ? false : true
-    const buffer = (isNarrow ? tabs.clientHeight : 28)
-    // const elHeight = splash.getBoundingClientRect().height + header.getBoundingClientRect().height
-    const elHeight = splash.clientHeight + header.clientHeight
+    const buffer = (isNarrow ? tabs.offsetHeight : 28)
+    const elHeight = splash.offsetHeight + header.offsetHeight
     return elHeight + buffer
 }
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
-    const navHeight = nav.clientHeight
+    const navHeight = nav.offsetHeight
     const iconsHeight = iconsWrapper.clientHeight
-    const headerHeight = headerActive.clientHeight
+    const headerHeight = headerActive ? headerActive.clientHeight : 0
     const navAndIconsHeight = navHeight + iconsHeight
     const navsAndIconsAndHeaderHeight = navAndIconsHeight + headerHeight
     const isNarrow = window.innerWidth > 920 ? false : true
     
     if(!mainBeenSticky){
         iconsWrapper.style.position = 'sticky'
-        iconsWrapper.style.top = isNarrow ? '5%' : `calc(${navHeight}px - 2%)`
+        // iconsWrapper.style.top = isNarrow ? '5%' : `calc(${navHeight}px - 2%)`
+        iconsWrapper.style.top = navHeight + 'px'
         tabs.style.position = 'sticky'
         tabs.style.top = isNarrow ? navsAndIconsAndHeaderHeight + 'px' : (navAndIconsHeight + 48) + 'px'
         mainBeenSticky = true

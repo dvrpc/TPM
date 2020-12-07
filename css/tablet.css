@@ -35,7 +35,18 @@ h1 {
 
 /**************************/
 /* TPM Indicator Content */
-
-
+#tpm-content {
+    width: calc(100% - 2rem);
+    max-width: initial;
+    padding: 0 1rem;
+}
+.content-header {
+    width: calc(100% - 1.5rem);
+    font-size: 1.2rem;
+    margin-left: -29px;
+}
+.tpm-content-headers-btn {
+    width: 25%;
+}
 /* END TPM Indicator Content */
 /*****************************/
