@@ -977,6 +977,11 @@ const ref = {
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Under the FTA PTASP Rule, transit agency safety plans are not due until December 31, 2020. Results will be published here when they become available.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
