@@ -75,15 +75,21 @@ h1 {
 .tpm-content-headers-btn {
     padding: 1.3rem 0.5rem;
     font-size: 0.9rem;
-    border-radius: 0;
     margin-bottom: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
-.tpm-content-headers-btn:last-child {
-    margin-bottom: auto;
+.tpm-content-headers-btn:not(.active-header) {
+    border-bottom: none;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
 }
 #tpm-content {
     width: calc(100% - 2rem);
     padding: 0 1rem;
+}
+.tpm-content-section-header {
+    margin-top: 25%;
 }
 .content-header {
     font-size: 1.2rem;
