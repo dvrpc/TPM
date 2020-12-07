@@ -62,18 +62,28 @@ h1 {
 /**************************/
 /* TPM Indicator Content */
 #tpm-content-section {
-    padding-left: 0;
-    padding-right: 10px;
+    flex-direction: column;
 }
 #tpm-content-headers {
-    margin-right: 10px;
-    max-width: 20%;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: 0;
+    max-width: initial;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .tpm-content-headers-btn {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 1.3rem 0.4rem;
+    padding: 1.3rem 0.5rem;
     font-size: 0.9rem;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.tpm-content-headers-btn:last-child {
+    margin-bottom: auto;
+}
+#tpm-content {
+    width: calc(100% - 2rem);
+    padding: 0 1rem;
 }
 .content-header {
     font-size: 1.2rem;
