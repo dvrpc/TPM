@@ -15,34 +15,36 @@ let scrollTo;
 
 // @IMPROVEMENT: adding 15 makes sure it always scroll to the sticky point, but doesn't scale perfectly. Calculate percentages and use that
 const calculateScrollTo = header => {
-    const isNarrow = window.innerWidth > 920 ? false : true
-    const buffer = (isNarrow ? tabs.offsetHeight : 28)
+    const isNarrow = window.innerWidth > 700 ? false : true
+    const buffer = (isNarrow ? tabs.offsetHeight : 0)
     const elHeight = splash.offsetHeight + header.offsetHeight
     return elHeight + buffer
 }
 
 const makeSticky = () => {
     const headerActive = document.querySelector('.content-header')
+
     const navHeight = nav.offsetHeight
-    const iconsHeight = iconsWrapper.clientHeight
-    const headerHeight = headerActive ? headerActive.clientHeight : 0
+    const iconsHeight = iconsWrapper.offsetHeight
+
+    const headerHeight = headerActive ? headerActive.offsetHeight : 0
     const navAndIconsHeight = navHeight + iconsHeight
     const navsAndIconsAndHeaderHeight = navAndIconsHeight + headerHeight
-    const isNarrow = window.innerWidth > 920 ? false : true
+    const isNarrow = window.innerWidth > 700 ? false : true
     
     if(!mainBeenSticky){
-        iconsWrapper.style.position = 'sticky'
-        // iconsWrapper.style.top = isNarrow ? '5%' : `calc(${navHeight}px - 2%)`
-        iconsWrapper.style.top = navHeight + 'px'
         tabs.style.position = 'sticky'
-        tabs.style.top = isNarrow ? navsAndIconsAndHeaderHeight + 'px' : (navAndIconsHeight + 48) + 'px'
+        iconsWrapper.style.position = 'sticky'
+        
+        iconsWrapper.style.top = navHeight + 'px'
         mainBeenSticky = true
     }
+    
+    tabs.style.top = isNarrow ? navsAndIconsAndHeaderHeight + 'px' : (navAndIconsHeight + 50) + 'px'
 
     if(headerActive){
         headerActive.style.position = 'sticky'
-        // headerActive.style.top = isNarrow ? navsAndIconsAndTabsHeight + 'px' : `calc(${navAndIconsHeight}px - 6.5%)`
-        headerActive.style.top = isNarrow ? navAndIconsHeight + 'px' : `calc(${navAndIconsHeight}px - 6.5%)`
+        headerActive.style.top = isNarrow ? navAndIconsHeight + 'px' : `calc(${navAndIconsHeight}px - 4%)`
     }
 }
 
@@ -112,7 +114,6 @@ const clickIndicator = e => {
         scrollTo = calculateScrollTo(header)
         beenScrolled = true
     }
-    // scrollTo = calculateScrollTo(header)
 
     window.scrollTo({
         top: scrollTo,
