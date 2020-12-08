@@ -1,10 +1,10 @@
 /************/
 /* General */
 html {
-    font-size: 12px;
+    font-size: 13px;
 }
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 /* END General */
@@ -16,6 +16,7 @@ h1 {
 /* Nav/Header */
 #nav-header {
     font-size: 0.9rem;
+    padding: 8px 15px 2px 15px;
 }
 #nav-header-img {
     width: 50px;
@@ -34,7 +35,9 @@ h1 {
 #tpm-logo-main {
     width: 123px;
 }
-
+.splash-text {
+    line-height: 1.65;
+}
 /* END Splash page */
 /*******************/
 
@@ -61,34 +64,72 @@ h1 {
 
 /**************************/
 /* TPM Indicator Content */
+#tpm-content {
+	max-width: initial;
+	width: 100%;
+	padding: 0 1rem;
+	margin-left: -1rem;
+	border: none;
+}
+#tpm-content p, #tpm-content ul, #tpm-content span:not(.dates-circle) {
+    max-width: 50ch;
+    margin: 5% auto;
+}
 #tpm-content-section {
-    padding-left: 0;
-    padding-right: 10px;
+    flex-direction: column;
 }
 #tpm-content-headers {
-    margin-right: 10px;
-    max-width: 20%;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: 0;
+    max-width: initial;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .tpm-content-headers-btn {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding: 1.3rem 0.4rem;
+    padding: 1rem 0.5rem;
     font-size: 0.9rem;
+    margin-bottom: 0;
+    margin-top: -1px;
+    border-top: none;
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.tpm-content-headers-btn:not(.active-header) {
+    border-bottom: none;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
 }
 .content-header {
+    padding: 0.5rem 0;
     font-size: 1.2rem;
+    width: calc(100% + 52px);
+    border-radius: 0;
+    box-shadow: none;
+}
+.tpm-content-section-header {
+    margin-top: 25%;
+}
+.table-wide {
+    width: 150%;
+}
+.table-wide-half {
+    width: 125%;
 }
 .table-overflow-wrapper {
     width: 100%;
-}
-table {
-    width: 150%;
 }
 td:not(.table-cell-first) {
     font-size: inherit;
 }
 .table-cell-first, .table-cell-wide-extra, .table-cell-wide {
     width: auto;
+}
+.dates-circle-left {
+    margin-left: calc(100% + 0.9rem);
+}
+.dates-circle-right {
+    margin-left: -1.45rem;
 }
 /* END TPM Indicator Content */
 /*****************************/

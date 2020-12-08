@@ -10,7 +10,6 @@ body {
     margin: 0;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
-    /* line-height: 150%; */
     line-height: 1.7;
     background: var(--accent-black-light);
 }
@@ -116,7 +115,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
     display: flex;
     justify-content: center;
     align-items: start;
-    padding: 5% 15px;
+    padding: 4.5% 15px;
     line-height: 1.85;
     color: var(--accent-gold-light);
 }
@@ -158,7 +157,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     background: var(--accent-black);
-    padding: 2% 15px 3% 15px;
+    padding: 2% 15px 2.5% 15px;
     z-index: 2;
 }
 .indicator-icons-figure {
@@ -212,13 +211,14 @@ h1 {
 #tpm-content {
     width: 70%;
     max-width: 70ch;
-    border-radius: 6px;
+    line-height: 150%;
     padding: 0 2.5rem 0.5rem 2.5rem;
     margin-top: 15px;
     background: #f7f7f7;
     font-size: 1rem;
     border-left: 2px inset #e4e4e4;
     border-right: 2px inset #e4e4e4;
+    border-radius: 6px;
 }
 #tpm-content-headers {
     display: flex;
@@ -229,7 +229,7 @@ h1 {
 .tpm-content-section-header {
     font-size: 1.5rem;
     font-weight: 400;
-    margin: 5% 0;
+    margin: 7% 0;
 }
 .active-header {
     border: none;
@@ -253,14 +253,13 @@ h1 {
 .tpm-content-headers-btn:last-child {
     margin-bottom: 0;
 }
-
 .content-header {
 	text-align: center;
 	background: white;
 	width: 100%;
 	margin: 0;
 	font-size: 2rem;
-	padding: 0.5rem 3rem;
+	padding: 1.3rem 3rem;
 	margin-left: -3rem;
 	box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 6px;
@@ -288,7 +287,7 @@ td {
 }
 .table-cell-first {
     text-align: left;
-    width: 32ch;
+    width: 28ch;
 }
 .table-cell-first:not(th) {
     font-style: italic;
