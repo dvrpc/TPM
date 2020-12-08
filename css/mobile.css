@@ -4,7 +4,7 @@ html {
     font-size: 13px;
 }
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 /* END General */
@@ -35,7 +35,7 @@ h1 {
     width: 123px;
 }
 .splash-text {
-    line-height: 1.75;
+    line-height: 1.65;
 }
 /* END Splash page */
 /*******************/
@@ -89,6 +89,7 @@ h1 {
     padding: 1rem 0.5rem;
     font-size: 0.9rem;
     margin-bottom: 0;
+    margin-top: -1px;
     border-top: none;
     border-radius: 0;
     border-bottom-left-radius: 6px;
@@ -101,7 +102,7 @@ h1 {
 .content-header {
     padding: 0.5rem 0;
     font-size: 1.2rem;
-    width: calc(100% + 51px);
+    width: calc(100% + 52px);
     border-radius: 0;
     box-shadow: none;
 }
