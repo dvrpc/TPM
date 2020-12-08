@@ -126,7 +126,7 @@ td:not(.table-cell-first) {
     width: auto;
 }
 .dates-circle-left {
-    margin-left: calc(100% + 1rem);
+    margin-left: calc(100% + 0.9rem);
 }
 /* END TPM Indicator Content */
 /*****************************/
