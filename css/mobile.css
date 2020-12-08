@@ -16,6 +16,7 @@ h1 {
 /* Nav/Header */
 #nav-header {
     font-size: 0.9rem;
+    padding: 8px 15px 2px 15px;
 }
 #nav-header-img {
     width: 50px;
