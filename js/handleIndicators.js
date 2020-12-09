@@ -38,7 +38,7 @@ const makeSticky = () => {
         tabs.style.position = 'sticky'
         iconsWrapper.style.position = 'sticky'
         
-        iconsWrapper.style.top = isNarrow ? navHeight + 'px' : navHeight - iconsHeightBuff + 'px'
+        iconsWrapper.style.top = isNarrow ? navHeight - 1 + 'px' : navHeight - iconsHeightBuff + 'px'
         mainBeenSticky = true
     }
     
@@ -46,7 +46,7 @@ const makeSticky = () => {
 
     if(headerActive){
         headerActive.style.position = 'sticky'
-        headerActive.style.top = isNarrow ? navAndIconsHeight + 'px' : `calc(${navAndIconsHeight - iconsHeightBuff}px - 4%)`
+        headerActive.style.top = isNarrow ? navAndIconsHeight - 1 + 'px' : `calc(${navAndIconsHeight - iconsHeightBuff}px - 4%)`
     }
 }
 
