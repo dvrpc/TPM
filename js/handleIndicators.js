@@ -15,8 +15,9 @@ let scrollTo;
 
 // @IMPROVEMENT: adding 15 makes sure it always scroll to the sticky point, but doesn't scale perfectly. Calculate percentages and use that
 const calculateScrollTo = header => {
+    const iconsHeightBuff = 20
     const isNarrow = window.innerWidth > 700 ? false : true
-    const buffer = (isNarrow ? tabs.offsetHeight : 0)
+    const buffer = (isNarrow ? tabs.offsetHeight : iconsHeightBuff)
     const elHeight = splash.offsetHeight + header.offsetHeight
     return elHeight + buffer
 }
@@ -30,13 +31,14 @@ const makeSticky = () => {
     const headerHeight = headerActive ? headerActive.offsetHeight : 0
     const navAndIconsHeight = navHeight + iconsHeight
     const navsAndIconsAndHeaderHeight = navAndIconsHeight + headerHeight
+    const iconsHeightBuff = 20
     const isNarrow = window.innerWidth > 700 ? false : true
     
     if(!mainBeenSticky){
         tabs.style.position = 'sticky'
         iconsWrapper.style.position = 'sticky'
         
-        iconsWrapper.style.top = navHeight + 'px'
+        iconsWrapper.style.top = isNarrow ? navHeight + 'px' : navHeight - iconsHeightBuff + 'px'
         mainBeenSticky = true
     }
     
@@ -44,7 +46,7 @@ const makeSticky = () => {
 
     if(headerActive){
         headerActive.style.position = 'sticky'
-        headerActive.style.top = isNarrow ? navAndIconsHeight + 'px' : `calc(${navAndIconsHeight}px - 4%)`
+        headerActive.style.top = isNarrow ? navAndIconsHeight + 'px' : `calc(${navAndIconsHeight - iconsHeightBuff}px - 4%)`
     }
 }
 

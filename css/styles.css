@@ -118,6 +118,7 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
     padding: 4.5% 15px;
     line-height: 1.85;
     color: var(--accent-gold-light);
+    margin-top: -1rem; 
 }
 h1 {
     font-size: 2.35rem;
@@ -145,6 +146,7 @@ h1 {
 }
 #splash-text-action {
     font-weight: 700;
+    margin-bottom: 0;
 }
 /* END Splash page */
 /*******************/
@@ -166,7 +168,7 @@ h1 {
     display: flex;
     flex-direction: column-reverse;
     font-size: 1.04rem;
-    -webkit-text-stroke: 0.5px var(--accent-gold-light);
+    font-weight: bold;
 }
 .indicator-icons-active {
     font-weight: 700;

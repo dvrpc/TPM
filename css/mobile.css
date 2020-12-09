@@ -5,6 +5,7 @@ html {
 }
 h1 {
     font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 /* END General */
@@ -34,9 +35,11 @@ h1 {
 }
 #tpm-logo-main {
     width: 123px;
+    width: 103px;
 }
 .splash-text {
-    line-height: 1.65;
+    line-height: 1.6;
+    font-size: 1.18rem;
 }
 /* END Splash page */
 /*******************/
@@ -53,7 +56,7 @@ h1 {
     padding-bottom: 2px;
 }
 .indicator-icons-figure {
-    font-size: 0.95rem;
+    font-size: 0.925rem;
     line-height: initial;
     align-self: flex-start;
 }
