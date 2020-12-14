@@ -71,6 +71,9 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
 .muted-40 {
     filter: opacity(40%);
 }
+.focus:focus {
+    outline: none;
+}
 /* END General */
 /***************/
 

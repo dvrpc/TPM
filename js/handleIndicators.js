@@ -13,26 +13,33 @@ let beenMuted = false
 let beenScrolled = false
 let scrollTo;
 
-// @IMPROVEMENT: adding 15 makes sure it always scroll to the sticky point, but doesn't scale perfectly. Calculate percentages and use that
 const calculateScrollTo = header => {
     const iconsHeightBuff = 20
-    const isNarrow = window.innerWidth > 700 ? false : true
-    const buffer = (isNarrow ? tabs.offsetHeight : iconsHeightBuff)
+    const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
+    const buffer = isNarrow ? tabs.offsetHeight : iconsHeightBuff
     const elHeight = splash.offsetHeight + header.offsetHeight
     return elHeight + buffer
 }
 
-const makeSticky = () => {
-    const headerActive = document.querySelector('.content-header')
+/* @ UPDATE
+    give all sticky elements a class "sticky"
+    querySelectorAll('.sticky') & sort by offsetTop. Sum offsetTop then add element + margin param
+        probalby don't even eed to sort, just add. This only works for the 
+    some elements (table headers) need to be ignored when considering top. 
+        all elements = sticky
+        anchor elements = sticky-anchor
+        document.querySelectorAll('.sticky-anchor') instead of line 27
+*/
+const makeSticky = header => {
+    header = header ? header : document.querySelector('.content-header')
 
     const navHeight = nav.offsetHeight
     const iconsHeight = iconsWrapper.offsetHeight
-
-    const headerHeight = headerActive ? headerActive.offsetHeight : 0
+    const headerHeight = header ? header.offsetHeight : 0
     const navAndIconsHeight = navHeight + iconsHeight
     const navsAndIconsAndHeaderHeight = navAndIconsHeight + headerHeight
     const iconsHeightBuff = 20
-    const isNarrow = window.innerWidth > 700 ? false : true
+    const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
     
     if(!mainBeenSticky){
         tabs.style.position = 'sticky'
@@ -44,10 +51,12 @@ const makeSticky = () => {
     
     tabs.style.top = isNarrow ? navsAndIconsAndHeaderHeight + 'px' : (navAndIconsHeight + 50) + 'px'
 
-    if(headerActive){
-        headerActive.style.position = 'sticky'
-        headerActive.style.top = isNarrow ? navAndIconsHeight - 1 + 'px' : `calc(${navAndIconsHeight - iconsHeightBuff}px - 4%)`
+    if(header){
+        header.style.position = 'sticky'
+        header.style.top = isNarrow ? navAndIconsHeight - 1 + 'px' : `calc(${navAndIconsHeight - iconsHeightBuff}px - 4%)`
     }
+
+    return header
 }
 
 const muteIndicators = () => {
@@ -108,10 +117,11 @@ const clickIndicator = e => {
     contentSection.classList.add('content-section-active')
     contentSection.dataset.theme = theme
 
-
     // set header sticky & mute inactive indicator icon imgs
-    makeSticky()
+    makeSticky(header)
+
     if(!beenMuted) beenMuted = muteIndicators()
+
     if(!beenScrolled) {
         scrollTo = calculateScrollTo(header)
         beenScrolled = true
@@ -189,8 +199,8 @@ const handleTabs = e => {
 
 // handle updates to scroll and sticky fncs
 window.onresize = () => {
-    makeSticky()
-    beenScrolled = false
+    const header = makeSticky()
+    if(header) scrollTo = calculateScrollTo(header)
 }
 moreInfo.ontoggle = () => beenScrolled = false
 

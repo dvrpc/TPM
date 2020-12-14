@@ -4,7 +4,6 @@ html {
     font-size: 13px;
 }
 h1 {
-    font-size: 1.4rem;
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -38,7 +37,7 @@ h1 {
     width: 103px;
 }
 .splash-text {
-    line-height: 1.6;
+    line-height: 1.7;
     font-size: 1.18rem;
 }
 /* END Splash page */
@@ -56,7 +55,9 @@ h1 {
     padding-bottom: 2px;
 }
 .indicator-icons-figure {
+    /* @ UPDATE */
     font-size: 0.925rem;
+    /* font-size: 1rem; */
     line-height: initial;
     align-self: flex-start;
 }
@@ -67,37 +68,39 @@ h1 {
 
 /**************************/
 /* TPM Indicator Content */
+#tpm-content-section {
+    flex-direction: column;
+}
 #tpm-content {
 	max-width: initial;
 	width: 100%;
 	padding: 0 1rem;
-	margin-left: -1rem;
+    margin-left: -13.5px; /* escape container 15px padding */
 	border: none;
 }
-#tpm-content p, #tpm-content ul, #tpm-content span:not(.dates-circle) {
-    max-width: 50ch;
+#tpm-content p, #tpm-content ul, #tpm-content ol, #tpm-content span:not(.dates-circle) {
+    display: block;
+    max-width: 70ch;
     margin: 5% auto;
 }
-#tpm-content-section {
-    flex-direction: column;
-}
 #tpm-content-headers {
-    width: calc(100% + 30px);
-    margin-left: -15px;
+    width: 100%;
     margin-right: 0;
     max-width: initial;
     flex-direction: row;
     justify-content: space-between;
 }
 .tpm-content-headers-btn {
-    padding: 1rem 0.5rem;
-    font-size: 0.9rem;
+    padding: 0.8rem 0.4rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
     margin-top: -1px;
-    border-top: none;
+    border: none;
     border-radius: 0;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    transform: translateY(-1px);
+    width: 25%;
 }
 .tpm-content-headers-btn:not(.active-header) {
     border-bottom: none;
@@ -106,7 +109,8 @@ h1 {
 .content-header {
     padding: 0.5rem 0;
     font-size: 1.2rem;
-    width: calc(100% + 52px);
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
     border-radius: 0;
     box-shadow: none;
 }
