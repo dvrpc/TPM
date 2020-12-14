@@ -1171,7 +1171,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1231,7 +1231,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -1283,7 +1283,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1331,7 +1331,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -1519,7 +1519,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1595,7 +1595,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -1663,7 +1663,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1725,7 +1725,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
