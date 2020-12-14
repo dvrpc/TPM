@@ -647,7 +647,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, FHWA, NJ DOT</small><br />
+            <small>Source: University of Maryland CATT Lab, NJ DOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
@@ -675,7 +675,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, FHWA, PennDOT</small><br />
+            <small>Source: University of Maryland CATT Lab, PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey & Pennsylvania Freight Truck Travel Time Reliability (TTTR) Targets</h4>
@@ -703,7 +703,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, FHWA, NJ DOT, PennDOT</small>
+            <small>Source: University of Maryland CATT Lab, NJ DOT, PennDOT</small>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC CMAQ Congestion Measures Targets for Relevant Urbanized Areas (UZA)</h4>
             <div class="table-overflow-wrapper">
@@ -757,7 +757,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: US Census Bureau ACS Five Year Estimates, University of Maryland CATT Lab, FHWA, PennDOT</small><br />
+            <small>U.S. Census Bureau ACS Five-Year Estimates, University of Maryland CATT Lab, NJDOT, PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for PHED for this first reporting period.</small>
     
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
