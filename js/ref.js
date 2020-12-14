@@ -528,7 +528,7 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report is due in October 2020. Progress towards meeting the state infrastructure targets will be reported here when those reports are adopted by the DVRPC Board.</p>
+            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were due in October 2020. Progress towards meeting the state infrastructure targets will be reported here when those reports are adopted by the DVRPC Board.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that less than 5 percent of Interstate miles be considered in poor condition in order to meet the federal threshold for pavement condition.</p>
             <span>If pavement conditions on the <strong>Interstate</strong> system fail to meet the federal minimum condition thresholds in the most recent year of the State biennial report, the state DOT must comply with the provisions set forth in 23 USC 119(f) for the subsequent fiscal year. The State shall:</span>
@@ -647,7 +647,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, FHWA, NJ DOT</small><br />
+            <small>Source: University of Maryland CATT Lab, NJ DOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
@@ -675,7 +675,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, FHWA, PennDOT</small><br />
+            <small>Source: University of Maryland CATT Lab, PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey & Pennsylvania Freight Truck Travel Time Reliability (TTTR) Targets</h4>
@@ -703,7 +703,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, FHWA, NJ DOT, PennDOT</small>
+            <small>Source: University of Maryland CATT Lab, NJ DOT, PennDOT</small>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC CMAQ Congestion Measures Targets for Relevant Urbanized Areas (UZA)</h4>
             <div class="table-overflow-wrapper">
@@ -757,7 +757,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: US Census Bureau ACS Five Year Estimates, University of Maryland CATT Lab, FHWA, PennDOT</small><br />
+            <small>U.S. Census Bureau ACS Five-Year Estimates, University of Maryland CATT Lab, NJDOT, PennDOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for PHED for this first reporting period.</small>
     
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
@@ -873,7 +873,7 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report is due in October 2020. Progress towards meeting the system performance targets will be reported here when the interim progress reports are adopted by the DVRPC Board.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report were due in October 2020. Progress towards meeting the system performance targets will be reported here when the interim progress reports are adopted by the DVRPC Board.</p>
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
             <p>If the state does not meet the baseline condition or exceeds its target of travel time reliability on the Interstate system or non-Interstate system (measured separately), the state shall provide documentation identifying why the target wasn’t met and actions that will be taken to improve system reliability.</p>
@@ -882,9 +882,9 @@ const ref = {
             <p>If the state does not meet or exceeds the baseline condition or its targeted ratio of travel times on the Interstate system. The state shall provide additional documentation identifying why the target wasn’t met and actions (in addition to those that are being taken to improve the LOTTR) that are being taken to improve freight system reliability performance.</p>
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
             <h4 class="tpm-content-subheaders theme-font-color">PHED and Percent of Non-SOV Travel</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. The impacted MPOs and state DOTs first period progress reports on the CMAQ congestion measures are due in October 2020. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. The impacted MPOs and state DOTs first period progress reports on the CMAQ congestion measures were due in October 2020. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. The impacted MPOs and state DOTs first period progress reports on the CMAQ congestion measures are due in October 2020. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. The impacted MPOs and state DOTs first period progress reports on the CMAQ congestion measures were due in October 2020. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -1171,7 +1171,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1231,7 +1231,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -1283,7 +1283,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1331,7 +1331,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -1519,7 +1519,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1595,7 +1595,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -1663,7 +1663,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1725,7 +1725,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT, PennDOT</small>
+            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
