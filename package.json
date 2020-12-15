@@ -1,0 +1,24 @@
+{
+  "name": "transportation-performance-management",
+  "version": "1.0.0",
+  "description": "New webpage for viewing Transportation Performance Management data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvrpc/TPM.git"
+  },
+  "keywords": [],
+  "author": "Marc Molta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvrpc/TPM/issues"
+  },
+  "homepage": "https://github.com/dvrpc/TPM#readme",
+  "devDependencies": {
+    "webpack": "^5.10.3"
+  }
+}
