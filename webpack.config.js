@@ -24,11 +24,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['minify']
-                }
+                exclude: /node_modules/
             },
             // load styles
             {
@@ -57,21 +53,21 @@ module.exports = {
         path: path.resolve(__dirname, 'build')
     },
     plugins: [
-        new CopyWebpackPlugin(
-            [
+        new CopyWebpackPlugin({
+            patterns: [
                 {
                     from: './img',
                     to: 'img',
                     toType: 'dir'
-                }
+                },
                 {
                     from: './css',
                     to: 'css',
                     toType: 'dir'
                 }
             ]
-        ),
-    // HtmlWebpackPlugin
+        }),
+        // HtmlWebpackPlugin
         indexConfig
     ]
 }

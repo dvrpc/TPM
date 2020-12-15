@@ -19,6 +19,13 @@
   },
   "homepage": "https://github.com/dvrpc/TPM#readme",
   "devDependencies": {
-    "webpack": "^5.10.3"
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0"
   }
 }
