@@ -316,7 +316,7 @@ const ref = {
                 </div>
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>June 30, 2020</strong><br />If a State has not met or made significant progress toward meeting its targets, the state must submit an HSIP Implementation Plan that describes actions the state will take to meet or make significant progress toward meeting its targets.</p>
+                    <p class="dates-entry-text"><strong>June 30, 2020</strong><br />If a State has not met or made significant progress toward meeting its targets, the state must submit an HSIP Implementation Plan that describes actions the state will take to meet or make significant progress toward meeting its targets. (annually thereafter)</p>
                 </div>
             </article>
             
