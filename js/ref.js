@@ -374,6 +374,15 @@ const ref = {
                     </thead>
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
                             <td>61.25%</td>
                             <td>67.2%</td>
@@ -394,7 +403,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT</small><br />
+            <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey Non-Interstate NHS Pavement Infrastructure Targets</h4>
