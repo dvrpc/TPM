@@ -362,27 +362,34 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey Interstate Pavement Infrastructure Targets</h4>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide infrastructure condition targets.</p>
+            <h4 class="tpm-content-subheaders theme-font-color">Interstate Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target<sup>1</sup></th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">2019 Two-Year Target<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
                             <td>61.25%</td>
+                            <td>67.2%</td>
                             <td>n/a</td>
-                            <td class="table-cell-last">50.0%</td>
+                            <td>n/a</td>
+                            <td>50.0%</td>
+                            <td class="table-cell-last">60.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
                             <td>1.01%</td>
+                            <td>0.4%</td>
                             <td>n/a</td>
-                            <td class="table-cell-last">2.5%</td>
+                            <td>n/a</td>
+                            <td>2.5%</td>
+                            <td class="table-cell-last">2.0%</td>
                         </tr>
                     </tbody>
                 </table>
