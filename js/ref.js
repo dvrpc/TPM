@@ -363,6 +363,7 @@ const ref = {
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide infrastructure condition targets.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Interstate Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -495,7 +496,8 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were due in October 2020. Progress towards meeting the state infrastructure targets will be reported here when those reports are adopted by the DVRPC Board.</p>
+            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were submitted in October 2020. Based on the progress reports, NJ DOT and PennDOT have adjusted some of their four-year targets as noted in the tables below.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that less than 5 percent of Interstate miles be considered in poor condition in order to meet the federal threshold for pavement condition.</p>
             <span>If pavement conditions on the <strong>Interstate</strong> system fail to meet the federal minimum condition thresholds in the most recent year of the State biennial report, the state DOT must comply with the provisions set forth in 23 USC 119(f) for the subsequent fiscal year. The State shall:</span>
@@ -507,6 +509,64 @@ const ref = {
             <ul>
                 <li>Submit a TAMP that describes actions the state will take to meet or make significant progress toward meeting its targets. The TAMP should guide the state's project decisions in order to meet or make significant progress toward meeting its infrastructure performance targets in subsequent years.</li>
             </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Interstate Pavement Infrastructure</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-wide">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-wide">2021 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-last table-cell-wide">Two-Year Target Achieved</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
+                            <td>61.25%</td>
+                            <td>67.2%</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>62.1%</td>
+                            <td>71.5%</td>
+                            <td>50.0%</td>
+                            <td>60.0%</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
+                            <td>1.01%</td>
+                            <td>0.4%</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>1.8%</td>
+                            <td>0.4%</td>
+                            <td>2.5%</td>
+                            <td>2.0%</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Bridges</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that no more than 10 percent of the total deck area of bridges on the NHS be considered structurally deficient in order to meet the federal threshold for bridge condition.</li>
             <span>If a state has not met the federal threshold for bridge conditions for three consecutive years, the state DOT shall:</span>
