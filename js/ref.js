@@ -631,6 +631,63 @@ const ref = {
             <ul>
                 <li>Obligate and set aside NHPP funds for eligible NHS bridge projects. The set-aside will remain in effect until the State meets the threshold of less than 10 percent of bridge deck area classified as structurally deficient.</li>
             </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Bridge Infrastructure</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-wide">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-wide table-cell-last">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
+                            <td>21.7%</td>
+                            <td>23.7%</td>
+                            <td>19.4%</td>
+                            <td>25.8%</td>
+                            <td>22.1%</td>
+                            <td>27.0%</td>
+                            <td>18.6%<sup>1</sup></td>
+                            <td>26.0%</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
+                            <td>6.5%</td>
+                            <td>5.1%</td>
+                            <td>6.5%</td>
+                            <td>5.6%</td>
+                            <td>6.8%</td>
+                            <td>5.1%</td>
+                            <td>6.5%<sup>1</sup></td>
+                            <td>6.0%</td>
+                            <td>No</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
