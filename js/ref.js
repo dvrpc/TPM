@@ -406,87 +406,49 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th class="table-cell-first">Measure<sup>1</sup></th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
                             <td>32.45%</td>
+                            <td>36.8%</td>
+                            <td>25.0%</td>
+                            <td>35.0%</td>
                             <td>25%</td>
-                            <td class="table-cell-last">25%</td>
+                            <td class="table-cell-last">33%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
                             <td>2.38%</td>
-                            <td>2.5%</td>
-                            <td class="table-cell-last">2.5%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJ DOT</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Interstate Pavement Infrastructure Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target<sup>1</sup></th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
-                            <td>67.2%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">60.0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
-                            <td>0.4%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">2.0%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: PennDOT</small><br />
-            <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Non-Interstate NHS Pavement Infrastructure Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
-                            <td>36.8%</td>
-                            <td>35.0%</td>
-                            <td class="table-cell-last">33.0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
                             <td>2.3%</td>
+                            <td>2.5%</td>
                             <td>4.0%</td>
+                            <td>15%<sup>2</sup></td>
                             <td class="table-cell-last">5.0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Measure based on Full Distress + International Roughness Index methodology</small><br />
+            <small><sup>2</sup>Four-year target was adjusted for the New Jersey Percentage Non-Interstate NHS Pavement Lane Miles in Poor Condition at the mid-term reporting period</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey Bridge Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
