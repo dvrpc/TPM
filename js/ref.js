@@ -567,6 +567,64 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
             
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-wide">Measure<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-last table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
+                            <td>32.45%</td>
+                            <td>36.8%</td>
+                            <td>25.0%</td>
+                            <td>35.0%</td>
+                            <td>33.0%</td>
+                            <td>37.6%</td>
+                            <td>25.0%</td>
+                            <td>33.0%</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
+                            <td>2.38%</td>
+                            <td>2.3%</td>
+                            <td>2.5%</td>
+                            <td>4.0%</td>
+                            <td>10.7%</td>
+                            <td>2.0%</td>
+                            <td>2.5%<sup>2</sup></td>
+                            <td>5.0%</td>
+                            <td>No</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Measure based on Full Distress + International Roughness Index methodology</small><br />
+            <small><sup>2</sup>Four-year target was adjusted for the New Jersey Percentage Non-Interstate NHS Pavement Lane Miles in Poor Condition at the mid-term reporting period</small>
+
             <h4 class="tpm-content-subheaders theme-font-color">Bridges</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that no more than 10 percent of the total deck area of bridges on the NHS be considered structurally deficient in order to meet the federal threshold for bridge condition.</li>
             <span>If a state has not met the federal threshold for bridge conditions for three consecutive years, the state DOT shall:</span>
