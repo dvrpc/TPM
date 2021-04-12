@@ -450,59 +450,48 @@ const ref = {
             <small><sup>1</sup>Measure based on Full Distress + International Roughness Index methodology</small><br />
             <small><sup>2</sup>Four-year target was adjusted for the New Jersey Percentage Non-Interstate NHS Pavement Lane Miles in Poor Condition at the mid-term reporting period</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey Bridge Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Bridge Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
-                            <td>20.7%</td>
+                            <td>21.7%</td>
+                            <td>23.7%</td>
                             <td>19.4%</td>
-                            <td class="table-cell-last">18.6%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
-                            <td>6.5%</td>
-                            <td>6.5%</td>
-                            <td class="table-cell-last">6.5%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJ DOT</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Bridge Infrastructure Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
-                            <td>25.6%</td>
                             <td>25.8%</td>
+                            <td>21.3%<sup>1</sup></td>
                             <td class="table-cell-last">26.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
-                            <td>5.5%</td>
+                            <td>6.5%</td>
+                            <td>5.1%</td>
+                            <td>6.5%</td>
                             <td>5.6%</td>
+                            <td>6.8%<sup>1</sup></td>
                             <td class="table-cell-last">6.0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
