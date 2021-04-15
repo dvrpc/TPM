@@ -764,61 +764,51 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide system performance targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">Two-Year Target</th>
+                        <th colspan="2">Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Interstates with Reliable Travel Times (%)</td>
-                            <td>82.0%</td>
-                            <td>82.0%</td>
-                            <td class="table-cell-last">82.0%</td>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Non-Interstate NHS with Reliable Travel Times (%)</td>
-                            <td>84.1%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">84.1%</td>
+                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td>82.1</td>
+                            <td>89.8</td>
+                            <td>82</td>
+                            <td>89.8</td>
+                            <td>82</td>
+                            <td class="table-cell-last">89.5%<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
+                            <td>84.1</td>
+                            <td>87.4</td>
+                            <td>n/a<sup>1</sup></td>
+                            <td>n/a<sup>1</sup></td>
+                            <td>84.1</td>
+                            <td class="table-cell-last">87.4</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: University of Maryland CATT Lab, NJ DOT</small><br />
             <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Interstates with Reliable Travel Times (%)</td>
-                            <td>89.8%</td>
-                            <td>89.8%</td>
-                            <td class="table-cell-last">89.8%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Non-Interstate NHS with Reliable Travel Times (%)</td>
-                            <td>87.4%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">87.4%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: University of Maryland CATT Lab, PennDOT</small><br />
-            <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
+            <small><sup>2</sup>Four-year target was adjusted for the Pennsylvania Percentage of Person Miles Traveled on the Interstate that are Reliable at the mid-term reporting period.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey & Pennsylvania Freight Truck Travel Time Reliability (TTTR) Targets</h4>
             <div class="table-overflow-wrapper">
