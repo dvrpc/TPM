@@ -18,6 +18,7 @@ a {
 }
 small {
     font-size: 0.7rem;
+    line-height: initial;
 }
 summary {
     cursor: pointer;
@@ -273,6 +274,7 @@ h1 {
 }
 .tpm-content-subheaders {
     margin-bottom: 0;
+    margin-top: 2rem;
     font-size: 1.3rem;
 }
 .table-overflow-wrapper {
