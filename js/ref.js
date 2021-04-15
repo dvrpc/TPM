@@ -1099,12 +1099,12 @@ const ref = {
                             <td>1.35</td>
                             <td>1.9</td>
                             <td>1.34</td>
-                            <td></td>
-                            <td></td>
+                            <td>1.89</td>
+                            <td>1.36</td>
                             <td>1.95</td>
-                            <td>1.4<sup>1</sup></td>
-                            <td></td>
-                            <td></td>
+                            <td>1.34<sup>1</sup></td>
+                            <td>Yes</td>
+                            <td>No</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1143,12 +1143,12 @@ const ref = {
                             <td>16.8</td>
                             <td>n/a</td>
                             <td>n/a</td>
-                            <td></td>
-                            <td></td>
+                            <td>14.6</td>
+                            <td>14.6</td>
                             <td>17.2</td>
                             <td>17.2</td>
-                            <td></td>
-                            <td></td>
+                            <td>Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: NYC UZA</td>
@@ -1156,18 +1156,17 @@ const ref = {
                             <td>n/a</td>
                             <td>n/a</td>
                             <td>n/a</td>
-                            <td></td>
-                            <td></td>
+                            <td>22.3</td>
+                            <td>n/a</td>
                             <td>22</td>
                             <td>n/a</td>
-                            <td></td>
-                            <td></td>
+                            <td>No</td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Two-year targets are not required for the first reporting period.</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
             <div class="table-overflow-wrapper">
@@ -1200,12 +1199,12 @@ const ref = {
                             <td>27.9</td>
                             <td>28</td>
                             <td>28</td>
-                            <td></td>
-                            <td></td>
+                            <td>28.2</td>
+                            <td>28.2</td>
                             <td>28.1</td>
                             <td>28.1</td>
-                            <td></td>
-                            <td></td>
+                            <td>Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
@@ -1256,12 +1255,12 @@ const ref = {
                             <td>25.870</td>
                             <td>4.29</td>
                             <td>10.76</td>
-                            <td></td>
-                            <td></td>
+                            <td>162.02</td>
+                            <td>143.21</td>
                             <td>8.52</td>
                             <td>20.49</td>
-                            <td></td>
-                            <td></td>
+                            <td>Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
@@ -1269,12 +1268,12 @@ const ref = {
                             <td>971.78</td>
                             <td>114.401</td>
                             <td>337.7</td>
-                            <td></td>
-                            <td></td>
+                            <td>1,500.52</td>
+                            <td>971.05</td>
                             <td>231.85</td>
                             <td>612.82</td>
-                            <td></td>
-                            <td></td>
+                            <td>Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
@@ -1282,25 +1281,25 @@ const ref = {
                             <td>302.38</td>
                             <td>17.682</td>
                             <td>109.46</td>
-                            <td></td>
-                            <td></td>
+                            <td>157.75</td>
+                            <td>231.78</td>
                             <td>36.324</td>
                             <td>201.73</td>
-                            <td></td>
-                            <td></td>
+                            <td>Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: CO</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>1,135.4</td>
                             <td></td>
                             <td>567.7</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>250<sup>1</sup></td>
-                            <td></td>
-                            <td></td>
+                            <td>n/a</td>
+                            <td>2,969.64</td>
+                            <td>n/a</td>
+                            <td>1,135.4<sup>1</sup></td>
+                            <td>n/a</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
