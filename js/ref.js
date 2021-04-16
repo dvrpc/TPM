@@ -1439,12 +1439,254 @@ const ref = {
                 </table>
             </div>
             <small>Source: DVRPC  2021</small><br />
-            <small><sup>1</sup>1SEPTA did not report a target for the number of fatalities.</small><br />
+            <small><sup>1</sup>SEPTA did not report a target for the number of fatalities.</small><br />
             <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles travelled. NJ Transit reported fatalities per 1,000,000 miles travelled.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Number of Number of Injuries<sup>1</sup></th>
+                        <th class="table-cell-last">Rate of Injuries<sup>2</sup></th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Passenger Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">5.53 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">5.75 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.79 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.40 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">3.48 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">6.48 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.69 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first"></td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">3.28 (per 200,000 hours)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Passenger Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>4</td>
+                            <td class="table-cell-last">3.18 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>244</td>
+                            <td class="table-cell-last">3.35 (per 1 million miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Employee Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0 (per 200,000 hours)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>423</td>
+                            <td class="table-cell-last">7.99 (per 200,000 hours)</td>
+                        </tr>                   
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>41</td>
+                            <td class="table-cell-last">1 (per 100,000 miles)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>SEPTA did not report a target for the number of injuries.</small><br />
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported passenger injuries per 100,000 miles travelled. NJ Transit reported passenger injuries per 1,000,000 miles travelled. Employee injuries for all agencies is per 200,000 hours.</small><br />
+            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Safety Events</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Number of Number of Safety Events<sup>1</sup></th>
+                        <th class="table-cell-last">Rate of Safety Events<sup>2</sup></th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Vehicle Accidents</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">8.18 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">9.51 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.09 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.07 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">2.30 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">8.38 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.07 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Station Accidents</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">1.59 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.56 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.72 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">1.01 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.95 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Safety Events (System)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>595</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>13</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>132</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>104</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>3</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>12</td>
+                            <td class="table-cell-last">9.53 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>264</td>
+                            <td class="table-cell-last">3.63 (per 1 million miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Fire Events</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>2</td>
+                            <td class="table-cell-last">1.59 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>12</td>
+                            <td class="table-cell-last">0.16 (per 1 million miles)</td>
+                        </tr>                   
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>50</td>
+                            <td class="table-cell-last">1 (per 100,000 miles)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>SEPTA reported safety events for both station and vehicle accidents as a cumulative number for the system per year.</small><br />
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported safety events per 100,000 miles. NJ Transit reported safety events per 1,000,000 miles.</small><br />
+            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>Under the FTA PTASP Rule, transit agency safety plans are not due until December 31, 2020. Results will be published here when they become available.</p>
+            <p>The transit safety targets were adopted by DVRPC in January 2021. Once the respective transit agencies report on their performance, it will be reported here.</p>
             <br />
             <br />
             <br />
