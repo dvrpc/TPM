@@ -1458,212 +1458,187 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators’ efforts at achieving those targets.</p>
+
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
-                    </thead class="table-cell-wide">
+                        <th class="table-cell-last">FY 2021 Targets</th>
+                    </thead>
                     <tbody>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>14</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>14</td>
-                            <td class="table-cell-last">10%</td>
+                            <td class="table-cell-last">15%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td>35(MFL/NHSL)<br />40(BSS)</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>30</td>
                             <td class="table-cell-last">100%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td class="table-cell-last">66%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>7</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>18</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Vintage Trolley/Streetcar</td>
-                            <td>15</td>
                             <td class="table-cell-last">100%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>12</td>
-                            <td class="table-cell-last">20%</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">6%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>14</td>
-                            <td class="table-cell-last">45.4%</td>
+                            <td class="table-cell-last">27%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>12</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">24%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>12</td>
-                            <td class="table-cell-last">1.5%</td>
+                            <td class="table-cell-last">64.36%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>31</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td>8</td>
-                            <td class="table-cell-last">4.35%</td>
+                            <td class="table-cell-last">5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
-                            <td class="table-cell-last">6.37%</td>
+                            <td class="table-cell-last">7.5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
-                            <td class="table-cell-last">17.94%</td>
+                            <td class="table-cell-last">16.7%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td class="table-cell-last">100%</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Van</td>
-                            <td>8</td>
-                            <td class="table-cell-last">1.53%</td>
+                            <td class="table-cell-first">Sport Utility Vehicle</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr>
+                            <td class="table-cell-first">Van</td>
+                            <td class="table-cell-last">2%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
-                            <td>39</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC  2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
-                    </thead class="table-cell-wide">
+                        <th class="table-cell-first table-cell-auto">National Transit Database Category</th>
+                        <th class="table-cell-last">FY 2021 Targets</th>
+                    </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
                             <td class="table-cell-last">50%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
                             <td class="table-cell-last">25%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
                             <td class="table-cell-last">55%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">52.76%</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
-                            <td class="table-cell-last">50.63%</td>
+                            <td class="table-cell-last">64.24%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
-                            <td class="table-cell-last">24.1%</td>
+                            <td class="table-cell-last">33.9%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">28%</td>
+                            <td class="table-cell-last">22%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">FY 2020 Targets</th>
+                        <th class="table-cell-last">FY 2021 Targets</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1677,9 +1652,9 @@ const ref = {
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td class="table-cell-last">5%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1687,35 +1662,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">4.1%</td>
+                            <td class="table-cell-last">2.38%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
-                            <td class="table-cell-last">0.43%</td>
+                            <td class="table-cell-last">0.18%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td class="table-cell-last">0.76%</td>
+                            <td class="table-cell-last">0.43%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">FY 2020 Targets</th>
+                        <th class="table-cell-last">FY 2021 Targets</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1725,21 +1700,21 @@ const ref = {
                             <td class="table-cell-first">Administration Facilities</td>
                             <td class="table-cell-last">5%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">4%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">4%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1752,7 +1727,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -1765,10 +1740,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide">FY 2019 Targets</th>
-                        <th class="table-cell-wide">FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide">FY 2020 Targets</th>
+                        <th class="table-cell-wide">FY 2020 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -1777,70 +1751,60 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>14</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>14</td>
                             <td>10%</td>
-                            <td>12.4%</td>
+                            <td>17.9%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td>35(MFL/NHSL)<br />40(BSS)</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>30</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
-                            <td>50%</td>
+                            <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td>66%</td>
                             <td>66%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>7</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>18</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Vintage Trolley/Streetcar</td>
-                            <td>15</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td class="table-cell-last">Yes</td>
@@ -1851,80 +1815,75 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>12</td>
-                            <td>100%</td>
-                            <td>100%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>20%</td>
+                            <td>95.4%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
-                            <td>28.89%</td>
-                            <td>28.89%</td>
+                            <td>52.76%</td>
+                            <td>27.06%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>14</td>
-                            <td>45%</td>
-                            <td>52.02%</td>
+                            <td>46.4%</td>
+                            <td>52.01%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>12</td>
                             <td>0%</td>
-                            <td>0.16%</td>
+                            <td>19.32%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>12</td>
-                            <td>13.19%</td>
-                            <td>11.67%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>1.5%</td>
+                            <td>23.61%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>31</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td>8</td>
                             <td>4.35%</td>
-                            <td>2.13%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
-                            <td>6.41%</td>
-                            <td>7.55%</td>
+                            <td>8.4%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td>6.37%</td>
+                            <td>6.37%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
-                            <td>18.26%</td>
+                            <td>17.94%</td>
                             <td>17.94%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
+                            <td class="table-cell-first">Sport Utility Vehicle</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">Van</td>
-                            <td>8</td>
                             <td>1.53%</td>
-                            <td>2.74%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1932,7 +1891,6 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
-                            <td>39</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
@@ -1940,41 +1898,37 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide">FY 2019 Targets</th>
-                        <th class="table-cell-wide">FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide">FY 2020 Targets</th>
+                        <th class="table-cell-wide">FY 2020 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
-                            <td>75%</td>
-                            <td>43%</td>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td>50%</td>
+                            <td>41%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
-                            <td>40%</td>
-                            <td>20%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>25%</td>
+                            <td>33%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
-                            <td>60%</td>
-                            <td>51%</td>
+                            <td>55%</td>
+                            <td>49%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -1982,25 +1936,22 @@ const ref = {
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td>Not Reported</td>
-                            <td>39%</td>
-                            <td>58.16%</td>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td>40%</td>
+                            <td>77.05%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
-                            <td>47%</td>
-                            <td>50.4%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>50.63%</td>
+                            <td>34.26%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
-                            <td>25%</td>
-                            <td>23.6%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>24.1%</td>
+                            <td>25.81%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2008,24 +1959,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>Not Reported</td>
-                            <td>24%</td>
-                            <td>22%</td>
+                            <td>28%</td>
+                            <td>16%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>FY 2019 Targets</th>
-                        <th>FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th>FY 2020 Targets</th>
+                        <th>FY 2020 Performance</th>
+                        <th class="table-cell-wide table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -2034,19 +1984,19 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>10%</td>
-                            <td>3.5%</td>
+                            <td>3%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
                             <td>10%</td>
-                            <td>1.8%</td>
+                            <td>1.6%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td>5%</td>
-                            <td>1.3%</td>
+                            <td>1.1%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -2055,21 +2005,21 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>1.00%</td>
-                            <td>Did Not Report</td>
-                            <td class="table-cell-last"></td>
+                            <td>1%</td>
+                            <td>0.94%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
                             <td>4.1%</td>
-                            <td>Did Not Report</td>
-                            <td class="table-cell-last"></td>
+                            <td>2.38%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
                             <td>0.43%</td>
-                            <td>Did Not Report</td>
-                            <td class="table-cell-last"></td>
+                            <td>0.18%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2077,23 +2027,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td>1.44%</td>
-                            <td>0.23%</td>
+                            <td>0.76%</td>
+                            <td>0.32%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>FY 2019 Targets</th>
-                        <th>FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th>FY 2020 Targets</th>
+                        <th>FY 2020 Performance</th>
+                        <th class="table-cell-wide table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -2108,7 +2058,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
                             <td>5%</td>
-                            <td>0%</td>
+                            <td>4%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -2118,14 +2068,14 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
                             <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>3.45%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
                             <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>3.12%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2146,7 +2096,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>

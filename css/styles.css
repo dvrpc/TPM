@@ -274,7 +274,7 @@ h1 {
 }
 .tpm-content-subheaders {
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 2.2rem;
     font-size: 1.3rem;
 }
 .table-overflow-wrapper {
@@ -319,6 +319,9 @@ td {
 }
 .table-cell-no-border {
     border-bottom: none !important;
+}
+.table-cell-auto {
+    width: auto;
 }
 #dates-wrapper {
     display: flex;
