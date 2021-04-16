@@ -1683,6 +1683,77 @@ const ref = {
             <small><sup>1</sup>SEPTA reported safety events for both station and vehicle accidents as a cumulative number for the system per year.</small><br />
             <small><sup>2</sup>SEPTA and DRPA/PATCO reported safety events per 100,000 miles. NJ Transit reported safety events per 1,000,000 miles.</small><br />
             <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Mean Distance in Miles between Major Service Failures</th>
+                        <th class="table-cell-last">Total Service Failures</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>85,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>130,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>35,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (City)</td>
+                            <td>8,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (MSHL)</td>
+                            <td>20,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>30,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>6,284</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>135.45<sup>1</sup></td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>                  
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">230<sup>2</sup></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>NJ Transit reported the mean distance between major service failures for buses as a rate per 1,000,000 miles.</small><br />
+            <small><sup>2</sup>DRPA/PATCO reported the total number of service failures.</small><br />
+            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line, MSHL=Media Sharon Hill Line</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
