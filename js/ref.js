@@ -75,83 +75,83 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC has agreed to adopt and support the New Jersey DOT and Pennsylvania DOT targets.</p>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide roadway safety targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">New Jersey</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>NJ Baseline <br /> <small>(2014 - 2018)</small></th>
-                        <th class="table-cell-last">NJ Target <br /> <small>(2016 - 2020)</small></th>
+                        <th>NJ Baseline <br /> <small>(2015 - 2019)</small></th>
+                        <th class="table-cell-last">NJ Target <br /> <small>(2017 - 2021)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>581.6</td>
-                            <td class="table-cell-last">582.8</td>
+                            <td>582.6</td>
+                            <td class="table-cell-last">574</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>0.759</td>
-                            <td class="table-cell-last">0.744</td>
+                            <td>0.756</td>
+                            <td class="table-cell-last">0.740</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>1,110.8</td>
-                            <td class="table-cell-last">1,167.9</td>
+                            <td>1,469.2</td>
+                            <td class="table-cell-last">2,124.8</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.449</td>
-                            <td class="table-cell-last">1.489</td>
+                            <td>1.9</td>
+                            <td class="table-cell-last">2.724</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>392.7</td>
-                            <td class="table-cell-last">407.9</td>
+                            <td>463.7</td>
+                            <td class="table-cell-last">588.5</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT</small>
+            <small>Source: DVRPC 2021</small>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>PA Baseline <br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-last">PA Target <br /><small>(2016 - 2020)</small></th>
+                        <th>PA Baseline <br /><small>(2015 - 2019)</small></th>
+                        <th class="table-cell-last">PA Target <br /><small>(2017 - 2021)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>1,182</td>
-                            <td class="table-cell-last">1,171.9</td>
+                            <td>1,154.8</td>
+                            <td class="table-cell-last">1,088.2</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.169</td>
-                            <td class="table-cell-last">1.148</td>
+                            <td>1.135</td>
+                            <td class="table-cell-last">1.1059</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>3,839.6</td>
-                            <td class="table-cell-last">4,400.3</td>
+                            <td>4,166.6</td>
+                            <td class="table-cell-last">4,551.2</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>3.797</td>
-                            <td class="table-cell-last">4.309</td>
+                            <td>4.097</td>
+                            <td class="table-cell-last">4.431</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>679</td>
-                            <td class="table-cell-last">781.7</td>
+                            <td>741.6</td>
+                            <td class="table-cell-last">800.8</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>source: PennDOT</small>
+            <small>source: DVRPC 2021</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -170,9 +170,9 @@ const ref = {
                 <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th class="table-cell-wide">Target<br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-wide">Actual<br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-wide">Baseline<br /><small>(2012 - 2016)</small></th>
+                        <th class="table-cell-wide">Target<br /><small>(2015 - 2019)</small></th>
+                        <th class="table-cell-wide">Actual<br /><small>(2015 - 2019)</small></th>
+                        <th class="table-cell-wide">Baseline<br /><small>(2013 - 2017)</small></th>
                         <th class="table-cell-wide">Target Achieved?</th>
                         <th class="table-cell-wide">Better Than Baseline?</th>
                         <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
@@ -180,45 +180,45 @@ const ref = {
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>586</td>
-                            <td>581.6</td>
-                            <td>571</td>
+                            <td>605</td>
+                            <td>582.6</td>
+                            <td>577.6</td>
                             <td>Yes</td>
                             <td>No</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>0.778</td>
-                            <td>0.759</td>
-                            <td>0.762</td>
+                            <td>0.780</td>
+                            <td>0.756</td>
+                            <td>0.761</td>
                             <td>Yes</td>
                             <td>Yes</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>1,105</td>
-                            <td>1,110.8</td>
-                            <td>1,135.6</td>
+                            <td>1,101.4</td>
+                            <td>1,469.2</td>
+                            <td>1,092.5</td>
                             <td>No</td>
-                            <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.467</td>
-                            <td>1.449</td>
-                            <td>1.516</td>
-                            <td>Yes</td>
-                            <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>1.422</td>
+                            <td>1.9</td>
+                            <td>1.439</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>386.5</td>
-                            <td>392.7</td>
-                            <td>390.3</td>
+                            <td>393.9</td>
+                            <td>463.7</td>
+                            <td>379.1</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
@@ -226,17 +226,17 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT</small><br />
+            <small>Source: DVRPC 2021</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
-            <p>New Jersey has demonstrated that it has met or made significant progress towards meeting annual safety goals for calendar year (CY) 2018.</p>
+            <p>Based on preliminary data, New Jersey has not demonstrated that it has met or made significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2019. FHWA will issue a decision based on final data in spring 2021.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
             <div class="table-overflow-wrapper">
                 <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th class="table-cell-wide">Target<br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-wide">Actual<br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-wide">Baseline<br /><small>(2012 - 2016)</small></th>
+                        <th class="table-cell-wide">Target<br /><small>(2015 - 2019)</small></th>
+                        <th class="table-cell-wide">Actual<br /><small>(2015 - 2019)</small></th>
+                        <th class="table-cell-wide">Baseline<br /><small>(2013 - 2017)</small></th>
                         <th class="table-cell-wide">Target Achieved?</th>
                         <th class="table-cell-wide">Better Than Baseline?</th>
                         <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
@@ -244,45 +244,45 @@ const ref = {
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>1,177.6</td>
-                            <td>1,182</td>
-                            <td>1,220.2</td>
+                            <td>1,146.3</td>
+                            <td>1,154.8</td>
+                            <td>1,185.6</td>
                             <td>No</td>
                             <td>Yes</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.161</td>
-                            <td>1.169</td>
-                            <td>1.220</td>
+                            <td>1.121</td>
+                            <td>1.135</td>
+                            <td>1.179</td>
                             <td>No</td>
                             <td>Yes</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>3,799.8</td>
-                            <td>3,839.6</td>
-                            <td>3,434</td>
+                            <td>3,971.2</td>
+                            <td>4,166.6</td>
+                            <td>3,588.4</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>3.746</td>
-                            <td>3.797</td>
-                            <td>3.433</td>
+                            <td>3.883</td>
+                            <td>4.097</td>
+                            <td>3.569</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>654.4</td>
-                            <td>679</td>
-                            <td>602.4</td>
+                            <td>698.4</td>
+                            <td>741.6</td>
+                            <td>629.8</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
@@ -290,9 +290,9 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small><br />
+            <small>Source: DVRPC 2021</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
-            <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2018. PennDOT is now required to submit an HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2020 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2018, which is $97,585,000, for safety projects in the upcoming fiscal year.</p>
+            <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2019. PennDOT is now required to submit an updated HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2021 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2019 for safety projects in the upcoming fiscal year.</p>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -316,7 +316,7 @@ const ref = {
                 </div>
                 <div class="dates-entry dates-entry-left">
                     <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>June 30, 2020</strong><br />If a State has not met or made significant progress toward meeting its targets, the state must submit an HSIP Implementation Plan that describes actions the state will take to meet or make significant progress toward meeting its targets.</p>
+                    <p class="dates-entry-text"><strong>June 30, 2020</strong><br />If a State has not met or made significant progress toward meeting its targets, the state must submit an HSIP Implementation Plan that describes actions the state will take to meet or make significant progress toward meeting its targets. (annually thereafter)</p>
                 </div>
             </article>
             
@@ -362,173 +362,142 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey Interstate Pavement Infrastructure Targets</h4>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide infrastructure condition targets.</p>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Interstate Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target<sup>1</sup></th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">2019 Two-Year Target<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
                             <td>61.25%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">50.0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
-                            <td>1.01%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">2.5%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJ DOT</small><br />
-            <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey Non-Interstate NHS Pavement Infrastructure Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
-                            <td>32.45%</td>
-                            <td>25%</td>
-                            <td class="table-cell-last">25%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
-                            <td>2.38%</td>
-                            <td>2.5%</td>
-                            <td class="table-cell-last">2.5%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJ DOT</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Interstate Pavement Infrastructure Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target<sup>1</sup></th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
                             <td>67.2%</td>
                             <td>n/a</td>
+                            <td>n/a</td>
+                            <td>50.0%</td>
                             <td class="table-cell-last">60.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
+                            <td>1.01%</td>
                             <td>0.4%</td>
                             <td>n/a</td>
+                            <td>n/a</td>
+                            <td>2.5%</td>
                             <td class="table-cell-last">2.0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small><br />
+            <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th class="table-cell-first">Measure<sup>1</sup></th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
+                            <td>32.45%</td>
                             <td>36.8%</td>
+                            <td>25.0%</td>
                             <td>35.0%</td>
-                            <td class="table-cell-last">33.0%</td>
+                            <td>25%</td>
+                            <td class="table-cell-last">33%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
+                            <td>2.38%</td>
                             <td>2.3%</td>
+                            <td>2.5%</td>
                             <td>4.0%</td>
+                            <td>15%<sup>2</sup></td>
                             <td class="table-cell-last">5.0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Measure based on Full Distress + International Roughness Index methodology</small><br />
+            <small><sup>2</sup>Four-year target was adjusted for the New Jersey Percentage Non-Interstate NHS Pavement Lane Miles in Poor Condition at the mid-term reporting period</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey Bridge Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Bridge Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
-                            <td>20.7%</td>
+                            <td>21.7%</td>
+                            <td>23.7%</td>
                             <td>19.4%</td>
-                            <td class="table-cell-last">18.6%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
-                            <td>6.5%</td>
-                            <td>6.5%</td>
-                            <td class="table-cell-last">6.5%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJ DOT</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania Bridge Infrastructure Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
-                            <td>25.6%</td>
                             <td>25.8%</td>
+                            <td>21.3%<sup>1</sup></td>
                             <td class="table-cell-last">26.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
-                            <td>5.5%</td>
+                            <td>6.5%</td>
+                            <td>5.1%</td>
+                            <td>6.5%</td>
                             <td>5.6%</td>
+                            <td>6.8%<sup>1</sup></td>
                             <td class="table-cell-last">6.0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were due in October 2020. Progress towards meeting the state infrastructure targets will be reported here when those reports are adopted by the DVRPC Board.</p>
+            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were submitted in October 2020. Based on the progress reports, NJ DOT and PennDOT have adjusted some of their four-year targets as noted in the tables below.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that less than 5 percent of Interstate miles be considered in poor condition in order to meet the federal threshold for pavement condition.</p>
             <span>If pavement conditions on the <strong>Interstate</strong> system fail to meet the federal minimum condition thresholds in the most recent year of the State biennial report, the state DOT must comply with the provisions set forth in 23 USC 119(f) for the subsequent fiscal year. The State shall:</span>
@@ -540,12 +509,185 @@ const ref = {
             <ul>
                 <li>Submit a TAMP that describes actions the state will take to meet or make significant progress toward meeting its targets. The TAMP should guide the state's project decisions in order to meet or make significant progress toward meeting its infrastructure performance targets in subsequent years.</li>
             </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Interstate Pavement Infrastructure</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-wide">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-wide">2021 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-last table-cell-wide">Two-Year Target Achieved</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
+                            <td>61.25%</td>
+                            <td>67.2%</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>62.1%</td>
+                            <td>71.5%</td>
+                            <td>50.0%</td>
+                            <td>60.0%</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
+                            <td>1.01%</td>
+                            <td>0.4%</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>1.8%</td>
+                            <td>0.4%</td>
+                            <td>2.5%</td>
+                            <td>2.0%</td>
+                            <td>n/a</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-wide">Measure<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-last table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
+                            <td>32.45%</td>
+                            <td>36.8%</td>
+                            <td>25.0%</td>
+                            <td>35.0%</td>
+                            <td>33.0%</td>
+                            <td>37.6%</td>
+                            <td>25.0%</td>
+                            <td>33.0%</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
+                            <td>2.38%</td>
+                            <td>2.3%</td>
+                            <td>2.5%</td>
+                            <td>4.0%</td>
+                            <td>10.7%</td>
+                            <td>2.0%</td>
+                            <td>2.5%<sup>2</sup></td>
+                            <td>5.0%</td>
+                            <td>No</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Measure based on Full Distress + International Roughness Index methodology</small><br />
+            <small><sup>2</sup>Four-year target was adjusted for the New Jersey Percentage Non-Interstate NHS Pavement Lane Miles in Poor Condition at the mid-term reporting period</small>
+
             <h4 class="tpm-content-subheaders theme-font-color">Bridges</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that no more than 10 percent of the total deck area of bridges on the NHS be considered structurally deficient in order to meet the federal threshold for bridge condition.</li>
             <span>If a state has not met the federal threshold for bridge conditions for three consecutive years, the state DOT shall:</span>
             <ul>
                 <li>Obligate and set aside NHPP funds for eligible NHS bridge projects. The set-aside will remain in effect until the State meets the threshold of less than 10 percent of bridge deck area classified as structurally deficient.</li>
             </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Bridge Infrastructure</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-wide">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">2019 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-wide table-cell-last">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
+                            <td>21.7%</td>
+                            <td>23.7%</td>
+                            <td>19.4%</td>
+                            <td>25.8%</td>
+                            <td>22.1%</td>
+                            <td>27.0%</td>
+                            <td>18.6%<sup>1</sup></td>
+                            <td>26.0%</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
+                            <td>6.5%</td>
+                            <td>5.1%</td>
+                            <td>6.5%</td>
+                            <td>5.6%</td>
+                            <td>6.8%</td>
+                            <td>5.1%</td>
+                            <td>6.5%<sup>1</sup></td>
+                            <td>6.0%</td>
+                            <td>No</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -622,269 +764,548 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide system performance targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">Two-Year Target</th>
+                        <th colspan="2">Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Interstates with Reliable Travel Times (%)</td>
-                            <td>82.0%</td>
-                            <td>82.0%</td>
-                            <td class="table-cell-last">82.0%</td>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Non-Interstate NHS with Reliable Travel Times (%)</td>
-                            <td>84.1%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">84.1%</td>
+                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td>82.1</td>
+                            <td>89.8</td>
+                            <td>82</td>
+                            <td>89.8</td>
+                            <td>82</td>
+                            <td>89.5%<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
+                            <td>84.1</td>
+                            <td>87.4</td>
+                            <td>n/a<sup>1</sup></td>
+                            <td>n/a<sup>1</sup></td>
+                            <td>84.1</td>
+                            <td>87.4</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, NJ DOT</small><br />
-            <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Two-year targets are not required for the first reporting period.</small><br />
+            <small><sup>2</sup>Four-year target was adjusted for the Pennsylvania Percentage of Person Miles Traveled on the Interstate that are Reliable at the mid-term reporting period.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania NHS Travel Time Reliability Targets (LOTTR)<sup>1</sup></h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">Two-Year Target</th>
+                        <th colspan="2">Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Interstates with Reliable Travel Times (%)</td>
-                            <td>89.8%</td>
-                            <td>89.8%</td>
-                            <td class="table-cell-last">89.8%</td>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Person Miles Traveled on Non-Interstate NHS with Reliable Travel Times (%)</td>
-                            <td>87.4%</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">87.4%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: University of Maryland CATT Lab, PennDOT</small><br />
-            <small><sup>1</sup>Two-year targets are not required for the non-Interstate NHS system for this first reporting period.</small>
-
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey & Pennsylvania Freight Truck Travel Time Reliability (TTTR) Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target</th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">New Jersey TTTR</td>
+                            <td class="table-cell-first">Truck Travel Time Reliability</td>
                             <td>1.82</td>
-                            <td>1.90</td>
-                            <td class="table-cell-last">1.95</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Pennsylvania TTTR</td>
+                            <td>1.35</td>
+                            <td>1.9</td>
                             <td>1.34</td>
-                            <td>1.34</td>
-                            <td class="table-cell-last">1.34</td>
+                            <td>1.95</td>
+                            <td>1.4<sup>1</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: University of Maryland CATT Lab, NJ DOT, PennDOT</small>
-            
-            <h4 class="tpm-content-subheaders theme-font-color">DVRPC CMAQ Congestion Measures Targets for Relevant Urbanized Areas (UZA)</h4>
-            <div class="table-overflow-wrapper">
-                <table class="table-wide">
-                    <thead>
-                        <th class="table-cell-first">Urbanized Area</th>
-                        <th class="table-nested-header-first">Measure</th>
-                        <th>2017 Baseline</th>
-                        <th>2019 Two-Year Target<sup>1</sup></th>
-                        <th class="table-cell-last">2021 Four-Year Target</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first table-cell-first-narrow">Philadelphia<br />PA-NJ-DE-MD UZA</td>
-                            <td colspan="4">
-                                <table>
-                                    <tr>
-                                        <td class="table-nested-cell-first">Non-SOV Travel</td>
-                                        <td>27.9%</td>
-                                        <td>28.0%</td>
-                                        <td class="table-cell-last">28.1%</td>
-                                    </tr>
-                                    <tr class="table-cell-no-border">
-                                        <td class="table-nested-cell-first">PHED (hours per capita)</td>
-                                        <td>16.8</td>
-                                        <td>n/a</td>
-                                        <td class="table-cell-last">17.2</td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first table-cell-first-narrow">New York<br />NY-NJ-CT UZA</td>
-                            <td colspan="4">
-                                <table>
-                                    <tr>
-                                        <td class="table-nested-cell-first">Non-SOV Travel</td>
-                                        <td>51.6%</td>
-                                        <td>51.6%</td>
-                                        <td class="table-cell-last">51.7%</td>
-                                    </tr>
-                                    <tr class="table-cell-no-border">
-                                        <td class="table-nested-cell-first">PHED (hours per capita)</td>
-                                        <td>20.0</td>
-                                        <td>n/a</td>
-                                        <td class="table-cell-last">22.0</td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>U.S. Census Bureau ACS Five-Year Estimates, University of Maryland CATT Lab, NJDOT, PennDOT</small><br />
-            <small><sup>1</sup>Two-year targets are not required for PHED for this first reporting period.</small>
-    
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey CMAQ Emissions Reduction Targets</h4>
-            <div class="table-overflow-wrapper">
-                <table class="table-wide-half">
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th colspan="2" class="theme-font-color">DVRPC 4-County<br />New Jersey Subregion</th>
-                            <th colspan="2" class="theme-font-color">New Jersey Statewide</th>
-                        </tr>
-                        <tr>
-                            <th class="table-cell-first">Measure</th>
-                            <th>2020 Two-Year Target</th>
-                            <th>2022 Four-Year Target</th>
-                            <th>2020 Two-Year Target</th>
-                            <th class="table-cell-last">2022 Four-Year Target</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">VOC <small>(Kg/day)</small></td>
-                            <td>1.45</td>
-                            <td>2.864</td>
-                            <td>17.682</td>
-                            <td class="table-cell-last">33.0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">NO<sub>x</sub> <small>(Kg/day)</small></td>
-                            <td>7.453</td>
-                            <td>14.861</td>
-                            <td>4.0%</td>
-                            <td class="table-cell-last">5.0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">PM<sub>2.5</sub> <small>(Kg/day)</small></td>
-                            <td>2.627</td>
-                            <td>5.253</td>
-                            <td>4.29</td>
-                            <td class="table-cell-last">8.52</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">CO <small>(Kg/day)<sup>1</sup></small></td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJ DOT</small><br />
-            <small><sup>1</sup>CO is not a required measure in New Jersey because all CO Maintenance Areas are beyond the Maintenance Plan horizons.</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year target was adjusted for the Pennsylvania Truck Travel Time Reliability at the mid-term reporting period.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania CMAQ Emissions Reduction Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion - Peak-Hour Excessive Delay</h4>
             <div class="table-overflow-wrapper">
-                <table class="table-wide-half">
+                <table>
                     <thead>
-                        <tr>
-                            <th></th>
-                            <th colspan="2" class="theme-font-color">DVRPC 5-County<br />Pennsylvania Subregion</th>
-                            <th colspan="2" class="theme-font-color">Pennsylvania Statewide</th>
-                        </tr>
-                        <tr>
-                            <th class="table-cell-first">Measure</th>
-                            <th>2020 Two-Year Target</th>
-                            <th>2022 Four-Year Target</th>
-                            <th>2020 Two-Year Target</th>
-                            <th class="table-cell-last">2022 Four-Year Target</th>
-                        </tr>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">Two-Year Target<sup>1</sup></th>
+                        <th colspan="2">Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="table-cell-first">VOC <small>(Kg/day)</small></td>
-                            <td>37.61</td>
-                            <td>69.39</td>
-                            <td>109.46</td>
-                            <td class="table-cell-last">201.73</td>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">NO<sub>x</sub> <small>(Kg/day)</small></td>
-                            <td>23.42</td>
-                            <td>42.50</td>
-                            <td>337.70</td>
-                            <td class="table-cell-last">612.82</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">PM<sub>2.5</sub> <small>(Kg/day)</small></td>
-                            <td>1.08</td>
-                            <td>2.06</td>
-                            <td>10.76</td>
-                            <td class="table-cell-last">20.49</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">PM<sub>10</sub> <small>(Kg/day)<sup>1</sup></small></td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Phila UZA</td>
+                            <td>16.8</td>
+                            <td>16.8</td>
                             <td>n/a</td>
                             <td>n/a</td>
-                            <td>9.54</td>
-                            <td class="table-cell-last">17.47</td>
+                            <td>17.2</td>
+                            <td>17.2</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">CO <small>(Kg/day)</small></td>
-                            <td>282.74</td>
-                            <td>565.47</td>
-                            <td>567.70</td>
-                            <td class="table-cell-last">1,135.40</td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: NYC UZA</td>
+                            <td>20</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>22</td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: PennDOT</small><br />
-            <small><sup>1</sup>PM<sub>10</sub> is not a required measure in the DVRPC region because this region has never been in non-attainment of the PM<sub>10</sub> standards.</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Two-year targets are not required for the first reporting period.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2">2017 Baseline</th>
+                        <th colspan="2">Two-Year Target</th>
+                        <th colspan="2">Four-Year Target</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: Phila UZA</td>
+                            <td>27.9</td>
+                            <td>27.9</td>
+                            <td>28</td>
+                            <td>28</td>
+                            <td>28.1</td>
+                            <td>28.1</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
+                            <td>51.6</td>
+                            <td></td>
+                            <td>51.6</td>
+                            <td></td>
+                            <td>51.7</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">Four-Year Target</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
+                            <td>9.572</td>
+                            <td>25.870</td>
+                            <td>4.29</td>
+                            <td>10.76</td>
+                            <td>8.52</td>
+                            <td>20.49</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
+                            <td>244.301</td>
+                            <td>971.78</td>
+                            <td>114.401</td>
+                            <td>337.7</td>
+                            <td>231.85</td>
+                            <td>612.82</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
+                            <td>44.493</td>
+                            <td>302.38</td>
+                            <td>17.682</td>
+                            <td>109.46</td>
+                            <td>36.324</td>
+                            <td>201.73</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: CO</td>
+                            <td></td>
+                            <td>1,135.4</td>
+                            <td></td>
+                            <td>567.7</td>
+                            <td></td>
+                            <td>250<sup>1</sup></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report were due in October 2020. Progress towards meeting the system performance targets will be reported here when the interim progress reports are adopted by the DVRPC Board.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report were submitted in October 2020.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
             <p>If the state does not meet the baseline condition or exceeds its target of travel time reliability on the Interstate system or non-Interstate system (measured separately), the state shall provide documentation identifying why the target wasn’t met and actions that will be taken to improve system reliability.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability (TTTR)</h4>
             <p>Meeting the Target: The federal freight system reliability rule requires that state DOTs set a target for truck travel time reliability on the Interstate system based on the ratio of the congested period (95th percentile) travel time to the normal (50th percentile) period travel time on the Interstate system. States meet the targets if the Interstate performance is equal to or below the baseline condition or the target established by the state DOT.</p>
             <p>If the state does not meet or exceeds the baseline condition or its targeted ratio of travel times on the Interstate system. The state shall provide additional documentation identifying why the target wasn’t met and actions (in addition to those that are being taken to improve the LOTTR) that are being taken to improve freight system reliability performance.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
-            <h4 class="tpm-content-subheaders theme-font-color">PHED and Percent of Non-SOV Travel</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. The impacted MPOs and state DOTs first period progress reports on the CMAQ congestion measures were due in October 2020. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <h4 class="tpm-content-subheaders theme-font-color">Peak-Hour Excessive Delay (PHED) and Percent of Non-SOV Travel</h4>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. The impacted MPOs and state DOTs first period progress reports on the CMAQ congestion measures were due in October 2020. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
+                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td>82.1</td>
+                            <td>89.8</td>
+                            <td>82</td>
+                            <td>89.8</td>
+                            <td>80.6</td>
+                            <td>89.9</td>
+                            <td>82</td>
+                            <td>89.8%<sup>1</sup></td>
+                            <td>No</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
+                            <td>84.1</td>
+                            <td>87.4</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>86.2</td>
+                            <td>88.5</td>
+                            <td>84.1</td>
+                            <td>87.4</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year target was adjusted for the Pennsylvania Percentage of Miles Traveled on the Interstate that are Reliable at the mid-term reporting period.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
+                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Truck Travel Time Reliability</td>
+                            <td>1.82</td>
+                            <td>1.35</td>
+                            <td>1.9</td>
+                            <td>1.34</td>
+                            <td>1.89</td>
+                            <td>1.36</td>
+                            <td>1.95</td>
+                            <td>1.34<sup>1</sup></td>
+                            <td>Yes</td>
+                            <td>No</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year target was adjusted for the Pennsylvania Truck Travel Time Reliability at the mid-term reporting period.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion - Peak-Hour Excessive Delay</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
+                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Phila UZA</td>
+                            <td>16.8</td>
+                            <td>16.8</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>14.6</td>
+                            <td>14.6</td>
+                            <td>17.2</td>
+                            <td>17.2</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: NYC UZA</td>
+                            <td>20</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>n/a</td>
+                            <td>22.3</td>
+                            <td>n/a</td>
+                            <td>22</td>
+                            <td>n/a</td>
+                            <td>No</td>
+                            <td>n/a</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
+                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: Phila UZA</td>
+                            <td>27.9</td>
+                            <td>27.9</td>
+                            <td>28</td>
+                            <td>28</td>
+                            <td>28.2</td>
+                            <td>28.2</td>
+                            <td>28.1</td>
+                            <td>28.1</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
+                            <td>51.6</td>
+                            <td></td>
+                            <td>51.6</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>51.7</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
+                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
+                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                            <td><strong>NJ</strong></td>
+                            <td><strong>PA</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
+                            <td>9.572</td>
+                            <td>25.870</td>
+                            <td>4.29</td>
+                            <td>10.76</td>
+                            <td>162.02</td>
+                            <td>143.21</td>
+                            <td>8.52</td>
+                            <td>20.49</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
+                            <td>244.301</td>
+                            <td>971.78</td>
+                            <td>114.401</td>
+                            <td>337.7</td>
+                            <td>1,500.52</td>
+                            <td>971.05</td>
+                            <td>231.85</td>
+                            <td>612.82</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
+                            <td>44.493</td>
+                            <td>302.38</td>
+                            <td>17.682</td>
+                            <td>109.46</td>
+                            <td>157.75</td>
+                            <td>231.78</td>
+                            <td>36.324</td>
+                            <td>201.73</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: CO</td>
+                            <td>n/a</td>
+                            <td>1,135.4</td>
+                            <td></td>
+                            <td>567.7</td>
+                            <td>n/a</td>
+                            <td>2,969.64</td>
+                            <td>n/a</td>
+                            <td>1,135.4<sup>1</sup></td>
+                            <td>n/a</td>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -970,13 +1391,373 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>The PTASP Rule became effective on July 19, 2019. The first transit agency safety plans were originally due in July 2020; however, due to the COVID-19 Pandemic, FTA is extending the report deadline to December 31, 2020.</p>
-            <p>The safety targets for the transit agencies that operate in the DVRPC region (SEPTA, NJ Transit, and DRPA/PATCO) will be reported in this section when those plans are available.</p>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO targets for transit safety, and will support the transit operators’ efforts at achieving those targets.</p>
             <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Fatalities</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Number of Fatalities<sup>1</sup></th>
+                        <th class="table-cell-last">Rate of Fatalities<sup>2</sup></th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.0173 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>1</td>
+                            <td class="table-cell-last">0.79 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>4</td>
+                            <td class="table-cell-last">0.055 (per 1 million miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0 (per 100,000 miles)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC  2021</small><br />
+            <small><sup>1</sup>SEPTA did not report a target for the number of fatalities.</small><br />
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles travelled. NJ Transit reported fatalities per 1,000,000 miles travelled.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Number of Number of Injuries<sup>1</sup></th>
+                        <th class="table-cell-last">Rate of Injuries<sup>2</sup></th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Passenger Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">5.53 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">5.75 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.79 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.40 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">3.48 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">6.48 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.69 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first"></td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">3.28 (per 200,000 hours)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Passenger Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>4</td>
+                            <td class="table-cell-last">3.18 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>244</td>
+                            <td class="table-cell-last">3.35 (per 1 million miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Employee Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0 (per 200,000 hours)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>423</td>
+                            <td class="table-cell-last">7.99 (per 200,000 hours)</td>
+                        </tr>                   
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>41</td>
+                            <td class="table-cell-last">1 (per 100,000 miles)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>SEPTA did not report a target for the number of injuries.</small><br />
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported passenger injuries per 100,000 miles travelled. NJ Transit reported passenger injuries per 1,000,000 miles travelled. Employee injuries for all agencies is per 200,000 hours.</small><br />
+            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Safety Events</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Number of Number of Safety Events<sup>1</sup></th>
+                        <th class="table-cell-last">Rate of Safety Events<sup>2</sup></th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Vehicle Accidents</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">8.18 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">9.51 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.09 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.07 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">2.30 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">8.38 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.07 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Station Accidents</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">1.59 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.56 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.72 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">1.01 (per 100,000 miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">0.95 (per 100,000 miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Safety Events (System)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>595</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>13</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>132</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>104</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>3</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>12</td>
+                            <td class="table-cell-last">9.53 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>264</td>
+                            <td class="table-cell-last">3.63 (per 1 million miles)</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Fire Events</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>2</td>
+                            <td class="table-cell-last">1.59 (per 1 million miles)</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>12</td>
+                            <td class="table-cell-last">0.16 (per 1 million miles)</td>
+                        </tr>                   
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>50</td>
+                            <td class="table-cell-last">1 (per 100,000 miles)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>SEPTA reported safety events for both station and vehicle accidents as a cumulative number for the system per year.</small><br />
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported safety events per 100,000 miles. NJ Transit reported safety events per 1,000,000 miles.</small><br />
+            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th></th>
+                        <th>Mean Distance in Miles between Major Service Failures</th>
+                        <th class="table-cell-last">Total Service Failures</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td>85,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td>130,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>35,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (City)</td>
+                            <td>8,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (MSHL)</td>
+                            <td>20,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>30,000</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>6,284</td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>135.45<sup>1</sup></td>
+                            <td class="table-cell-last">n/a</td>
+                        </tr>                  
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td>Not Reported</td>
+                            <td class="table-cell-last">230<sup>2</sup></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>1</sup>NJ Transit reported the mean distance between major service failures for buses as a rate per 1,000,000 miles.</small><br />
+            <small><sup>2</sup>DRPA/PATCO reported the total number of service failures.</small><br />
+            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line, MSHL=Media Sharon Hill Line</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>Under the FTA PTASP Rule, transit agency safety plans are not due until December 31, 2020. Results will be published here when they become available.</p>
+            <p>The transit safety targets were adopted by DVRPC in January 2021. Once the respective transit agencies report on their performance, it will be reported here.</p>
             <br />
             <br />
             <br />
@@ -1037,212 +1818,187 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators’ efforts at achieving those targets.</p>
+
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
-                    </thead class="table-cell-wide">
+                        <th class="table-cell-last">FY 2021 Targets</th>
+                    </thead>
                     <tbody>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>14</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>14</td>
-                            <td class="table-cell-last">10%</td>
+                            <td class="table-cell-last">15%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td>35(MFL/NHSL)<br />40(BSS)</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>30</td>
                             <td class="table-cell-last">100%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td class="table-cell-last">66%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>7</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>18</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Vintage Trolley/Streetcar</td>
-                            <td>15</td>
                             <td class="table-cell-last">100%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>12</td>
-                            <td class="table-cell-last">20%</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">6%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>14</td>
-                            <td class="table-cell-last">45.4%</td>
+                            <td class="table-cell-last">27%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>12</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">24%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>12</td>
-                            <td class="table-cell-last">1.5%</td>
+                            <td class="table-cell-last">64.36%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>31</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td>8</td>
-                            <td class="table-cell-last">4.35%</td>
+                            <td class="table-cell-last">5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
-                            <td class="table-cell-last">6.37%</td>
+                            <td class="table-cell-last">7.5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
-                            <td class="table-cell-last">17.94%</td>
+                            <td class="table-cell-last">16.7%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td class="table-cell-last">100%</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Van</td>
-                            <td>8</td>
-                            <td class="table-cell-last">1.53%</td>
+                            <td class="table-cell-first">Sport Utility Vehicle</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr>
+                            <td class="table-cell-first">Van</td>
+                            <td class="table-cell-last">2%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
-                            <td>39</td>
                             <td class="table-cell-last">0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC  2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide table-cell-last">FY 2020 Targets</th>
-                    </thead class="table-cell-wide">
+                        <th class="table-cell-first table-cell-auto">National Transit Database Category</th>
+                        <th class="table-cell-last">FY 2021 Targets</th>
+                    </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
                             <td class="table-cell-last">50%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
                             <td class="table-cell-last">25%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
                             <td class="table-cell-last">55%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">52.76%</td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
-                            <td class="table-cell-last">50.63%</td>
+                            <td class="table-cell-last">64.24%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
-                            <td class="table-cell-last">24.1%</td>
+                            <td class="table-cell-last">33.9%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">28%</td>
+                            <td class="table-cell-last">22%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">FY 2020 Targets</th>
+                        <th class="table-cell-last">FY 2021 Targets</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1256,9 +2012,9 @@ const ref = {
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td class="table-cell-last">5%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1266,35 +2022,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">4.1%</td>
+                            <td class="table-cell-last">2.38%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
-                            <td class="table-cell-last">0.43%</td>
+                            <td class="table-cell-last">0.18%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td class="table-cell-last">0.76%</td>
+                            <td class="table-cell-last">0.43%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">FY 2020 Targets</th>
+                        <th class="table-cell-last">FY 2021 Targets</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1304,21 +2060,21 @@ const ref = {
                             <td class="table-cell-first">Administration Facilities</td>
                             <td class="table-cell-last">5%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">4%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last">4%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
@@ -1331,7 +2087,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -1344,10 +2100,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide">FY 2019 Targets</th>
-                        <th class="table-cell-wide">FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide">FY 2020 Targets</th>
+                        <th class="table-cell-wide">FY 2020 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -1356,70 +2111,60 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>14</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>14</td>
                             <td>10%</td>
-                            <td>12.4%</td>
+                            <td>17.9%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td>35(MFL/NHSL)<br />40(BSS)</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>30</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
-                            <td>50%</td>
+                            <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td>66%</td>
                             <td>66%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>7</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>18</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Vintage Trolley/Streetcar</td>
-                            <td>15</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td class="table-cell-last">Yes</td>
@@ -1430,80 +2175,75 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>12</td>
-                            <td>100%</td>
-                            <td>100%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>20%</td>
+                            <td>95.4%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
-                            <td>28.89%</td>
-                            <td>28.89%</td>
+                            <td>52.76%</td>
+                            <td>27.06%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>14</td>
-                            <td>45%</td>
-                            <td>52.02%</td>
+                            <td>46.4%</td>
+                            <td>52.01%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>12</td>
                             <td>0%</td>
-                            <td>0.16%</td>
+                            <td>19.32%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>12</td>
-                            <td>13.19%</td>
-                            <td>11.67%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>1.5%</td>
+                            <td>23.61%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>31</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td>8</td>
                             <td>4.35%</td>
-                            <td>2.13%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>30</td>
-                            <td>6.41%</td>
-                            <td>7.55%</td>
+                            <td>8.4%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td>6.37%</td>
+                            <td>6.37%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>30</td>
-                            <td>18.26%</td>
+                            <td>17.94%</td>
                             <td>17.94%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>30</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
+                            <td class="table-cell-first">Sport Utility Vehicle</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">Van</td>
-                            <td>8</td>
                             <td>1.53%</td>
-                            <td>2.74%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1511,7 +2251,6 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
-                            <td>39</td>
                             <td>0%</td>
                             <td>0%</td>
                             <td class="table-cell-last">Yes</td>
@@ -1519,41 +2258,37 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-wide-extra">Useful Life Benchmark (years)</th>
-                        <th class="table-cell-wide">FY 2019 Targets</th>
-                        <th class="table-cell-wide">FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th class="table-cell-wide">FY 2020 Targets</th>
+                        <th class="table-cell-wide">FY 2020 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td>8</td>
-                            <td>75%</td>
-                            <td>43%</td>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td>50%</td>
+                            <td>41%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
-                            <td>40%</td>
-                            <td>20%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>25%</td>
+                            <td>33%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
-                            <td>60%</td>
-                            <td>51%</td>
+                            <td>55%</td>
+                            <td>49%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -1561,25 +2296,22 @@ const ref = {
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td>Not Reported</td>
-                            <td>39%</td>
-                            <td>58.16%</td>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td>40%</td>
+                            <td>77.05%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>14</td>
-                            <td>47%</td>
-                            <td>50.4%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>50.63%</td>
+                            <td>34.26%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>25</td>
-                            <td>25%</td>
-                            <td>23.6%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>24.1%</td>
+                            <td>25.81%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1587,24 +2319,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>Not Reported</td>
-                            <td>24%</td>
-                            <td>22%</td>
+                            <td>28%</td>
+                            <td>16%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>FY 2019 Targets</th>
-                        <th>FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th>FY 2020 Targets</th>
+                        <th>FY 2020 Performance</th>
+                        <th class="table-cell-wide table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1613,19 +2344,19 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>10%</td>
-                            <td>3.5%</td>
+                            <td>3%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
                             <td>10%</td>
-                            <td>1.8%</td>
+                            <td>1.6%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td>5%</td>
-                            <td>1.3%</td>
+                            <td>1.1%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -1634,21 +2365,21 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>1.00%</td>
-                            <td>Did Not Report</td>
-                            <td class="table-cell-last"></td>
+                            <td>1%</td>
+                            <td>0.94%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
                             <td>4.1%</td>
-                            <td>Did Not Report</td>
-                            <td class="table-cell-last"></td>
+                            <td>2.38%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
                             <td>0.43%</td>
-                            <td>Did Not Report</td>
-                            <td class="table-cell-last"></td>
+                            <td>0.18%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1656,23 +2387,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td>1.44%</td>
-                            <td>0.23%</td>
+                            <td>0.76%</td>
+                            <td>0.32%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>FY 2019 Targets</th>
-                        <th>FY 2019 Measure</th>
-                        <th class="table-cell-wide table-cell-last">Meeting the Target?</th>
+                        <th>FY 2020 Targets</th>
+                        <th>FY 2020 Performance</th>
+                        <th class="table-cell-wide table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1687,7 +2418,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
                             <td>5%</td>
-                            <td>0%</td>
+                            <td>4%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
@@ -1697,14 +2428,14 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
                             <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>3.45%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
                             <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>3.12%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1725,7 +2456,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, NJ TRANSIT, and DRPA/PATCO</small>
+            <small>Source: DVRPC 2021</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
