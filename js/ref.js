@@ -1445,7 +1445,7 @@ const ref = {
                 <table>
                     <thead>
                         <th></th>
-                        <th>Number of Number of Injuries<sup>1</sup></th>
+                        <th>Number of Injuries<sup>1</sup></th>
                         <th class="table-cell-last">Rate of Injuries<sup>2</sup></th>
                     </thead>
                     <tbody>
@@ -1542,7 +1542,7 @@ const ref = {
                 <table>
                     <thead>
                         <th></th>
-                        <th>Number of Number of Safety Events<sup>1</sup></th>
+                        <th>Number of Safety Events<sup>1</sup></th>
                         <th class="table-cell-last">Rate of Safety Events<sup>2</sup></th>
                     </thead>
                     <tbody>
@@ -1756,6 +1756,12 @@ const ref = {
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>The transit safety targets were adopted by DVRPC in January 2021. Once the respective transit agencies report on their performance, it will be reported here.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
