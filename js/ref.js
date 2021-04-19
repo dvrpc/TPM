@@ -371,7 +371,7 @@ const ref = {
                         <th class="table-cell-first">Measure</th>
                         <th colspan="2">2017 Baseline</th>
                         <th colspan="2">2019 Two-Year Target<sup>1</sup></th>
-                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -390,7 +390,7 @@ const ref = {
                             <td>n/a</td>
                             <td>n/a</td>
                             <td>50.0%</td>
-                            <td class="table-cell-last">60.0%</td>
+                            <td>60.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
@@ -399,7 +399,7 @@ const ref = {
                             <td>n/a</td>
                             <td>n/a</td>
                             <td>2.5%</td>
-                            <td class="table-cell-last">2.0%</td>
+                            <td>2.0%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -414,7 +414,7 @@ const ref = {
                         <th class="table-cell-first">Measure<sup>1</sup></th>
                         <th colspan="2">2017 Baseline</th>
                         <th colspan="2">2019 Two-Year Target</th>
-                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -433,7 +433,7 @@ const ref = {
                             <td>25.0%</td>
                             <td>35.0%</td>
                             <td>25%</td>
-                            <td class="table-cell-last">33%</td>
+                            <td>33%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
@@ -442,7 +442,7 @@ const ref = {
                             <td>2.5%</td>
                             <td>4.0%</td>
                             <td>15%<sup>2</sup></td>
-                            <td class="table-cell-last">5.0%</td>
+                            <td>5.0%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -458,7 +458,7 @@ const ref = {
                         <th class="table-cell-first">Measure</th>
                         <th colspan="2">2017 Baseline</th>
                         <th colspan="2">2019 Two-Year Target</th>
-                        <th colspan="2" class="table-cell-last">2021 Four-Year Target</th>
+                        <th colspan="2">2021 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -477,7 +477,7 @@ const ref = {
                             <td>19.4%</td>
                             <td>25.8%</td>
                             <td>21.3%<sup>1</sup></td>
-                            <td class="table-cell-last">26.0%</td>
+                            <td>26.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
@@ -486,7 +486,7 @@ const ref = {
                             <td>6.5%</td>
                             <td>5.6%</td>
                             <td>6.8%<sup>1</sup></td>
-                            <td class="table-cell-last">6.0%</td>
+                            <td>6.0%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -514,12 +514,12 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first table-cell-wide">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target<sup>1</sup></th>
-                        <th colspan="2" class="table-cell-wide">2021 Two-Year Performance</th>
-                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
-                        <th colspan="2" class="table-cell-last table-cell-wide">Two-Year Target Achieved</th>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-double-wide">2019 Two-Year Target<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-double-wide">2021 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-double-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year Target Achieved</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -546,7 +546,7 @@ const ref = {
                             <td>50.0%</td>
                             <td>60.0%</td>
                             <td>n/a</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>n/a</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
@@ -559,7 +559,7 @@ const ref = {
                             <td>2.5%</td>
                             <td>2.0%</td>
                             <td>n/a</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
@@ -571,12 +571,12 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first table-cell-wide">Measure<sup>1</sup></th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">2019 Two-Year Performance</th>
-                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
-                        <th colspan="2" class="table-cell-last table-cell-wide">Two-Year Target Achieved?</th>
+                        <th class="table-cell-first">Measure<sup>1</sup></th>
+                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-double-wide">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">2019 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-double-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -603,7 +603,7 @@ const ref = {
                             <td>25.0%</td>
                             <td>33.0%</td>
                             <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
@@ -616,7 +616,7 @@ const ref = {
                             <td>2.5%<sup>2</sup></td>
                             <td>5.0%</td>
                             <td>No</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
@@ -636,12 +636,12 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first table-cell-wide">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">2019 Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">2019 Two-Year Performance</th>
-                        <th colspan="2" class="table-cell-wide">Original 2021 Four-Year Target</th>
-                        <th colspan="2" class="table-cell-wide table-cell-last">Two-Year Target Achieved?</th>
+                        <th class="table-cell-first">Measure</th>
+                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-double-wide">2019 Two-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">2019 Two-Year Performance</th>
+                        <th colspan="2" class="table-cell-double-wide">Original 2021 Four-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -668,7 +668,7 @@ const ref = {
                             <td>18.6%<sup>1</sup></td>
                             <td>26.0%</td>
                             <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
@@ -681,7 +681,7 @@ const ref = {
                             <td>6.5%<sup>1</sup></td>
                             <td>6.0%</td>
                             <td>No</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
@@ -934,9 +934,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">Four-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -1023,8 +1023,6 @@ const ref = {
                     <tbody>
                         <tr>
                             <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
@@ -1229,11 +1227,11 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
-                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year Target</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year (2019) Performance</th>
+                        <th colspan="2" class="table-cell-double-wide">Four-Year Original Target</th>
+                        <th colspan="2" class="table-cell-double-wide">Two-Year Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -1447,7 +1445,7 @@ const ref = {
                 <table>
                     <thead>
                         <th></th>
-                        <th>Number of Number of Injuries<sup>1</sup></th>
+                        <th>Number of Injuries<sup>1</sup></th>
                         <th class="table-cell-last">Rate of Injuries<sup>2</sup></th>
                     </thead>
                     <tbody>
@@ -1544,7 +1542,7 @@ const ref = {
                 <table>
                     <thead>
                         <th></th>
-                        <th>Number of Number of Safety Events<sup>1</sup></th>
+                        <th>Number of Safety Events<sup>1</sup></th>
                         <th class="table-cell-last">Rate of Safety Events<sup>2</sup></th>
                     </thead>
                     <tbody>
@@ -1758,6 +1756,12 @@ const ref = {
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>The transit safety targets were adopted by DVRPC in January 2021. Once the respective transit agencies report on their performance, it will be reported here.</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
