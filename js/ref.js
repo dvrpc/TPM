@@ -792,7 +792,7 @@ const ref = {
                             <td>82</td>
                             <td>89.8</td>
                             <td>82</td>
-                            <td>89.5%<sup>2</sup></td>
+                            <td>89.5<sup>2</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
@@ -918,11 +918,11 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
                             <td>51.6</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>51.6</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>51.7</td>
-                            <td></td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
@@ -977,11 +977,11 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: CO</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>1,135.4</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>567.7</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>250<sup>1</sup></td>
                         </tr>
                     </tbody>
