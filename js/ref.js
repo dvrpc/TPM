@@ -1412,7 +1412,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1438,7 +1438,7 @@ const ref = {
             </div>
             <small>Source: DVRPC  2021</small><br />
             <small><sup>1</sup>SEPTA did not report a target for the number of fatalities.</small><br />
-            <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles travelled. NJ Transit reported fatalities per 1,000,000 miles travelled.</small>
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles traveled. NJ Transit reported fatalities per 1,000,000 miles traveled.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
             <div class="table-overflow-wrapper">
@@ -1496,7 +1496,7 @@ const ref = {
                             <td class="table-cell-last">3.28 (per 200,000 hours)</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Passenger Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Passenger Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1509,7 +1509,7 @@ const ref = {
                             <td class="table-cell-last">3.35 (per 1 million miles)</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Employee Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Employee Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1641,7 +1641,7 @@ const ref = {
                             <td class="table-cell-last">n/a</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1654,7 +1654,7 @@ const ref = {
                             <td class="table-cell-last">3.63 (per 1 million miles)</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Fire Events</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Fire Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1725,7 +1725,7 @@ const ref = {
                             <td class="table-cell-last">n/a</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
