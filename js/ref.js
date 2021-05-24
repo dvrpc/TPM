@@ -543,8 +543,8 @@ const ref = {
                             <td>n/a</td>
                             <td>62.1%</td>
                             <td>71.5%</td>
-                            <td>50.0%</td>
-                            <td>60.0%</td>
+                            <td>50%</td>
+                            <td>60%</td>
                             <td>n/a</td>
                             <td>n/a</td>
                         </tr>
@@ -557,7 +557,7 @@ const ref = {
                             <td>1.8%</td>
                             <td>0.4%</td>
                             <td>2.5%</td>
-                            <td>2.0%</td>
+                            <td>2%</td>
                             <td>n/a</td>
                             <td>n/a</td>
                         </tr>
@@ -567,7 +567,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
             
-            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -596,12 +596,12 @@ const ref = {
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
                             <td>32.45%</td>
                             <td>36.8%</td>
-                            <td>25.0%</td>
-                            <td>35.0%</td>
-                            <td>33.0%</td>
+                            <td>25%</td>
+                            <td>35%</td>
+                            <td>33%</td>
                             <td>37.6%</td>
-                            <td>25.0%</td>
-                            <td>33.0%</td>
+                            <td>25%</td>
+                            <td>33%</td>
                             <td>Yes</td>
                             <td>Yes</td>
                         </tr>
@@ -610,11 +610,11 @@ const ref = {
                             <td>2.38%</td>
                             <td>2.3%</td>
                             <td>2.5%</td>
-                            <td>4.0%</td>
+                            <td>4%</td>
                             <td>10.7%</td>
-                            <td>2.0%</td>
+                            <td>2%</td>
                             <td>2.5%<sup>2</sup></td>
-                            <td>5.0%</td>
+                            <td>5%</td>
                             <td>No</td>
                             <td>Yes</td>
                         </tr>
@@ -664,9 +664,9 @@ const ref = {
                             <td>19.4%</td>
                             <td>25.8%</td>
                             <td>22.1%</td>
-                            <td>27.0%</td>
+                            <td>27%</td>
                             <td>18.6%<sup>1</sup></td>
-                            <td>26.0%</td>
+                            <td>26%</td>
                             <td>Yes</td>
                             <td>Yes</td>
                         </tr>
@@ -679,7 +679,7 @@ const ref = {
                             <td>6.8%</td>
                             <td>5.1%</td>
                             <td>6.5%<sup>1</sup></td>
-                            <td>6.0%</td>
+                            <td>6%</td>
                             <td>No</td>
                             <td>Yes</td>
                         </tr>
@@ -786,7 +786,7 @@ const ref = {
                             <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
                             <td>82.1</td>
                             <td>89.8</td>
                             <td>82</td>
