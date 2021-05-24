@@ -131,7 +131,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>1.135</td>
-                            <td class="table-cell-last">1.1059</td>
+                            <td class="table-cell-last">1.059</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
@@ -389,8 +389,8 @@ const ref = {
                             <td>67.2%</td>
                             <td>n/a</td>
                             <td>n/a</td>
-                            <td>50.0%</td>
-                            <td>60.0%</td>
+                            <td>50%</td>
+                            <td>60%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
@@ -399,7 +399,7 @@ const ref = {
                             <td>n/a</td>
                             <td>n/a</td>
                             <td>2.5%</td>
-                            <td>2.0%</td>
+                            <td>2%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -407,7 +407,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -430,8 +430,8 @@ const ref = {
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
                             <td>32.45%</td>
                             <td>36.8%</td>
-                            <td>25.0%</td>
-                            <td>35.0%</td>
+                            <td>25%</td>
+                            <td>35%</td>
                             <td>25%</td>
                             <td>33%</td>
                         </tr>
@@ -440,9 +440,9 @@ const ref = {
                             <td>2.38%</td>
                             <td>2.3%</td>
                             <td>2.5%</td>
-                            <td>4.0%</td>
+                            <td>4%</td>
                             <td>15%<sup>2</sup></td>
-                            <td>5.0%</td>
+                            <td>5%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -477,7 +477,7 @@ const ref = {
                             <td>19.4%</td>
                             <td>25.8%</td>
                             <td>21.3%<sup>1</sup></td>
-                            <td>26.0%</td>
+                            <td>26%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
@@ -486,7 +486,7 @@ const ref = {
                             <td>6.5%</td>
                             <td>5.6%</td>
                             <td>6.8%<sup>1</sup></td>
-                            <td>6.0%</td>
+                            <td>6%</td>
                         </tr>
                     </tbody>
                 </table>
