@@ -131,7 +131,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
                             <td>1.135</td>
-                            <td class="table-cell-last">1.1059</td>
+                            <td class="table-cell-last">1.059</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Serious Injuries</td>
@@ -389,8 +389,8 @@ const ref = {
                             <td>67.2%</td>
                             <td>n/a</td>
                             <td>n/a</td>
-                            <td>50.0%</td>
-                            <td>60.0%</td>
+                            <td>50%</td>
+                            <td>60%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
@@ -399,7 +399,7 @@ const ref = {
                             <td>n/a</td>
                             <td>n/a</td>
                             <td>2.5%</td>
-                            <td>2.0%</td>
+                            <td>2%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -407,7 +407,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -430,8 +430,8 @@ const ref = {
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
                             <td>32.45%</td>
                             <td>36.8%</td>
-                            <td>25.0%</td>
-                            <td>35.0%</td>
+                            <td>25%</td>
+                            <td>35%</td>
                             <td>25%</td>
                             <td>33%</td>
                         </tr>
@@ -440,9 +440,9 @@ const ref = {
                             <td>2.38%</td>
                             <td>2.3%</td>
                             <td>2.5%</td>
-                            <td>4.0%</td>
+                            <td>4%</td>
                             <td>15%<sup>2</sup></td>
-                            <td>5.0%</td>
+                            <td>5%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -477,7 +477,7 @@ const ref = {
                             <td>19.4%</td>
                             <td>25.8%</td>
                             <td>21.3%<sup>1</sup></td>
-                            <td>26.0%</td>
+                            <td>26%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
@@ -486,7 +486,7 @@ const ref = {
                             <td>6.5%</td>
                             <td>5.6%</td>
                             <td>6.8%<sup>1</sup></td>
-                            <td>6.0%</td>
+                            <td>6%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -543,8 +543,8 @@ const ref = {
                             <td>n/a</td>
                             <td>62.1%</td>
                             <td>71.5%</td>
-                            <td>50.0%</td>
-                            <td>60.0%</td>
+                            <td>50%</td>
+                            <td>60%</td>
                             <td>n/a</td>
                             <td>n/a</td>
                         </tr>
@@ -557,7 +557,7 @@ const ref = {
                             <td>1.8%</td>
                             <td>0.4%</td>
                             <td>2.5%</td>
-                            <td>2.0%</td>
+                            <td>2%</td>
                             <td>n/a</td>
                             <td>n/a</td>
                         </tr>
@@ -567,7 +567,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
             
-            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure Targets</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -596,12 +596,12 @@ const ref = {
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
                             <td>32.45%</td>
                             <td>36.8%</td>
-                            <td>25.0%</td>
-                            <td>35.0%</td>
-                            <td>33.0%</td>
+                            <td>25%</td>
+                            <td>35%</td>
+                            <td>33%</td>
                             <td>37.6%</td>
-                            <td>25.0%</td>
-                            <td>33.0%</td>
+                            <td>25%</td>
+                            <td>33%</td>
                             <td>Yes</td>
                             <td>Yes</td>
                         </tr>
@@ -610,11 +610,11 @@ const ref = {
                             <td>2.38%</td>
                             <td>2.3%</td>
                             <td>2.5%</td>
-                            <td>4.0%</td>
+                            <td>4%</td>
                             <td>10.7%</td>
-                            <td>2.0%</td>
+                            <td>2%</td>
                             <td>2.5%<sup>2</sup></td>
-                            <td>5.0%</td>
+                            <td>5%</td>
                             <td>No</td>
                             <td>Yes</td>
                         </tr>
@@ -664,9 +664,9 @@ const ref = {
                             <td>19.4%</td>
                             <td>25.8%</td>
                             <td>22.1%</td>
-                            <td>27.0%</td>
+                            <td>27%</td>
                             <td>18.6%<sup>1</sup></td>
-                            <td>26.0%</td>
+                            <td>26%</td>
                             <td>Yes</td>
                             <td>Yes</td>
                         </tr>
@@ -679,7 +679,7 @@ const ref = {
                             <td>6.8%</td>
                             <td>5.1%</td>
                             <td>6.5%<sup>1</sup></td>
-                            <td>6.0%</td>
+                            <td>6%</td>
                             <td>No</td>
                             <td>Yes</td>
                         </tr>
@@ -786,13 +786,13 @@ const ref = {
                             <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
                             <td>82.1</td>
                             <td>89.8</td>
                             <td>82</td>
                             <td>89.8</td>
                             <td>82</td>
-                            <td>89.5%<sup>2</sup></td>
+                            <td>89.5<sup>2</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
@@ -918,11 +918,11 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
                             <td>51.6</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>51.6</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>51.7</td>
-                            <td></td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
@@ -977,11 +977,11 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: CO</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>1,135.4</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>567.7</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>250<sup>1</sup></td>
                         </tr>
                     </tbody>
@@ -992,7 +992,7 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report were submitted in October 2020.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress reports were submitted in October 2020.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
@@ -1035,7 +1035,7 @@ const ref = {
                             <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
                             <td>82.1</td>
                             <td>89.8</td>
                             <td>82</td>
@@ -1207,15 +1207,15 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
                             <td>51.6</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>51.6</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>n/a</td>
+                            <td>51.6</td>
+                            <td>n/a</td>
                             <td>51.7</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>n/a</td>
+                            <td>Yes</td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1290,7 +1290,7 @@ const ref = {
                             <td class="table-cell-first">Total Emission Reductions: CO</td>
                             <td>n/a</td>
                             <td>1,135.4</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>567.7</td>
                             <td>n/a</td>
                             <td>2,969.64</td>
@@ -1412,7 +1412,7 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1438,7 +1438,7 @@ const ref = {
             </div>
             <small>Source: DVRPC  2021</small><br />
             <small><sup>1</sup>SEPTA did not report a target for the number of fatalities.</small><br />
-            <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles travelled. NJ Transit reported fatalities per 1,000,000 miles travelled.</small>
+            <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles traveled. NJ Transit reported fatalities per 1,000,000 miles traveled.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
             <div class="table-overflow-wrapper">
@@ -1496,7 +1496,7 @@ const ref = {
                             <td class="table-cell-last">3.28 (per 200,000 hours)</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Passenger Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Passenger Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1509,7 +1509,7 @@ const ref = {
                             <td class="table-cell-last">3.35 (per 1 million miles)</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Employee Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Employee Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1641,7 +1641,7 @@ const ref = {
                             <td class="table-cell-last">n/a</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1654,7 +1654,7 @@ const ref = {
                             <td class="table-cell-last">3.63 (per 1 million miles)</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit Fire Events</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Fire Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1725,7 +1725,7 @@ const ref = {
                             <td class="table-cell-last">n/a</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
@@ -1822,7 +1822,7 @@ const ref = {
         `,
         'targets': `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators’ efforts at achieving those targets.</p>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators’ efforts at achieving those targets. NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1878,55 +1878,55 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td class="table-cell-last">6%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td class="table-cell-last">27%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">24%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td class="table-cell-last">64.36%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td class="table-cell-last">5%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td class="table-cell-last">7.5%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td class="table-cell-last">16.7%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td class="table-cell-last">100%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Sport Utility Vehicle</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Van</td>
-                            <td class="table-cell-last">2%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1939,7 +1939,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC  2021</small>
+            <small>Source: DVRPC  2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1953,7 +1954,7 @@ const ref = {
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Automobile</td>
+                            <td class="table-cell-first">Automobiles</td>
                             <td class="table-cell-last">50%</td>
                         </tr>
                         <tr>
@@ -1966,19 +1967,19 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td class="table-cell-last">0%</td>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">64.24%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td class="table-cell-last">33.9%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1991,7 +1992,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -2018,19 +2020,19 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">1%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">2.38%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
-                            <td class="table-cell-last">0.18%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2043,7 +2045,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -2066,15 +2069,15 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">4%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
-                            <td class="table-cell-last">4%</td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2091,13 +2094,14 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
             <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
-            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets.</p>
+            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets. NJ TRANSIT targets and performance toward meeting the targets will be reported once they have been finalized by the Federal Transit Administration.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -2175,79 +2179,79 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td>20%</td>
-                            <td>95.4%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>52.76%</td>
-                            <td>27.06%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>46.4%</td>
-                            <td>52.01%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>0%</td>
-                            <td>19.32%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>1.5%</td>
-                            <td>23.61%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td>4.35%</td>
-                            <td>8.4%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>6.37%</td>
-                            <td>6.37%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>17.94%</td>
-                            <td>17.94%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>100%</td>
-                            <td>100%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Sport Utility Vehicle</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Van</td>
-                            <td>1.53%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2262,7 +2266,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -2297,25 +2302,25 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
-                            <td>40%</td>
-                            <td>77.05%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>50.63%</td>
-                            <td>34.26%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>24.1%</td>
-                            <td>25.81%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2330,7 +2335,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -2365,25 +2371,25 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>1%</td>
-                            <td>0.94%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>4.1%</td>
-                            <td>2.38%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
-                            <td>0.43%</td>
-                            <td>0.18%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2398,7 +2404,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -2427,19 +2434,19 @@ const ref = {
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td>0%</td>
-                            <td>3.45%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administration Facilities</td>
-                            <td>0%</td>
-                            <td>3.12%</td>
-                            <td class="table-cell-last">No</td>
+                            <td></td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2460,7 +2467,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2021</small><br />
+            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
         `,
         'dates': `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>

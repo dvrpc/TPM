@@ -80,6 +80,7 @@ h1 {
     display: block;
     max-width: 70ch;
     margin: 5% auto;
+    font-size: 1.1rem;
 }
 #tpm-content-headers {
     width: 100%;
