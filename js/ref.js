@@ -992,7 +992,7 @@ const ref = {
         `,
         'how': `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress report were submitted in October 2020.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress reports were submitted in October 2020.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
@@ -1035,7 +1035,7 @@ const ref = {
                             <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% of Person Miles Traveled on Interstate that are Reliable</td>
+                            <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
                             <td>82.1</td>
                             <td>89.8</td>
                             <td>82</td>
@@ -1207,15 +1207,15 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
                             <td>51.6</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>51.6</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>n/a</td>
+                            <td>51.6</td>
+                            <td>n/a</td>
                             <td>51.7</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>n/a</td>
+                            <td>Yes</td>
+                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1290,7 +1290,7 @@ const ref = {
                             <td class="table-cell-first">Total Emission Reductions: CO</td>
                             <td>n/a</td>
                             <td>1,135.4</td>
-                            <td></td>
+                            <td>n/a</td>
                             <td>567.7</td>
                             <td>n/a</td>
                             <td>2,969.64</td>
