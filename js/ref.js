@@ -170,7 +170,7 @@ const ref = {
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(per 100 million VMT)</small></td>
+                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
                             <td>1.489</td>
                             <td>2.442</td>
                             <td>1.456</td>
