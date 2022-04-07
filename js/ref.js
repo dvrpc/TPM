@@ -59,8 +59,8 @@
 */
 
 const ref = {
-    'highway': {
-        'measure': `
+  highway: {
+    measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>State Departments of Transportation (DOTs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of non-motorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. </p>
             <p>FHWA requires the DOTs and MPOs to establish safety targets on an annual basis for:</p>
@@ -73,88 +73,52 @@ const ref = {
             </ul>
             <p>Measures are for all public roads regardless of functional classification or ownership and each target is based on a five-year rolling average, which is the average of five individual, consecutive points of data.</p>
         `,
-        'targets': `
+    targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide roadway safety targets.</p>
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey</h4>
+            <p>In January of 2022, the DVRPC Board adopted regional safety targets marking the end of a year and a half of engagement with DVRPC’s Regional Technical Committee (RTC). During this time, staff discussed findings from their research into the regional target-setting processes of five peer MPO’s, and met individually with state DOT and FHWA partners seeking their guidance and support of our effort, and to promote transparency. The RTC considered two regional safety targets scenarios based on DVRPC’s Regional Vision Zero 2050 goal. Regional Vision Zero provides the context for more meaningful and substantive strategies to improve safety system-wide.</p>
+            <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
+            <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>NJ Baseline <br /> <small>(2015 - 2019)</small></th>
-                        <th class="table-cell-last">NJ Target <br /> <small>(2017 - 2021)</small></th>
+                        <th>Regional <br /> Baseline<br /> <small>(2016 - 2020)</small></th>
+                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2018 - 2022)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>582.6</td>
-                            <td class="table-cell-last">574</td>
+                            <td>407.2</td>
+                            <td class="table-cell-last">387.2</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>0.756</td>
-                            <td class="table-cell-last">0.740</td>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
+                            <td>1.050</td>
+                            <td class="table-cell-last">0.940</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>1,469.2</td>
-                            <td class="table-cell-last">2,124.8</td>
+                            <td class="table-cell-first">Number of Suspected Serious Injuries</td>
+                            <td>1,382.8</td>
+                            <td class="table-cell-last">1,302.8</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.9</td>
-                            <td class="table-cell-last">2.724</td>
+                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
+                            <td>3.557</td>
+                            <td class="table-cell-last">3.162</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>463.7</td>
-                            <td class="table-cell-last">588.5</td>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
+                            <td>378.0</td>
+                            <td class="table-cell-last">359.7</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>PA Baseline <br /><small>(2015 - 2019)</small></th>
-                        <th class="table-cell-last">PA Target <br /><small>(2017 - 2021)</small></th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">Number of Fatalities</td>
-                            <td>1,154.8</td>
-                            <td class="table-cell-last">1,088.2</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.135</td>
-                            <td class="table-cell-last">1.059</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>4,166.6</td>
-                            <td class="table-cell-last">4,551.2</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>4.097</td>
-                            <td class="table-cell-last">4.431</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>741.6</td>
-                            <td class="table-cell-last">800.8</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>source: DVRPC 2021</small>
+            <small>Source: DVRPC 2022</small>
         `,
-        'how': `
+    how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
+            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2022 is the first year DVRPC has set regional targets, rather than adopting the states’ targets, we will report on progress toward achieving the regional targets with next year’s update. NJDOT and PennDOT performance against their prior targets is shown here for informational purposes only.</p>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target</h4>
             <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
@@ -170,9 +134,9 @@ const ref = {
                 <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th class="table-cell-wide">Target<br /><small>(2015 - 2019)</small></th>
-                        <th class="table-cell-wide">Actual<br /><small>(2015 - 2019)</small></th>
-                        <th class="table-cell-wide">Baseline<br /><small>(2013 - 2017)</small></th>
+                        <th class="table-cell-wide">Target<br /><small>(2016 - 2020)</small></th>
+                        <th class="table-cell-wide">Actual<br /><small>(2016 - 2020)</small></th>
+                        <th class="table-cell-wide">Baseline<br /><small>(2014 - 2018)</small></th>
                         <th class="table-cell-wide">Target Achieved?</th>
                         <th class="table-cell-wide">Better Than Baseline?</th>
                         <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
@@ -180,45 +144,45 @@ const ref = {
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>605</td>
-                            <td>582.6</td>
-                            <td>577.6</td>
-                            <td>Yes</td>
-                            <td>No</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>0.780</td>
-                            <td>0.756</td>
-                            <td>0.761</td>
-                            <td>Yes</td>
-                            <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>1,101.4</td>
-                            <td>1,469.2</td>
-                            <td>1,092.5</td>
+                            <td>582.8</td>
+                            <td>586.6</td>
+                            <td>581.2</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.422</td>
-                            <td>1.9</td>
-                            <td>1.439</td>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
+                            <td>0.744</td>
+                            <td>0.792</td>
+                            <td>0.760</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>393.9</td>
-                            <td>463.7</td>
-                            <td>379.1</td>
+                            <td class="table-cell-first">Number of Suspected Serious Injuries</td>
+                            <td>1,167.9</td>
+                            <td>1,782.1</td>
+                            <td>1,113.6</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(per 100 million VMT)</small></td>
+                            <td>1.489</td>
+                            <td>2.442</td>
+                            <td>1.456</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
+                            <td>407.9</td>
+                            <td>585.0</td>
+                            <td>392.8</td>
                             <td>No</td>
                             <td>No</td>
                             <td class="table-cell-last">No</td>
@@ -226,7 +190,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
+            <small>Source: NJDOT, 2022</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
             <p>Based on preliminary data, New Jersey has not demonstrated that it has met or made significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2019. FHWA will issue a decision based on final data in spring 2021.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
@@ -234,9 +198,9 @@ const ref = {
                 <table class="table-wide">
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th class="table-cell-wide">Target<br /><small>(2015 - 2019)</small></th>
-                        <th class="table-cell-wide">Actual<br /><small>(2015 - 2019)</small></th>
-                        <th class="table-cell-wide">Baseline<br /><small>(2013 - 2017)</small></th>
+                        <th class="table-cell-wide">Target<br /><small>(2016 - 2020)</small></th>
+                        <th class="table-cell-wide">Actual<br /><small>(2016 - 2020)</small></th>
+                        <th class="table-cell-wide">Baseline<br /><small>(2014 - 2018)</small></th>
                         <th class="table-cell-wide">Target Achieved?</th>
                         <th class="table-cell-wide">Better Than Baseline?</th>
                         <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
@@ -244,57 +208,57 @@ const ref = {
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>1,146.3</td>
-                            <td>1,154.8</td>
-                            <td>1,185.6</td>
+                            <td>1,171.9</td>
+                            <td>1,140.6</td>
+                            <td>1,182.0</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
+                            <td>1.148</td>
+                            <td>1.157</td>
+                            <td>1.169</td>
                             <td>No</td>
                             <td>Yes</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br /><small>(per 100 million VMT)</small></td>
-                            <td>1.121</td>
-                            <td>1.135</td>
-                            <td>1.179</td>
+                            <td class="table-cell-first">Number of Suspected Serious Injuries</td>
+                            <td>4,400.3</td>
+                            <td>4,445.6</td>
+                            <td>3,839.6</td>
                             <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
+                            <td>4.309</td>
+                            <td>4.510</td>
+                            <td>3.797</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
+                            <td>781.7</td>
+                            <td>762.2</td>
+                            <td>679.0</td>
                             <td>Yes</td>
+                            <td>No</td>
                             <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Serious Injuries</td>
-                            <td>3,971.2</td>
-                            <td>4,166.6</td>
-                            <td>3,588.4</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Serious Injuries<br /><small>(per 100 million VMT)</small></td>
-                            <td>3.883</td>
-                            <td>4.097</td>
-                            <td>3.569</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Serious Injuries</td>
-                            <td>698.4</td>
-                            <td>741.6</td>
-                            <td>629.8</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
+            <small>Source: PennDOT, 2022</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
             <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2019. PennDOT is now required to submit an updated HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2021 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2019 for safety projects in the upcoming fiscal year.</p>
         `,
-        'dates': `
+    dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
@@ -329,10 +293,10 @@ const ref = {
                 <li><a href="https://www.saferoadsforallnj.com" target="blank" rel="noopener noreferrer">New Jersey Strategic Highway Safety Plan</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2016/03/15/2016-05202/national-performance-management-measures-highway-safety-improvement-program" target="blank" rel="noopener noreferrer">Safety Performance Measure Final Rule</a></li>
             </ul>
-        `
-    },
-    'bridgepavement': {
-        'measure': `
+        `,
+  },
+  bridgepavement: {
+    measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>State Departments of Transportation (DOTs) must establish targets, regardless of ownership, for the full extent of the Interstate and non-Interstate National Highway System (NHS).  FHWA has set numerical standards that categorize pavement conditions as good, fair, or poor.  Pavement in good condition suggests no major investment is needed. Pavement in poor condition suggests that major reconstruction investment is needed. Road pavements are classified as one of three types: concrete, bituminous (also known as asphalt), and jointed concrete—which is a series of contiguous concrete slabs joined together. Pavement condition is determined by specific measures, which include the International Roughness Index (IRI), cracking, rutting, and faulting:</p>
@@ -360,7 +324,7 @@ const ref = {
             <p>The states are also required to set goals for the percentage of NHS bridge deck area that is in good condition for all mainline Interstate Highway System and non-Interstate NHS bridges regardless of who owns or is responsible for maintaining the bridge. Bridges that are determined to be structurally deficient, in the NBI, are considered to be in poor condition.</p>
             <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. DVRPC has adopted and supports the respective state DOT targets.</p>
         `,
-        'targets': `
+    targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide infrastructure condition targets.</p>
             
@@ -494,7 +458,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
         `,
-        'how': `
+    how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were submitted in October 2020. Based on the progress reports, NJ DOT and PennDOT have adjusted some of their four-year targets as noted in the tables below.</p>
             
@@ -689,7 +653,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
         `,
-        'dates': `
+    dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
@@ -730,10 +694,10 @@ const ref = {
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00550/national-performance-management-measures-assessing-pavement-condition-for-the-national-highway" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
-        `
-    },
-    'systemperf': {
-        'measure': `
+        `,
+  },
+  systemperf: {
+    measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <h4 class="tpm-content-subheaders theme-font-color">National Highway System (NHS) Travel Time Reliability</h4>
             <p>State Departments of Transportation (DOTs) must establish statewide targets for the performance of the Interstate and non-Interstate National Highway System (NHS) during four peak travel time periods which include peak daytime periods and weekend periods. Each state sets its performance targets for the Level of Travel Time Reliability (LOTTR) Index which indicates the reliability of travel on the Interstate and non-Interstate NHS. A road segment is considered reliable if the ratio of the 80th percentile peak hour travel time to the normal peak hour travel time (50th percentile) is less than 1.5. The measure also incorporates vehicle occupancy to identify the person miles traveled on the system. LOTTR targets are established for the entire state that reflect the person miles traveled on road segments that are considered reliable. Two- and four-year targets are set for:</p>
@@ -762,7 +726,7 @@ const ref = {
             </ul>
             <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. DVRPC has adopted and supports the respective state DOT targets.</p>
         `,
-        'targets': `
+    targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide system performance targets.</p>
 
@@ -990,7 +954,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
         `,
-        'how': `
+    how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress reports were submitted in October 2020.</p>
             
@@ -1305,7 +1269,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
         `,
-        'dates': `
+    dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
@@ -1352,10 +1316,10 @@ const ref = {
                 <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00681/national-performance-management-measures-assessing-performance-of-the-national-highway-system" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
                 <li><a href="https://dvrpcgis.maps.arcgis.com/apps/MapSeries/index.html?appid=732efbf95f76489598277df671b5d6b2" target="blank" rel="noopener noreferrer">DVRPC Congestion Management Process Webpage</a></li>
             </ul>
-        `
-    },
-    'ptasp': {
-        'measure': `
+        `,
+  },
+  ptasp: {
+    measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Through the Public Transportation Agency Safety Plan (PTASP) rule, FTA requires transit agencies to implement a Safety Management System to manage safety risk, which can help agencies maintain or improve their safety performance.</p>
             <p>Transit agencies are required to develop Transit Agency Safety Plans (TASP) that establish performance targets based on the four measures included in FTA’s National Transit Public Safety Plan (NTPSP). The four measures are Fatalities, Injuries, Safety Events, and System Reliability. Transit agencies are required to report their targets and performance to the state DOT and the agency’s MPO in order to prioritize funding to improve transit safety performance.</p>
@@ -1387,7 +1351,7 @@ const ref = {
                 <li>The miles traveled between major mechanical failures calculated for each mode that the transit agency operates.</li>
             </ul>
         `,
-        'targets': `
+    targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO targets for transit safety, and will support the transit operators’ efforts at achieving those targets.</p>
             <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
@@ -1753,7 +1717,7 @@ const ref = {
             <small><sup>2</sup>DRPA/PATCO reported the total number of service failures.</small><br />
             <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line, MSHL=Media Sharon Hill Line</small>
         `,
-        'how': `
+    how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>The transit safety targets were adopted by DVRPC in January 2021. Once the respective transit agencies report on their performance, it will be reported here.</p>
             <br />
@@ -1768,7 +1732,7 @@ const ref = {
             <br />
             <br />
         `,
-        'dates': `
+    dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
@@ -1789,10 +1753,10 @@ const ref = {
                 <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/2020-04/SPT_Webinar_202002.pdf" target="blank" rel="noopener noreferrer">FTA Safety Performance Target Webinar</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2018-07-19/pdf/2018-15167.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
-        `
-    },
-    'transitasset': {
-        'measure': `
+        `,
+  },
+  transitasset: {
+    measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Rolling Stock</h4>
@@ -1820,7 +1784,7 @@ const ref = {
             </ul>
             <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies’ targets. DVRPC has adopted and supports the respective transit agency targets.</p>
         `,
-        'targets': `
+    targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators’ efforts at achieving those targets. NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</p>
 
@@ -2097,7 +2061,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
         `,
-        'how': `
+    how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
             <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
@@ -2470,7 +2434,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
         `,
-        'dates': `
+    dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
@@ -2494,8 +2458,8 @@ const ref = {
                 <li><a href="https://www.transit.dot.gov/TAM/FTAOutreachMaterials/perfmsrFS" target="blank" rel="noopener noreferrer">TAM Fact Sheet</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
-        `
-    }
-}
+        `,
+  },
+};
 
-export default ref
+export default ref;
