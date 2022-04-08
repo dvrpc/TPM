@@ -67,15 +67,15 @@ const ref = {
             <ul>
                 <li><strong>Number of Fatalities:</strong> The total number of persons suffering fatal injuries in a motor vehicle crash during a calendar year.</li>
                 <li><strong>Rate of Fatalities:</strong> The ratio of total number of fatalities to the number of vehicle miles traveled (VMT, in 100 Million VMT) in a calendar year.</li>
-                <li><strong>Number of Serious Injuries:</strong> The total number of persons suffering at least one serious injury in a motor vehicle crash during a calendar year.</li>
-                <li><strong>Rate of Serious Injuries:</strong> The ratio of total number of serious injuries to the number of VMT (in 100 Million VMT) in a calendar year.</li>
-                <li><strong>Number of Non-motorized Fatalities and Non-motorized Serious Injuries:</strong> The combined total number of non-motorized fatalities and non-motorized serious injuries involving a motor vehicle during a calendar year.</li>
+                <li><strong>Number of Suspected Serious Injuries:</strong> The total number of persons suffering at least one serious injury in a motor vehicle crash during a calendar year.</li>
+                <li><strong>Rate of Suspected Serious Injuries:</strong> The ratio of total number of serious injuries to the number of VMT (in 100 Million VMT) in a calendar year.</li>
+                <li><strong>Number of Non-motorized Fatalities and Non-motorized Suspected Serious Injuries:</strong> The combined total number of non-motorized fatalities and non-motorized serious injuries involving a motor vehicle during a calendar year.</li>
             </ul>
             <p>Measures are for all public roads regardless of functional classification or ownership and each target is based on a five-year rolling average, which is the average of five individual, consecutive points of data.</p>
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In January of 2022, the DVRPC Board adopted regional safety targets marking the end of a year and a half of engagement with DVRPC’s Regional Technical Committee (RTC). During this time, staff discussed findings from their research into the regional target-setting processes of five peer MPO’s, and met individually with state DOT and FHWA partners seeking their guidance and support of our effort, and to promote transparency. The RTC considered two regional safety targets scenarios based on DVRPC’s Regional Vision Zero 2050 goal. Regional Vision Zero provides the context for more meaningful and substantive strategies to improve safety system-wide.</p>
+            <p>In January of 2022, the DVRPC Board adopted regional safety targets marking the end of a year and a half of engagement with DVRPC’s Regional Technical Committee (RTC). During this time, staff discussed findings from their research into the regional target-setting processes of five peer MPOs, and met individually with state DOT and FHWA partners seeking their guidance and support of our effort, and to promote transparency. The RTC considered two regional safety targets scenarios based on DVRPC’s Regional Vision Zero 2050 goal. Regional Vision Zero provides the context for more meaningful and substantive strategies to improve safety system-wide.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
             <div class="table-overflow-wrapper">
@@ -192,7 +192,6 @@ const ref = {
             </div>
             <small>Source: NJDOT, 2022</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
-            <p>Based on preliminary data, New Jersey has not demonstrated that it has met or made significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2019. FHWA will issue a decision based on final data in spring 2021.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
             <div class="table-overflow-wrapper">
                 <table class="table-wide">
@@ -256,7 +255,6 @@ const ref = {
             </div>
             <small>Source: PennDOT, 2022</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
-            <p>Pennsylvania did not meet or make significant progress towards its safety performance targets on three out of five performance measures: Number of Serious Injuries, Rate of Serious Injuries, and Number of Non-Motorized Fatalities and Serious Injuries for CY 2019. PennDOT is now required to submit an updated HSIP Implementation Plan. This plan is currently being written and is scheduled to be delivered to FHWA by the June 30, 2021 deadline. PennDOT is also required to use obligation authority equal to the HSIP apportionment for FY2019 for safety projects in the upcoming fiscal year.</p>
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
