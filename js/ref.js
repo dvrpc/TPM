@@ -1852,53 +1852,52 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">47.37%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">23.6%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">24.8%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">58.15%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">8.33%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Van</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC  2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
