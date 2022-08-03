@@ -2148,74 +2148,73 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
                             <td>0%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
                             <td>6%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>100%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
                             <td>27%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>31.16%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>24%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>20.03%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
                             <td>64.36%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>62.68%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
                             <td>0%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
                             <td>5%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
                             <td>7.5%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>8.64%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
                             <td>16.7%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
                             <td>100%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Van</td>
                             <td>2%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -2265,26 +2264,25 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
                             <td>0%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>55.38%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
                             <td>64.24%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>56.41%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
                             <td>33.9%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>33.33%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -2334,20 +2332,19 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
                             <td>4%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>3.03%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
                             <td>4%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>3%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
         
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -2397,27 +2394,25 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>1%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>1.72%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
                             <td>2.38%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>2.38%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
                             <td>0.18%</td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>0.18%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
-
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
