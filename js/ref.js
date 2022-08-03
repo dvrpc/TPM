@@ -1936,21 +1936,20 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">55.38%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">58.53%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">33.33%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
@@ -1989,17 +1988,16 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">4%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">4%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
         
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
@@ -2038,21 +2036,20 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">1.75%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">2.38%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
-                            <td class="table-cell-last"></td>
+                            <td class="table-cell-last">0.18%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2022</small><br />
-            <small><em>Note</em>: NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</small>
             `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
