@@ -1354,7 +1354,7 @@ const ref = {
             <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO targets for transit safety, and will support the transit operators’ efforts at achieving those targets.</p>
             <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Fatalities (Number/Rate)</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Fatalities (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -1362,13 +1362,19 @@ const ref = {
                         <th class="table-cell-last">2022 Target</th>
                     </thead>
                     <tbody>
+                        <tr class="table-cell-no-border">
+                                <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
                         <tr>
                             <td class="table-cell-first">SEPTA</td>
-                            <td class="table-cell-last">-- / 0.0265<sup>1</sup></td>
+                            <td class="table-cell-last">-- / 0.0265<sup>*</sup></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA / PATCO </td>
-                            <td class="table-cell-last">0 / 0.0<sup>1</sup></td>
+                            <td class="table-cell-last">0 / 0.0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1376,116 +1382,103 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">2 / 1.71 <sup>2</sup></td>
+                            <td class="table-cell-last">2 / 1.71 <sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">6 / 0.85<sup>2</sup></td>
+                            <td class="table-cell-last">6 / 0.85<sup>**</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC  2022</small><br />
-            <small><sup>1</sup>per 100,000 Miles.</small><br />
-            <small><sup>2</sup>per 1 Million Miles.</small>
-            <small><em>Note</em>: Note: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+            <small><sup>*</sup>per 100,000 Miles.</small><br />
+            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Injuries (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th></th>
-                        <th>Number of Injuries<sup>1</sup></th>
-                        <th class="table-cell-last">Rate of Injuries<sup>2</sup></th>
+                        <th class="table-cell-last">2022 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Passenger Injuries</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Passenger Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">5.53 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 3.88<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">5.75 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 4.46<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">0.79 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 0.54<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">0.40 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 0.36<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">3.48 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 1.58<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">6.48 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 4.58<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">0.69 (per 100,000 miles)</td>
+                            <td class="table-cell-last">-- / 0.47<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first"></td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">3.28 (per 200,000 hours)</td>
+                            <td class="table-cell-first">Employee Injuries</td>
+                            <td class="table-cell-last">-- / 4.26<sup>***</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Passenger Injuries</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA / PATCO</td>
+                            <td class="table-cell-last">41 / 1<sup>*</sup></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Passenger Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>4</td>
-                            <td class="table-cell-last">3.18 (per 1 million miles)</td>
+                            <td class="table-cell-last">1 / 0.85<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>244</td>
-                            <td class="table-cell-last">3.35 (per 1 million miles)</td>
+                            <td class="table-cell-last">173 / 2.45<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Employee Injuries</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Employee Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>0</td>
-                            <td class="table-cell-last">0 (per 200,000 hours)</td>
+                            <td class="table-cell-last">1 / 0.85<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>423</td>
-                            <td class="table-cell-last">7.99 (per 200,000 hours)</td>
-                        </tr>                   
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">System</td>
-                            <td>41</td>
-                            <td class="table-cell-last">1 (per 100,000 miles)</td>
+                            <td class="table-cell-last">431 / 7.67<sup>***</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>SEPTA did not report a target for the number of injuries.</small><br />
-            <small><sup>2</sup>SEPTA and DRPA/PATCO reported passenger injuries per 100,000 miles travelled. NJ Transit reported passenger injuries per 1,000,000 miles travelled. Employee injuries for all agencies is per 200,000 hours.</small><br />
-            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line</small>
+            <small>Source: DVRPC 2022</small><br />
+            <small><sup>*</sup>per 100,000 Miles.</small><br />
+            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small><sup>***</sup>per 200,000 Work Hours.</small><br />
+            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events</h4>
             <div class="table-overflow-wrapper">
