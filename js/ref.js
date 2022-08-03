@@ -1354,53 +1354,41 @@ const ref = {
             <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO targets for transit safety, and will support the transit operators’ efforts at achieving those targets.</p>
             <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
 
-            <h4 class="tpm-content-subheaders theme-font-color">Fatalities</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">Fatalities (Number/Rate)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th></th>
-                        <th>Number of Fatalities<sup>1</sup></th>
-                        <th class="table-cell-last">Rate of Fatalities<sup>2</sup></th>
+                        <th class="table-cell-last">2022 Target</th>
                     </thead>
                     <tbody>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        <tr>
+                            <td class="table-cell-first">SEPTA</td>
+                            <td class="table-cell-last">-- / 0.0265<sup>1</sup></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">System</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">0.0173 (per 100,000 miles)</td>
+                            <td class="table-cell-first">DRPA / PATCO </td>
+                            <td class="table-cell-last">0 / 0.0<sup>1</sup></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>1</td>
-                            <td class="table-cell-last">0.79 (per 1 million miles)</td>
+                            <td class="table-cell-last">2 / 1.71 <sup>2</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>4</td>
-                            <td class="table-cell-last">0.055 (per 1 million miles)</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">System</td>
-                            <td>0</td>
-                            <td class="table-cell-last">0 (per 100,000 miles)</td>
+                            <td class="table-cell-last">6 / 0.85<sup>2</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC  2021</small><br />
-            <small><sup>1</sup>SEPTA did not report a target for the number of fatalities.</small><br />
-            <small><sup>2</sup>SEPTA and DRPA/PATCO reported fatalities per 100,000 miles traveled. NJ Transit reported fatalities per 1,000,000 miles traveled.</small>
+            <small>Source: DVRPC  2022</small><br />
+            <small><sup>1</sup>per 100,000 Miles.</small><br />
+            <small><sup>2</sup>per 1 Million Miles.</small>
+            <small><em>Note</em>: Note: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
             <div class="table-overflow-wrapper">
