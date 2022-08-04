@@ -1602,91 +1602,71 @@ const ref = {
             <small><sup>**</sup>per 1 Million Miles.</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
             
-            <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failurs)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th></th>
-                        <th>Mean Distance in Miles between Major Service Failures</th>
-                        <th class="table-cell-last">Total Service Failures</th>
+                        <th class="table-cell-last">2022 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>85,000</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">85,000</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>130,000</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">130,000</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>35,000</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">35,000</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (City)</td>
-                            <td>8,000</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">8,000</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (MSHL)</td>
-                            <td>20,000</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">20,000</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>30,000</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">30,000</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td class="table-cell-last">230<sup>****</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>6,284</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">19,896</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>135.45<sup>1</sup></td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-last">6,540</td>
                         </tr>                  
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">System</td>
-                            <td>Not Reported</td>
-                            <td class="table-cell-last">230<sup>2</sup></td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>NJ Transit reported the mean distance between major service failures for buses as a rate per 1,000,000 miles.</small><br />
-            <small><sup>2</sup>DRPA/PATCO reported the total number of service failures.</small><br />
-            <small>MFL = Market Frankford Line, BSL= Broad Street Line, NHSL= Norristown High Speed Line, MSHL=Media Sharon Hill Line</small>
+            <small><sup>****</sup>Total Failures</small><br />
+            <small><em>Note</em>:SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>The transit safety targets were adopted by DVRPC in January 2021. Once the respective transit agencies report on their performance, it will be reported here.</p>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in their Transit Agency Safety Plans . MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet their safety targets.</p>
+            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. The annual performance measure tracking effort helps indicate where there are safety investments needed.</p>
+            <p>DVRPC publishes the transit safety performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets.</p>
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
