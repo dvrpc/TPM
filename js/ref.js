@@ -75,7 +75,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In January of 2022, the DVRPC Board adopted regional safety targets marking the end of a year and a half of engagement with DVRPC’s Regional Technical Committee (RTC). During this time, staff discussed findings from their research into the regional target-setting processes of five peer MPOs, and met individually with state DOT and FHWA partners seeking their guidance and support of our effort, and to promote transparency. The RTC considered two regional safety targets scenarios based on DVRPC’s Regional Vision Zero 2050 goal. Regional Vision Zero provides the context for more meaningful and substantive strategies to improve safety system-wide.</p>
+            <p>In January of 2022, the DVRPC Board adopted regional safety targets marking the end of a year and a half of engagement with DVRPC's Regional Technical Committee (RTC). During this time, staff discussed findings from their research into the regional target-setting processes of five peer MPOs, and met individually with state DOT and FHWA partners seeking their guidance and support of our effort, and to promote transparency. The RTC considered two regional safety targets scenarios based on DVRPC's Regional Vision Zero 2050 goal. Regional Vision Zero provides the context for more meaningful and substantive strategies to improve safety system-wide.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
             <div class="table-overflow-wrapper">
@@ -118,7 +118,7 @@ const ref = {
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2022 is the first year DVRPC has set regional targets, rather than adopting the states’ targets, we will report on progress toward achieving the regional targets with next year’s update. NJDOT and PennDOT performance against their prior targets is shown here for informational purposes only.</p>
+            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2022 is the first year DVRPC has set regional targets, rather than adopting the states' targets, we will report on progress toward achieving the regional targets with next year's update. NJDOT and PennDOT performance against their prior targets is shown here for informational purposes only.</p>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target</h4>
             <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
@@ -305,7 +305,7 @@ const ref = {
                 <li>Faulting quantifies the misalignment between concrete slabs as the difference in elevation across transverse concrete pavement joints in inches.</li>
             </ul>
             <p>Roughness affects travel speeds, safety, comfort, and transportation costs. Cracking, rutting, and faulting are surface indicators of underlying structural deterioration. All three pavement types consider IRI and cracking. Bituminous pavements additionally consider rutting, while jointed concrete also utilizes faulting.</p>
-            <p>The performance-based planning regulation requires that state DOTs set two and four-year targets for the percentage of pavement miles that fall into the “good” and “poor” category on the state’s Interstate and non-Interstate NHS. Specific targets are set for:</p>
+            <p>The performance-based planning regulation requires that state DOTs set two and four-year targets for the percentage of pavement miles that fall into the “good” and “poor” category on the state's Interstate and non-Interstate NHS. Specific targets are set for:</p>
             <ul>
                 <li>Percentage of Interstate Pavements in Good Condition.</li>
                 <li>Percentage of Interstate Pavements in Poor Condition.</li>
@@ -313,7 +313,7 @@ const ref = {
                 <li>Percentage of non-Interstate Pavements in Poor Condition.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Bridges</h4>
-            <p>State DOTs must establish targets for all bridges carrying the NHS, which includes on- and off-ramps connected to the NHS within a state, and bridges carrying the NHS that cross a state border, regardless of ownership. Each bridge is given ratings for its deck, superstructure, and substructure components during regular inspections using National Bridge Inventory (NBI) standards. Each component is given a rating that ranges between 9 and 0 on the FHWA condition scale. A structure’s overall condition rating is determined by the lowest value for its deck, superstructure, substructure, or culvert rating. If any of the components of a structure qualify as poor, the structure is deemed poor; while all the components must have a good rating for the structure to be deemed in good repair. Poor condition does not mean the bridge is unsafe to use. Both PennDOT and NJDOT will take necessary action to restrict heavy-weight vehicles or close a bridge in order to ensure safety. Bridge condition performance measures are calculated by summing the deck area of bridges in “good” and “poor” condition and dividing by the total deck area of all NHS bridges.</p>
+            <p>State DOTs must establish targets for all bridges carrying the NHS, which includes on- and off-ramps connected to the NHS within a state, and bridges carrying the NHS that cross a state border, regardless of ownership. Each bridge is given ratings for its deck, superstructure, and substructure components during regular inspections using National Bridge Inventory (NBI) standards. Each component is given a rating that ranges between 9 and 0 on the FHWA condition scale. A structure's overall condition rating is determined by the lowest value for its deck, superstructure, substructure, or culvert rating. If any of the components of a structure qualify as poor, the structure is deemed poor; while all the components must have a good rating for the structure to be deemed in good repair. Poor condition does not mean the bridge is unsafe to use. Both PennDOT and NJDOT will take necessary action to restrict heavy-weight vehicles or close a bridge in order to ensure safety. Bridge condition performance measures are calculated by summing the deck area of bridges in “good” and “poor” condition and dividing by the total deck area of all NHS bridges.</p>
             <span>Bridge deck conditions are based on deck area and targets are set for:</span>
             <ul>
                 <li>Percentage of NHS bridge deck area that is in good condition for all mainline Interstate Highway System bridges.</li>
@@ -324,7 +324,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide infrastructure condition targets.</p>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT's and NJ DOT's statewide infrastructure condition targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Interstate Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
@@ -458,7 +458,7 @@ const ref = {
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states’ first two-year progress report were submitted in October 2020. Based on the progress reports, NJ DOT and PennDOT have adjusted some of their four-year targets as noted in the tables below.</p>
+            <p>State DOTs must show whether they have met or made significant progress toward meeting the targets. The states' first two-year progress report were submitted in October 2020. Based on the progress reports, NJ DOT and PennDOT have adjusted some of their four-year targets as noted in the tables below.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>Meeting the Target: The federal Infrastructure PM Rule requires that less than 5 percent of Interstate miles be considered in poor condition in order to meet the federal threshold for pavement condition.</p>
@@ -709,7 +709,7 @@ const ref = {
                 <li><p>The ratio of the congested period travel time to the normal period travel time, weighted by the length of the Interstate segment, for the entire Interstate system in the state.</p></li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Performance of the CMAQ Program</h4>
-            <p>There are three performance measures established to measure the performance of the federal Congestion Mitigation and Air Quality (CMAQ) program. Two of the measures assess the program’s influence on traffic congestion and the third measures the program’s performance in reducing on-road mobile source emissions.</p>
+            <p>There are three performance measures established to measure the performance of the federal Congestion Mitigation and Air Quality (CMAQ) program. Two of the measures assess the program's influence on traffic congestion and the third measures the program's performance in reducing on-road mobile source emissions.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Congestion Measures</h4>
             <p>State DOTs, in collaboration with the appropriate MPOs, must establish single, unified targets for the Annual Peak Hour Excessive Delay (PHED) and Percent Non-Single Occupant Vehicle (non-SOV) Travel on the NHS in urbanized areas (UZAs) that intersect with Clean Air Act Nonattainment or Maintenance Areas. Single targets are established for an entire UZA across state and MPO boundaries through a collaborative planning process. Peak Hour Excessive Delay (PHED) per capita on the NHS is the threshold for excessive delay and is based on the travel time at 20 miles per hour or 60 percent of the posted speed limit travel time, whichever is greater, and is measured in 15-minute intervals. The measure indicates the traffic delay experienced by travelers throughout an entire year on roadways, specifically during the peak hours. Peak travel hours are defined as 6–10 a.m. on weekday mornings and the weekday afternoon period is 3–7 p.m. The total excessive delay metric is weighted by vehicle volumes and occupancy.</p>
             <p>The performance-based planning regulation requires that state DOTs set two- and four-year targets for PHED and percent non-SOV Travel for urbanized areas (UZAs) with populations greater than 1 million people in the first performance period (beginning in 2018) and two- and four-year targets for UZAs with populations greater than 200,000 people in the second and subsequent performance periods (beginning in 2022). Targets are set for:</p>
@@ -726,7 +726,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT’s and NJ DOT’s statewide system performance targets.</p>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT's and NJ DOT's statewide system performance targets.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
@@ -954,22 +954,22 @@ const ref = {
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states’ first two-year progress reports were submitted in October 2020.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states' first two-year progress reports were submitted in October 2020.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
-            <p>If the state does not meet the baseline condition or exceeds its target of travel time reliability on the Interstate system or non-Interstate system (measured separately), the state shall provide documentation identifying why the target wasn’t met and actions that will be taken to improve system reliability.</p>
+            <p>If the state does not meet the baseline condition or exceeds its target of travel time reliability on the Interstate system or non-Interstate system (measured separately), the state shall provide documentation identifying why the target wasn't met and actions that will be taken to improve system reliability.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability (TTTR)</h4>
             <p>Meeting the Target: The federal freight system reliability rule requires that state DOTs set a target for truck travel time reliability on the Interstate system based on the ratio of the congested period (95th percentile) travel time to the normal (50th percentile) period travel time on the Interstate system. States meet the targets if the Interstate performance is equal to or below the baseline condition or the target established by the state DOT.</p>
-            <p>If the state does not meet or exceeds the baseline condition or its targeted ratio of travel times on the Interstate system. The state shall provide additional documentation identifying why the target wasn’t met and actions (in addition to those that are being taken to improve the LOTTR) that are being taken to improve freight system reliability performance.</p>
+            <p>If the state does not meet or exceeds the baseline condition or its targeted ratio of travel times on the Interstate system. The state shall provide additional documentation identifying why the target wasn't met and actions (in addition to those that are being taken to improve the LOTTR) that are being taken to improve freight system reliability performance.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
             <h4 class="tpm-content-subheaders theme-font-color">Peak-Hour Excessive Delay (PHED) and Percent of Non-SOV Travel</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program’s effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
@@ -1320,30 +1320,30 @@ const ref = {
     measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Through the Public Transportation Agency Safety Plan (PTASP) rule, FTA requires transit agencies to implement a Safety Management System to manage safety risk, which can help agencies maintain or improve their safety performance.</p>
-            <p>Transit agencies are required to develop Transit Agency Safety Plans (TASP) that establish performance targets based on the four measures included in FTA’s National Transit Public Safety Plan (NTPSP). The four measures are Fatalities, Injuries, Safety Events, and System Reliability. Transit agencies are required to report their targets and performance to the state DOT and the agency’s MPO in order to prioritize funding to improve transit safety performance.</p>
+            <p>Transit agencies are required to develop Transit Agency Safety Plans (TASP) that establish performance targets based on the four measures included in FTA's National Transit Public Safety Plan (NTPSP). The four measures are Fatalities, Injuries, Safety Events, and System Reliability. Transit agencies are required to report their targets and performance to the state DOT and the agency's MPO in order to prioritize funding to improve transit safety performance.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Fatalities</h4>
             <p>The transit safety performance measure requires that transit providers set annual targets for the number of fatalities that occur on each mode of transit that the agency operates, excluding deaths that result from trespassing, suicide, or natural causes. The NTPSP defines the modes as rail, fixed guideway bus service, and non-fixed route bus service. Fatalities are required to be calculated for both the total number of fatalities and the fatality rate per vehicle revenue mile.</p>
             <span>Specific targets are set for:</span>
             <ul>
-                <li>Total fatalities, by mode, across the transit agency’s system.</li>
+                <li>Total fatalities, by mode, across the transit agency's system.</li>
                 <li>The rate of fatalities, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
             <p>The PTASP requires that transit agencies set annual targets for the number of injuries that occur on each mode of transit that the agency operates. Injuries are defined as “harm to person that requires immediate medical attention away from the scene.” Injuries are required to be calculated for both the total number of injuries and the injury rate per vehicle revenue mile for each of the modes that the agency operates.</p>
             <span>Specific targets are set for:</span>
             <ul>
-                <li>Total injuries, by mode, across the transit agency’s system.</li>
+                <li>Total injuries, by mode, across the transit agency's system.</li>
                 <li>The rate of injuries, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events</h4>
-            <p>Transit providers are required to set annual targets for the number and rate of safety events, by mode, that occur across the transit agency’s system. A safety event is defined by FTA as a “collision, derailment, fire, hazardous material spill, or evacuation.” Safety events are required to be calculated for both the total number of events and the event rate per vehicle revenue mile for each of the modes that the agency operates.</p>
+            <p>Transit providers are required to set annual targets for the number and rate of safety events, by mode, that occur across the transit agency's system. A safety event is defined by FTA as a “collision, derailment, fire, hazardous material spill, or evacuation.” Safety events are required to be calculated for both the total number of events and the event rate per vehicle revenue mile for each of the modes that the agency operates.</p>
             <span>Specific targets are set for:</span>
             <ul>
-                <li>Total safety events, by mode, across the transit agency’s system.</li>
+                <li>Total safety events, by mode, across the transit agency's system.</li>
                 <li>The rate of safety events, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
-            <p>Transit providers are required to set annual targets for the agency’s system reliability for each mode of transit that the agency operates. The system reliability performance measure accounts for major mechanical failings of a vehicle that prevent the vehicle from starting or completing a scheduled trip. Mechanical failings and interrupted trips can create hazardous conditions for the transit operators and passengers depending on the location of the service interruption and if passengers are required to de-board in unsafe locations.</p>
+            <p>Transit providers are required to set annual targets for the agency's system reliability for each mode of transit that the agency operates. The system reliability performance measure accounts for major mechanical failings of a vehicle that prevent the vehicle from starting or completing a scheduled trip. Mechanical failings and interrupted trips can create hazardous conditions for the transit operators and passengers depending on the location of the service interruption and if passengers are required to de-board in unsafe locations.</p>
             <span>Specific targets are set for:</span>
             <ul>
                 <li>The miles traveled between major mechanical failures calculated for each mode that the transit agency operates.</li>
@@ -1351,7 +1351,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO targets for transit safety, and will support the transit operators’ efforts at achieving those targets.</p>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO targets for transit safety, and will support the transit operators' efforts at achieving those targets.</p>
             <p>State DOTs and MPOs are required to support transit safety performance targets in coordination with the transit agencies and identify those targets in transportation planning documents. The state DOTs and MPOs are required to identify how funds are being spent to meet and support these safety targets.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Fatalities (Number / Rate)</h4>
@@ -1665,8 +1665,368 @@ const ref = {
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in their Transit Agency Safety Plans . MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet their safety targets.</p>
-            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. The annual performance measure tracking effort helps indicate where there are safety investments needed.</p>
-            <p>DVRPC publishes the transit safety performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets.</p>
+            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency's fiscal year. The annual performance measure tracking effort helps indicate where there are safety investments needed.</p>
+            <p>DVRPC publishes the transit safety performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Fatalities (Number / Rate)</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">2021 Target</th>
+                        <th>2021 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">SEPTA</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA / PATCO </td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ Transit</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC  2022</small><br />
+            <small><sup>*</sup>per 100,000 Miles.</small><br />
+            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Injuries (Number / Rate)</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">2021 Target</th>
+                        <th>2021 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Passenger Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Employee Injuries</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA / PATCO</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Passenger Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Employee Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2022</small><br />
+            <small><sup>*</sup>per 100,000 Miles.</small><br />
+            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small><sup>***</sup>per 200,000 Work Hours.</small><br />
+            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Safety Events (Number / Rate)</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">2021 Target</th>
+                        <th>2021 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Vehicle Accidents</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Station Accidents</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Safety Events</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Safety Events</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Fire Events</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC  2022</small><br />
+            <small><sup>*</sup>per 100,000 Miles.</small><br />
+            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failurs)</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">2021 Target</th>
+                        <th>2021 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (MFL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (City)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (MSHL)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">System</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td></td>
+                            <td class="table-cell-last"></td>
+                        </tr>                  
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: DVRPC 2021</small><br />
+            <small><sup>****</sup>Total Failures</small><br />
+            <small><em>Note</em>:SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -1696,14 +2056,14 @@ const ref = {
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Rolling Stock</h4>
-            <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider’s rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
+            <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider's rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
             <ul>
-                <li>Percentage of the transit provider’s rolling stock that have met or exceeded their ULB.</li>
+                <li>Percentage of the transit provider's rolling stock that have met or exceeded their ULB.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Equipment</h4>
-            <p>Transit providers are required to set annual targets for the average age of their nonrevenue generating vehicles (equipment) for three vehicle types: automobiles, rubber-tired vehicles, and steel wheeled vehicles. Targets are only set for vehicles that are road-worthy, self-propelled maintenance or construction vehicles. The targets are set for the percentage of equipment, by vehicle category type, that exceed the nonrevenue generating fleet’s ULB. Specific targets are set for:</p>
+            <p>Transit providers are required to set annual targets for the average age of their nonrevenue generating vehicles (equipment) for three vehicle types: automobiles, rubber-tired vehicles, and steel wheeled vehicles. Targets are only set for vehicles that are road-worthy, self-propelled maintenance or construction vehicles. The targets are set for the percentage of equipment, by vehicle category type, that exceed the nonrevenue generating fleet's ULB. Specific targets are set for:</p>
             <ul>
-                <li>Percentage of the transit provider’s support (nonrevenue) equipment that have met or exceeded their ULB.</li>
+                <li>Percentage of the transit provider's support (nonrevenue) equipment that have met or exceeded their ULB.</li>
             </ul>
             <h4 class="tpm-content-subheaders theme-font-color">Facilities</h4>
             <p>Transit providers are required to set annual targets for the percentage of facilities (by group) that are rated less than 3.0 on the Transit Economic Requirements Model (TERM) Scale. The two groups of facility types are Passenger and Administration Facilities. FTA requires that facility condition data be fully updated every four years, at a minimum. Agencies may choose to assess a quarter of their facilities every year, or more frequently. Each annual report must include updated facility condition data based on any assessments completed since the last report. Only facilities with direct capital responsibility require condition assessments.</p>
@@ -1712,17 +2072,17 @@ const ref = {
                 <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
                 <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
             </ul>
-            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies’ targets. DVRPC has adopted and supports the respective transit agency targets.</p>
+            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies' targets. DVRPC has adopted and supports the respective transit agency targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">Infrastructure</h4>
-            <p>Transit providers are required to set annual targets for the percentage of fixed guideway track segments that have performance restrictions. A performance restriction is defined as a segment of guideway track miles where the maximum permissible speed of transit vehicles is below the guideway’s full-service speed. Restrictions can be caused by issues with rail fixed guideway, track, power, or signal systems. Performance restrictions should be measured at 9:00 AM local time on the first Wednesday of each month.</p>
+            <p>Transit providers are required to set annual targets for the percentage of fixed guideway track segments that have performance restrictions. A performance restriction is defined as a segment of guideway track miles where the maximum permissible speed of transit vehicles is below the guideway's full-service speed. Restrictions can be caused by issues with rail fixed guideway, track, power, or signal systems. Performance restrictions should be measured at 9:00 AM local time on the first Wednesday of each month.</p>
             <span>Specific targets are set for:</span>
             <ul>
-                <li>Percentage of the transit provider’s fixed guideway track miles that have performance restrictions. The annual performance measure for Infrastructure is an average of each month’s performance restriction measure.</li>
+                <li>Percentage of the transit provider's fixed guideway track miles that have performance restrictions. The annual performance measure for Infrastructure is an average of each month's performance restriction measure.</li>
             </ul>
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators’ efforts at achieving those targets. NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</p>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators' efforts at achieving those targets. NJ TRANSIT targets will be reported once they have been finalized by the Federal Transit Administration.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
@@ -1991,9 +2351,9 @@ const ref = {
             `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency’s TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
-            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency’s fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
-            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency’s targets. NJ TRANSIT targets and performance toward meeting the targets will be reported once they have been finalized by the Federal Transit Administration.</p>
+            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency's TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
+            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency's fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
+            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets. NJ TRANSIT targets and performance toward meeting the targets will be reported once they have been finalized by the Federal Transit Administration.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
