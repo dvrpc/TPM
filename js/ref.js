@@ -115,6 +115,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: DVRPC 2022</small>
+            <br /><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -255,6 +256,7 @@ const ref = {
             </div>
             <small>Source: PennDOT, 2022</small><br />
             <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
+            <br /><br />
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -455,6 +457,7 @@ const ref = {
             </div>
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
+            <br /><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -650,6 +653,7 @@ const ref = {
             </div>
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
+            <br /><br />
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -951,6 +955,7 @@ const ref = {
             </div>
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
+            <br /><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -1266,6 +1271,7 @@ const ref = {
             </div>
             <small>Source: DVRPC 2021</small><br />
             <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
+            <br /><br />
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -1661,6 +1667,7 @@ const ref = {
             <small>Source: DVRPC 2021</small><br />
             <small><sup>****</sup>Total Failures</small><br />
             <small><em>Note</em>:SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+            <br /><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -2045,7 +2052,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td><30,000/td>
+                            <td>30,000</td>
                             <td>^</td>
                             <td class="table-cell-last">^</td>
                         </tr>
@@ -2078,8 +2085,9 @@ const ref = {
             </div>
             <small>Source: DVRPC 2021</small><br />
             <small><sup>****</sup>Total Failures</small><br />
-            <small>^ Due to a malware attack, SEPTA was not able to accurately track in 2021</small>
+            <small>^ Due to a malware attack, SEPTA was not able to accurately track in 2021</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small><br />
+            <br />
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
@@ -2400,7 +2408,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small><br />
+            <small>Source: DVRPC 2022</small>
+            <br /><br />
             `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -2763,7 +2772,8 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small><br />
+            <small>Source: DVRPC 2022</small>
+            <br /><br />
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
