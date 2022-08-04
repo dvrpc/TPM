@@ -2015,70 +2015,71 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>85,000</td>
+                            <td>121,827</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>130,000</td>
+                            <td>139,280</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>35,000</td>
+                            <td>28,224</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (City)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>8,000</td>
+                            <td>19,154</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (MSHL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>20,000</td>
+                            <td>22,707</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td><30,000/td>
+                            <td>^</td>
+                            <td class="table-cell-last">^</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">System</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>230<sup>****</sup></td>
+                            <td>142<sup>****</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>6,284</td>
+                            <td>NR</td>
+                            <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>135.45<sup>**</sup></td>
+                            <td>NR</td>
+                            <td class="table-cell-last">NR</td>
                         </tr>                  
                     </tbody>
                 </table>
             </div>
             <small>Source: DVRPC 2021</small><br />
             <small><sup>****</sup>Total Failures</small><br />
-            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small>
+            <small>^ Due to a malware attack, SEPTA was not able to accurately track in 2021</small>
+            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small><br />
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
