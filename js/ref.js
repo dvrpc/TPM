@@ -1538,7 +1538,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td class="table-cell-last">-- / <0.86<sup>*</sup></td>
+                            <td class="table-cell-last">-- / 0.86<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
@@ -1644,14 +1644,14 @@ const ref = {
                             <td class="table-cell-last">30,000</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">System</td>
                             <td class="table-cell-last">230<sup>****</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
