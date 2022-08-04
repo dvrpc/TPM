@@ -1847,150 +1847,150 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 8.18<sup>*</sup></td>
+                            <td>-- / 6.08<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 9.51<sup>*</sup></td>
+                            <td>-- / 5.37<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 0.09<sup>*</sup></td>
+                            <td>-- / 0.07<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 0.07<sup>*</sup></td>
+                            <td>-- / 0.06<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 2.30<sup>*</sup></td>
+                            <td>-- / 1.94<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 8.38<sup>*</sup></td>
+                            <td>-- / 8.94<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 0.07<sup>*</sup></td>
+                            <td>-- / 0.09<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Station Accidents</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 1.59<sup>*</sup></td>
+                            <td>-- / 2.77<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 0.56<sup>*</sup></td>
+                            <td>-- / 1.09<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 0.72<sup>*</sup></td>
+                            <td>-- / 0.93<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 1.01<sup>*</sup></td>
+                            <td>-- / 0.00<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>-- / 0.95<sup>*</sup></td>
+                            <td>-- / 0.73<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Safety Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>595</td>
+                            <td>396</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>13</td>
+                            <td>13</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>132</td>
+                            <td>143</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>104</td>
+                            <td>101</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>3</td>
+                            <td>6</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Safety Events</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>50 / 1<sup>*</sup></td>
+                            <td>14 / 0.31<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>12 / 9.53<sup>**</sup></td>
+                            <td>NR</td>
+                            <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>264 / 3.63<sup>**</sup></td>
+                            <td>NR</td>
+                            <td class="table-cell-last">NR</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Fire Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>2 / 1.59<sup>**</sup></td>
+                            <td>NR</td>
+                            <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td></td>
-                            <td></td>
-                            <td class="table-cell-last"></td>
+                            <td>12 / 0.16<sup>**</sup></td>
+                            <td>NR</td>
+                            <td class="table-cell-last">NR</td>
                         </tr>
                     </tbody>
                 </table>
