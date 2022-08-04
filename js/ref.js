@@ -2800,7 +2800,7 @@ const ref = {
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
         `,
-  },
+  }
 };
 
 export default ref;
