@@ -1392,7 +1392,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">6 / 0.85<sup>**</sup></td>
+                            <td class="table-cell-last">6 / 0.085<sup>**</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1608,7 +1608,7 @@ const ref = {
             <small><sup>**</sup>per 1 Million Miles.</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
             
-            <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failurs)</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -1664,14 +1664,14 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
+            <small>Source: DVRPC 2022</small><br />
             <small><sup>****</sup>Total Failures</small><br />
             <small><em>Note</em>:SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
             <br /><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in their Transit Agency Safety Plans . MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet their safety targets.</p>
+            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in their Transit Agency Safety Plans. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet their safety targets.</p>
             <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency's fiscal year. The annual performance measure tracking effort helps indicate where there are safety investments needed.</p>
             <p>DVRPC publishes the transit safety performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets.</p>
 
@@ -1684,7 +1684,7 @@ const ref = {
                         <th>2021 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
-                    <tbody>
+            2       <tbody>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
@@ -2007,7 +2007,7 @@ const ref = {
             <small><sup>**</sup>per 1 Million Miles.</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small>
             
-            <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failurs)</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
@@ -2083,7 +2083,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
+            <small>Source: DVRPC 2022</small><br />
             <small><sup>****</sup>Total Failures</small><br />
             <small>^ Due to a malware attack, SEPTA was not able to accurately track in 2021</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small><br />
@@ -2415,7 +2415,7 @@ const ref = {
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
             <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency's TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
             <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency's fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
-            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets. NJ TRANSIT targets and performance toward meeting the targets will be reported once they have been finalized by the Federal Transit Administration.</p>
+            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
