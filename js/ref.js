@@ -75,7 +75,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In January of 2022, the DVRPC Board adopted regional safety targets marking the end of a year and a half of engagement with DVRPC's Regional Technical Committee (RTC). During this time, staff discussed findings from their research into the regional target-setting processes of five peer MPOs, and met individually with state DOT and FHWA partners seeking their guidance and support of our effort, and to promote transparency. The RTC considered two regional safety targets scenarios based on DVRPC's Regional Vision Zero 2050 goal. Regional Vision Zero provides the context for more meaningful and substantive strategies to improve safety system-wide.</p>
+            <p>In February 2023, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
             <div class="table-overflow-wrapper">
