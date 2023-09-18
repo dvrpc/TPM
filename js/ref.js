@@ -64,6 +64,7 @@ const ref = {
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>State Departments of Transportation (DOTs) must set annual targets for five safety-related performance measures, with the goal of achieving a significant reduction in traffic fatalities and serious injuries on all public roads. State DOTs report baseline values, targets, and progress toward reducing the number and rate of fatalities, the number and rate of serious injuries, and the number of non-motorized fatalities and serious injuries to FHWA in an annual safety report. MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the statewide targets. </p>
             <p>FHWA requires the DOTs and MPOs to establish safety targets on an annual basis for:</p>
+            
             <ul>
                 <li><strong>Number of Fatalities:</strong> The total number of persons suffering fatal injuries in a motor vehicle crash during a calendar year.</li>
                 <li><strong>Rate of Fatalities:</strong> The ratio of total number of fatalities to the number of vehicle miles traveled (VMT, in 100 Million VMT) in a calendar year.</li>
@@ -77,6 +78,7 @@ const ref = {
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
             <p>In February 2023, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
             <div class="table-overflow-wrapper">
                 <table>
@@ -119,10 +121,12 @@ const ref = {
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2022 is the first year DVRPC has set regional targets, rather than adopting the states' targets, we will report on progress toward achieving the regional targets with next year's update. NJDOT and PennDOT performance against their prior targets is shown here for informational purposes only.</p>
+            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2023 is the second year DVRPC has set regional targets, rather than adopting the states' targets, we do not have complete data to report on progress toward achieving the regional targets. We will be able to report on progress since 2022 with next year's update. NJDOT and PennDOT performance against their prior targets is shown here for informational purposes only.</p>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target</h4>
             <span>If the actual outcome for a performance measure is equal to or less than the target, the target has been met.</span>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Better than Baseline</h4>
             <span>If a state has not met a target, FHWA will determine if the actual outcome for the target is better than the baseline performance for that target. The baseline performance is the five-year rolling average for the target ending the year prior to the establishment of the state's target.</span>
             <p>If a state has not met or made significant progress toward meeting its targets, the state must comply with the provisions set forth in 23 USC 148(i) for the subsequent fiscal year. The state shall:</p>
@@ -130,133 +134,7 @@ const ref = {
                 <li>Use obligation authority equal to the Highway Safety Improvement Program (HSIP) apportionment for the year prior to the target year, only for HSIP projects.</li>
                 <li>Submit an HSIP Implementation Plan that describes actions the state will take to meet or make significant progress toward meeting its targets. The HSIP Implementation Plan should guide the state's project decisions so that the combined 148(i) provisions lead to the state meeting or making significant progress toward meeting its safety performance targets in subsequent years.</li>
             </ol>
-            <h4 class="tpm-content-subheaders theme-font-color">New Jersey</h4>
-            <div class="table-overflow-wrapper">
-                <table class="table-wide">
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th class="table-cell-wide">Target<br /><small>(2016 - 2020)</small></th>
-                        <th class="table-cell-wide">Actual<br /><small>(2016 - 2020)</small></th>
-                        <th class="table-cell-wide">Baseline<br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-wide">Target Achieved?</th>
-                        <th class="table-cell-wide">Better Than Baseline?</th>
-                        <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">Number of Fatalities</td>
-                            <td>582.8</td>
-                            <td>586.6</td>
-                            <td>581.2</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>0.744</td>
-                            <td>0.792</td>
-                            <td>0.760</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Suspected Serious Injuries</td>
-                            <td>1,167.9</td>
-                            <td>1,782.1</td>
-                            <td>1,113.6</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>1.489</td>
-                            <td>2.442</td>
-                            <td>1.456</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
-                            <td>407.9</td>
-                            <td>585.0</td>
-                            <td>392.8</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: NJDOT, 2022</small><br />
-            <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
-            <h4 class="tpm-content-subheaders theme-font-color">Pennsylvania</h4>
-            <div class="table-overflow-wrapper">
-                <table class="table-wide">
-                    <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th class="table-cell-wide">Target<br /><small>(2016 - 2020)</small></th>
-                        <th class="table-cell-wide">Actual<br /><small>(2016 - 2020)</small></th>
-                        <th class="table-cell-wide">Baseline<br /><small>(2014 - 2018)</small></th>
-                        <th class="table-cell-wide">Target Achieved?</th>
-                        <th class="table-cell-wide">Better Than Baseline?</th>
-                        <th class="table-cell-wide table-cell-last">Met or Made Significant Progress?*</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="table-cell-first">Number of Fatalities</td>
-                            <td>1,171.9</td>
-                            <td>1,140.6</td>
-                            <td>1,182.0</td>
-                            <td>Yes</td>
-                            <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>1.148</td>
-                            <td>1.157</td>
-                            <td>1.169</td>
-                            <td>No</td>
-                            <td>Yes</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Suspected Serious Injuries</td>
-                            <td>4,400.3</td>
-                            <td>4,445.6</td>
-                            <td>3,839.6</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>4.309</td>
-                            <td>4.510</td>
-                            <td>3.797</td>
-                            <td>No</td>
-                            <td>No</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
-                            <td>781.7</td>
-                            <td>762.2</td>
-                            <td>679.0</td>
-                            <td>Yes</td>
-                            <td>No</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: PennDOT, 2022</small><br />
-            <small>*Four out of five targets must be met, or have better performance than the baseline.</small>
-            <br /><br />
+            <p>Neither New Jersey DOT or PennDOT met or made significant progress on any of the five measures for the previous reporting period and each state is preparing a HSIP Implementation Plan and will comply with the obligation provisions.</p>
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
