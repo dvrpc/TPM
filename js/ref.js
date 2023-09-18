@@ -82,39 +82,39 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Regional <br /> Baseline<br /> <small>(2016 - 2020)</small></th>
-                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2018 - 2022)</small></th>
+                        <th>Regional <br /> Baseline<br /> <small>(2017 - 2021)</small></th>
+                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2019 - 2023)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>407.2</td>
+                            <td>429.0</td>
                             <td class="table-cell-last">387.2</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>1.050</td>
+                            <td>1.103</td>
                             <td class="table-cell-last">0.940</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Suspected Serious Injuries</td>
-                            <td>1,382.8</td>
-                            <td class="table-cell-last">1,302.8</td>
+                            <td>1,455.4</td>
+                            <td class="table-cell-last">1,256.3</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>3.557</td>
-                            <td class="table-cell-last">3.162</td>
+                            <td>3.736</td>
+                            <td class="table-cell-last">3.100</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
-                            <td>378.0</td>
-                            <td class="table-cell-last">359.7</td>
+                            <td>402.4</td>
+                            <td class="table-cell-last">350.2</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small>
+            <small>Source: DVRPC 2023</small>
             <br /><br />
         `,
     how: `
