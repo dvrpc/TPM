@@ -4,20 +4,21 @@ const contentSection = document.getElementById('tpm-content-section')
 const contentWrapper = document.getElementById('tpm-content')
 const nav = document.getElementById('nav-header')
 const iconsWrapper = document.getElementById('indicator-icons-wrapper')
+const testImg = document.querySelector('.indicator-icons-imgs')
 const tabs = document.getElementById('tpm-content-headers')
 const moreInfo = document.getElementById('more-info')
 const splash = document.getElementById('splash-page')
 
 let mainBeenSticky = false
-let beenMuted = false
 let beenScrolled = false
 let scrollTo;
 
 const calculateScrollTo = header => {
-    const iconsHeightBuff = 20
     const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
-    const buffer = isNarrow ? tabs.offsetHeight : iconsHeightBuff
-    const elHeight = splash.offsetHeight + header.offsetHeight
+    const iconsHeight = testImg.offsetHeight + ( isNarrow ? 132 : 32 )
+    const buffer = iconsHeight
+    const elHeight = splash.offsetHeight + (header ? header.offsetHeight : 0)
+
     return elHeight + buffer
 }
 
@@ -34,41 +35,28 @@ const makeSticky = header => {
     header = header ? header : document.querySelector('.content-header')
 
     const navHeight = nav.offsetHeight
-    const iconsHeight = iconsWrapper.offsetHeight
+    const iconsWrapperHeight = iconsWrapper.offsetHeight
+    const iconsHeight = testImg.offsetHeight
     const headerHeight = header ? header.offsetHeight : 0
-    const navAndIconsHeight = navHeight + iconsHeight
-    const navsAndIconsAndHeaderHeight = navAndIconsHeight + headerHeight
-    const iconsHeightBuff = 20
+    const navsAndIconsAndHeaderHeight = navHeight + iconsWrapperHeight + headerHeight
     const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
     
     if(!mainBeenSticky){
         tabs.style.position = 'sticky'
         iconsWrapper.style.position = 'sticky'
         
-        iconsWrapper.style.top = isNarrow ? navHeight - 1 + 'px' : navHeight - iconsHeightBuff + 'px'
+        iconsWrapper.style.top = isNarrow ? (iconsHeight - 8) * -1 + 'px' : (iconsHeight * -1) + 'px'
         mainBeenSticky = true
     }
     
-    tabs.style.top = isNarrow ? navsAndIconsAndHeaderHeight + 'px' : (navAndIconsHeight + 50) + 'px'
+    tabs.style.top = isNarrow ? (navHeight + headerHeight + 56) + 'px' : (iconsHeight + 32) + 'px'
 
     if(header){
         header.style.position = 'sticky'
-        header.style.top = isNarrow ? navAndIconsHeight - 1 + 'px' : `calc(${navAndIconsHeight - iconsHeightBuff}px - 4%)`
+        header.style.top = isNarrow ? (navHeight + 56) + 'px' : `calc(${iconsHeight}px - 4%)`
     }
 
     return header
-}
-
-const muteIndicators = () => {
-    const figs = iconsWrapper.children
-    const l = figs.length
-    let i = 0
-
-    for(i; i < l; i++) {
-        figs[i].classList.add('muted-40')
-    }
-
-    return true
 }
 
 // show the content section + generate the default content ("What do we measure?")
@@ -117,10 +105,8 @@ const clickIndicator = e => {
     contentSection.classList.add('content-section-active')
     contentSection.dataset.theme = theme
 
-    // set header sticky & mute inactive indicator icon imgs
+    // set header sticky
     makeSticky(header)
-
-    if(!beenMuted) beenMuted = muteIndicators()
 
     if(!beenScrolled) {
         scrollTo = calculateScrollTo(header)
@@ -200,7 +186,7 @@ const handleTabs = e => {
 // handle updates to scroll and sticky fncs
 window.onresize = () => {
     const header = makeSticky()
-    if(header) scrollTo = calculateScrollTo(header)
+    calculateScrollTo(header)
 }
 moreInfo.ontoggle = () => beenScrolled = false
 

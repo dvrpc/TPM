@@ -30,6 +30,9 @@ h1 {
 .indicator-icons-imgs {
     height: 90px;
 }
+.indicator-icons-figcaption {
+    margin-top: 24px;
+}
 /* END TPM Indicator Icons */
 /***************************/
 

@@ -69,9 +69,6 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
 [data-theme='performance'] tbody tr {
     border-bottom: 2px dotted var(--performance-color);
 }
-.muted-40 {
-    filter: opacity(40%);
-}
 .focus:focus {
     outline: none;
 }
@@ -163,7 +160,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     background: var(--accent-black);
-    padding: 2% 15px 2.5% 15px;
+    padding: 2% 15px;
     z-index: 2;
 }
 .indicator-icons-figure {
@@ -173,20 +170,24 @@ h1 {
     flex-direction: column-reverse;
     font-size: 1.04rem;
     font-weight: bold;
+    border-bottom: 2px solid var(--accent-black);
+}
+.indicator-icons-figure:hover {
+    border-bottom: 2px solid var(--accent-gold);
 }
 .indicator-icons-active {
     font-weight: 700;
     -webkit-text-stroke: 0;
     filter: var(--indicator-active-filter);
+    border-bottom: 2px solid var(--accent-gold);
 }
 .indicator-icons-imgs, .indicator-icons-figcaption {
     cursor: pointer;
 }
-.muted-40:hover {
-    filter: none;
+.indicator-icons-figcaption {
+    margin-top: 32px;
 }
 .indicator-icons-figcaption:hover + .indicator-icons-imgs, .indicator-icons-imgs:hover {
-    transform: rotate(5deg);
     filter: var(--indicator-hover-filter);
 }
 .indicator-icons-imgs {
