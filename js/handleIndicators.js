@@ -35,10 +35,8 @@ const makeSticky = header => {
     header = header ? header : document.querySelector('.content-header')
 
     const navHeight = nav.offsetHeight
-    const iconsWrapperHeight = iconsWrapper.offsetHeight
     const iconsHeight = testImg.offsetHeight
     const headerHeight = header ? header.offsetHeight : 0
-    const navsAndIconsAndHeaderHeight = navHeight + iconsWrapperHeight + headerHeight
     const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
     
     if(!mainBeenSticky){
@@ -185,6 +183,7 @@ const handleTabs = e => {
 
 // handle updates to scroll and sticky fncs
 window.onresize = () => {
+    mainBeenSticky = false
     const header = makeSticky()
     calculateScrollTo(header)
 }
