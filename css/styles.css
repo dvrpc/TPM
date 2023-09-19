@@ -268,7 +268,7 @@ h1 {
 	width: 100%;
 	margin: 0;
 	font-size: 2rem;
-	padding: 1rem 3rem;
+	padding: 0.75rem 3rem;
 	margin-left: -3rem;
 	box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 6px;
@@ -305,21 +305,8 @@ td {
 .table-cell-first:not(th) {
     font-style: italic;
 }
-/* @TODO width isn't applying for narrow*/
-.table-cell-first-narrow {
-    width: 20ch;
-}
 .table-nested-header-first {
     text-align: left;
-}
-.table-cell-wide {
-    width: 6.5vw;
-}
-.table-cell-double-wide {
-    width: 10vw;
-}
-.table-cell-wide-extra {
-    width: 10vw;
 }
 .table-cell-last {
     text-align: right;
