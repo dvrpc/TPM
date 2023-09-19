@@ -978,6 +978,7 @@ const ref = {
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
@@ -1030,6 +1031,7 @@ const ref = {
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Through the Public Transportation Agency Safety Plan (PTASP) rule, FTA requires transit agencies to implement a Safety Management System to manage safety risk, which can help agencies maintain or improve their safety performance.</p>
             <p>Transit agencies are required to develop Transit Agency Safety Plans (TASP) that establish performance targets based on the four measures included in FTA's National Transit Public Safety Plan (NTPSP). The four measures are Fatalities, Injuries, Safety Events, and System Reliability. Transit agencies are required to report their targets and performance to the state DOT and the agency's MPO in order to prioritize funding to improve transit safety performance.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Fatalities</h4>
             <p>The transit safety performance measure requires that transit providers set annual targets for the number of fatalities that occur on each mode of transit that the agency operates, excluding deaths that result from trespassing, suicide, or natural causes. The NTPSP defines the modes as rail, fixed guideway bus service, and non-fixed route bus service. Fatalities are required to be calculated for both the total number of fatalities and the fatality rate per vehicle revenue mile.</p>
             <span>Specific targets are set for:</span>
@@ -1037,6 +1039,7 @@ const ref = {
                 <li>Total fatalities, by mode, across the transit agency's system.</li>
                 <li>The rate of fatalities, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Injuries</h4>
             <p>The PTASP requires that transit agencies set annual targets for the number of injuries that occur on each mode of transit that the agency operates. Injuries are defined as “harm to person that requires immediate medical attention away from the scene.” Injuries are required to be calculated for both the total number of injuries and the injury rate per vehicle revenue mile for each of the modes that the agency operates.</p>
             <span>Specific targets are set for:</span>
@@ -1044,6 +1047,7 @@ const ref = {
                 <li>Total injuries, by mode, across the transit agency's system.</li>
                 <li>The rate of injuries, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events</h4>
             <p>Transit providers are required to set annual targets for the number and rate of safety events, by mode, that occur across the transit agency's system. A safety event is defined by FTA as a “collision, derailment, fire, hazardous material spill, or evacuation.” Safety events are required to be calculated for both the total number of events and the event rate per vehicle revenue mile for each of the modes that the agency operates.</p>
             <span>Specific targets are set for:</span>
@@ -1051,6 +1055,7 @@ const ref = {
                 <li>Total safety events, by mode, across the transit agency's system.</li>
                 <li>The rate of safety events, by mode, per vehicle revenue mile operated by the transit agency.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <p>Transit providers are required to set annual targets for the agency's system reliability for each mode of transit that the agency operates. The system reliability performance measure accounts for major mechanical failings of a vehicle that prevent the vehicle from starting or completing a scheduled trip. Mechanical failings and interrupted trips can create hazardous conditions for the transit operators and passengers depending on the location of the service interruption and if passengers are required to de-board in unsafe locations.</p>
             <span>Specific targets are set for:</span>
@@ -1794,6 +1799,7 @@ const ref = {
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
@@ -1819,16 +1825,19 @@ const ref = {
     measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
             <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Rolling Stock</h4>
             <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider's rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
             <ul>
                 <li>Percentage of the transit provider's rolling stock that have met or exceeded their ULB.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Equipment</h4>
             <p>Transit providers are required to set annual targets for the average age of their nonrevenue generating vehicles (equipment) for three vehicle types: automobiles, rubber-tired vehicles, and steel wheeled vehicles. Targets are only set for vehicles that are road-worthy, self-propelled maintenance or construction vehicles. The targets are set for the percentage of equipment, by vehicle category type, that exceed the nonrevenue generating fleet's ULB. Specific targets are set for:</p>
             <ul>
                 <li>Percentage of the transit provider's support (nonrevenue) equipment that have met or exceeded their ULB.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Facilities</h4>
             <p>Transit providers are required to set annual targets for the percentage of facilities (by group) that are rated less than 3.0 on the Transit Economic Requirements Model (TERM) Scale. The two groups of facility types are Passenger and Administration Facilities. FTA requires that facility condition data be fully updated every four years, at a minimum. Agencies may choose to assess a quarter of their facilities every year, or more frequently. Each annual report must include updated facility condition data based on any assessments completed since the last report. Only facilities with direct capital responsibility require condition assessments.</p>
             <span>Specific targets are set for:</span>
@@ -1837,6 +1846,7 @@ const ref = {
                 <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
             </ul>
             <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies' targets. DVRPC has adopted and supports the respective transit agency targets.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Infrastructure</h4>
             <p>Transit providers are required to set annual targets for the percentage of fixed guideway track segments that have performance restrictions. A performance restriction is defined as a segment of guideway track miles where the maximum permissible speed of transit vehicles is below the guideway's full-service speed. Restrictions can be caused by issues with rail fixed guideway, track, power, or signal systems. Performance restrictions should be measured at 9:00 AM local time on the first Wednesday of each month.</p>
             <span>Specific targets are set for:</span>
@@ -1853,7 +1863,7 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2022 Target</th>
+                        <th class="table-cell-last">2023 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
@@ -1918,19 +1928,19 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td class="table-cell-last">47.37%</td>
+                            <td class="table-cell-last">37.98%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td class="table-cell-last">23.6%</td>
+                            <td class="table-cell-last">18.32%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">24.8%</td>
+                            <td class="table-cell-last">58.84%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td class="table-cell-last">58.15%</td>
+                            <td class="table-cell-last">36.43%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
@@ -1942,7 +1952,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td class="table-cell-last">8.33%</td>
+                            <td class="table-cell-last">13.33%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
@@ -1959,14 +1969,14 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC  2022</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first table-cell-auto">National Transit Database Category</th>
-                        <th class="table-cell-last">2022 Target</th>
+                        <th class="table-cell-last">2023 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1978,7 +1988,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">45%</td>
+                            <td class="table-cell-last">50%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
@@ -1990,7 +2000,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td class="table-cell-last">20%</td>
+                            <td class="table-cell-last">19%</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2002,23 +2012,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">58.53%</td>
+                            <td class="table-cell-last">65.89%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td class="table-cell-last">33.33%</td>
+                            <td class="table-cell-last">39.13%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2022 Target</th>
+                        <th class="table-cell-last">2023 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -2026,7 +2036,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">3%</td>
+                            <td class="table-cell-last">5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
@@ -2059,14 +2069,14 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
         
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2022 Target</th>
+                        <th class="table-cell-last">2023 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -2090,7 +2100,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td class="table-cell-last">0.34%</td>
+                            <td class="table-cell-last">0.38%</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2111,7 +2121,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small>
             <br /><br />
             `,
     how: `
