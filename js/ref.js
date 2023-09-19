@@ -490,6 +490,7 @@ const ref = {
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
@@ -534,19 +535,23 @@ const ref = {
   systemperf: {
     measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
+            
             <h4 class="tpm-content-subheaders theme-font-color">National Highway System (NHS) Travel Time Reliability</h4>
             <p>State Departments of Transportation (DOTs) must establish statewide targets for the performance of the Interstate and non-Interstate National Highway System (NHS) during four peak travel time periods which include peak daytime periods and weekend periods. Each state sets its performance targets for the Level of Travel Time Reliability (LOTTR) Index which indicates the reliability of travel on the Interstate and non-Interstate NHS. A road segment is considered reliable if the ratio of the 80th percentile peak hour travel time to the normal peak hour travel time (50th percentile) is less than 1.5. The measure also incorporates vehicle occupancy to identify the person miles traveled on the system. LOTTR targets are established for the entire state that reflect the person miles traveled on road segments that are considered reliable. Two- and four-year targets are set for:</p>
             <ul>
                 <li>Percentage of person miles traveled on the Interstate System that are considered reliable.</li>
                 <li>Percentage of person miles traveled on the non-Interstate NHS that are considered reliable.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability</h4>
             <p>State DOTs must establish a single index for the Interstate system in the state for five peak hour travel time periods which include peak daytime periods, an overnight period, and weekend periods. The Truck Travel Time Reliability (TTTR) Index is measured by the ratio of the congested peak period travel time (95th percentile) to the normal peak period travel time (50th percentile), on each road segment on the Interstate system for the time periods. The highest TTTR value is used to determine the reliability of the Interstate system for truck traffic or freight reliability. The DOT establishes two- and four-year targets for:</p>
             <ul>
                 <li><p>The ratio of the congested period travel time to the normal period travel time, weighted by the length of the Interstate segment, for the entire Interstate system in the state.</p></li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Performance of the CMAQ Program</h4>
             <p>There are three performance measures established to measure the performance of the federal Congestion Mitigation and Air Quality (CMAQ) program. Two of the measures assess the program's influence on traffic congestion and the third measures the program's performance in reducing on-road mobile source emissions.</p>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Congestion Measures</h4>
             <p>State DOTs, in collaboration with the appropriate MPOs, must establish single, unified targets for the Annual Peak Hour Excessive Delay (PHED) and Percent Non-Single Occupant Vehicle (non-SOV) Travel on the NHS in urbanized areas (UZAs) that intersect with Clean Air Act Nonattainment or Maintenance Areas. Single targets are established for an entire UZA across state and MPO boundaries through a collaborative planning process. Peak Hour Excessive Delay (PHED) per capita on the NHS is the threshold for excessive delay and is based on the travel time at 20 miles per hour or 60 percent of the posted speed limit travel time, whichever is greater, and is measured in 15-minute intervals. The measure indicates the traffic delay experienced by travelers throughout an entire year on roadways, specifically during the peak hours. Peak travel hours are defined as 6–10 a.m. on weekday mornings and the weekday afternoon period is 3–7 p.m. The total excessive delay metric is weighted by vehicle volumes and occupancy.</p>
             <p>The performance-based planning regulation requires that state DOTs set two- and four-year targets for PHED and percent non-SOV Travel for urbanized areas (UZAs) with populations greater than 1 million people in the first performance period (beginning in 2018) and two- and four-year targets for UZAs with populations greater than 200,000 people in the second and subsequent performance periods (beginning in 2022). Targets are set for:</p>
@@ -554,6 +559,7 @@ const ref = {
                 <li>Annual hours of peak hour excessive delay per person for the entire UZA.</li>
                 <li>Percentage of travel in an UZA conducted by means other than a SOV.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reduction Measures</h4>
             <p>State DOTs whose geographic boundaries include any part of a nonattainment or maintenance area for ozone, carbon monoxide, or particulate matter are required to establish two- and four-year targets for the quantifiable pollutants that are reduced through transportation projects funded through the CMAQ program. State DOTs establish targets for the entire state and MPOs can support state targets or develop MPO targets. Targets for the performance period represent the cumulative pollutant reductions from CMAQ funded projects. Targets are set for:</p>
             <ul>
@@ -570,9 +576,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">Two-Year Target</th>
-                        <th colspan="2">Four-Year Target</th>
+                        <th colspan="2">2021 Baseline</th>
+                        <th colspan="2">2023 Two-Year Target</th>
+                        <th colspan="2">2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -586,37 +592,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
-                            <td>82.1</td>
-                            <td>89.8</td>
-                            <td>82</td>
-                            <td>89.8</td>
-                            <td>82</td>
-                            <td>89.5<sup>2</sup></td>
+                            <td>94%</td>
+                            <td>92.8%</td>
+                            <td>82%</td>
+                            <td>89.5%</td>
+                            <td>83%</td>
+                            <td>89.5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
-                            <td>84.1</td>
-                            <td>87.4</td>
-                            <td>n/a<sup>1</sup></td>
-                            <td>n/a<sup>1</sup></td>
-                            <td>84.1</td>
-                            <td>87.4</td>
+                            <td>95.2%</td>
+                            <td>92.6%</td>
+                            <td>85%</td>
+                            <td>88%</td>
+                            <td>86%</td>
+                            <td>88%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Two-year targets are not required for the first reporting period.</small><br />
-            <small><sup>2</sup>Four-year target was adjusted for the Pennsylvania Percentage of Person Miles Traveled on the Interstate that are Reliable at the mid-term reporting period.</small>
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">Two-Year Target</th>
-                        <th colspan="2">Four-Year Target</th>
+                        <th colspan="2">2021 Baseline</th>
+                        <th colspan="2">2023 Two-Year Target</th>
+                        <th colspan="2">2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -630,112 +634,104 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Truck Travel Time Reliability</td>
-                            <td>1.82</td>
-                            <td>1.35</td>
+                            <td>1.56</td>
+                            <td>1.3</td>
                             <td>1.9</td>
-                            <td>1.34</td>
-                            <td>1.95</td>
-                            <td>1.4<sup>1</sup></td>
+                            <td>1.4</td>
+                            <td>1.9</td>
+                            <td>1.4</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Four-year target was adjusted for the Pennsylvania Truck Travel Time Reliability at the mid-term reporting period.</small>
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion - Peak-Hour Excessive Delay</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">Two-Year Target<sup>1</sup></th>
-                        <th colspan="2">Four-Year Target</th>
+                        <th>2021 Baseline</th>
+                        <th>Two-Year Target</th>
+                        <th>Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Philadelphia UZA</td>
+                            <td>13.1</td>
+                            <td>15.2</td>
+                            <td>15.1</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Phila UZA</td>
-                            <td>16.8</td>
-                            <td>16.8</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>17.2</td>
-                            <td>17.2</td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: New York City UZA</td>
+                            <td>20.9</td>
+                            <td>22.0</td>
+                            <td>21.0</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: NYC UZA</td>
-                            <td>20</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>22</td>
-                            <td>n/a</td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Trenton UZA</td>
+                            <td>3.4</td>
+                            <td>5.7</td>
+                            <td>5.7</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Allentown-Bethlehem-Easton UZA</td>
+                            <td>7.1</td>
+                            <td>8.4</td>
+                            <td>8.4</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Two-year targets are not required for the first reporting period.</small>
+            <small>Source: DVRPC 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">Two-Year Target</th>
-                        <th colspan="2">Four-Year Target</th>
+                        <th>2020 Baseline</th>
+                        <th>Two-Year Target</th>
+                        <th>Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
+                            <td class="table-cell-first">% Non-SOV Travel: Philadelphia UZA</td>
+                            <td>30.6%</td>
+                            <td>30.0%</td>
+                            <td>30.0%</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% Non-SOV Travel: Phila UZA</td>
-                            <td>27.9</td>
-                            <td>27.9</td>
-                            <td>28</td>
-                            <td>28</td>
-                            <td>28.1</td>
-                            <td>28.1</td>
+                            <td class="table-cell-first">% Non-SOV Travel: New York City UZA</td>
+                            <td>52.4%</td>
+                            <td>52.4%</td>
+                            <td>52.5%</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
-                            <td>51.6</td>
-                            <td>n/a</td>
-                            <td>51.6</td>
-                            <td>n/a</td>
-                            <td>51.7</td>
-                            <td>n/a</td>
+                            <td class="table-cell-first">% Non-SOV Travel: Trenton UZA</td>
+                            <td>26.4%</td>
+                            <td>26.5%</td>
+                            <td>26.8%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: Allentown-Bethlehem-Easton UZA</td>
+                            <td>19.7%</td>
+                            <td>18.6%</td>
+                            <td>18.6%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2023</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-double-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-double-wide">Four-Year Target</th>
+                        <th colspan="2">Baseline</th>
+                        <th colspan="2">2023 Two-Year Target</th>
+                        <th colspan="2">2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -749,45 +745,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td>9.572</td>
-                            <td>25.870</td>
-                            <td>4.29</td>
-                            <td>10.76</td>
-                            <td>8.52</td>
-                            <td>20.49</td>
+                            <td></td>
+                            <td></td>
+                            <td>24.25</td>
+                            <td>4.07</td>
+                            <td>45.96</td>
+                            <td>2.06</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td>244.301</td>
-                            <td>971.78</td>
-                            <td>114.401</td>
-                            <td>337.7</td>
-                            <td>231.85</td>
-                            <td>612.82</td>
+                            <td></td>
+                            <td></td>
+                            <td>9.51</td>
+                            <td>51.28</td>
+                            <td>17.49</td>
+                            <td>42.50</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td>44.493</td>
-                            <td>302.38</td>
-                            <td>17.682</td>
-                            <td>109.46</td>
-                            <td>36.324</td>
-                            <td>201.73</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Total Emission Reductions: CO</td>
-                            <td>n/a</td>
-                            <td>1,135.4</td>
-                            <td>n/a</td>
-                            <td>567.7</td>
-                            <td>n/a</td>
-                            <td>250<sup>1</sup></td>
+                            <td></td>
+                            <td></td>
+                            <td>2.84</td>
+                            <td>9.66</td>
+                            <td>5.41</td>
+                            <td>69.31</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
+            <small>Source: NJ DOT and PennDOT,  2023</small><br />
             <br /><br />
         `,
     how: `

@@ -72,6 +72,9 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
 .focus:focus {
     outline: none;
 }
+tr:hover {
+    background-color: #e7e7e7;
+}
 /* END General */
 /***************/
 
