@@ -6,6 +6,7 @@ const nav = document.getElementById('nav-header')
 const iconsWrapper = document.getElementById('indicator-icons-wrapper')
 const testImg = document.querySelector('.indicator-icons-imgs')
 const tabs = document.getElementById('tpm-content-headers')
+const tabsImg = tabs.querySelector('.indicator-icons-imgs-nav')
 const moreInfo = document.getElementById('more-info')
 const splash = document.getElementById('splash-page')
 
@@ -13,24 +14,25 @@ let mainBeenSticky = false
 let beenScrolled = false
 let scrollTo;
 
+const tabsImgLookup = {
+    highway: './img/highway-safety.png',
+    bridgepavement: './img/bridge-pavement.png',
+    systemperf: './img/system-perf.png',
+    transitasset: './img/transit-assets.png',
+    ptasp: './img/transit-safety.png'
+}
+
 const calculateScrollTo = header => {
     const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
-    const iconsHeight = testImg.offsetHeight + ( isNarrow ? 116 : 28 )
-    const buffer = iconsHeight
+    const navImgBuffer = window.innerWidth > 1053 ? 62.5 : 0 // 1053 is medium breakpoint 62.5 is half of nav img height (125px)
+    const iconsHeight = testImg.offsetHeight + ( isNarrow ? 96 : 28 ) // 28 px is margin - change
+    const buffer = iconsHeight + navImgBuffer
     const elHeight = splash.offsetHeight + (header ? header.offsetHeight : 0)
 
     return elHeight + buffer
 }
 
-/* @ UPDATE
-    give all sticky elements a class "sticky"
-    querySelectorAll('.sticky') & sort by offsetTop. Sum offsetTop then add element + margin param
-        probalby don't even eed to sort, just add. This only works for the 
-    some elements (table headers) need to be ignored when considering top. 
-        all elements = sticky
-        anchor elements = sticky-anchor
-        document.querySelectorAll('.sticky-anchor') instead of line 27
-*/
+
 const makeSticky = header => {
     header = header ? header : document.querySelector('.content-header')
 
@@ -93,6 +95,9 @@ const clickIndicator = e => {
         else allTabs[i].classList.remove('active-header')
     }
 
+    // update tab icon
+    tabsImg.src = tabsImgLookup[selectedIndicator]
+
     // update content
     while(contentWrapper.firstChild) contentWrapper.removeChild(contentWrapper.firstChild)
     contentWrapper.insertAdjacentHTML('afterbegin', updatedText)
@@ -138,6 +143,9 @@ const makeHeader = name => {
 }
 
 const handleTabs = e => {
+    // exit if clicking the icon
+    if(e.target.nodeName === 'IMG') return
+
     // check if indicator function fired
     const query = location.href.split('?indicator=')
     const parent = e.target.nodeName === 'ASIDE' ? true : false

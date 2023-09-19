@@ -240,6 +240,10 @@ h1 {
     font-weight: 400;
     margin: 7% 0;
 }
+.indicator-icons-imgs-nav {
+    margin-bottom: 24px;
+    cursor: default;
+}
 .active-header {
     border: none;
     color: #f7f7f7 !important;
