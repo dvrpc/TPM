@@ -138,6 +138,7 @@ const ref = {
         `,
     dates: `
             <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
             <article id="dates-wrapper">
                 <div class="dates-entry dates-entry-left">
@@ -176,6 +177,7 @@ const ref = {
   bridgepavement: {
     measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Pavement</h4>
             <p>State Departments of Transportation (DOTs) must establish targets, regardless of ownership, for the full extent of the Interstate and non-Interstate National Highway System (NHS).  FHWA has set numerical standards that categorize pavement conditions as good, fair, or poor.  Pavement in good condition suggests no major investment is needed. Pavement in poor condition suggests that major reconstruction investment is needed. Road pavements are classified as one of three types: concrete, bituminous (also known as asphalt), and jointed concrete—which is a series of contiguous concrete slabs joined together. Pavement condition is determined by specific measures, which include the International Roughness Index (IRI), cracking, rutting, and faulting:</p>
             <ul>
@@ -192,6 +194,7 @@ const ref = {
                 <li>Percentage of non-Interstate Pavements in Good Condition.</li>
                 <li>Percentage of non-Interstate Pavements in Poor Condition.</li>
             </ul>
+            
             <h4 class="tpm-content-subheaders theme-font-color">Bridges</h4>
             <p>State DOTs must establish targets for all bridges carrying the NHS, which includes on- and off-ramps connected to the NHS within a state, and bridges carrying the NHS that cross a state border, regardless of ownership. Each bridge is given ratings for its deck, superstructure, and substructure components during regular inspections using National Bridge Inventory (NBI) standards. Each component is given a rating that ranges between 9 and 0 on the FHWA condition scale. A structure's overall condition rating is determined by the lowest value for its deck, superstructure, substructure, or culvert rating. If any of the components of a structure qualify as poor, the structure is deemed poor; while all the components must have a good rating for the structure to be deemed in good repair. Poor condition does not mean the bridge is unsafe to use. Both PennDOT and NJDOT will take necessary action to restrict heavy-weight vehicles or close a bridge in order to ensure safety. Bridge condition performance measures are calculated by summing the deck area of bridges in “good” and “poor” condition and dividing by the total deck area of all NHS bridges.</p>
             <span>Bridge deck conditions are based on deck area and targets are set for:</span>
@@ -211,9 +214,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">2019 Two-Year Target<sup>1</sup></th>
-                        <th colspan="2">2021 Four-Year Target</th>
+                        <th colspan="2">2021 Baseline</th>
+                        <th colspan="2">2023 Two-Year Target</th>
+                        <th colspan="2">2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -227,36 +230,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Good Condition</td>
-                            <td>61.25%</td>
-                            <td>67.2%</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>50%</td>
-                            <td>60%</td>
+                            <td>75.7%</td>
+                            <td>68.8%</td>
+                            <td>75.7%</td>
+                            <td>69%</td>
+                            <td>77%</td>
+                            <td>65%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Interstate Pavement Lane Miles in Poor Condition</td>
-                            <td>1.01%</td>
+                            <td>0.1%</td>
                             <td>0.4%</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>2.5%</td>
+                            <td>0.1%</td>
+                            <td>2%</td>
+                            <td>0.1%</td>
                             <td>2%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Two-year targets are not required for Pavement Infrastructure on the Interstate system for this first reporting period.</small>
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Non-Interstate NHS Pavement Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure<sup>1</sup></th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">2019 Two-Year Target</th>
-                        <th colspan="2">2021 Four-Year Target</th>
+                        <th colspan="2">2021 Baseline</th>
+                        <th colspan="2">2023 Two-Year Target</th>
+                        <th colspan="2">2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -270,37 +272,36 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Good Condition</td>
-                            <td>32.45%</td>
-                            <td>36.8%</td>
-                            <td>25%</td>
-                            <td>35%</td>
-                            <td>25%</td>
-                            <td>33%</td>
+                            <td>41.6%</td>
+                            <td>37.2%</td>
+                            <td>41.6%</td>
+                            <td>31%</td>
+                            <td>43%</td>
+                            <td>29%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-Interstate NHS Pavement Lane Miles in Poor Condition</td>
-                            <td>2.38%</td>
-                            <td>2.3%</td>
-                            <td>2.5%</td>
+                            <td>4.8%</td>
+                            <td>1.5%</td>
+                            <td>4.8%</td>
+                            <td>6%</td>
                             <td>4%</td>
-                            <td>15%<sup>2</sup></td>
-                            <td>5%</td>
+                            <td>6.5%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
             <small><sup>1</sup>Measure based on Full Distress + International Roughness Index methodology</small><br />
-            <small><sup>2</sup>Four-year target was adjusted for the New Jersey Percentage Non-Interstate NHS Pavement Lane Miles in Poor Condition at the mid-term reporting period</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Bridge Infrastructure</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2017 Baseline</th>
-                        <th colspan="2">2019 Two-Year Target</th>
-                        <th colspan="2">2021 Four-Year Target</th>
+                        <th colspan="2">2021 Baseline</th>
+                        <th colspan="2">2023 Two-Year Target</th>
+                        <th colspan="2">2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -314,27 +315,26 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Good Condition</td>
-                            <td>21.7%</td>
-                            <td>23.7%</td>
-                            <td>19.4%</td>
-                            <td>25.8%</td>
-                            <td>21.3%<sup>1</sup></td>
-                            <td>26%</td>
+                            <td>21.3%</td>
+                            <td>27.5%</td>
+                            <td>21.3%</td>
+                            <td>28%</td>
+                            <td>23%</td>
+                            <td>28%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% NHS Bridge Deck Area in Poor Condition</td>
-                            <td>6.5%</td>
-                            <td>5.1%</td>
-                            <td>6.5%</td>
-                            <td>5.6%</td>
-                            <td>6.8%<sup>1</sup></td>
+                            <td>6.6%</td>
+                            <td>4.4%</td>
+                            <td>6.6%</td>
+                            <td>7.5%</td>
                             <td>6%</td>
+                            <td>7.5%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Four-year targets were adjusted for the New Jersey Percentage NHS Bridge Deck Area in Good Condition and Poor Condition at the mid-term reporting period.</small>
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
             <br /><br />
         `,
     how: `
