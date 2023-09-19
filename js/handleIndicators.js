@@ -15,7 +15,7 @@ let scrollTo;
 
 const calculateScrollTo = header => {
     const isNarrow = window.innerWidth > 772 ? false : true // 772 is mobile layout breakpoint
-    const iconsHeight = testImg.offsetHeight + ( isNarrow ? 132 : 32 )
+    const iconsHeight = testImg.offsetHeight + ( isNarrow ? 116 : 28 )
     const buffer = iconsHeight
     const elHeight = splash.offsetHeight + (header ? header.offsetHeight : 0)
 

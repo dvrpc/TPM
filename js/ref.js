@@ -778,7 +778,7 @@ const ref = {
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures. The states' first two-year progress reports were submitted in October 2020.</p>
+            <p>State DOTs must submit interim and full term (two- and four-year) progress reports for all of the system performance measures to demonstrate whether they have met or made significant progress toward meeting the targets. FHWA will only provide significant progress determinations for the LOTTR and TTTR measures.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">NHS Travel Time Reliability (LOTTR)</h4>
             <p>Meeting the Target: The federal NHS travel time reliability rule requires that state DOTs set separate targets for travel time reliability on the entire Interstate system and the non-Interstate NHS system within the state based on the person miles traveled on the percentage of system miles that are deemed reliable for travel time. States meet the targets if the Interstate and non-Interstate NHS system performance is equal to or below the baseline condition or the target established by DOT.</p>
@@ -790,7 +790,7 @@ const ref = {
             
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
             <h4 class="tpm-content-subheaders theme-font-color">Peak-Hour Excessive Delay (PHED) and Percent of Non-SOV Travel</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people (the Philadelphia and New York City UZAs) in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. For the second performance period, the Trenton and Allentown-Bethlehem-East UZAs were included in addition to the Philadelphia and New York City UZAs. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
             <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
@@ -800,19 +800,13 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
-                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                        <th colspan="2">2018-2021 Four-Year Performance</th>
+                        <th colspan="2">2018-2021 Four-Year Target</th>
+                        <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
@@ -822,54 +816,39 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
-                            <td>82.1</td>
-                            <td>89.8</td>
+                            <td>94</td>
+                            <td>92.8</td>
                             <td>82</td>
-                            <td>89.8</td>
-                            <td>80.6</td>
-                            <td>89.9</td>
-                            <td>82</td>
-                            <td>89.8%<sup>1</sup></td>
-                            <td>No</td>
+                            <td>89.5</td>
+                            <td>Yes</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
+                            <td>92.2</td>
+                            <td>92.6</td>
                             <td>84.1</td>
                             <td>87.4</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>86.2</td>
-                            <td>88.5</td>
-                            <td>84.1</td>
-                            <td>87.4</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Four-year target was adjusted for the Pennsylvania Percentage of Miles Traveled on the Interstate that are Reliable at the mid-term reporting period.</small>
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
-                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                        <th colspan="2">2018-2021 Four-Year Performance</th>
+                        <th colspan="2">2018-2021 Four-Year Target</th>
+                        <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
@@ -879,153 +858,84 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Truck Travel Time Reliability</td>
-                            <td>1.82</td>
-                            <td>1.35</td>
-                            <td>1.9</td>
-                            <td>1.34</td>
-                            <td>1.89</td>
-                            <td>1.36</td>
+                            <td>1.56</td>
+                            <td>1.3</td>
                             <td>1.95</td>
-                            <td>1.34<sup>1</sup></td>
+                            <td>1.4</td>
                             <td>Yes</td>
-                            <td>No</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Four-year target was adjusted for the Pennsylvania Truck Travel Time Reliability at the mid-term reporting period.</small>
+            <small>Source: NJ DOT and PennDOT, 2023</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion - Peak-Hour Excessive Delay</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
-                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                        <th>2018-2021 Four-Year Performance</th>
+                        <th>2018-2021 Four-Year Target</th>
+                        <th>Target Met?</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Phila UZA</td>
-                            <td>16.8</td>
-                            <td>16.8</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>14.6</td>
-                            <td>14.6</td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Philadelphia UZA</td>
+                            <td>13.1</td>
                             <td>17.2</td>
-                            <td>17.2</td>
-                            <td>Yes</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: NYC UZA</td>
-                            <td>20</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>n/a</td>
-                            <td>22.3</td>
-                            <td>n/a</td>
-                            <td>22</td>
-                            <td>n/a</td>
-                            <td>No</td>
-                            <td>n/a</td>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: New York City UZA</td>
+                            <td>20.9</td>
+                            <td>22.0</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2023</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year (2019) Performance</th>
-                        <th colspan="2" class="table-cell-wide">Four-Year Original Target</th>
-                        <th colspan="2" class="table-cell-wide">Two-Year Target Achieved?</th>
+                        <th>2018-2021 Four-Year Performance</th>
+                        <th>2018-2021 Four-Year Target</th>
+                        <th>Target Met?</th>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% Non-SOV Travel: Phila UZA</td>
-                            <td>27.9</td>
-                            <td>27.9</td>
-                            <td>28</td>
-                            <td>28</td>
-                            <td>28.2</td>
-                            <td>28.2</td>
-                            <td>28.1</td>
-                            <td>28.1</td>
-                            <td>Yes</td>
+                            <td class="table-cell-first">% Non-SOV Travel: Philadelphia UZA</td>
+                            <td>30.6%</td>
+                            <td>28.1%</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">% Non-SOV Travel: NYC UZA</td>
-                            <td>51.6</td>
-                            <td>n/a</td>
-                            <td>51.6</td>
-                            <td>n/a</td>
-                            <td>51.6</td>
-                            <td>n/a</td>
-                            <td>51.7</td>
-                            <td>n/a</td>
+                            <td class="table-cell-first">% Non-SOV Travel: New York City UZA</td>
+                            <td>52.4%</td>
+                            <td>51.7%</td>
                             <td>Yes</td>
-                            <td>n/a</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small>
+            <small>Source: DVRPC 2023</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2" class="table-cell-double-wide">2017 Baseline</th>
-                        <th colspan="2" class="table-cell-double-wide">Two-Year Target</th>
-                        <th colspan="2" class="table-cell-double-wide">Two-Year (2019) Performance</th>
-                        <th colspan="2" class="table-cell-double-wide">Four-Year Original Target</th>
-                        <th colspan="2" class="table-cell-double-wide">Two-Year Target Achieved?</th>
+                        <th colspan="2">2018-2021 Four-Year Performance</th>
+                        <th colspan="2">2018-2021 Four-Year Target</th>
+                        <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
-                            <td><strong>NJ</strong></td>
-                            <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
@@ -1035,61 +945,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td>9.572</td>
-                            <td>25.870</td>
-                            <td>4.29</td>
-                            <td>10.76</td>
-                            <td>162.02</td>
-                            <td>143.21</td>
-                            <td>8.52</td>
-                            <td>20.49</td>
+                            <td>111.987</td>
+                            <td>33.019</td>
+                            <td>5.253</td>
+                            <td>2.06</td>
                             <td>Yes</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td>244.301</td>
-                            <td>971.78</td>
-                            <td>114.401</td>
-                            <td>337.7</td>
-                            <td>1,500.52</td>
-                            <td>971.05</td>
-                            <td>231.85</td>
-                            <td>612.82</td>
+                            <td>644.937</td>
+                            <td>928.699</td>
+                            <td>14.861</td>
+                            <td>42.50</td>
                             <td>Yes</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td>44.493</td>
-                            <td>302.38</td>
-                            <td>17.682</td>
-                            <td>109.46</td>
-                            <td>157.75</td>
-                            <td>231.78</td>
-                            <td>36.324</td>
-                            <td>201.73</td>
+                            <td>73.818</td>
+                            <td>217.099</td>
+                            <td>2.864</td>
+                            <td>69.31</td>
                             <td>Yes</td>
-                            <td>Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Total Emission Reductions: CO</td>
-                            <td>n/a</td>
-                            <td>1,135.4</td>
-                            <td>n/a</td>
-                            <td>567.7</td>
-                            <td>n/a</td>
-                            <td>2,969.64</td>
-                            <td>n/a</td>
-                            <td>1,135.4<sup>1</sup></td>
-                            <td>n/a</td>
                             <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2021</small><br />
-            <small><sup>1</sup>Four-year target was adjusted for Pennsylvania CO at the mid-term reporting period.</small>
+            <small>Source: DVRPC 2023</small><br />
             <br /><br />
         `,
     dates: `

@@ -10,7 +10,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
-    line-height: 140%;
+    line-height: 1.45;
     background: var(--accent-black-light);
 }
 a {
@@ -268,7 +268,7 @@ h1 {
 	width: 100%;
 	margin: 0;
 	font-size: 2rem;
-	padding: 1.3rem 3rem;
+	padding: 1rem 3rem;
 	margin-left: -3rem;
 	box-shadow: 2px 4px 6px rgba(0,0,0, 0.3);
 	border-top-left-radius: 6px;
