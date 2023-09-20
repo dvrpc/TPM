@@ -128,7 +128,7 @@ h1 {
 td:not(.table-cell-first) {
     font-size: inherit;
 }
-.table-cell-first, .table-cell-wide-extra, .table-cell-wide {
+.table-cell-first {
     width: auto;
 }
 .dates-circle-left {

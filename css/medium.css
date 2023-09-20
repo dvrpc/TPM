@@ -38,5 +38,10 @@ h1 {
     font-size: 1.4rem;
     padding: 1rem 3rem;
 }
+.indicator-icons-imgs-nav {
+    display: none;
+    visibility: collapse;
+    height: 0;
+}
 /* END TPM Indicator Content */
 /*****************************/
