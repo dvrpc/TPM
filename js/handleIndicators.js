@@ -116,6 +116,7 @@ const clickIndicator = e => {
         beenScrolled = true
     }
 
+    // @TODO: slight delay for content to laod and scrollTo to be smoother
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'
@@ -183,6 +184,7 @@ const handleTabs = e => {
         beenScrolled = true
     }
 
+    // @TODO: slight delay for content to laod and scrollTo to be smoother
     window.scrollTo({
         top: scrollTo,
         behavior: 'smooth'

@@ -75,6 +75,9 @@ h1, #performance-main, #performance-nav, .content-header, #nav-header-title, .in
 tr:hover {
     background-color: #e7e7e7;
 }
+td:hover {
+    background-color: #e1e1e1;
+}
 /* END General */
 /***************/
 
@@ -132,10 +135,9 @@ h1 {
     color: var(--accent-gold);
 }
 #tpm-logo-main {
-    /* @UPDATE */
     margin-right: 25px;
     margin-top: 1em;
-    width: 265px;
+    width: 325px;
 }
 .splash-summary{
     font-size: var(--splash-text-font-size);
@@ -143,8 +145,6 @@ h1 {
 .splash-text {
     font-size: var(--splash-text-font-size);
     max-width: 70ch;
-    /* @UPDATE */
-    /* margin: 0.8rem auto; */
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
 }
