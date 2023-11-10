@@ -76,7 +76,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In February 2023, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
+            <p>In February 2023, the DVRPC Board adopted regional safety targets based on DVRPC's Regional Vision Zero 2050 goal.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
@@ -1026,6 +1026,700 @@ const ref = {
             </ul>
         `,
   },
+  transitasset: {
+    measure: `
+            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
+            <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Rolling Stock</h4>
+            <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider's rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
+            <ul>
+                <li>Percentage of the transit provider's rolling stock that have met or exceeded their ULB.</li>
+            </ul>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Equipment</h4>
+            <p>Transit providers are required to set annual targets for the average age of their nonrevenue generating vehicles (equipment) for three vehicle types: automobiles, rubber-tired vehicles, and steel wheeled vehicles. Targets are only set for vehicles that are road-worthy, self-propelled maintenance or construction vehicles. The targets are set for the percentage of equipment, by vehicle category type, that exceed the nonrevenue generating fleet's ULB. Specific targets are set for:</p>
+            <ul>
+                <li>Percentage of the transit provider's support (nonrevenue) equipment that have met or exceeded their ULB.</li>
+            </ul>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Facilities</h4>
+            <p>Transit providers are required to set annual targets for the percentage of facilities (by group) that are rated less than 3.0 on the Transit Economic Requirements Model (TERM) Scale. The two groups of facility types are Passenger and Administration Facilities. FTA requires that facility condition data be fully updated every four years, at a minimum. Agencies may choose to assess a quarter of their facilities every year, or more frequently. Each annual report must include updated facility condition data based on any assessments completed since the last report. Only facilities with direct capital responsibility require condition assessments.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
+                <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
+            </ul>
+            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies' targets. DVRPC has adopted and supports the respective transit agency targets.</p>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Infrastructure</h4>
+            <p>Transit providers are required to set annual targets for the percentage of fixed guideway track segments that have performance restrictions. A performance restriction is defined as a segment of guideway track miles where the maximum permissible speed of transit vehicles is below the guideway's full-service speed. Restrictions can be caused by issues with rail fixed guideway, track, power, or signal systems. Performance restrictions should be measured at 9:00 AM local time on the first Wednesday of each month.</p>
+            <span>Specific targets are set for:</span>
+            <ul>
+                <li>Percentage of the transit provider's fixed guideway track miles that have performance restrictions. The annual performance measure for Infrastructure is an average of each month's performance restriction measure.</li>
+            </ul>
+        `,
+    targets: `
+            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
+            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators' efforts at achieving those targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th class="table-cell-last">2023 Target</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Articulated Bus</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td class="table-cell-last">10%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail Passenger Car</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail Vehicle</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
+                            <td class="table-cell-last">66%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Cutaway Car</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Vintage Trolley/Streetcar</td>
+                            <td class="table-cell-last">100%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Articulated Bus</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobile</td>
+                            <td class="table-cell-last">37.98%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Over-the-Road Bus</td>
+                            <td class="table-cell-last">18.32%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td class="table-cell-last">58.84%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Cutaway Car</td>
+                            <td class="table-cell-last">36.43%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail Vehicle</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Minivan</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td class="table-cell-last">13.33%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Van</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first table-cell-auto">National Transit Database Category</th>
+                        <th class="table-cell-last">2023 Target</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td class="table-cell-last">50%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
+                            <td class="table-cell-last">50%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Steel Wheel Vehicles</td>
+                            <td class="table-cell-last">50%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Support Equipment</td>
+                            <td class="table-cell-last">19%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td class="table-cell-last">55.38%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
+                            <td class="table-cell-last">65.89%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Steel Wheel Vehicles</td>
+                            <td class="table-cell-last">39.13%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th class="table-cell-last">2023 Target</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-last">5%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td class="table-cell-last">5%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td class="table-cell-last">0%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-last">4%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td class="table-cell-last">4%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+        
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th class="table-cell-last">2023 Target</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td class="table-cell-last">10%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td class="table-cell-last">5%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Streetcar Rail</td>
+                            <td class="table-cell-last">3%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td class="table-cell-last">0.38%</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td class="table-cell-last">1.75%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td class="table-cell-last">2.38%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Hybrid Rail</td>
+                            <td class="table-cell-last">0.18%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small>
+            <br /><br />
+            `,
+    how: `
+            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
+            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency's TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
+            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency's fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
+            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets.</p>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>2022 Target</th>
+                        <th>2022 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Articulated Bus</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>10%</td>
+                            <td>9.2%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail Passenger Car</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail Vehicle</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
+                            <td>66%</td>
+                            <td>66%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Cutaway Car</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trolley Bus</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Vintage Trolley/Streetcar</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Articulated Bus</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobile</td>
+                            <td>47.37%</td>
+                            <td>40.16%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Over-the-Road Bus</td>
+                            <td>23.6%</td>
+                            <td>20.8%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>24.8%</td>
+                            <td>39.26%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Cutaway Car</td>
+                            <td>58.15%</td>
+                            <td>63.03%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail Vehicle</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Minivan</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Locomotive</td>
+                            <td>8.33%</td>
+                            <td>8.19%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Van</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>2022 Target</th>
+                        <th>2022 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td>50%</td>
+                            <td>41%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
+                            <td>45%</td>
+                            <td>45%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Steel Wheel Vehicles</td>
+                            <td>50%</td>
+                            <td>50%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Support Equipment</td>
+                            <td>20%</td>
+                            <td>16%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Automobiles</td>
+                            <td>55.38%</td>
+                            <td>55.38%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
+                            <td>58.53%</td>
+                            <td>64.02%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Steel Wheel Vehicles</td>
+                            <td>33.33%</td>
+                            <td>37.68%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>2022 Target</th>
+                        <th>2022 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td>3%</td>
+                            <td>3%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td>5%</td>
+                            <td>3.6%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td>4%</td>
+                            <td>2.94%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td>4%</td>
+                            <td>2.97%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+        
+            <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
+            <div class="table-overflow-wrapper">
+                <table>
+                    <thead>
+                        <th class="table-cell-first">National Transit Database Category</th>
+                        <th>2022 Target</th>
+                        <th>2022 Performance</th>
+                        <th class="table-cell-last">Target Achieved?</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>10%</td>
+                            <td>3.5%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>5%</td>
+                            <td>2.6%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Streetcar Rail</td>
+                            <td>3%</td>
+                            <td>0.7%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0.34%</td>
+                            <td>0.34%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Commuter Rail</td>
+                            <td>1.75%</td>
+                            <td>1.95%</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>2.38%</td>
+                            <td>2.38%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Hybrid Rail</td>
+                            <td>0.18%</td>
+                            <td>0.18%</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small>
+            <br /><br />
+        `,
+    dates: `
+            <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
+            
+            <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
+            <article id="dates-wrapper">
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2016</strong><br />Final Rule effective date.</p>
+                </div>
+                <div class="dates-entry dates-entry-right">
+                    <span class="dates-circle dates-circle-right"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2018</strong><br />1<sup>st</sup> TAM report due. Asset data reported in the National Transit Database annually.</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2022</strong><br />TAM required to be updated in its entirety every four years.</p>
+                </div>
+            </article>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
+            <ul>
+                <li><a href="https://www.transit.dot.gov/PerformanceManagement" target="blank" rel="noopener noreferrer">FTA Performance Management Webpage</a></li>
+                <li><a href="https://www.transit.dot.gov/TAM/FTAOutreachMaterials/perfmsrFS" target="blank" rel="noopener noreferrer">TAM Fact Sheet</a></li>
+                <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
+            </ul>
+        `,
+  },
   ptasp: {
     measure: `
             <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
@@ -1073,7 +1767,7 @@ const ref = {
                 <table>
                     <thead>
                         <th></th>
-                        <th class="table-cell-last">2022 Target</th>
+                        <th class="table-cell-last">2023 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -1081,34 +1775,34 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">SEPTA</td>
-                            <td class="table-cell-last">-- / 0.0263<sup>*</sup></td>
+                            <td class="table-cell-last">-- / 28.62<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA / PATCO </td>
-                            <td class="table-cell-last">0 / 0.0<sup>*</sup></td>
+                            <td class="table-cell-last">0 / 0.0<sup>**</sup></td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ Transit</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">2 / 1.71 <sup>**</sup></td>
+                            <td class="table-cell-last">2 / 1.74<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">6 / 0.085<sup>**</sup></td>
+                            <td class="table-cell-last">5 / 0.007<sup>***</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC  2022</small><br />
-            <small><sup>*</sup>per 100,000 Miles.</small><br />
-            <small><sup>**</sup>per 1 Million Miles.</small><br />
-            <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+            <small><sup>*</sup>per 100 Million Miles</small><br />
+            <small><sup>**</sup>per 100,000 Miles</small><br />
+            <small><sup>***</sup>per 1 Million Miles</small><br />
+            <small><em>Note</em>: SEPTA only submits rates to FTA for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
@@ -1818,700 +2512,6 @@ const ref = {
                 <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/docs/regulations-and-guidance/safety/public-transportation-agency-safety-program/117281/ptasp-fact-sheet-02-06-2019.pdf" target="blank" rel="noopener noreferrer">FTA PTASP Fact Sheet</a></li>
                 <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/2020-04/SPT_Webinar_202002.pdf" target="blank" rel="noopener noreferrer">FTA Safety Performance Target Webinar</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2018-07-19/pdf/2018-15167.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
-            </ul>
-        `,
-  },
-  transitasset: {
-    measure: `
-            <h3 class="tpm-content-section-header theme-font-color">What Do We Measure?</h3>
-            <p>Transit providers are required to coordinate with MPOs to set performance targets to assess the State of Good Repair for four capital asset categories. The providers are then required to develop a Transit Asset Management (TAM) Plan to identify local funding prioritization.</p>
-            
-            <h4 class="tpm-content-subheaders theme-font-color">Rolling Stock</h4>
-            <p>The performance-based planning regulation requires that transit providers set annual targets for the average age of their revenue generating vehicles (rolling stock) for each of 23 vehicle types. The targets specify the percentage of the transit provider's rolling stock that exceeds (is older than) the Useful Life Benchmark (ULB) measured in years. The ULB is established by the transit provider with Federal Transit Agency (FTA) guidance. Specific targets are set for:</p>
-            <ul>
-                <li>Percentage of the transit provider's rolling stock that have met or exceeded their ULB.</li>
-            </ul>
-            
-            <h4 class="tpm-content-subheaders theme-font-color">Equipment</h4>
-            <p>Transit providers are required to set annual targets for the average age of their nonrevenue generating vehicles (equipment) for three vehicle types: automobiles, rubber-tired vehicles, and steel wheeled vehicles. Targets are only set for vehicles that are road-worthy, self-propelled maintenance or construction vehicles. The targets are set for the percentage of equipment, by vehicle category type, that exceed the nonrevenue generating fleet's ULB. Specific targets are set for:</p>
-            <ul>
-                <li>Percentage of the transit provider's support (nonrevenue) equipment that have met or exceeded their ULB.</li>
-            </ul>
-            
-            <h4 class="tpm-content-subheaders theme-font-color">Facilities</h4>
-            <p>Transit providers are required to set annual targets for the percentage of facilities (by group) that are rated less than 3.0 on the Transit Economic Requirements Model (TERM) Scale. The two groups of facility types are Passenger and Administration Facilities. FTA requires that facility condition data be fully updated every four years, at a minimum. Agencies may choose to assess a quarter of their facilities every year, or more frequently. Each annual report must include updated facility condition data based on any assessments completed since the last report. Only facilities with direct capital responsibility require condition assessments.</p>
-            <span>Specific targets are set for:</span>
-            <ul>
-                <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Passenger Facilities.</li>
-                <li>Percentage of assets with condition rating below 3.0 on the FTA TERM Scale for Administration Facilities.</li>
-            </ul>
-            <p>MPOs may either establish quantitative targets for their metropolitan planning area or agree to adopt the respective transit agencies' targets. DVRPC has adopted and supports the respective transit agency targets.</p>
-            
-            <h4 class="tpm-content-subheaders theme-font-color">Infrastructure</h4>
-            <p>Transit providers are required to set annual targets for the percentage of fixed guideway track segments that have performance restrictions. A performance restriction is defined as a segment of guideway track miles where the maximum permissible speed of transit vehicles is below the guideway's full-service speed. Restrictions can be caused by issues with rail fixed guideway, track, power, or signal systems. Performance restrictions should be measured at 9:00 AM local time on the first Wednesday of each month.</p>
-            <span>Specific targets are set for:</span>
-            <ul>
-                <li>Percentage of the transit provider's fixed guideway track miles that have performance restrictions. The annual performance measure for Infrastructure is an average of each month's performance restriction measure.</li>
-            </ul>
-        `,
-    targets: `
-            <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to be consistent with the respective SEPTA, NJ TRANSIT, and DRPA/PATCO annual transit asset management targets, and will support the transit operators' efforts at achieving those targets.</p>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2023 Target</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Articulated Bus</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">10%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td class="table-cell-last">66%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Cutaway Car</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Trolley Bus</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Vintage Trolley/Streetcar</td>
-                            <td class="table-cell-last">100%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Articulated Bus</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td class="table-cell-last">37.98%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td class="table-cell-last">18.32%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">58.84%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Cutaway Car</td>
-                            <td class="table-cell-last">36.43%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Minivan</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td class="table-cell-last">13.33%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Van</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
-
-            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first table-cell-auto">National Transit Database Category</th>
-                        <th class="table-cell-last">2023 Target</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Automobiles</td>
-                            <td class="table-cell-last">50%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">50%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td class="table-cell-last">50%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Support Equipment</td>
-                            <td class="table-cell-last">19%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Automobiles</td>
-                            <td class="table-cell-last">55.38%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">65.89%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td class="table-cell-last">39.13%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
-
-            <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2023 Target</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">5%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td class="table-cell-last">5%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td class="table-cell-last">0%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">4%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td class="table-cell-last">4%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
-        
-            <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2023 Target</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">10%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">5%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Streetcar Rail</td>
-                            <td class="table-cell-last">3%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DRPA/PATCO</td>
-                            <td class="table-cell-last">0.38%</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">1.75%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">2.38%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Hybrid Rail</td>
-                            <td class="table-cell-last">0.18%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small>
-            <br /><br />
-            `,
-    how: `
-            <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>Transit agencies must demonstrate whether they are meeting the performance targets set forward in the agency's TAM Plan. MPOs may set their own targets or adopt the transit agency targets. DVRPC supports the transit agency targets. MPOs are also required to demonstrate how funding will be allocated to assist the transit agencies meet the TAM targets.</p>
-            <p>In order to meet the performance measurement targets, the annual performance measures must meet or exceed the established target for the transit agency's fiscal year. There are no penalties associated with not meeting the TAM targets, but the annual performance measure tracking effort does help indicate where there are investments needed in transit assets to maintain the system in a state of good repair.</p>
-            <p>DVRPC publishes the TAM performance measures in the relevant state TIPs along with a list of TIP-funded projects that will support the transit agency's targets.</p>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Rolling Stock That Have Met or Exceeded Their Useful Life Benchmark</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Articulated Bus</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>10%</td>
-                            <td>9.2%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>66%</td>
-                            <td>66%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Cutaway Car</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Trolley Bus</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Vintage Trolley/Streetcar</td>
-                            <td>100%</td>
-                            <td>100%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Articulated Bus</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Automobile</td>
-                            <td>47.37%</td>
-                            <td>40.16%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>23.6%</td>
-                            <td>20.8%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>24.8%</td>
-                            <td>39.26%</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Cutaway Car</td>
-                            <td>58.15%</td>
-                            <td>63.03%</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail Vehicle</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Minivan</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>8.33%</td>
-                            <td>8.19%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Passenger Coach</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Van</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
-
-            <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Automobiles</td>
-                            <td>50%</td>
-                            <td>41%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>45%</td>
-                            <td>45%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>50%</td>
-                            <td>50%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Support Equipment</td>
-                            <td>20%</td>
-                            <td>16%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Automobiles</td>
-                            <td>55.38%</td>
-                            <td>55.38%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>58.53%</td>
-                            <td>64.02%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>33.33%</td>
-                            <td>37.68%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
-
-            <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td>3%</td>
-                            <td>3%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td>5%</td>
-                            <td>3.6%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td>4%</td>
-                            <td>2.94%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td>4%</td>
-                            <td>2.97%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
-        
-            <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
-            <div class="table-overflow-wrapper">
-                <table>
-                    <thead>
-                        <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
-                    </thead>
-                    <tbody>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail</td>
-                            <td>10%</td>
-                            <td>3.5%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail</td>
-                            <td>5%</td>
-                            <td>2.6%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Streetcar Rail</td>
-                            <td>3%</td>
-                            <td>0.7%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DRPA/PATCO</td>
-                            <td>0.34%</td>
-                            <td>0.34%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Commuter Rail</td>
-                            <td>1.75%</td>
-                            <td>1.95%</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail</td>
-                            <td>2.38%</td>
-                            <td>2.38%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Hybrid Rail</td>
-                            <td>0.18%</td>
-                            <td>0.18%</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small>
-            <br /><br />
-        `,
-    dates: `
-            <h3 class="tpm-content-section-header theme-font-color">Key Dates & Resources</h3>
-            
-            <h4 class="tpm-content-subheaders theme-font-color">Key Dates</h4>
-            <article id="dates-wrapper">
-                <div class="dates-entry dates-entry-left">
-                    <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>October 1, 2016</strong><br />Final Rule effective date.</p>
-                </div>
-                <div class="dates-entry dates-entry-right">
-                    <span class="dates-circle dates-circle-right"></span>
-                    <p class="dates-entry-text"><strong>October 1, 2018</strong><br />1<sup>st</sup> TAM report due. Asset data reported in the National Transit Database annually.</p>
-                </div>
-                <div class="dates-entry dates-entry-left">
-                    <span class="dates-circle dates-circle-left"></span>
-                    <p class="dates-entry-text"><strong>October 1, 2022</strong><br />TAM required to be updated in its entirety every four years.</p>
-                </div>
-            </article>
-
-            <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
-            <ul>
-                <li><a href="https://www.transit.dot.gov/PerformanceManagement" target="blank" rel="noopener noreferrer">FTA Performance Management Webpage</a></li>
-                <li><a href="https://www.transit.dot.gov/TAM/FTAOutreachMaterials/perfmsrFS" target="blank" rel="noopener noreferrer">TAM Fact Sheet</a></li>
-                <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
         `,
   }
