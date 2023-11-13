@@ -299,12 +299,12 @@ table {
     border-collapse: collapse;
 }
 td {
-    padding: 4px 0;
+    padding: 4px;
     text-align: center;
 }
 .table-cell-first {
     text-align: left;
-    width: 28ch;
+    width: 23ch;
 }
 .table-cell-first:not(th) {
     font-style: italic;
