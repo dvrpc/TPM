@@ -790,7 +790,7 @@ const ref = {
             
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
             <h4 class="tpm-content-subheaders theme-font-color">Peak-Hour Excessive Delay (PHED) and Percent of Non-SOV Travel</h4>
-            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people (the Philadelphia and New York City UZAs) in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. For the second performance period, the Trenton and Allentown-Bethlehem-East UZAs were included in addition to the Philadelphia and New York City UZAs. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people (the Philadelphia and New York City UZAs) in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. For the second performance period, the Trenton and Allentown-Bethlehem-Easton UZAs were included in addition to the Philadelphia and New York City UZAs. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
             <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
@@ -954,7 +954,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td>644.937</td>
+                            <td>684.937</td>
                             <td>928.699</td>
                             <td>14.861</td>
                             <td>42.50</td>
