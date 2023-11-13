@@ -652,8 +652,8 @@ const ref = {
                     <thead>
                         <th class="table-cell-first">Measure</th>
                         <th>2021 Baseline</th>
-                        <th>Two-Year Target</th>
-                        <th>Four-Year Target</th>
+                        <th>2023 Two-Year Target</th>
+                        <th>2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -690,9 +690,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2020 Baseline</th>
-                        <th>Two-Year Target</th>
-                        <th>Four-Year Target</th>
+                        <th>2021 Baseline</th>
+                        <th>2023 Two-Year Target</th>
+                        <th>2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -729,7 +729,7 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">Baseline</th>
+                        <th colspan="2">2021 Baseline</th>
                         <th colspan="2">2023 Two-Year Target</th>
                         <th colspan="2">2025 Four-Year Target</th>
                     </thead>
@@ -745,30 +745,30 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td></td>
-                            <td></td>
-                            <td>24.25</td>
-                            <td>4.07</td>
-                            <td>45.96</td>
-                            <td>2.06</td>
+                            <td>111.813</td>
+                            <td>33.019</td>
+                            <td>24.252</td>
+                            <td>4.070</td>
+                            <td>45.963</td>
+                            <td>8.140</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td></td>
-                            <td></td>
-                            <td>9.51</td>
-                            <td>51.28</td>
-                            <td>17.49</td>
-                            <td>42.50</td>
+                            <td>683.827</td>
+                            <td>928.699</td>
+                            <td>9.506</td>
+                            <td>51.280</td>
+                            <td>17.495</td>
+                            <td>102.560</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td></td>
-                            <td></td>
-                            <td>2.84</td>
-                            <td>9.66</td>
-                            <td>5.41</td>
-                            <td>69.31</td>
+                            <td>73.692</td>
+                            <td>217.099</td>
+                            <td>2.844</td>
+                            <td>9.660</td>
+                            <td>5.406</td>
+                            <td>19.320</td>
                         </tr>
                     </tbody>
                 </table>
