@@ -1848,7 +1848,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Employee Injuries</td>
-                            <td class="table-cell-last">-- / 4.99<sup>***</sup></td>
+                            <td class="table-cell-last">-- / 4.99<sup>****</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
@@ -1877,16 +1877,16 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">406 / 5.7<sup>***</sup></td>
+                            <td class="table-cell-last">406 / 5.7<sup>****</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
             <small><sup>*</sup>per 100 Million Miles</small><br />
-            <small><sup>**</sup>per 100,00 Miles.</small><br />
+            <small><sup>**</sup>per 100,000 Miles</small><br />
             <small><sup>***</sup>per 1 Million Miles</small><br />
-            <small><sup>***</sup>per 200,000 Work Hours</small><br />
+            <small><sup>****</sup>per 200,000 Work Hours</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events (Number / Rate)</h4>
@@ -2048,7 +2048,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">System</td>
-                            <td class="table-cell-last">230<sup>****</sup></td>
+                            <td class="table-cell-last">230<sup>*****</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
@@ -2065,8 +2065,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, & NJ TRANSIT 2023</small><br />
-            <small><sup>****</sup>Total Failures</small><br />
-            <small><em>Note</em>:SEPTA only submits rates to FTA for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets.</small>
+            <small><sup>*****</sup>Total Failures</small><br />
             <br /><br />
         `,
     how: `
@@ -2232,7 +2231,7 @@ const ref = {
             <small><sup>*</sup>per 100 Million Miles</small><br />
             <small><sup>**</sup>per 100,000 Miles</small><br />
             <small><sup>***</sup>per 1 Million Miles</small><br />
-            <small><sup>***</sup>per 200,000 Work Hours</small><br />
+            <small><sup>****</sup>per 200,000 Work Hours</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit did not report (NR) their 2022 performance data.</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events (Number / Rate)</h4>
@@ -2395,8 +2394,8 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, & NJ TRANSIT 2023</small><br />
             <small><sup>*</sup>per 100 Million Miles</small><br />
             <small><sup>**</sup>per 100,000 Miles</small><br />
-            <small><sup>**</sup>per 1 Million Miles</small><br />
-            <small><sup>**</sup>per 200,000 Work Hours</small><br />
+            <small><sup>***</sup>per 1 Million Miles</small><br />
+            <small><sup>****</sup>per 200,000 Work Hours</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit did not report (NR) their 2022 performance data.</small>
             
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
@@ -2453,8 +2452,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">System</td>
-                            <td>230<sup>****</sup></td>
-                            <td>206<sup>****</sup></td>
+                            <td>230<sup>*****</sup></td>
+                            <td>206<sup>*****</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -2476,8 +2475,8 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, & NJ TRANSIT 2023</small><br />
-            <small><sup>****</sup>Total Failures</small><br />
-            <small><em>Note</em>: SEPTA only submits rates to FTA for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit did not report (NR) their 2022 performance data</small>
+            <small><sup>*****</sup>Total Failures</small><br />
+            <small><em>Note</em>: NJ Transit did not report (NR) their 2022 performance data</small>
             <br /><br />
         `,
     dates: `
