@@ -172,6 +172,12 @@ const ref = {
                 <li><a href="https://www.saferoadsforallnj.com" target="blank" rel="noopener noreferrer">New Jersey Strategic Highway Safety Plan</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2016/03/15/2016-05202/national-performance-management-measures-highway-safety-improvement-program" target="blank" rel="noopener noreferrer">Safety Performance Measure Final Rule</a></li>
             </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Planning Agreements</h4>
+            <ul>
+                <li><a href="./pdf/PA PM1.pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
+                <li><a href="./pdf/NJ PM1.pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
+            </ul>
         `,
   },
   bridgepavement: {
@@ -529,6 +535,12 @@ const ref = {
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00550/national-performance-management-measures-assessing-pavement-condition-for-the-national-highway" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
+            </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Planning Agreements</h4>
+            <ul>
+                <li><a href="./pdf/PA PM2 and PM3.pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
+                <li><a href="./pdf/NJ PM2.pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
             </ul>
         `,
   },
@@ -1023,6 +1035,14 @@ const ref = {
                 <li><a href="https://www.fhwa.dot.gov/tpm/rule/170601pm3.pdf" target="blank" rel="noopener noreferrer">National Performance Management Measures to Assess System Performance, Freight Movement, and CMAQ Improvement Program Presentation</a></li>
                 <li><a href="https://www.federalregister.gov/documents/2017/01/18/2017-00681/national-performance-management-measures-assessing-performance-of-the-national-highway-system" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
                 <li><a href="https://dvrpcgis.maps.arcgis.com/apps/MapSeries/index.html?appid=732efbf95f76489598277df671b5d6b2" target="blank" rel="noopener noreferrer">DVRPC Congestion Management Process Webpage</a></li>
+            </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Planning Agreements</h4>
+            <ul>
+                <li><a href="./pdf/PA PM2 and PM3.pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
+                <li><a href="./pdf/NJ PM2.pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
+                <li><a href="./pdf/PA PM3 Addendum for Philadelphia UZA.pdf" target="blank" rel="noopener noreferrer">Philadelphia Urbanized Area Planning Partners</a></li>
+                <li><a href="./pdf/NJ PM3 Addendum for New York UZA (1).pdf" target="blank" rel="noopener noreferrer">New York Urbanized Area Planning Partners</a></li>
             </ul>
         `,
   },
@@ -1819,6 +1839,12 @@ const ref = {
                 <li><a href="https://www.transit.dot.gov/sites/fta.dot.gov/files/2020-04/SPT_Webinar_202002.pdf" target="blank" rel="noopener noreferrer">FTA Safety Performance Target Webinar</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2018-07-19/pdf/2018-15167.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
             </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Planning Agreements</h4>
+            <ul>
+                <li><a href="./pdf/PA Transit Assets and Safety (2).pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
+                <li><a href="./pdf/NJ Transit Safety (1).pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
+            </ul>
         `,
   },
   transitasset: {
@@ -2512,6 +2538,12 @@ const ref = {
                 <li><a href="https://www.transit.dot.gov/PerformanceManagement" target="blank" rel="noopener noreferrer">FTA Performance Management Webpage</a></li>
                 <li><a href="https://www.transit.dot.gov/TAM/FTAOutreachMaterials/perfmsrFS" target="blank" rel="noopener noreferrer">TAM Fact Sheet</a></li>
                 <li><a href="https://www.govinfo.gov/content/pkg/FR-2016-07-26/pdf/2016-16883.pdf" target="blank" rel="noopener noreferrer">Federal Register Rulemaking</a></li>
+            </ul>
+
+            <h4 class="tpm-content-subheaders theme-font-color">Planning Agreements</h4>
+            <ul>
+                <li><a href="./pdf/PA Transit Assets and Safety (2).pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
+                <li><a href="./pdf/NJ Transit Assets (1).pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
             </ul>
         `,
   }
