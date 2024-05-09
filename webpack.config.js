@@ -49,6 +49,17 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.(png|svg|jpg|gif|pdf)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                        name: 'pdf/[name].[ext]'
+                        }
+                    }
+                ]
             }
         ]
     },
@@ -82,7 +93,12 @@ module.exports = {
                     from: './css',
                     to: 'css',
                     toType: 'dir'
-                }
+                },
+                {
+                    from: './pdf',
+                    to: 'pdf',
+                    toType: 'dir'
+                },
             ]
         }),
         // HtmlWebpackPlugin
