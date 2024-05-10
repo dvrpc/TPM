@@ -1040,7 +1040,7 @@ const ref = {
             <h4 class="tpm-content-subheaders theme-font-color">Planning Agreements</h4>
             <ul>
                 <li><a href="./pdf/PA PM2 and PM3.pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
-                <li><a href="./pdf/NJ PM2.pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
+                <li><a href="./pdf/NJ PM3.pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
                 <li><a href="./pdf/PA PM3 Addendum for Philadelphia UZA.pdf" target="blank" rel="noopener noreferrer">Philadelphia Urbanized Area Planning Partners</a></li>
                 <li><a href="./pdf/NJ PM3 Addendum for New York UZA (1).pdf" target="blank" rel="noopener noreferrer">New York Urbanized Area Planning Partners</a></li>
             </ul>
