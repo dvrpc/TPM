@@ -76,7 +76,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In February 2023, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
+            <p>In February 2024, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
@@ -90,28 +90,28 @@ const ref = {
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>429.0</td>
-                            <td class="table-cell-last">387.2</td>
+                            <td>443.0</td>
+                            <td class="table-cell-last">418.8</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>1.103</td>
-                            <td class="table-cell-last">0.940</td>
+                            <td>1.150</td>
+                            <td class="table-cell-last">1.029</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Suspected Serious Injuries</td>
-                            <td>1,455.4</td>
-                            <td class="table-cell-last">1,256.3</td>
+                            <td>1,647.6</td>
+                            <td class="table-cell-last">1,543.8</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>3.736</td>
-                            <td class="table-cell-last">3.100</td>
+                            <td>4.279</td>
+                            <td class="table-cell-last">3.794</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
-                            <td>402.4</td>
-                            <td class="table-cell-last">350.2</td>
+                            <td>463.0</td>
+                            <td class="table-cell-last">408.0</td>
                         </tr>
                     </tbody>
                 </table>
@@ -121,7 +121,7 @@ const ref = {
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2023 is the second year DVRPC has set regional targets, rather than adopting the states' targets, we do not have complete data to report on progress toward achieving the regional targets. We will be able to report on progress since 2022 with next year's update. NJDOT and PennDOT performance against their prior targets is shown here for informational purposes only.</p>
+            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2023 was the second year DVRPC set regional targets, rather than adopting the states' targets, we do not have complete data to report on progress toward achieving the regional targets. We will be able to report on progress since 2022 with next year's update.</p>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target</h4>
