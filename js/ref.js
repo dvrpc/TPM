@@ -803,9 +803,14 @@ const ref = {
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
             <h4 class="tpm-content-subheaders theme-font-color">Peak-Hour Excessive Delay (PHED) and Percent of Non-SOV Travel</h4>
             <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people (the Philadelphia and New York City UZAs) in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. For the second performance period, the Trenton and Allentown-Bethlehem-East UZAs were included in addition to the Philadelphia and New York City UZAs. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
-            
+
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
             <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+
+            <p>The DVRPC region did not meet all of the emissions reduction targets in Pennsylvania or New Jersey.</p>
+            <p>New Jersey’s two-year CMAQ emissions target shortfall can be largely attributed to the lack of quantitative assessment of obligated CMAQ projects. The use of a qualitative approach resulted in a perceived deficit of emissions reductions benefits from obligated CMAQ projects.</p>
+            <p>In Pennsylvania, the two-year emissions reductions were considerably higher than the two-year targets for NO<sub>x</sub> and PM<sub>2.5</sub> but did not meet the two-year VOC target. CMAQ emissions are based on the modeled benefits of CMAQ funded projects that are considered “new” in each year. New projects are entered in the PAS in the first year the project is obligated for funding. Funding allocated to projects that “continue” from a previous year, or are receiving CMAQ funds after the first year of obligation, are not considered to support target achievement. This makes it difficult to set and track progress to achieving targets.</p>
+            
 
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
@@ -887,62 +892,91 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2018-2021 Four-Year Performance</th>
-                        <th>2018-2021 Four-Year Target</th>
+                        <th>2022-2023 Two-Year Performance</th>
+                        <th>2022-2023 Two-Year Target</th>
                         <th>Target Met?</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Philadelphia UZA</td>
-                            <td>13.1</td>
-                            <td>17.2</td>
+                            <td>13.9</td>
+                            <td>15.2</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: New York City UZA</td>
-                            <td>20.9</td>
+                            <td>19.8</td>
                             <td>22.0</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Trenton UZA</td>
+                            <td>4.4</td>
+                            <td>5.7</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Allentown UZA</td>
+                            <td>6.9</td>
+                            <td>8.4</td>
                             <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2023</small>
+            <small>Source: DVRPC 2024</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2018-2021 Four-Year Performance</th>
-                        <th>2018-2021 Four-Year Target</th>
+                        <th>2022-2023 Two-Year Performance</th>
+                        <th>2022-2023 Two-Year Target</th>
                         <th>Target Met?</th>
+                        <th>Adjusted Target</th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Philadelphia UZA</td>
-                            <td>30.6%</td>
-                            <td>28.1%</td>
+                            <td>34.6%</td>
+                            <td>30.0%</td>
                             <td>Yes</td>
+                            <td>33.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: New York City UZA</td>
+                            <td>54.5%</td>
                             <td>52.4%</td>
-                            <td>51.7%</td>
                             <td>Yes</td>
+                            <td>Not Adjusted</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: Trenton UZA</td>
+                            <td>33.9%</td>
+                            <td>36.5%</td>
+                            <td>Yes</td>
+                            <td>30.0%</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">% Non-SOV Travel: Allentown UZA</td>
+                            <td>24.6%</td>
+                            <td>18.6%</td>
+                            <td>Yes</td>
+                            <td>Not Adjusted</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2023</small>
+            <small>Source: DVRPC 2024</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2018-2021 Four-Year Performance</th>
-                        <th colspan="2">2018-2021 Four-Year Target</th>
+                        <th colspan="2">2022-2023 Two-Year Performance</th>
+                        <th colspan="2">2022-2023 Two-Year Target</th>
                         <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
@@ -957,35 +991,35 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td>111.987</td>
-                            <td>33.019</td>
-                            <td>5.253</td>
-                            <td>2.06</td>
-                            <td>Yes</td>
+                            <td>0.177</td>
+                            <td>7.85</td>
+                            <td>24.252</td>
+                            <td>4.07</td>
+                            <td>No</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td>644.937</td>
-                            <td>928.699</td>
-                            <td>14.861</td>
-                            <td>42.50</td>
-                            <td>Yes</td>
+                            <td>2.131</td>
+                            <td>101.20</td>
+                            <td>9.506</td>
+                            <td>51.28</td>
+                            <td>No</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td>73.818</td>
-                            <td>217.099</td>
-                            <td>2.864</td>
-                            <td>69.31</td>
-                            <td>Yes</td>
-                            <td>Yes</td>
+                            <td>1.317</td>
+                            <td>6.86</td>
+                            <td>2.844</td>
+                            <td>9.66</td>
+                            <td>No</td>
+                            <td>No</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2023</small><br />
+            <small>Source: DVRPC 2024</small><br />
             <br /><br />
         `,
     dates: `
@@ -1029,7 +1063,7 @@ const ref = {
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
             <ul>
-                <li><a href="https://dvrpc.org/Reports/TM21003.pdf">DVRPC CMAQ Performance Plan</a></li>
+                <li><a href="../pdf/9894_Final2024_CMAQ_PM3_092624-1.pdf" target="_blank">DVRPC CMAQ Performance Plan</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/rule/170601pm3.pdf" target="blank" rel="noopener noreferrer">National Performance Management Measures to Assess System Performance, Freight Movement, and CMAQ Improvement Program Presentation</a></li>
@@ -2546,7 +2580,7 @@ const ref = {
                 <li><a href="./pdf/NJ Transit Assets (1).pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
             </ul>
         `,
-  }
+  },
 };
 
 export default ref;
