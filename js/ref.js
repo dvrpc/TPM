@@ -664,8 +664,8 @@ const ref = {
                     <thead>
                         <th class="table-cell-first">Measure</th>
                         <th>2021 Baseline</th>
-                        <th>Two-Year Target</th>
-                        <th>Four-Year Target</th>
+                        <th>2023 Two-Year Target</th>
+                        <th>2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -702,9 +702,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>2020 Baseline</th>
-                        <th>Two-Year Target</th>
-                        <th>Four-Year Target</th>
+                        <th>2021 Baseline</th>
+                        <th>2023 Two-Year Target</th>
+                        <th>2025 Four-Year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -741,7 +741,7 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">Baseline</th>
+                        <th colspan="2">2021 Baseline</th>
                         <th colspan="2">2023 Two-Year Target</th>
                         <th colspan="2">2025 Four-Year Target</th>
                     </thead>
@@ -1063,7 +1063,7 @@ const ref = {
 
             <h4 class="tpm-content-subheaders theme-font-color">Resources</h4>
             <ul>
-                <li><a href="../pdf/9894_Final2024_CMAQ_PM3_092624-1.pdf" target="_blank">DVRPC CMAQ Performance Plan</a></li>
+                <li><a href="./pdf/9894_Final2024_CMAQ_PM3_092624-1.pdf" target="_blank">DVRPC CMAQ Performance Plan</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/" target="blank" rel="noopener noreferrer">FHWA Transportation Performance Management Webpage</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/reporting/state/" target="blank" rel="noopener noreferrer">State Performance Dashboard and Reports</a></li>
                 <li><a href="https://www.fhwa.dot.gov/tpm/rule/170601pm3.pdf" target="blank" rel="noopener noreferrer">National Performance Management Measures to Assess System Performance, Freight Movement, and CMAQ Improvement Program Presentation</a></li>
