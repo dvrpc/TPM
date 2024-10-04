@@ -581,7 +581,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT's and NJ DOT's statewide system performance targets.</p>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT's and NJ DOT's statewide system performance targets. These are the original targets developed at the beginning of the performance period.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
@@ -787,6 +787,7 @@ const ref = {
             </div>
             <small>Source: NJ DOT and PennDOT,  2023</small><br />
             <br /><br />
+
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
@@ -934,7 +935,7 @@ const ref = {
                         <th>2022-2023 Two-Year Performance</th>
                         <th>2022-2023 Two-Year Target</th>
                         <th>Target Met?</th>
-                        <th>Adjusted Target</th>
+                        <th>Adjusted 4-year Target</th>
                     </thead>
                     <tbody>
                         <tr>
