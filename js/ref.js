@@ -818,9 +818,10 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2018-2021 Four-Year Performance</th>
-                        <th colspan="2">2018-2021 Four-Year Target</th>
+                        <th colspan="2">2022-2025 Two-Year Performance</th>
+                        <th colspan="2">2022-2025 Two-Year Target</th>
                         <th colspan="2">Target Met?</th>
+                        <th colspan="2">Adjusted 4-year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -834,35 +835,38 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
-                            <td>94</td>
-                            <td>92.8</td>
-                            <td>82</td>
+                            <td>94.0</td>
+                            <td>92.0</td>
+                            <td>83.0</td>
                             <td>89.5</td>
                             <td>Yes</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
-                            <td>92.2</td>
-                            <td>92.6</td>
-                            <td>84.1</td>
-                            <td>87.4</td>
+                            <td>88.4</td>
+                            <td>92.4</td>
+                            <td>86.0</td>
+                            <td>88.4</td>
                             <td>Yes</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT and PennDOT, 2023</small><br />
+            <small>Source: NJ DOT and PennDOT, 2024</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Freight Reliability</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2018-2021 Four-Year Performance</th>
-                        <th colspan="2">2018-2021 Four-Year Target</th>
+                        <th colspan="2">2022-2025 Two-Year Performance</th>
+                        <th colspan="2">2022-2025 Two-Year Target</th>
                         <th colspan="2">Target Met?</th>
+                        <th colspan="2">Adjusted 4-year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -876,17 +880,18 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Truck Travel Time Reliability</td>
-                            <td>1.56</td>
-                            <td>1.3</td>
-                            <td>1.95</td>
-                            <td>1.4</td>
+                            <td>1.65</td>
+                            <td>1.30</td>
+                            <td>1.90</td>
+                            <td>1.40</td>
                             <td>Yes</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT and PennDOT, 2023</small><br />
+            <small>Source: NJ DOT and PennDOT, 2024</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion - Peak-Hour Excessive Delay</h4>
             <div class="table-overflow-wrapper">
@@ -896,6 +901,7 @@ const ref = {
                         <th>2022-2023 Two-Year Performance</th>
                         <th>2022-2023 Two-Year Target</th>
                         <th>Target Met?</th>
+                        <th colspan="2">Adjusted 4-year Target</th>
                     </thead>
                     <tbody>
                         <tr>
@@ -903,24 +909,28 @@ const ref = {
                             <td>13.9</td>
                             <td>15.2</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: New York City UZA</td>
                             <td>19.8</td>
                             <td>22.0</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Trenton UZA</td>
                             <td>4.4</td>
                             <td>5.7</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Allentown UZA</td>
                             <td>6.9</td>
                             <td>8.4</td>
                             <td>Yes</td>
+                            <td colspan="2">Not Adjusted</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1059,6 +1069,10 @@ const ref = {
                 <div class="dates-entry dates-entry-right">
                     <span class="dates-circle dates-circle-right"></span>
                     <p class="dates-entry-text"><strong>October 1, 2022</strong><br />Full Performance Period Progress Report for 1<sup>st</sup> performance period due. State DOTs report four-year condition/performance and progress toward achieving four-year targets. Baseline report due for 2<sup>nd</sup> performance period. State DOTs report two- and four-year targets and baseline condition.</p>
+                </div>
+                <div class="dates-entry dates-entry-left">
+                    <span class="dates-circle dates-circle-left"></span>
+                    <p class="dates-entry-text"><strong>October 1, 2024</strong><br />Mid Performance Period Progress Report for 2nd Performance Period (due to FHWA by Oct 1, 2024)</p>
                 </div>
             </article>
 
