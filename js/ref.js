@@ -604,21 +604,21 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Interstate that are Reliable</td>
-                            <td>94%</td>
+                            <td>94.0%</td>
                             <td>92.8%</td>
-                            <td>82%</td>
+                            <td>82.0%</td>
                             <td>89.5%</td>
-                            <td>83%</td>
+                            <td>83.0%</td>
                             <td>89.5%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% of Person Miles Traveled on the Non-Interstate NHS that are Reliable</td>
-                            <td>95.2%</td>
+                            <td>92.2%</td>
                             <td>92.6%</td>
-                            <td>85%</td>
-                            <td>88%</td>
-                            <td>86%</td>
-                            <td>88%</td>
+                            <td>85.0%</td>
+                            <td>88.0%</td>
+                            <td>86.0%</td>
+                            <td>88.0%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -646,12 +646,12 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Truck Travel Time Reliability</td>
-                            <td>1.56</td>
-                            <td>1.3</td>
-                            <td>1.9</td>
-                            <td>1.4</td>
-                            <td>1.9</td>
-                            <td>1.4</td>
+                            <td>1.82</td>
+                            <td>1.30</td>
+                            <td>1.90</td>
+                            <td>1.40</td>
+                            <td>1.95</td>
+                            <td>1.40</td>
                         </tr>
                     </tbody>
                 </table>
