@@ -1075,7 +1075,7 @@ const ref = {
                     <p class="dates-entry-text"><strong>October 1, 2024</strong><br />Mid Performance Period Progress Report for 2nd Performance Period (due to FHWA by Oct 1, 2024)</p>
                 </div>
                 <div class="dates-entry dates-entry-right">
-                    <span class="dates-circle dates-circle-left"></span>
+                    <span class="dates-circle dates-circle-right"></span>
                     <p class="dates-entry-text"><strong>October 1, 2026</strong><br />Full Performance Period Progress Report (due Oct 1, 2026)</p>
                 </div>
             </article>
