@@ -1228,7 +1228,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Employee Injuries</td>
-                            <td class="table-cell-last">417 / 4.88<sup>***</sup></td>
+                            <td class="table-cell-last">417 / 4.88<sup>****</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
@@ -1257,7 +1257,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">389 / 5.32<sup>*</sup></td>
+                            <td class="table-cell-last">389 / 5.32<sup>****</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1265,7 +1265,8 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
             <small><sup>*</sup>per 1 Million Miles.</small><br />
             <small><sup>**</sup>per 100,000 Miles.</small><br />
-            <small><sup>***</sup>per 200,000 Work Hours.</small><br />
+            <small><sup>***</sup>per 100 Million Miles.</small><br />
+            <small><sup>****</sup>per 200,000 Work Hours.</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
