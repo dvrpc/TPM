@@ -1154,14 +1154,14 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">SEPTA</td>
-                            <td class="table-cell-last">13 / 16.26*<sup>*</sup></td>
+                            <td class="table-cell-last">13 / 16.26<sup>***</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA / PATCO </td>
-                            <td class="table-cell-last">0 / 0<sup>*</sup></td>
+                            <td class="table-cell-last">0 / 0<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
@@ -1169,12 +1169,12 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">2 / 1.74 <sup>**</sup></td>
+                            <td class="table-cell-last">2 / 1.74 <sup>*</sup></td>
 
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">5 / 0.064<sup>**</sup></td>
+                            <td class="table-cell-last">5 / 0.064<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1182,6 +1182,7 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
             <small><sup>*</sup>per 1 Million Miles.</small><br />
             <small><sup>**</sup>per 100,000 Miles.</small><br />
+            <small><sup>***</sup>Per 100 Million miles</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
@@ -1196,31 +1197,31 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">1,548 / 3,541<sup>*</sup></td>
+                            <td class="table-cell-last">1,548 / 3,541<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td class="table-cell-last">26 / 3,274<sup>*</sup></td>
+                            <td class="table-cell-last">26 / 3,274<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td class="table-cell-last">43 / 515<sup>*</sup></td>
+                            <td class="table-cell-last">43 / 515<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td class="table-cell-last">21 / 318<sup>*</sup></td>
+                            <td class="table-cell-last">21 / 318<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td class="table-cell-last">16 / 2,076<sup>*</sup></td>
+                            <td class="table-cell-last">16 / 2,076<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">115 / 4,665<sup>*</sup></td>
+                            <td class="table-cell-last">115 / 4,665<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">66 / 419<sup>*</sup></td>
+                            <td class="table-cell-last">66 / 419<sup>***</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
@@ -1256,7 +1257,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">389 / 5.32<sup>***</sup></td>
+                            <td class="table-cell-last">389 / 5.32<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1279,54 +1280,54 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">3,177 / 7,263<sup>*</sup></td>
+                            <td class="table-cell-last">3,177 / 7,263<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td class="table-cell-last">55 / 6,928<sup>*</sup></td>
+                            <td class="table-cell-last">55 / 6,928<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td class="table-cell-last">11 / 137<sup>*</sup></td>
+                            <td class="table-cell-last">11 / 137<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td class="table-cell-last">6 / 84<sup>*</sup></td>
+                            <td class="table-cell-last">6 / 84<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td class="table-cell-last">20 / 2,580<sup>*</sup></td>
+                            <td class="table-cell-last">20 / 2,580<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">268 / 10,739<sup>*</sup></td>
+                            <td class="table-cell-last">268 / 10,739<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">14 / 92<sup>*</sup></td>
+                            <td class="table-cell-last">14 / 92<sup>***</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Station Accidents</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td class="table-cell-last">100 / 2,747<sup>*</sup></td>
+                            <td class="table-cell-last">100 / 2,747<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td class="table-cell-last">25 / 1,064<sup>*</sup></td>
+                            <td class="table-cell-last">25 / 1,064<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td class="table-cell-last">4 / 1,525<sup>*</sup></td>
+                            <td class="table-cell-last">4 / 1,525<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">0 / 31<sup>*</sup></td>
+                            <td class="table-cell-last">0 / 31<sup>***</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">9 / 638<sup>*</sup></td>
+                            <td class="table-cell-last">9 / 638<sup>***</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Safety Events</td>
@@ -1356,29 +1357,29 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Safety Events</td>
-                            <td class="table-cell-last">50 / .91<sup>*</sup></td>
+                            <td class="table-cell-last">50 / .91<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">10 / 7.83<sup>**</sup></td>
+                            <td class="table-cell-last">10 / 7.83<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">261 / 3.57<sup>**</sup></td>
+                            <td class="table-cell-last">261 / 3.57<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Fire Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">1 / .87<sup>**</sup></td>
+                            <td class="table-cell-last">1 / .87<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">3 / .04<sup>**</sup></td>
+                            <td class="table-cell-last">3 / .04<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1386,6 +1387,7 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
             <small><sup>*</sup>per 1 Million Miles.</small><br />
             <small><sup>**</sup>per 100,000 Miles.</small><br />
+            <small><sup>***</sup>Per 100 Million miles</small><br />
             
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
             <div class="table-overflow-wrapper">
