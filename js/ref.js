@@ -762,7 +762,7 @@ const ref = {
                             <td>24.25</td>
                             <td>4.07</td>
                             <td>45.96</td>
-                            <td>2.06</td>
+                            <td>8.140</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
@@ -771,7 +771,7 @@ const ref = {
                             <td>9.51</td>
                             <td>51.28</td>
                             <td>17.49</td>
-                            <td>42.50</td>
+                            <td>102.560</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
@@ -780,7 +780,7 @@ const ref = {
                             <td>2.84</td>
                             <td>9.66</td>
                             <td>5.41</td>
-                            <td>69.31</td>
+                            <td>19.320</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1228,7 +1228,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Employee Injuries</td>
-                            <td class="table-cell-last">417 / 4.88<sup>****</sup></td>
+                            <td class="table-cell-last">417 / 4.88<sup>***</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
@@ -1257,7 +1257,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">389 / 5.32<sup>****</sup></td>
+                            <td class="table-cell-last">389 / 5.32<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1265,8 +1265,7 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
             <small><sup>*</sup>per 1 Million Miles.</small><br />
             <small><sup>**</sup>per 100,000 Miles.</small><br />
-            <small><sup>***</sup>per 100 Million Miles.</small><br />
-            <small><sup>****</sup>per 200,000 Work Hours.</small><br />
+            <small><sup>***</sup>per 200,000 Work Hours.</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
@@ -1389,6 +1388,7 @@ const ref = {
             <small><sup>*</sup>per 1 Million Miles.</small><br />
             <small><sup>**</sup>per 100,000 Miles.</small><br />
             <small><sup>***</sup>Per 100 Million miles</small><br />
+
             
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
             <div class="table-overflow-wrapper">
