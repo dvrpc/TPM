@@ -757,8 +757,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td></td>
-                            <td></td>
+                            <td>111.813</td>
+                            <td>33.019</td>
                             <td>24.25</td>
                             <td>4.07</td>
                             <td>45.96</td>
@@ -766,8 +766,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td></td>
-                            <td></td>
+                            <td>683.827</td>
+                            <td>928.699</td>
                             <td>9.51</td>
                             <td>51.28</td>
                             <td>17.49</td>
@@ -775,8 +775,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td></td>
-                            <td></td>
+                            <td>73.692</td>
+                            <td>217.099</td>
                             <td>2.84</td>
                             <td>9.66</td>
                             <td>5.41</td>
