@@ -76,7 +76,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In February 2024, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
+            <p>In January 2025, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
@@ -90,38 +90,38 @@ const ref = {
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>443.0</td>
-                            <td class="table-cell-last">418.8</td>
+                            <td>443.6</td>
+                            <td class="table-cell-last">405.4</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>1.150</td>
-                            <td class="table-cell-last">1.029</td>
+                            <td>1.151</td>
+                            <td class="table-cell-last">0.994</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Suspected Serious Injuries</td>
-                            <td>1,647.6</td>
-                            <td class="table-cell-last">1,543.8</td>
+                            <td>1,754.4</td>
+                            <td class="table-cell-last">1,484.5</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>4.279</td>
-                            <td class="table-cell-last">3.794</td>
+                            <td>4.540</td>
+                            <td class="table-cell-last">3.576</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
-                            <td>463.0</td>
-                            <td class="table-cell-last">408.0</td>
+                            <td>475.4</td>
+                            <td class="table-cell-last">407.3</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2023</small>
+            <small>Source: DVRPC 2025</small>
             <br /><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
-            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA. Since 2023 was the second year DVRPC set regional targets, rather than adopting the states' targets, we do not have complete data to report on progress toward achieving the regional targets. We will be able to report on progress since 2022 with next year's update.</p>
+            <p>If an MPO adopts regional targets, they must submit a progress report to the respective state DOT but are not required to report directly to FHWA.</p>
             <p>State DOTs report baseline values, targets, and progress toward meeting the targets to FHWA in an annual safety report. FHWA will determine whether a state has met or made significant progress toward its safety performance targets. A state is considered to have met or made significant progress when at least four out of the five safety performance targets are met or the actual outcome for the safety performance target is better than baseline performance.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">Meeting a Target</h4>
@@ -1461,8 +1461,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first"></th>
-                        <th>2021 Target</th>
-                        <th>2021 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -1471,8 +1471,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">SEPTA</td>
-                            <td>-- / 0.0173<sup>*</sup></td>
-                            <td>-- / 0.0358<sup>*</sup></td>
+                            <td>-- / 14.12<sup>*</sup></td>
+                            <td>13 / 16.50<sup>*</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -1480,8 +1480,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA / PATCO </td>
-                            <td>0 / 0<sup>*</sup></td>
-                            <td>0 / 0<sup>*</sup></td>
+                            <td>0 / 0<sup>**</sup></td>
+                            <td>0 / 0<sup>**</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="4"></td></tr>
@@ -1490,22 +1490,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>1 / 0.790<sup>**</sup></td>
+                            <td>2 / 1.74<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>4 / 0.055<sup>**</sup></td>
+                            <td>5 / 0.007<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC  2022</small><br />
-            <small><sup>*</sup>per 100,000 Miles.</small><br />
-            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small>Source: DVRPC  2024</small><br />
+            <small><sup>†</sup>per 1 Million Miles.</small><br />
+            <small><sup>*</sup>per 100 Million Miles.</small><br />
+            <small><sup>**</sup>per 100,000 Miles.</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small>
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries (Number / Rate)</h4>
@@ -1513,8 +1514,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first"></th>
-                        <th>2021 Target</th>
-                        <th>2021 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -1523,53 +1524,53 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>-- / 5.53<sup>*</sup></td>
-                            <td>-- / 2.62<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 3,794<sup>*</sup></td>
+                            <td>1,936 / 4,458<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>-- / 5.75<sup>*</sup></td>
-                            <td>-- / 2.27<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 3,962<sup>*</sup></td>
+                            <td>38 / 4,654<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>-- / 0.79<sup>*</sup></td>
-                            <td>-- / 0.37<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 524<sup>*</sup></td>
+                            <td>54 / 685<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>-- / 0.40<sup>*</sup></td>
-                            <td>-- / 0.35<sup>*</sup></td>
+                            <td>-- / 364<sup>*</sup></td>
+                            <td>16 / 241<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>-- / 3.48<sup>*</sup></td>
-                            <td>-- / 0.68<sup>*</sup></td>
+                            <td>-- / 2,197<sup>*</sup></td>
+                            <td>16 / 2,152<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>-- / 6.48<sup>*</sup></td>
-                            <td>-- / 3.16<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 4,890<sup>*</sup></td>
+                            <td>142 / 5,419<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>-- / 0.69<sup>*</sup></td>
-                            <td>-- / 0.16<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 494<sup>*</sup></td>
+                            <td>96 / 550<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Employee Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Employee Injuries</td>
-                            <td>-- / 3.28<sup>***</sup></td>
-                            <td>-- / 5.24<sup>***</sup></td>
+                            <td>-- / 4.43<sup>**</sup></td>
+                            <td>416 / 4.17<sup>**</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -1577,8 +1578,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>41 / 1<sup>*</sup></td>
-                            <td>14 / 0.31<sup>*</sup></td>
+                            <td>41 / 0.74<sup>**</sup></td>
+                            <td>14 / 0.34<sup>**</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -1586,13 +1587,13 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>4 / 3.18<sup>**</sup></td>
+                            <td>3 / 2.61<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>244 / 3.35<sup>**</sup></td>
+                            <td>160 / 2.25<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
@@ -1601,22 +1602,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>0 / 0<sup>*</sup></td>
+                            <td>1 / 0.87<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>423 / 7.99<sup>***</sup></td>
+                            <td>406 / 5.70<sup>***</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small><br />
-            <small><sup>*</sup>per 100,000 Miles.</small><br />
-            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small>Source: DVRPC 2024</small><br />
+            <small><sup>†</sup>per 1 Million Miles.</small><br />
+            <small><sup>*</sup>per 100 Million Miles.</small><br />
+            <small><sup>**</sup>per 100,000 Miles.</small><br />
             <small><sup>***</sup>per 200,000 Work Hours.</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small>
 
@@ -1625,8 +1627,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first"></th>
-                        <th>2021 Target</th>
-                        <th>2021 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -1635,77 +1637,77 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>-- / 8.18<sup>*</sup></td>
-                            <td>-- / 6.08<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 7,141<sup>*</sup></td>
+                            <td>3,458 / 7,692<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>-- / 9.51<sup>*</sup></td>
-                            <td>-- / 5.37<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 7,347<sup>*</sup></td>
+                            <td>63 / 7,716<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>-- / 0.09<sup>*</sup></td>
-                            <td>-- / 0.07<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 100<sup>*</sup></td>
+                            <td>19 / 241<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>-- / 0.07<sup>*</sup></td>
-                            <td>-- / 0.06<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 85<sup>*</sup></td>
+                            <td>6 / 90<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>-- / 2.30<sup>*</sup></td>
-                            <td>-- / 1.94<sup>*</sup></td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>-- / 2,370<sup>*</sup></td>
+                            <td>21 / 2,824<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>-- / 8.38<sup>*</sup></td>
-                            <td>-- / 8.94<sup>*</sup></td>
+                            <td>-- / 9,057<sup>*</sup></td>
+                            <td>340 / 12,976<sup>*</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>-- / 0.07<sup>*</sup></td>
-                            <td>-- / 0.09<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>-- / 90<sup>*</sup></td>
+                            <td>15 / 86<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Station Accidents</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>-- / 1.59<sup>*</sup></td>
-                            <td>-- / 2.77<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>-- / 3,513<sup>*</sup></td>
+                            <td>135 / 559<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>-- / 0.56<sup>*</sup></td>
-                            <td>-- / 1.09<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>-- / 1,275<sup>*</sup></td>
+                            <td>35 / 218<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>-- / 0.72<sup>*</sup></td>
-                            <td>-- / 0.93<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>-- / 1,644<sup>*</sup></td>
+                            <td>6 / 446<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>-- / 1.01<sup>*</sup></td>
-                            <td>-- / 0.00<sup>*</sup></td>
+                            <td>-- / 385<sup>*</sup></td>
+                            <td>1 / 93<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>-- / 0.95<sup>*</sup></td>
-                            <td>-- / 0.73<sup>*</sup></td>
+                            <td>-- / 914<sup>*</sup></td>
+                            <td>7 / 39<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -1713,27 +1715,27 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>595</td>
-                            <td>396</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>481</td>
+                            <td>510</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trolley Bus</td>
-                            <td>13</td>
-                            <td>13</td>
+                            <td>11</td>
+                            <td>8</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td>132</td>
-                            <td>143</td>
+                            <td>136</td>
+                            <td>193</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>104</td>
-                            <td>101</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>82</td>
+                            <td>110</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
@@ -1746,8 +1748,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Safety Events</td>
-                            <td>50 / 1<sup>*</sup></td>
-                            <td>14 / 0.31<sup>*</sup></td>
+                            <td>50 / 0.91<sup>**</sup></td>
+                            <td>27 / 0.66<sup>**</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -1755,13 +1757,13 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>12 / 9.53<sup>**</sup></td>
+                            <td>9 / 7.83<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>264 / 3.63<sup>**</sup></td>
+                            <td>222 / 3.12<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
@@ -1770,22 +1772,23 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>2 / 1.59<sup>**</sup></td>
+                            <td>1 / 0.87<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>12 / 0.16<sup>**</sup></td>
+                            <td>4 / 0.06<sup>†</sup></td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC  2022</small><br />
-            <small><sup>*</sup>per 100,000 Miles.</small><br />
-            <small><sup>**</sup>per 1 Million Miles.</small><br />
+            <small>Source: DVRPC 2024</small><br />
+            <small><sup>†</sup>per 1 Million Miles.</small><br />
+            <small><sup>*</sup>per 100 Million Miles.</small><br />
+            <small><sup>**</sup>per 100,000 Miles.</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small>
             
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
@@ -1793,8 +1796,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first"></th>
-                        <th>2021 Target</th>
-                        <th>2021 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -1803,39 +1806,39 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>85,000</td>
-                            <td>121,827</td>
+                            <td>105,314</td>
+                            <td>78,551</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>130,000</td>
-                            <td>139,280</td>
-                            <td class="table-cell-last">Yes</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>35,000</td>
-                            <td>28,224</td>
+                            <td>122,436</td>
+                            <td>176,380</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
+                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
+                            <td>32,306</td>
+                            <td>30,656</td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
                             <td class="table-cell-first">Light Rail (City)</td>
-                            <td>8,000</td>
-                            <td>19,154</td>
+                            <td>11,805</td>
+                            <td>8,015</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (MSHL)</td>
-                            <td>20,000</td>
-                            <td>22,707</td>
+                            <td>21,018</td>
+                            <td>11,572</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>30,000</td>
-                            <td>^</td>
-                            <td class="table-cell-last">^</td>
+                            <td>40,500</td>
+                            <td>41,434</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
@@ -1843,7 +1846,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">System</td>
                             <td>230<sup>****</sup></td>
-                            <td>142<sup>****</sup></td>
+                            <td>158<sup>****</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -1851,20 +1854,20 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>6,284</td>
+                            <td>19,084</td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>135.45<sup>**</sup></td>
+                            <td>6,313</td>
                             <td>NR</td>
                             <td class="table-cell-last">NR</td>
                         </tr>                  
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2022</small><br />
+            <small>Source: DVRPC 2024</small><br />
             <small><sup>****</sup>Total Failures</small><br />
             <small>^ Due to a malware attack, SEPTA was not able to accurately track in 2021</small><br />
             <small><em>Note</em>: SEPTA only submits rates to FTA, not numbers, for their Fatalities, Injuries, Vehicle Accidents, and Station Accidents targets. NJ Transit 2021 performance data was not reported (NR).</small><br />
@@ -2214,8 +2217,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -2232,7 +2235,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>10%</td>
-                            <td>9.2%</td>
+                            <td>9.7%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2305,26 +2308,26 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>47.37%</td>
-                            <td>40.16%</td>
+                            <td>37.98%</td>
+                            <td>37.40%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>23.6%</td>
-                            <td>20.8%</td>
+                            <td>18.32%</td>
+                            <td>12.11%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>24.8%</td>
-                            <td>39.26%</td>
+                            <td>58.84%</td>
+                            <td>59.27%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>58.15%</td>
-                            <td>63.03%</td>
+                            <td>36.43%</td>
+                            <td>72.01%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
@@ -2341,20 +2344,20 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>8.33%</td>
-                            <td>8.19%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>13.33%</td>
+                            <td>19.30%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
                             <td>0%</td>
-                            <td>0%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>10.99%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
                             <td>0%</td>
-                            <td>0%</td>
+                            <td>100%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2366,15 +2369,15 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -2384,20 +2387,20 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
                             <td>50%</td>
-                            <td>41%</td>
+                            <td>11.5%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>45%</td>
-                            <td>45%</td>
+                            <td>50%</td>
+                            <td>33.1%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
                             <td>50%</td>
-                            <td>50%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>50.6%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2405,9 +2408,9 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>20%</td>
-                            <td>16%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>19%</td>
+                            <td>32%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2416,33 +2419,33 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
                             <td>55.38%</td>
-                            <td>55.38%</td>
+                            <td>45.10%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>58.53%</td>
-                            <td>64.02%</td>
+                            <td>65.89%</td>
+                            <td>57.37%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
-                            <td>33.33%</td>
-                            <td>37.68%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>39.13%</td>
+                            <td>39.68%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -2451,8 +2454,8 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
-                            <td>3%</td>
-                            <td>3%</td>
+                            <td>5%</td>
+                            <td>4.8%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2484,27 +2487,27 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Passenger Facilities</td>
                             <td>4%</td>
-                            <td>2.94%</td>
+                            <td>0.80%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
                             <td>4%</td>
-                            <td>2.97%</td>
+                            <td>0.98%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small><br />
         
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2022 Target</th>
-                        <th>2022 Performance</th>
+                        <th>2023 Target</th>
+                        <th>2023 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -2514,13 +2517,13 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>10%</td>
-                            <td>3.5%</td>
+                            <td>3.1%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
                             <td>5%</td>
-                            <td>2.6%</td>
+                            <td>2.4%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2535,9 +2538,9 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td>0.34%</td>
-                            <td>0.34%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>0.38%</td>
+                            <td>1.63%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
@@ -2546,7 +2549,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>1.75%</td>
-                            <td>1.95%</td>
+                            <td>1.78%</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
@@ -2564,7 +2567,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2023</small>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2024</small>
             <br /><br />
         `,
     dates: `
