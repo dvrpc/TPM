@@ -1638,7 +1638,7 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>-- / 7,141<sup>*</sup></td>
-                            <td>3,458 / 7,692<sup>*</sup></td>
+                            <td>3,458 / 7,962<sup>*</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
