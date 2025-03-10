@@ -84,8 +84,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Regional <br /> Baseline<br /> <small>(2017 - 2021)</small></th>
-                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2019 - 2023)</small></th>
+                        <th>Regional <br /> Baseline<br /> <small>(2019 - 2023)</small></th>
+                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2021 - 2025)</small></th>
                     </thead>
                     <tbody>
                         <tr>
