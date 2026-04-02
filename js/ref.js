@@ -711,7 +711,7 @@ const ref = {
                             <td class="table-cell-first">% Non-SOV Travel: Philadelphia UZA</td>
                             <td>30.6%</td>
                             <td>30.0%</td>
-                            <td>30.0%</td>
+                            <td>33.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: New York City UZA</td>
@@ -723,7 +723,7 @@ const ref = {
                             <td class="table-cell-first">% Non-SOV Travel: Trenton UZA</td>
                             <td>26.4%</td>
                             <td>26.5%</td>
-                            <td>26.8%</td>
+                            <td>30.0%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Allentown-Bethlehem-Easton UZA</td>
