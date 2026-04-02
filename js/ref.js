@@ -76,7 +76,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>In January 2025, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
+            <p>In January 2026, the DVRPC Board adopted regional safety targets based on DVRPC’s Regional Vision Zero 2050 goal.</p>
             <p>If an MPO adopts regional targets, they must adopt targets that cover the entire MPO region. The adopted regional safety targets represent fatal and suspected serious injury data for the combined nine-county bi-state DVRPC region as required by FHWA. DVRPC agrees to plan and program projects that contribute toward meeting or exceeding the regional safety targets.</p>
             
             <h4 class="tpm-content-subheaders theme-font-color">DVRPC Nine-County Region</h4>
@@ -84,39 +84,39 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th>Regional <br /> Baseline<br /> <small>(2019 - 2023)</small></th>
-                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2021 - 2025)</small></th>
+                        <th>Regional <br /> Baseline<br /> <small>(2020 - 2024)</small></th>
+                        <th class="table-cell-last">Regional<br /> Target <br /> <small>(2022 - 2026)</small></th>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Number of Fatalities</td>
-                            <td>443.6</td>
-                            <td class="table-cell-last">405.4</td>
+                            <td>457.8</td>
+                            <td class="table-cell-last">439.1</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Fatalities<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>1.151</td>
-                            <td class="table-cell-last">0.994</td>
+                            <td>1.175</td>
+                            <td class="table-cell-last">1.090</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Suspected Serious Injuries</td>
-                            <td>1,754.4</td>
-                            <td class="table-cell-last">1,484.5</td>
+                            <td>1,822.4</td>
+                            <td class="table-cell-last">1,865.6</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Rate of Suspected Serious Injuries<br /><small>(Per 100 Mil VMT)</small></td>
-                            <td>4.540</td>
-                            <td class="table-cell-last">3.576</td>
+                            <td>4.679</td>
+                            <td class="table-cell-last">4.629</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Number of Non-Motorized Fatalities and Suspected Serious Injuries</td>
-                            <td>475.4</td>
-                            <td class="table-cell-last">407.3</td>
+                            <td>475.8</td>
+                            <td class="table-cell-last">513.0</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2025</small>
+            <small>Source: DVRPC 2026</small>
             <br /><br />
         `,
     how: `
