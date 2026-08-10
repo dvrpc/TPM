@@ -1204,96 +1204,118 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th></th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2" class="table-cell-last">2026 Target</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th class="table-cell-last">Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Total Fatalities</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Total Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">-- / 0.02<sup>*</sup></td>
+                            <td>17</td>
+                            <td class="table-cell-last">0.03<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">-- / 0.07<sup>*</sup></td>
+                            <td>13</td>
+                            <td class="table-cell-last">0.08<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">-- / 0.04<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0.01<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">-- / 0.01<sup>*</sup></td>
+                            <td>4</td>
+                            <td class="table-cell-last">0.01<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">-- / 0.00<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                                <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Fatalities</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">1 / 0.30<sup>*</sup></td>
+                            <td>0.3</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Total Fatalities</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Total Fatalities</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO </td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Transit Worker Fatalities</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Transit Worker Fatalities</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO </td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Fatalities</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">1 / 1.47 <sup>**</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">4 / 0.05<sup>**</sup></td>
+                            <td>3</td>
+                            <td class="table-cell-last">0.03<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Fatalities</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">0 / 0.00 <sup>**</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">0 / 0.00<sup>**</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>**</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1304,96 +1326,118 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th></th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2" class="table-cell-last">2026 Target</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th class="table-cell-last">Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Total Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Total Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">526 / 0.80<sup>*</sup></td>
+                            <td>539</td>
+                            <td class="table-cell-last">0.8<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">84 / 0.50<sup>*</sup></td>
+                            <td>82</td>
+                            <td class="table-cell-last">0.5<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">47 / 1.80<sup>*</sup></td>
+                            <td>55</td>
+                            <td class="table-cell-last">2<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">376 / 0.90<sup>*</sup></td>
+                            <td>380</td>
+                            <td class="table-cell-last">0.9<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">19 / 0.40<sup>*</sup></td>
+                            <td>21</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">105 / 0.20<sup>*</sup></td>
+                            <td>105</td>
+                            <td class="table-cell-last">0.2<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">6 / 0.00<sup>*</sup></td>
+                            <td>7</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">10 / 0.40<sup>*</sup></td>
+                            <td>9</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">84 / 0.20<sup>*</sup></td>
+                            <td>81</td>
+                            <td class="table-cell-last">0.2<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">5 / 0.10<sup>*</sup></td>
+                            <td>8</td>
+                            <td class="table-cell-last">0.1<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Total Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Total Injuries</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">21 / 0.46<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>21</td>
+                            <td class="table-cell-last">0.46<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Transit Worker Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Transit Worker Injuries</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">-- / 0.11<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>4</td>
+                            <td class="table-cell-last">0.09<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">3 / 3.06<sup>**</sup></td>
+                            <td>15</td>
+                            <td class="table-cell-last">1.69<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">401 / 5.30<sup>**</sup></td>
+                            <td>468</td>
+                            <td class="table-cell-last">4.52<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Injuries</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">1 / 1.10<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">0.21<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">-- / 0.87<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">0.75<sup>**</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1404,178 +1448,216 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th></th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2" class="table-cell-last">2026 Target</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th class="table-cell-last">Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Major NTD Safety Events</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Major NTD Safety Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">489 / 0.70<sup>*</sup></td>
+                            <td>515</td>
+                            <td class="table-cell-last">0.8<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">107 / 0.70<sup>*</sup></td>
+                            <td>107</td>
+                            <td class="table-cell-last">0.7<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">73 / 2.80<sup>*</sup></td>
+                            <td>94</td>
+                            <td class="table-cell-last">3.3<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">288 / 0.70<sup>*</sup></td>
+                            <td>289</td>
+                            <td class="table-cell-last">0.7<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">22 / 0.50<sup>*</sup></td>
+                            <td>26</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Total Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Total Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">351 / 0.30<sup>*</sup></td>
+                            <td>372</td>
+                            <td class="table-cell-last">0.4<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">23 / 0.10<sup>*</sup></td>
+                            <td>27</td>
+                            <td class="table-cell-last">0.2<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">60 / 2.30<sup>*</sup></td>
+                            <td>76</td>
+                            <td class="table-cell-last">2.7<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">247 / 0.60<sup>*</sup></td>
+                            <td>243</td>
+                            <td class="table-cell-last">0.6<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">21 / 0.50<sup>*</sup></td>
+                            <td>25</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Pedestrian Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Pedestrian Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">44 / 0.00<sup>*</sup></td>
+                            <td>45</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">15 / 0.10<sup>*</sup></td>
+                            <td>19</td>
+                            <td class="table-cell-last">0.1<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">5 / 0.20<sup>*</sup></td>
+                            <td>5</td>
+                            <td class="table-cell-last">0.2<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">22 / 0.10<sup>*</sup></td>
+                            <td>19</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">2 / 0.00<sup>*</sup></td>
+                            <td>2</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA Vehicular Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA Vehicular Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">276 / 0.30<sup>*</sup></td>
+                            <td>293</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">42 / 1.60<sup>*</sup></td>
+                            <td>59</td>
+                            <td class="table-cell-last">2.1<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">215 / 0.50<sup>*</sup></td>
+                            <td>212</td>
+                            <td class="table-cell-last">0.5<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">18 / 0.40<sup>*</sup></td>
+                            <td>21</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Major NTD Safety Events</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Major NTD Safety Events</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">29 / 0.63<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>6</td>
+                            <td class="table-cell-last">0.13<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Total Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Total Collisions</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>1</td>
+                            <td class="table-cell-last">0.02<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Pedestrian Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Pedestrian Collisions</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO Vehicular Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO Vehicular Collisions</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">0 / 0.00<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Major NTD Safety Events</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Major NTD Safety Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">19 / 20.10<sup>**</sup></td>
+                            <td>26</td>
+                            <td class="table-cell-last">2.9<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">509 / 6.73<sup>**</sup></td>
+                            <td>594</td>
+                            <td class="table-cell-last">5.75<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">10 / 10.68<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">1.08<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">292 / 3.87<sup>**</sup></td>
+                            <td>322</td>
+                            <td class="table-cell-last">2.18<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Pedestrian Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Pedestrian Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">1 / 1.10<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">0.28<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">-- / 0.15<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">0.27<sup>**</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT Vehicular Collisions</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Vehicular Collisions</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">9 / 10.10<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">0.59<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">-- / 3.29<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">2.18<sup>**</sup></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1587,58 +1669,58 @@ const ref = {
                 <table>
                     <thead>
                         <th></th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <th class="table-cell-last">2026 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td class="table-cell-last">95,411</td>
+                            <td class="table-cell-first">Heavy Rail: L (MFL)</td>
+                            <td class="table-cell-last">90,640</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Heavy Rail (BSL)</td>
+                            <td class="table-cell-first">Heavy Rail: B (BSL)</td>
                             <td class="table-cell-last">163,287</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td class="table-cell-last">34,431</td>
+                            <td class="table-cell-first">Heavy Rail: M (NHSL)</td>
+                            <td class="table-cell-last">34,180</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Light Rail (City)</td>
-                            <td class="table-cell-last">13,091</td>
+                            <td class="table-cell-first">Light Rail: T/G (City Trolley)</td>
+                            <td class="table-cell-last">12,436</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Light Rail (MSHL)</td>
-                            <td class="table-cell-last">14,919</td>
+                            <td class="table-cell-first">Light Rail: D (MSHL)</td>
+                            <td class="table-cell-last">14,162</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td class="table-cell-last">40,861</td>
+                            <td class="table-cell-last">40,906</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">31,377</td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td class="table-cell-last">34,478</td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">4,440</td>
+                            <td class="table-cell-last">4,341</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">5,874</td>
-                        </tr>                  
+                            <td class="table-cell-last">6,978.81</td>
+                        </tr>
                     </tbody> 
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1649,55 +1731,69 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th></th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2" class="table-cell-last">2026 Target</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th class="table-cell-last">Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td class="table-cell-last">250 / 0.40<sup>*</sup></td>
+                            <td>417</td>
+                            <td class="table-cell-last">0.6<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td class="table-cell-last">22 / 0.10<sup>*</sup></td>
+                            <td>42</td>
+                            <td class="table-cell-last">0.3<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td class="table-cell-last">14 / 0.50<sup>*</sup></td>
+                            <td>29</td>
+                            <td class="table-cell-last">1<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">209 / 0.50<sup>*</sup></td>
+                            <td>337</td>
+                            <td class="table-cell-last">0.8<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td class="table-cell-last">5 / 0.10<sup>*</sup></td>
+                            <td>9</td>
+                            <td class="table-cell-last">0.1<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td class="table-cell-last">22 / 0.55<sup>*</sup></td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td class="table-cell-last">0 / 0.00<sup>**</sup></td>
+                            <td>1</td>
+                            <td class="table-cell-last">0.21<sup>**</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">6 / 0.07<sup>**</sup></td>
-                        </tr>                  
+                            <td>14</td>
+                            <td class="table-cell-last">0.12<sup>**</sup></td>
+                        </tr>
                     </tbody> 
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1714,130 +1810,170 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first"></th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2">2025 Target</th>
+                            <th colspan="2">2025 Performance</th>
+                            <th rowspan="2" class="table-cell-last">Target Achieved?</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th>Rate</th>
+                            <th>Total</th>
+                            <th>Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Total Fatalities</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Total Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td>13 / 0.02<sup>*</sup></td>
-                            <td>16 / 0.03<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>N/A</td>
+                            <td>0.02<sup>*</sup></td>
+                            <td>16</td>
+                            <td>0.02<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>N/A</td>
+                            <td>0.07<sup>*</sup></td>
+                            <td>12</td>
+                            <td>0.08<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>N/A</td>
+                            <td>0.04<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>N/A</td>
+                            <td>0.01<sup>*</sup></td>
+                            <td>4</td>
+                            <td>0.01<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>N/A</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Fatalities</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0.3</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Total Fatalities</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Total Fatalities</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO </td>
-                            <td>0 / 0.00<sup>*</sup></td>
-                            <td>2 / 0.04<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Transit Worker Fatalities</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Transit Worker Fatalities</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO </td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ Transit Total Fatalities</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>2 / 1.74<sup>**</sup></td>
-                            <td>DNR</td>
-                            <td class="table-cell-last">DNR</td>
+                            <td>1</td>
+                            <td>1.47<sup>**</sup></td>
+                            <td>1</td>
+                            <td>0.11<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>5 / 0.06<sup>**</sup></td>
-                            <td>DNR</td>
-                            <td class="table-cell-last">DNR</td>
+                            <td>4</td>
+                            <td>0.05<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ Transit Worker Fatalities</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Fatalities</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>**</sup></td>
+                            <td>0</td>
+                            <td>0<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1848,130 +1984,170 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first"></th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2">2025 Target</th>
+                            <th colspan="2">2025 Performance</th>
+                            <th rowspan="2" class="table-cell-last">Target Achieved?</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th>Rate</th>
+                            <th>Total</th>
+                            <th>Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Total Injuries</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Total Injuries</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td>488 / 0.70<sup>*</sup></td>
-                            <td>561 / 0.90<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>526</td>
+                            <td>0.8<sup>*</sup></td>
+                            <td>550</td>
+                            <td>0.8<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td>91 / 0.60<sup>*</sup></td>
-                            <td>74 / 0.50<sup>*</sup></td>
+                            <td>84</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td>81</td>
+                            <td>0.5<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>37 / 1.50<sup>*</sup></td>
-                            <td>59 / 2.10<sup>*</sup></td>
+                            <td>47</td>
+                            <td>1.8<sup>*</sup></td>
+                            <td>56</td>
+                            <td>1.9<sup>*</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>347 / 0.80<sup>*</sup></td>
-                            <td>406 / 1.00<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>376</td>
+                            <td>0.9<sup>*</sup></td>
+                            <td>389</td>
+                            <td>0.9<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td>13 / 0.20<sup>*</sup></td>
-                            <td>22 / 0.60<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Injuries</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">All modes</td>
-                            <td>94 / 0.10<sup>*</sup></td>
-                            <td>112 / 0.20<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DR/PT</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Total Injuries</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>41 / 0.74<sup>**</sup></td>
-                            <td>26 / 0.58<sup>**</sup></td>
+                            <td>19</td>
+                            <td>0.4<sup>*</sup></td>
+                            <td>24</td>
+                            <td>0.3<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Transit Worker Injuries</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Transit Worker Injuries</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Injuries</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-first">All modes</td>
+                            <td>105</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td>110</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Injuries</td>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>6</td>
+                            <td>0<sup>*</sup></td>
+                            <td>6</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>10</td>
+                            <td>0.4<sup>*</sup></td>
+                            <td>6</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>84</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td>87</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DR/PT</td>
+                            <td>5</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td>11</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Total Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>21</td>
+                            <td>0.46<sup>*</sup></td>
+                            <td>24</td>
+                            <td>0.51<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Transit Worker Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>N/A</td>
+                            <td>0.11<sup>*</sup></td>
+                            <td>4</td>
+                            <td>0.08<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>3</td>
+                            <td>3.06<sup>**</sup></td>
+                            <td>12</td>
+                            <td>1.35<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>401</td>
+                            <td>5.30<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Injuries</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>1</td>
+                            <td>1.10<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>0.45<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>N/A</td>
+                            <td>0.87<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -1982,244 +2158,316 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first"></th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2">2025 Target</th>
+                            <th colspan="2">2025 Performance</th>
+                            <th rowspan="2" class="table-cell-last">Target Achieved?</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th>Rate</th>
+                            <th>Total</th>
+                            <th>Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Major NTD Safety Events</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Major NTD Safety Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td>479 / 0.70<sup>*</sup></td>
-                            <td>501 / 0.80<sup>*</sup></td>
+                            <td>489</td>
+                            <td>0.7<sup>*</sup></td>
+                            <td>542</td>
+                            <td>0.8<sup>*</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td>116 / 0.70<sup>*</sup></td>
-                            <td>98 / 0.60<sup>*</sup></td>
+                            <td>107</td>
+                            <td>0.7<sup>*</sup></td>
+                            <td>97</td>
+                            <td>0.6<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>72 / 2.90<sup>*</sup></td>
-                            <td>80 / 2.80<sup>*</sup></td>
+                            <td>73</td>
+                            <td>2.8<sup>*</sup></td>
+                            <td>116</td>
+                            <td>3.9<sup>*</sup></td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>277 / 0.60<sup>*</sup></td>
-                            <td>293 / 0.70<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
+                            <td>288</td>
+                            <td>0.7<sup>*</sup></td>
+                            <td>301</td>
+                            <td>0.7<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td>14 / 0.20<sup>*</sup></td>
-                            <td>30 / 0.80<sup>*</sup></td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Total Collisions</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">All modes</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DR/PT</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Pedestrian Collisions</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">All modes</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DR/PT</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA Vehicular Collisions</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">All modes</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Heavy Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DR/PT</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Major NTD Safety Events</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>50 / 0.91<sup>*</sup></td>
-                            <td>24 / 0.54<sup>*</sup></td>
+                            <td>22</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td>28</td>
+                            <td>0.3<sup>*</sup></td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Total Collisions</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Total Collisions</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Pedestrian Collisions</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO Vehicular Collisions</td>
+                            <td class="table-cell-first">All modes</td>
+                            <td>351</td>
+                            <td>0.3<sup>*</sup></td>
+                            <td>394</td>
+                            <td>0.6<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Major NTD Safety Events</td>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>23</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td>31</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>60</td>
+                            <td>2.3<sup>*</sup></td>
+                            <td>91</td>
+                            <td>3<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>NPR</td>
-                            <td>NPR</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Collisions</td>
+                            <td>247</td>
+                            <td>0.6<sup>*</sup></td>
+                            <td>245</td>
+                            <td>0.6<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>10 / 7.83<sup>**</sup></td>
-                            <td>DNR</td>
-                            <td class="table-cell-last">DNR</td>
+                            <td class="table-cell-first">DR/PT</td>
+                            <td>21</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td>27</td>
+                            <td>0.3<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Pedestrian Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">All modes</td>
+                            <td>44</td>
+                            <td>0<sup>*</sup></td>
+                            <td>50</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>15</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td>23</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>5</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td>6</td>
+                            <td>0.2<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>261 / 3.57<sup>**</sup></td>
-                            <td>DNR</td>
-                            <td class="table-cell-last">DNR</td>
-                        </tr>
-                        <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Pedestrian Collisions</td>
+                            <td>22</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td>19</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-first">DR/PT</td>
+                            <td>2</td>
+                            <td>0<sup>*</sup></td>
+                            <td>2</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA Vehicular Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">All modes</td>
+                            <td>276</td>
+                            <td>0.3<sup>*</sup></td>
+                            <td>317</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail</td>
+                            <td>42</td>
+                            <td>1.6<sup>*</sup></td>
+                            <td>78</td>
+                            <td>2.6<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>215</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td>216</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DR/PT</td>
+                            <td>18</td>
+                            <td>0.4<sup>*</sup></td>
+                            <td>23</td>
+                            <td>0.3<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT Vehicular Collisions</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Major NTD Safety Events</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>29</td>
+                            <td>0.63<sup>*</sup></td>
+                            <td>1</td>
+                            <td>0.02<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Total Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Pedestrian Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO Vehicular Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Major NTD Safety Events</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>19</td>
+                            <td>20.1<sup>**</sup></td>
+                            <td>46</td>
+                            <td>5.16<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>509</td>
+                            <td>6.73<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>10</td>
+                            <td>10.68<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>1.57<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>292</td>
+                            <td>3.87<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Pedestrian Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>1</td>
+                            <td>1.1<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>0.45<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>N/A</td>
+                            <td>0.15<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
+                        </tr>
+                        <tr class="table-cell-no-border">
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT Vehicular Collisions</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail (River Line)</td>
+                            <td>9</td>
+                            <td>10.1<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>0.9<sup>**</sup></td>
+                            <td class="table-cell-last">Yes</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Bus</td>
+                            <td>N/A</td>
+                            <td>3.29<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -2231,8 +2479,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first"></th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
+                        <th>2025 Target</th>
+                        <th>2025 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
@@ -2240,48 +2488,48 @@ const ref = {
                             <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Heavy Rail (MFL)</td>
-                            <td>105,394</td>
-                            <td>48,092</td>
+                            <td class="table-cell-first">Heavy Rail: L (MFL)</td>
+                            <td>95,411</td>
+                            <td>91,524</td>
                             <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Heavy Rail (BSL)</td>
-                            <td>152,918</td>
-                            <td>183,769</td>
+                            <td class="table-cell-first">Heavy Rail: B (BSL)</td>
+                            <td>163,287</td>
+                            <td>93,612</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Heavy Rail: M (NHSL)</td>
+                            <td>34,431</td>
+                            <td>25,273</td>
+                            <td class="table-cell-last">No</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Light Rail: T/G (City Trolley)</td>
+                            <td>13,091</td>
+                            <td>16,197</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Heavy Rail (NHSL)</td>
-                            <td>35,424</td>
-                            <td>27,980</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail (City Trolley)</td>
-                            <td>16,359</td>
-                            <td>7,066</td>
-                            <td class="table-cell-last">No</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Light Rail (MSHL)</td>
-                            <td>16,625</td>
-                            <td>15,701</td>
-                            <td class="table-cell-last">No</td>
+                            <td class="table-cell-first">Light Rail: D (MSHL)</td>
+                            <td>14,919</td>
+                            <td>15,179</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
-                            <td>43,032</td>
-                            <td>40,191</td>
-                            <td class="table-cell-last">No</td>
+                            <td>40,861</td>
+                            <td>43,733</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>23,936</td>
-                            <td>36,737</td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>31,377</td>
+                            <td>36,111</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
@@ -2289,20 +2537,20 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>19,084</td>
-                            <td>DNR</td>
-                            <td>DNR</td>
+                            <td>4,440</td>
+                            <td>4,135</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>6,096</td>
-                            <td>DNR</td>
-                            <td>DNR</td>
-                        </tr>                  
+                            <td>5,874</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -2313,73 +2561,97 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first"></th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
-                        <th class="table-cell-last">Target Achieved?</th>
+                        <tr>
+                            <th rowspan="2" class="table-cell-first">National Transit Database Category</th>
+                            <th colspan="2">2025 Target</th>
+                            <th colspan="2">2025 Performance</th>
+                            <th rowspan="2" class="table-cell-last">Target Achieved?</th>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <th>Rate</th>
+                            <th>Total</th>
+                            <th>Rate</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">All modes</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>250</td>
+                            <td>0.4<sup>*</sup></td>
+                            <td>529</td>
+                            <td>0.8<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>22</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td>64</td>
+                            <td>0.4<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>14</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td>49</td>
+                            <td>1.6<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>209</td>
+                            <td>0.5<sup>*</sup></td>
+                            <td>406</td>
+                            <td>1<sup>*</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DR/PT</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>5</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td>10</td>
+                            <td>0.1<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">DRPA / PATCO</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td class="table-cell-first">DRPA/PATCO</td>
+                            <td>25</td>
+                            <td>0.55<sup>*</sup></td>
+                            <td>0</td>
+                            <td>0<sup>*</sup></td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="6" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
+                            <td>0</td>
+                            <td>0<sup>**</sup></td>
+                            <td>4</td>
+                            <td>0.45<sup>**</sup></td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>New</td>
-                            <td>New</td>
-                            <td class="table-cell-last">n/a</td>
-                        </tr>                  
+                            <td>6</td>
+                            <td>0.07<sup>**</sup></td>
+                            <td>N/A</td>
+                            <td>N/A</td>
+                            <td class="table-cell-last">N/A</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>New = New measure for 2025</small><br />
             <small>DNR = Did Not Report</small><br />
             <small>NPR = Not Previously Reported</small><br />
@@ -2458,10 +2730,9 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <th class="table-cell-last">2026 Target</th>
                     </thead>
                     <tbody>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
@@ -2471,11 +2742,11 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">10.00%</td>
+                            <td class="table-cell-last">17.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Car</td>
-                            <td class="table-cell-last">0.00%</td>
+                            <td class="table-cell-last">37.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
@@ -2505,15 +2776,13 @@ const ref = {
                             <td class="table-cell-first">Vintage Trolley/Streetcar</td>
                             <td class="table-cell-last">100.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
                             <td class="table-cell-last">0.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
@@ -2527,11 +2796,11 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td class="table-cell-last">6.87%</td>
+                            <td class="table-cell-last">0.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td class="table-cell-last">93.15%</td>
+                            <td class="table-cell-last">99.28%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
@@ -2547,7 +2816,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td class="table-cell-last">19.77%</td>
+                            <td class="table-cell-last">18.23%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Passenger Coach</td>
@@ -2557,17 +2826,21 @@ const ref = {
                             <td class="table-cell-first">Commuter Rail Self-Propelled Passenger Car</td>
                             <td class="table-cell-last">100.00%</td>
                         </tr>
+                        <tr>
+                            <td class="table-cell-first">Sports Utility Vehicle</td>
+                            <td class="table-cell-last">0.00%</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first table-cell-auto">National Transit Database Category</th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <th class="table-cell-last">2026 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -2575,35 +2848,33 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
-                            <td class="table-cell-last">25.00%</td>
+                            <td class="table-cell-last">20.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">50.00%</td>
+                            <td class="table-cell-last">45.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
                             <td class="table-cell-last">55.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td class="table-cell-last">16.00%</td>
+                            <td class="table-cell-last">17.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
-                            <td class="table-cell-last">25.00%</td>
+                            <td class="table-cell-last">49.33%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td class="table-cell-last">51.48%</td>
+                            <td class="table-cell-last">56.43%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Steel Wheel Vehicles</td>
@@ -2612,62 +2883,60 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <th class="table-cell-last">2026 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-first">Passenger/Parking Facilities</td>
                             <td class="table-cell-last">10.00%</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td class="table-cell-first">Administrative /Maintenance Facilities</td>
                             <td class="table-cell-last">5.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-first">Passenger/Parking Facilities</td>
                             <td class="table-cell-last">0.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
                             <td class="table-cell-last">0.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td class="table-cell-last">0.26%</td>
+                            <td class="table-cell-first">Passenger/Parking Facilities</td>
+                            <td class="table-cell-last">1.00%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td class="table-cell-last">0.00%</td>
+                            <td class="table-cell-last">1.00%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
         
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th class="table-cell-last">2025 Target</th>
+                        <th class="table-cell-last">2026 Target</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
@@ -2685,15 +2954,13 @@ const ref = {
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td class="table-cell-last">3.00%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td class="table-cell-last">0.37%</td>
+                            <td class="table-cell-last">0.19%</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="2"></td></tr>
                         <tr class="table-cell-no-border">
                             <td colspan="2" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
@@ -2712,7 +2979,7 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small>
             <br /><br />
             `,
     how: `
@@ -2726,14 +2993,13 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
+                        <th>2025 Target</th>
+                        <th>2025 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
@@ -2750,8 +3016,8 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Car</td>
                             <td>0.00%</td>
-                            <td>0.00%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>37.00%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail Vehicle</td>
@@ -2779,7 +3045,7 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>3.00%</td>
+                            <td>0.00%</td>
                             <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
@@ -2795,9 +3061,8 @@ const ref = {
                             <td>100.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA / PATCO</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail Passenger Vehicle</td>
@@ -2805,9 +3070,8 @@ const ref = {
                             <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Articulated Bus</td>
@@ -2817,26 +3081,26 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobile</td>
-                            <td>37.01%</td>
-                            <td>36.80%</td>
+                            <td>100.00%</td>
+                            <td>100.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Over-the-Road Bus</td>
-                            <td>6.89%</td>
-                            <td>0.47%</td>
+                            <td>6.87%</td>
+                            <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
-                            <td>88.39%</td>
-                            <td>85.20%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>93.15%</td>
+                            <td>99.38%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Cutaway Car</td>
-                            <td>64.95%</td>
                             <td>35.71%</td>
+                            <td>35.64%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2847,14 +3111,14 @@ const ref = {
                         </tr>
                         <tr>
                             <td class="table-cell-first">Minivan</td>
-                            <td>0.00%</td>
-                            <td>0.00%</td>
+                            <td>100.00%</td>
+                            <td>100.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail Locomotive</td>
-                            <td>18.32%</td>
-                            <td>18.13%</td>
+                            <td>19.77%</td>
+                            <td>16.67%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2872,31 +3136,31 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percentage of Support Equipment That Have Met or Exceeded Their Useful Life Benchmark</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
+                        <th>2025 Target</th>
+                        <th>2025 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
                             <td>25.00%</td>
-                            <td>8.60%</td>
+                            <td>7.60%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
                             <td>50.00%</td>
-                            <td>32.40%</td>
+                            <td>26.10%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2905,30 +3169,28 @@ const ref = {
                             <td>48.80%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Support Equipment</td>
-                            <td>34.00%</td>
-                            <td>9.00%</td>
+                            <td>16.00%</td>
+                            <td>13.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Automobiles</td>
-                            <td>45.10%</td>
-                            <td>24.32%</td>
+                            <td>25.00%</td>
+                            <td>13.33%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Trucks and Other Rubber Tire Vehicles</td>
-                            <td>57.71%</td>
-                            <td>45.86%</td>
+                            <td>51.48%</td>
+                            <td>43.67%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
@@ -2940,39 +3202,38 @@ const ref = {
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Facilities Rated Below 3 on the TERM Scale</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
+                        <th>2025 Target</th>
+                        <th>2025 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-first">Passenger/Parking Facilities</td>
                             <td>10.00%</td>
                             <td>9.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Administrative/Maintenance Facilities</td>
+                            <td class="table-cell-first">Administrative /Maintenance Facilities</td>
                             <td>5.00%</td>
                             <td>3.60%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
+                            <td class="table-cell-first">Passenger/Parking Facilities</td>
                             <td>0.00%</td>
                             <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
@@ -2983,92 +3244,91 @@ const ref = {
                             <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
-                        <tr class="table-cell-no-border"><td colspan="3"></td></tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Passenger Facilities</td>
-                            <td>0.80%</td>
+                            <td class="table-cell-first">Passenger/Parking Facilities</td>
                             <td>0.26%</td>
+                            <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Administrative/Maintenance Facilities</td>
-                            <td>0.95%</td>
+                            <td>0.00%</td>
                             <td>0.00%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small><br />
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
         
             <h4 class="tpm-content-subheaders theme-font-color">Percent of Track Segments with Performance Restrictions</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
                         <th class="table-cell-first">National Transit Database Category</th>
-                        <th>2024 Target</th>
-                        <th>2024 Performance</th>
+                        <th>2025 Target</th>
+                        <th>2025 Performance</th>
                         <th class="table-cell-last">Target Achieved?</th>
                     </thead>
                     <tbody>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">SEPTA</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">SEPTA</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>10.00%</td>
-                            <td>2.90%</td>
+                            <td>1.93%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Heavy Rail</td>
                             <td>5.00%</td>
-                            <td>5.20%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>3.21%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Streetcar Rail</td>
                             <td>3.00%</td>
-                            <td>0.70%</td>
+                            <td>1.09%</td>
                             <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">DRPA/PATCO</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">DRPA/PATCO</td>
-                            <td>0.46%</td>
-                            <td>0.07%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>0.37%</td>
+                            <td>0.06%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr class="table-cell-no-border">
-                            <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
+                            <td colspan="4" class="table-nested-header-first theme-font-color">NJ TRANSIT</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Commuter Rail</td>
                             <td>1.75%</td>
-                            <td>1.74%</td>
-                            <td class="table-cell-last">No</td>
+                            <td>1.03%</td>
+                            <td class="table-cell-last">Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Light Rail</td>
-                            <td>2.38%</td>
-                            <td>0.95%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>0.00%</td>
+                            <td>0.48%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Hybrid Rail</td>
-                            <td>0.18%</td>
-                            <td>0.18%</td>
-                            <td class="table-cell-last">Yes</td>
+                            <td>0.00%</td>
+                            <td>0.09%</td>
+                            <td class="table-cell-last">No</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2025</small>
+            <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small>
             <br /><br />
         `,
     dates: `
