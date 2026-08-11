@@ -1316,9 +1316,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
 
@@ -1438,9 +1436,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
 
@@ -1658,9 +1654,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
             
@@ -1721,9 +1715,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
 
@@ -1794,9 +1786,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
         `,
@@ -1974,9 +1964,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
 
@@ -2148,9 +2136,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
 
@@ -2468,9 +2454,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
             
@@ -2551,9 +2535,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
 
@@ -2652,9 +2634,7 @@ const ref = {
                 </table>
             </div>
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
-            <small>New = New measure for 2025</small><br />
-            <small>DNR = Did Not Report</small><br />
-            <small>NPR = Not Previously Reported</small><br />
+            <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
             <small><sup>**</sup>per 1 million VRM</small><br />
         `,
