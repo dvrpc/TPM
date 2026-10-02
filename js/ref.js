@@ -364,8 +364,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2021-2024 Four-Year Performance</th>
-                        <th colspan="2">2021-2024 Four-Year Target</th>
+                        <th colspan="2">2018-2021 Four-Year Performance</th>
+                        <th colspan="2">2018-2021 Four-Year Target</th>
                         <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
@@ -406,8 +406,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure<sup>1</sup></th>
-                        <th colspan="2">2021-2024 Four-Year Performance</th>
-                        <th colspan="2">2021-2024 Four-Year Target</th>
+                        <th colspan="2">2018-2021 Four-Year Performance</th>
+                        <th colspan="2">2018-2021 Four-Year Target</th>
                         <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
@@ -456,8 +456,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2021-2024 Four-Year Performance</th>
-                        <th colspan="2">2021-2024 Four-Year Target</th>
+                        <th colspan="2">2018-2021 Four-Year Performance</th>
+                        <th colspan="2">2018-2021 Four-Year Target</th>
                         <th colspan="2">Target Met?</th>
                     </thead>
                     <tbody>
@@ -581,7 +581,7 @@ const ref = {
         `,
     targets: `
             <h3 class="tpm-content-section-header theme-font-color">What Are The Targets?</h3>
-            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT's and NJ DOT's statewide system performance targets. These are the original targets developed at the beginning of the performance period.</p>
+            <p>DVRPC agrees to plan and program projects that contribute toward meeting or exceeding PennDOT's and NJ DOT's statewide system performance targets. These are the original targets developed at the beginning of the third performance period. Due to the change in UA boundaries between the 2010 and 2020 Census, the Allentown UA was no longer included in the DVRPC Region for the third performance period. The Philadelphia UA no longer includes parts of the LVPC region or the LATS region but is included in the RATS MPO area. As a result consultation was no longer required with LVPC for the Allentown UA or LATS for the Philadelphia UA but is required to include RATS for that MPOs portion of the Philadelphia UA.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability</h4>
             <div class="table-overflow-wrapper">
@@ -662,130 +662,124 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2021 Baseline</th>
-                        <th>2023 Two-Year Target</th>
-                        <th>2025 Four-Year Target</th>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th>2025 Baseline</th>
+                            <th>2027 Two-Year Target</th>
+                            <th>2029 Four-Year Target</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Philadelphia UZA</td>
-                            <td>13.1</td>
-                            <td>15.2</td>
-                            <td>15.1</td>
+                            <td>15.6</td>
+                            <td>16.9</td>
+                            <td>16.8</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: New York City UZA</td>
-                            <td>20.9</td>
-                            <td>22.0</td>
-                            <td>21.0</td>
+                            <td>24.0</td>
+                            <td>24.0</td>
+                            <td>24.0</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Trenton UZA</td>
-                            <td>3.4</td>
-                            <td>5.7</td>
-                            <td>5.7</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Allentown-Bethlehem-Easton UZA</td>
-                            <td>7.1</td>
                             <td>8.4</td>
-                            <td>8.4</td>
+                            <td>10.0</td>
+                            <td>9.9</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2023</small><br />
+            <small>Source: DVRPC 2026</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2021 Baseline</th>
-                        <th>2023 Two-Year Target</th>
-                        <th>2025 Four-Year Target</th>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th>2025 Baseline</th>
+                            <th>2027 Two-Year Target</th>
+                            <th>2029 Four-Year Target</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Philadelphia UZA</td>
-                            <td>30.6%</td>
-                            <td>30.0%</td>
-                            <td>33.0%</td>
+                            <td>38.1%</td>
+                            <td>36.0%</td>
+                            <td>36.1%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: New York City UZA</td>
-                            <td>52.4%</td>
-                            <td>52.4%</td>
-                            <td>52.5%</td>
+                            <td>56.3%</td>
+                            <td>55.7%</td>
+                            <td>55.8%</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Trenton UZA</td>
-                            <td>26.4%</td>
-                            <td>26.5%</td>
-                            <td>30.0%</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">% Non-SOV Travel: Allentown-Bethlehem-Easton UZA</td>
-                            <td>19.7%</td>
-                            <td>18.6%</td>
-                            <td>18.6%</td>
+                            <td>37.1%</td>
+                            <td>35.0%</td>
+                            <td>35.1%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2023</small>
+            <small>Source: DVRPC 2026</small><br />
 
-            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions (DVRPC Counties)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2021 Baseline</th>
-                        <th colspan="2">2023 Two-Year Target</th>
-                        <th colspan="2">2025 Four-Year Target</th>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th colspan="2">2025 Baseline</th>
+                            <th colspan="2">2027 Two-Year Target</th>
+                            <th colspan="2">2029 Four-Year Target</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
+                            <td class="table-cell-first"></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td>111.813</td>
-                            <td>33.019</td>
-                            <td>24.25</td>
-                            <td>4.07</td>
-                            <td>45.96</td>
-                            <td>8.140</td>
-                        </tr>
-                        <tr>
-                            <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td>683.827</td>
-                            <td>928.699</td>
-                            <td>9.51</td>
-                            <td>51.28</td>
-                            <td>17.49</td>
-                            <td>102.560</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td>73.692</td>
-                            <td>217.099</td>
-                            <td>2.84</td>
-                            <td>9.66</td>
-                            <td>5.41</td>
-                            <td>19.320</td>
+                            <td>10.183</td>
+                            <td>20.394</td>
+                            <td>2.073</td>
+                            <td>9.650</td>
+                            <td>3.729</td>
+                            <td>19.310</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
+                            <td>36.623</td>
+                            <td>158.946</td>
+                            <td>4.642</td>
+                            <td>75.830</td>
+                            <td>8.464</td>
+                            <td>151.670</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
+                            <td>3.875</td>
+                            <td>10.987</td>
+                            <td>0.360</td>
+                            <td>5.220</td>
+                            <td>0.680</td>
+                            <td>10.450</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: NJ DOT and PennDOT,  2023</small><br />
+            <small>Source: NJ DOT and PennDOT, 2026</small><br />
             <br /><br />
 
         `,
@@ -804,11 +798,12 @@ const ref = {
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Performance Measures</h4>
             <h4 class="tpm-content-subheaders theme-font-color">Peak-Hour Excessive Delay (PHED) and Percent of Non-SOV Travel</h4>
             <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing traffic congestion requires that state DOTs work with MPOs to collaboratively establish two- and four-year targets for PHED on the NHS and percent non-SOV travel in UZAs with populations greater than one million people (the Philadelphia and New York City UZAs) in the first performance period (2018–2022) and in UZAs with population greater than 200,000 people in subsequent performance periods. For the second performance period, the Trenton and Allentown-Bethlehem-East UZAs were included in addition to the Philadelphia and New York City UZAs. DOTs and MPOs are meeting their two and four-year targets if PHED and percent non-SOV travel in the UZA is equal to or below the targets established by the MPOs and state DOTs. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
+            <p> In September 2024, FHWA issued guidance that the Percent Non-SOV Travel performance measure would essentially become “frozen” at the value from the 2017-2021 5-year ACS15, because these are the latest data based on the 2010 UZA boundaries. Subsequent ACS data is based on the 2020 UA boundaries. Because the determined boundaries for the second performance period were based on the 2010 Decennial Census UZAs, not the 2020 UAs, the 2021 ACS Table DP03 5-year Estimate reflects those determined boundaries. Based on this “frozen” performance value, the Philadelphia UZA could not meet the adjusted four-year target for percent non-SOV travel.</p>
 
             <h4 class="tpm-content-subheaders theme-font-color">Emissions Reductions Targets</h4>
             <p>Meeting the Target: The federal rules requiring the assessment of the CMAQ program's effectiveness in reducing on-road mobile emissions require that state DOTs and MPOs serving UZAs with over one million people establish two- and four-year targets for the amount of applicable emissions that are reduced through CMAQ funded projects for both the MPO region and statewide. Applicable emissions are determined by the attainment status of the criteria pollutants. If the states and MPOs do not meet these targets, they are able to adjust the targets and evaluate future CMAQ investments that may improve progress towards meeting the targets.</p>
 
-            <p>The DVRPC region did not meet all of the emissions reduction targets in Pennsylvania or New Jersey.</p>
+            <p>At the two-year interim review, the DVRPC region did not meet all of the emissions reduction targets in Pennsylvania or New Jersey.</p>
             <p>New Jersey’s two-year CMAQ emissions target shortfall can be largely attributed to the lack of quantitative assessment of obligated CMAQ projects. The use of a qualitative approach resulted in a perceived deficit of emissions reductions benefits from obligated CMAQ projects.</p>
             <p>In Pennsylvania, the two-year emissions reductions were considerably higher than the two-year targets for NO<sub>x</sub> and PM<sub>2.5</sub> but did not meet the two-year VOC target. CMAQ emissions are based on the modeled benefits of CMAQ funded projects that are considered “new” in each year. New projects are entered in the PAS in the first year the project is obligated for funding. Funding allocated to projects that “continue” from a previous year, or are receiving CMAQ funds after the first year of obligation, are not considered to support target achievement. This makes it difficult to set and track progress to achieving targets.</p>
             
@@ -818,8 +813,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2022-2025 Two-Year Performance</th>
-                        <th colspan="2">2022-2025 Two-Year Target</th>
+                        <th colspan="2">2022-2023 Two-Year Performance</th>
+                        <th colspan="2">2022-2023 Two-Year Target</th>
                         <th colspan="2">Target Met?</th>
                         <th colspan="2">Adjusted 4-year Target</th>
                     </thead>
@@ -863,8 +858,8 @@ const ref = {
                 <table>
                     <thead>
                         <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2022-2025 Two-Year Performance</th>
-                        <th colspan="2">2022-2025 Two-Year Target</th>
+                        <th colspan="2">2022-2023 Two-Year Performance</th>
+                        <th colspan="2">2022-2023 Two-Year Target</th>
                         <th colspan="2">Target Met?</th>
                         <th colspan="2">Adjusted 4-year Target</th>
                     </thead>
@@ -897,102 +892,100 @@ const ref = {
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2022-2023 Two-Year Performance</th>
-                        <th>2022-2023 Two-Year Target</th>
-                        <th>Target Met?</th>
-                        <th colspan="2">Adjusted 4-year Target</th>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th>2022–2025 Four-Year Performance</th>
+                            <th>2022–2025 Four-Year Target</th>
+                            <th>Target Met?</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Philadelphia UZA</td>
-                            <td>13.9</td>
-                            <td>15.2</td>
-                            <td>Yes</td>
-                            <td colspan="2">Not Adjusted</td>
+                            <td>15.6</td>
+                            <td>15.1</td>
+                            <td>No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: New York City UZA</td>
-                            <td>19.8</td>
-                            <td>22.0</td>
-                            <td>Yes</td>
-                            <td colspan="2">Not Adjusted</td>
+                            <td>23.8</td>
+                            <td>21.0</td>
+                            <td>No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Trenton UZA</td>
-                            <td>4.4</td>
+                            <td>6.8</td>
                             <td>5.7</td>
-                            <td>Yes</td>
-                            <td colspan="2">Not Adjusted</td>
+                            <td>No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Annual Peak Hours of Excessive Delay: Allentown UZA</td>
-                            <td>6.9</td>
+                            <td>9.4</td>
                             <td>8.4</td>
-                            <td>Yes</td>
-                            <td colspan="2">Not Adjusted</td>
+                            <td>No</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2024</small>
+            <small>Source: DVRPC 2026</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">CMAQ Congestion Percent Non-Single Occupant Vehicle Travel</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th>2022-2023 Two-Year Performance</th>
-                        <th>2022-2023 Two-Year Target</th>
-                        <th>Target Met?</th>
-                        <th>Adjusted 4-year Target</th>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th>2022–2025 Four-Year Performance<sup>*</sup></th>
+                            <th>2022–2025 Four-Year Target<sup>**</sup></th>
+                            <th>Target Met?</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Philadelphia UZA</td>
-                            <td>34.6%</td>
-                            <td>30.0%</td>
-                            <td>Yes</td>
+                            <td>32.8%</td>
                             <td>33.0%</td>
+                            <td>No</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: New York City UZA</td>
-                            <td>54.5%</td>
-                            <td>52.4%</td>
+                            <td>53.4%</td>
+                            <td>52.5%</td>
                             <td>Yes</td>
-                            <td>Not Adjusted</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Trenton UZA</td>
-                            <td>33.9%</td>
-                            <td>36.5%</td>
-                            <td>Yes</td>
                             <td>30.0%</td>
+                            <td>30.0%</td>
+                            <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">% Non-SOV Travel: Allentown UZA</td>
-                            <td>24.6%</td>
+                            <td>22.3%</td>
                             <td>18.6%</td>
                             <td>Yes</td>
-                            <td>Not Adjusted</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2024</small>
+            <small>Source: DVRPC 2026</small><br />
+            <small><sup>*</sup>Performance was frozen for the duration of the performance period at the value from the 2017-2021 5-year ACS as indicated by FHWA in September 2024.</small><br />
+            <small><sup>**</sup>Adjusted four-year target</small><br />
 
-            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions</h4>
+            <h4 class="tpm-content-subheaders theme-font-color">CMAQ Emissions (DVRPC Counties)</h4>
             <div class="table-overflow-wrapper">
                 <table>
                     <thead>
-                        <th class="table-cell-first">Measure</th>
-                        <th colspan="2">2022-2023 Two-Year Performance</th>
-                        <th colspan="2">2022-2023 Two-Year Target</th>
-                        <th colspan="2">Target Met?</th>
+                        <tr>
+                            <th class="table-cell-first">Measure</th>
+                            <th colspan="2">2022–2025 Four-Year Performance</th>
+                            <th colspan="2">2022–2025 Four-Year Target</th>
+                            <th colspan="2">Target Met?</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
+                            <td class="table-cell-first"></td>
                             <td><strong>NJ</strong></td>
                             <td><strong>PA</strong></td>
                             <td><strong>NJ</strong></td>
@@ -1001,36 +994,36 @@ const ref = {
                             <td><strong>PA</strong></td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
-                            <td>0.177</td>
-                            <td>7.85</td>
-                            <td>24.252</td>
-                            <td>4.07</td>
-                            <td>No</td>
+                            <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
+                            <td>10.183</td>
+                            <td>20.394</td>
+                            <td>5.406</td>
+                            <td>19.32</td>
+                            <td>Yes</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Total Emission Reductions: NO<sub>x</sub></td>
-                            <td>2.131</td>
-                            <td>101.20</td>
-                            <td>9.506</td>
-                            <td>51.28</td>
-                            <td>No</td>
+                            <td>36.623</td>
+                            <td>158.946</td>
+                            <td>17.495</td>
+                            <td>102.56</td>
+                            <td>Yes</td>
                             <td>Yes</td>
                         </tr>
                         <tr>
-                            <td class="table-cell-first">Total Emission Reductions: VOC<sub>s</sub></td>
-                            <td>1.317</td>
-                            <td>6.86</td>
-                            <td>2.844</td>
-                            <td>9.66</td>
+                            <td class="table-cell-first">Total Emission Reductions: PM<sub>2.5</sub></td>
+                            <td>3.875</td>
+                            <td>10.987</td>
+                            <td>45.963</td>
+                            <td>8.14</td>
                             <td>No</td>
-                            <td>No</td>
+                            <td>Yes</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <small>Source: DVRPC 2024</small><br />
+            <small>Source: DVRPC 2026</small><br />
             <br /><br />
         `,
     dates: `
@@ -1094,7 +1087,8 @@ const ref = {
             <ul>
                 <li><a href="./pdf/PA PM2 and PM3.pdf" target="blank" rel="noopener noreferrer">Pennsylvania Planning Partners</a></li>
                 <li><a href="./pdf/NJ PM3.pdf" target="blank" rel="noopener noreferrer">New Jersey Planning Partners</a></li>
-                <li><a href="./pdf/PA PM3 Addendum for Philadelphia UZA.pdf" target="blank" rel="noopener noreferrer">Philadelphia Urbanized Area Planning Partners</a></li>
+                <li><a href="./pdf/Fully Executed Philadelphia UA CMAQ Congestion Agreement.pdf" target="blank" rel="noopener noreferrer">Philadelphia Urbanized Area Planning Partners</a></li>
+                <li><a href="./pdf/Final Fully Signed Trenton UA CMAQ Congestion Agreement.pdf" target="blank" rel="noopener noreferrer">Trenton Urbanized Area Planning Partners</a></li>
                 <li><a href="./pdf/NJ PM3 Addendum for New York UZA (1).pdf" target="blank" rel="noopener noreferrer">New York Urbanized Area Planning Partners</a></li>
             </ul>
         `,
@@ -1292,12 +1286,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>0</td>
-                            <td class="table-cell-last">0<sup>**</sup></td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>3</td>
-                            <td class="table-cell-last">0.03<sup>**</sup></td>
+                            <td class="table-cell-last">0.03<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Fatalities</td>
@@ -1305,12 +1299,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>0</td>
-                            <td class="table-cell-last">0<sup>**</sup></td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>0</td>
-                            <td class="table-cell-last">0<sup>**</sup></td>
+                            <td class="table-cell-last">0<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1318,7 +1312,6 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
-            <small><sup>**</sup>per 1 million VRM</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Injuries (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
@@ -1412,12 +1405,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>15</td>
-                            <td class="table-cell-last">1.69<sup>**</sup></td>
+                            <td class="table-cell-last">1.69<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>468</td>
-                            <td class="table-cell-last">4.52<sup>**</sup></td>
+                            <td class="table-cell-last">4.52<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Transit Worker Injuries</td>
@@ -1425,12 +1418,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">0.21<sup>**</sup></td>
+                            <td class="table-cell-last">0.21<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">0.75<sup>**</sup></td>
+                            <td class="table-cell-last">0.75<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1438,7 +1431,6 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
-            <small><sup>**</sup>per 1 million VRM</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Safety Events (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
@@ -1604,12 +1596,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>26</td>
-                            <td class="table-cell-last">2.9<sup>**</sup></td>
+                            <td class="table-cell-last">2.9<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>594</td>
-                            <td class="table-cell-last">5.75<sup>**</sup></td>
+                            <td class="table-cell-last">5.75<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Total Collisions</td>
@@ -1617,12 +1609,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">1.08<sup>**</sup></td>
+                            <td class="table-cell-last">1.08<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>322</td>
-                            <td class="table-cell-last">2.18<sup>**</sup></td>
+                            <td class="table-cell-last">2.18<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Pedestrian Collisions</td>
@@ -1630,12 +1622,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">0.28<sup>**</sup></td>
+                            <td class="table-cell-last">0.28<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">0.27<sup>**</sup></td>
+                            <td class="table-cell-last">0.27<sup>*</sup></td>
                         </tr>
                         <tr class="table-cell-no-border">
                             <td colspan="3" class="table-nested-header-first theme-font-color">NJ TRANSIT Vehicular Collisions</td>
@@ -1643,12 +1635,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">0.59<sup>**</sup></td>
+                            <td class="table-cell-last">0.59<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>N/A</td>
-                            <td class="table-cell-last">2.18<sup>**</sup></td>
+                            <td class="table-cell-last">2.18<sup>*</sup></td>
                         </tr>
                     </tbody>
                 </table>
@@ -1656,7 +1648,6 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
-            <small><sup>**</sup>per 1 million VRM</small><br />
             
             <h4 class="tpm-content-subheaders theme-font-color">System Reliability (Mean Distance in Miles between Major Service Failures)</h4>
             <div class="table-overflow-wrapper">
@@ -1717,7 +1708,6 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
-            <small><sup>**</sup>per 1 million VRM</small><br />
 
             <h4 class="tpm-content-subheaders theme-font-color">Assaults on Transit Workers (Number / Rate)</h4>
             <div class="table-overflow-wrapper">
@@ -1775,12 +1765,12 @@ const ref = {
                         <tr>
                             <td class="table-cell-first">Light Rail (River Line)</td>
                             <td>1</td>
-                            <td class="table-cell-last">0.21<sup>**</sup></td>
+                            <td class="table-cell-last">0.21<sup>*</sup></td>
                         </tr>
                         <tr>
                             <td class="table-cell-first">Bus</td>
                             <td>14</td>
-                            <td class="table-cell-last">0.12<sup>**</sup></td>
+                            <td class="table-cell-last">0.12<sup>*</sup></td>
                         </tr>
                     </tbody> 
                 </table>
@@ -1788,7 +1778,6 @@ const ref = {
             <small>Source: SEPTA, DRPA/PATCO, and NJ TRANSIT 2026</small><br />
             <small>N/A = Not Available</small><br />
             <small><sup>*</sup>per 100,000 VRM</small><br />
-            <small><sup>**</sup>per 1 million VRM</small><br />
         `,
     how: `
             <h3 class="tpm-content-section-header theme-font-color">How Are We Doing?</h3>
